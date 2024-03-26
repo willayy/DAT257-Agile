@@ -60,6 +60,12 @@ Ett task är “done” när den uppfyller sina specifika acceptance criteria.
 
 ````
 
+### Exempel projekt med Next.js
+Finns på GitHub repot: <br>
+https://github.com/vercel/next-learn/tree/main/basics/learn-starter <br>
+tagen från guiden: <br>
+https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup
+
 ### Hur skapar man ett issue?
 1. Klicka på issues på GitHub.
 2. Klicka på New issue.
