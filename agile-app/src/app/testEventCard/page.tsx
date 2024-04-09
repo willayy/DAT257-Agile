@@ -1,4 +1,4 @@
-import EventCard from "@/components/eventCard";
+import EventCard from "@/components/eventCard/eventCard";
 
 const testData = {
     id: 516375,
