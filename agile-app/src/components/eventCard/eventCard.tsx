@@ -28,7 +28,7 @@ interface CardInfo {
 /**
  * Event card component displaying time, date, location, type, and summary for an event published by the police.
  * Uses a "show more" button to keep the card concise yet containing all pertinent information
- * @param Props
+ * @param Props {Props} Object following CardInfo interface
  */
 export default function EventCard(Props: Props) {
     const [showMore, setShowMore] = useState<boolean>(false)
