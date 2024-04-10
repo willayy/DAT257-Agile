@@ -5,8 +5,8 @@ import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
 
 const ParentSearchComboBox = () => {
-    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
-    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
+    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('Alla');
+    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Alla');
 
     const handleSelectCrime = (selectedOption: string) => {
         setSelectedOptionCrime(selectedOption);
@@ -124,6 +124,7 @@ const ParentSearchComboBox = () => {
         "Berg",
         "Bjurholm",
         "Bjuv",
+        "Blekinge län",
         "Boden",
         "Bollebygd",
         "Bollnäs",
@@ -135,6 +136,7 @@ const ParentSearchComboBox = () => {
         "Bräcke",
         "Burlöv",
         "Båstad",
+        "Dalarnas län",
         "Dals-Ed",
         "Danderyd",
         "Degerfors",
@@ -161,15 +163,18 @@ const ParentSearchComboBox = () => {
         "Gnesta",
         "Gnosjö",
         "Gotland",
+        "Gotlands län",
         "Grums",
         "Grästorp",
         "Gullspång",
         "Gällivare",
         "Gävle",
+        "Gävleborgs län",
         "Göteborg",
         "Götene",
         "Habo",
         "Hagfors",
+        "Hallands län",
         "Hallsberg",
         "Hallstahammar",
         "Halmstad",
@@ -197,10 +202,13 @@ const ParentSearchComboBox = () => {
         "Hörby",
         "Höör",
         "Jokkmokk",
+        "Jämtlands län",
         "Järfälla",
         "Jönköping",
+        "Jönköpings län",
         "Kalix",
         "Kalmar",
+        "Kalmar län",
         "Karlsborg",
         "Karlshamn",
         "Karlskoga",
@@ -216,6 +224,7 @@ const ParentSearchComboBox = () => {
         "Kristianstad",
         "Kristinehamn",
         "Krokom",
+        "Kronobergs län",
         "Kumla",
         "Kungsbacka",
         "Kungsör",
@@ -264,6 +273,7 @@ const ParentSearchComboBox = () => {
         "Norberg",
         "Nordanstig",
         "Nordmaling",
+        "Norrbottens län",
         "Norrköping",
         "Norrtälje",
         "Norsjö",
@@ -295,6 +305,7 @@ const ParentSearchComboBox = () => {
         "Simrishamn",
         "Sjöbo",
         "Skara",
+        "Skåne län",
         "Skellefteå",
         "Skinnskatteberg",
         "Skurup",
@@ -308,6 +319,7 @@ const ParentSearchComboBox = () => {
         "Staffanstorp",
         "Stenungsund",
         "Stockholm",
+        "Stockholms län",
         "Storfors",
         "Storuman",
         "Strängnäs",
@@ -325,6 +337,7 @@ const ParentSearchComboBox = () => {
         "Sävsjö",
         "Söderhamn",
         "Söderköping",
+        "Södermanlands län",
         "Södertälje",
         "Sölvesborg",
         "Tanum",
@@ -351,6 +364,7 @@ const ParentSearchComboBox = () => {
         "Upplands Väsby",
         "Upplands-Bro",
         "Uppsala",
+        "Uppsala län",
         "Uppvidinge",
         "Vadstena",
         "Vaggeryd",
@@ -370,9 +384,14 @@ const ParentSearchComboBox = () => {
         "Vänersborg",
         "Vännäs",
         "Värmdö",
+        "Värmlands län",
         "Värnamo",
+        "Västerbottens län",
+        "Västernorrlands län",
         "Västervik",
         "Västerås",
+        "Västmanlands län",
+        "Västra Götalands län",
         "Växjö",
         "Ydre",
         "Ystad",
@@ -391,15 +410,17 @@ const ParentSearchComboBox = () => {
         "Öckerö",
         "Ödeshög",
         "Örebro",
+        "Örebro län",
         "Örkelljunga",
         "Örnsköldsvik",
+        "Östergötlands län",
         "Östersund",
         "Österåker",
         "Östhammar",
         "Östra Göinge",
         "Överkalix",
         "Övertorneå"
-      ];
+    ];
 
     return (
         <div className={styles.outerContainer}>
