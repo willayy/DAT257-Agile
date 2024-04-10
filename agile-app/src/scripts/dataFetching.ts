@@ -15,8 +15,7 @@ export interface CrimeData {
 
 // Configs for the data fetch
 const url: URL = new URL("https://polisen.se/api/events");
-const fetchingTimeframe = 60;
-let cachedDataArray: CrimeData[] = [];
+const fetchingTimeframe = 60; // This is the timeframe in seconds that the data is cached for
 
 /**
  * Async function that tries to fetch data from the specified URL,
@@ -30,9 +29,8 @@ let cachedDataArray: CrimeData[] = [];
  * @returns crimeDataArray - Array of crime data */
 export async function getCrimeData() {
 
-    
     // Fetch a response from the URL
-    const res = await fetch(url,{next: {revalidate: 60}});
+    const res = await fetch(url,{next: {revalidate: fetchingTimeframe}});
 
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
@@ -42,7 +40,6 @@ export async function getCrimeData() {
     const jsonData = await res.json();
     const stringData = JSON.stringify(jsonData, null, 2);
     const crimeDataArray: CrimeData[] = JSON.parse(stringData);
-    cachedDataArray = crimeDataArray;
 
     return crimeDataArray;
 }
