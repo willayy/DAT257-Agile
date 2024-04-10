@@ -26,6 +26,7 @@
   margin: 0;
   padding: 0;
   font-size: medium;
+  text-decoration: underline;
 }
 
 .nav ul li {
