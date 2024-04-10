@@ -1,6 +1,11 @@
 import EventCard from "@/components/eventCard/eventCard";
 import styles from './listView.module.css'
+import { getCrimeData } from "@/scripts/dataFetching";
 
+
+/**
+ * Interface that makes sure that information recieved from the API is in the right format for creating cards. 
+ */
 
 interface CardInfo {
 
@@ -16,39 +21,80 @@ interface CardInfo {
         }
     }
 
+/**
+ * Types the list Crimes to have only right foratted "card-information"
+ */
 type Crimes = CardInfo[]
 
-const crimeData: Crimes = [{
-            id: 516375,
-            datetime: "2024-04-09 9:59:45 +02:00",
-            name: "09 april 08.31, Trafikolycka, Lycksele",
-            summary: "Vormsele, en personbil och en lastbil har kolliderat",
-            url: "/aktuellt/handelser/2024/april/9/09-april-08.31-trafikolycka-lycksele/",
-            type: "Trafikolycka",
-            location: {
-                name: "Lycksele",
-                gps: "64.59581,18.676367"
-            }
-        }, {
-            id: 516375,
-            datetime: "2024-04-09 9:59:45 +02:00",
-            name: "09 april 08.31, Trafikolycka, Lycksele",
-            summary: "Vormsele, en personbil och en lastbil har kolliderat",
-            url: "/aktuellt/handelser/2024/april/9/09-april-08.31-trafikolycka-lycksele/",
-            type: "Trafikolycka",
-            location: {
-                name: "Lycksele",
-                gps: "64.59581,18.676367"
-            }
-        }];
-
 export default async function ListView() {
+
+    /**
+     * Placeholder strings for sorting the events on location and crimetype.
+     */
+    const crimeType: string = "";
+    const crimeLocation: string = "";
+    
+    /**
+     * Gets a list of crimes from the api script
+     */
+    const fetchedCrimeData: Crimes = await getCrimeData();
+    var crimeData: Crimes = [];
+    
+    
+    /**
+     * Compares each crime-item to the sorting strings and puts the ones "passing" into crimeData to be 
+     * made into cards.
+     */
+    if (crimeType == "" && crimeLocation == ""){
+        crimeData = fetchedCrimeData;
+    }
+    else if(crimeType == ""){
+        var count = fetchedCrimeData.length;
+
+        for(var i = 0; i < count; i++) {
+            var item = fetchedCrimeData[i];
+
+            if(item.location.name == crimeLocation){
+                crimeData.push(item)
+            }
+        }
+    }
+    else if(crimeLocation == ""){
+        var count = fetchedCrimeData.length;
+
+        for(var i = 0; i < count; i++) {
+            var item = fetchedCrimeData[i];
+
+            if(item.type == crimeType){
+                crimeData.push(item)
+            }
+
+        }
+    }
+    else{
+        var count = fetchedCrimeData.length;
+
+        for(var i = 0; i < count; i++) {
+            var item = fetchedCrimeData[i];
+
+            if(item.location.name == crimeLocation && item.type == crimeType){
+                crimeData.push(item)
+            }
+
+        }
+    }
     
     return(
-        <ul className = {styles.eventList}>
-            {crimeData.map((crimeData: CardInfo) =>(<EventCard data={crimeData}/>))}       
-        </ul>
-        
+        <div className = {styles.eventList}>
+
+            <p className ={styles.eventListHeader}>
+                Sök Händelser
+            </p>
+            
+            <ul> {/** Maps the crimedata and makes each item into an event card */}
+                {crimeData.map((crimeData: CardInfo) =>(<EventCard data={crimeData}/>))}       
+            </ul>
+        </div>
     );
 
     
