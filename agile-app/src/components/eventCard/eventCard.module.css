@@ -1,0 +1,46 @@
+.eventCard {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.eventTitle {
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.showMoreButton {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.showMoreButton:hover {
+    color: white;
+    background-color: gray;
+}
+
+.showMoreContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.eventCardText {
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-right: 0;
+}
