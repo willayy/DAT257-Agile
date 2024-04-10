@@ -11,10 +11,10 @@ export default function Header() {
       <nav className={styles.nav}>
         <ul className="flex gap-x-6">
         <li>
-            <Link href="/pages/händelser">Händelser</Link>
+            <Link href="/pages/events">Händelser</Link>
           </li>
           <li>
-            <Link href="/pages/visualisering">Visualisering</Link>
+            <Link href="/pages/visualization">Visualisering</Link>
           </li>
           <li>
             <Link href="/pages/about">About</Link>
