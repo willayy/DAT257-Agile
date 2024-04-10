@@ -16,8 +16,8 @@ const SearchComboBox = ({title, options, onSelect}:SearchComboBoxProps) => {
     };
 
     return (
-        <div>
-            <label >{title}</label>
+        <div className={styles.comboContainer}>
+            <label>{title}</label>
             <select onChange={handleSelectChange} className={styles.comboBoxDropdown}>
                 {options.map((option, index) => (
                     <option key={index} value={option} >

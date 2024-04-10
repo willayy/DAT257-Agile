@@ -16,6 +16,7 @@ const ParentSearchComboBox = () => {
         setSelectedOptionLoc(selectedOption);
     };
 
+    /** list containing all the types of crimes that can be filtered on*/
     const optionsCrime = [
         "Alla",
         "Alkohollagen",
@@ -104,8 +105,9 @@ const ParentSearchComboBox = () => {
         "Våld/hot mot tjänsteman",
         "Våldtäkt",
         "Våldtäkt, försök",
-        "Vållande till kroppsskada"];
-
+        "Vållande till kroppsskada"
+      ];
+    /** list containing all the locations that can be filtered on*/
     const optionsLoc = [
         "Alla",
         "Ale",
@@ -400,13 +402,22 @@ const ParentSearchComboBox = () => {
       ];
 
     return (
-        <div className={styles.container}> 
-            <SearchComboBox title="Sortera på brott " options={optionsCrime} onSelect={handleSelectCrime}/>
-            <p>Selected crime option: {selectedOptionCrime}</p>
-            <SearchComboBox title="Sortera på plats " options={optionsLoc} onSelect={handleSelectLoc} />
-            <p>Selected loc option: {selectedOptionLoc}</p>
+        <div className={styles.outerContainer}>
+            <div className={styles.container}>
+                <div className={styles.innerContainer}>
+                    <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} />
+                    <p>Selected loc option: {selectedOptionLoc}</p>
+                </div>
+                <div className={styles.innerContainer} > 
+                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime}/>
+                    <p>Selected crime option: {selectedOptionCrime}</p>
+                </div>
+                
+            </div>
         </div>
     );
 };
 
 export default ParentSearchComboBox;
+
+/**className={styles.innerContainer}*/
