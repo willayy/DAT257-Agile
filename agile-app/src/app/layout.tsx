@@ -9,7 +9,11 @@ export const metadata: Metadata = {
   title: "Brottkollen.se",
   description: "Sveriges bästa brottssajt",
 };
-
+/**
+ * The root layout of the entire application
+ * @param param0 
+ * @returns 
+ */
 export default function RootLayout({
   children,
 }: {

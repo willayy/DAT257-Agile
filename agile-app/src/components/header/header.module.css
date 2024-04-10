@@ -13,7 +13,10 @@
 .headerTitle{
   font-size: x-large;
   font-weight: bold;
-  color: black;
+  background-image: linear-gradient(to left, rgb(87, 7, 7) 50%, black);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 
 }
 
