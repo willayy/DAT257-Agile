@@ -32,7 +32,7 @@ const ParentSearchComboBox = () => {
 
     /** list containing all the types of crimes that can be filtered on*/
     const optionsCrime = [
-        "Alla",
+        "",
         "Alkohollagen",
         "Anträffad död",
         "Anträffat gods",
@@ -123,7 +123,7 @@ const ParentSearchComboBox = () => {
       ];
     /** list containing all the locations that can be filtered on*/
     const optionsLoc = [
-        "Alla",
+        "",
         "Ale",
         "Alingsås",
         "Alvesta",
