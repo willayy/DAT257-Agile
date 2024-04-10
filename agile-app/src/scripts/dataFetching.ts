@@ -15,8 +15,7 @@ export interface CrimeData {
 
 // Configs for the data fetch
 const url: URL = new URL("https://polisen.se/api/events");
-const allowedCallsPerHour = 60;
-let lastCallTime = 0;
+const fetchingTimeframe = 60;
 let cachedDataArray: CrimeData[] = [];
 
 /**
@@ -31,23 +30,13 @@ let cachedDataArray: CrimeData[] = [];
  * @returns crimeDataArray - Array of crime data */
 export async function getCrimeData() {
 
-    // Compute time delta
-    const currentTime = new Date().getTime();
-    const timeSinceLastCall = currentTime - lastCallTime;
-
-    // Check if the number of calls per hour is exceeded, if so return cached data
-    if (timeSinceLastCall < (3600000 / allowedCallsPerHour)) {
-        return cachedDataArray;
-    }
     
     // Fetch a response from the URL
-    const res = await fetch(url);
+    const res = await fetch(url,{next: {revalidate: 60}});
 
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
     }
-
-    lastCallTime = currentTime 
 
     // Parse the response to JSON and then into a CrimeData array
     const jsonData = await res.json();
