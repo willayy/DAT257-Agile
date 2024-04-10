@@ -4,14 +4,28 @@ import React, {useState} from 'react'
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
 
+/**
+ * A parent component containing two SearchComboBox components for filtering data based on crime type and location.
+ * @returns {JSX} A React component representing the ParentSearchComboBox.
+ */
 const ParentSearchComboBox = () => {
-    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('Alla');
-    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Alla');
+    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
+    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
 
+    /**
+     * Handles the selection of a crime type option.
+     * @param {string} selectedOption - The selected crime type option.
+     * @returns {void}
+     */
     const handleSelectCrime = (selectedOption: string) => {
         setSelectedOptionCrime(selectedOption);
     };
 
+    /**
+     * Handles the selection of a crime type option.
+     * @param {string} selectedOption - The selected location option.
+     * @returns {void}
+     */
     const handleSelectLoc = (selectedOption: string) => {
         setSelectedOptionLoc(selectedOption);
     };
@@ -427,11 +441,9 @@ const ParentSearchComboBox = () => {
             <div className={styles.container}>
                 <div className={styles.innerContainer}>
                     <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} />
-                    <p>Selected loc option: {selectedOptionLoc}</p>
                 </div>
                 <div className={styles.innerContainer} > 
                     <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime}/>
-                    <p>Selected crime option: {selectedOptionCrime}</p>
                 </div>
                 
             </div>
@@ -441,4 +453,3 @@ const ParentSearchComboBox = () => {
 
 export default ParentSearchComboBox;
 
-/**className={styles.innerContainer}*/
