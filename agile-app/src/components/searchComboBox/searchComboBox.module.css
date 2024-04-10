@@ -1,0 +1,16 @@
+.comboBoxDropdown {
+    background-color: #D9D9D9;
+    outline: None;
+    border: None;
+}
+
+.comboBoxTitleText {
+    font-family: '';
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
