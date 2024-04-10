@@ -16,8 +16,8 @@ export interface CrimeData {
 // Configs for the data fetch
 const url: URL = new URL("https://polisen.se/api/events");
 const allowedCallsPerHour = 60;
-var lastCallTime = 0;
-var cachedDataArray: CrimeData[] = [];
+let lastCallTime = 0;
+let cachedDataArray: CrimeData[] = [];
 
 /**
  * Async function that tries to fetch data from the specified URL,
