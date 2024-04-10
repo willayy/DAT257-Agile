@@ -13,11 +13,14 @@ interface Crime {
 
 type Crimes = Crime[]
 
-export default function listView(crimes: Crimes) {
+export default async function listView() {
     
+    crimeData = getData();
+
+
     return(
         <ul>         
-            {crimes.map((data: Crime) =>(<EventCard data={data}/>))}       
+            {crimes.map((data: crimeData) =>(<EventCard data={data}/>))}       
         </ul>
         
     );
