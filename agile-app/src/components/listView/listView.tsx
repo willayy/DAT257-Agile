@@ -1,6 +1,7 @@
 import EventCard from "@/components/eventCard/eventCard";
 import styles from './listView.module.css'
 import { getCrimeData } from "@/scripts/dataFetching";
+import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 
 
 /**
@@ -90,6 +91,7 @@ export default async function ListView() {
             <p className ={styles.eventListHeader}>
                 Sök Händelser
             </p>
+            <ParentSearchComboBox/>
             
             <ul> {/** Maps the crimedata and makes each item into an event card */}
                 {crimeData.map((crimeData: CardInfo) =>(<EventCard data={crimeData}/>))}       
