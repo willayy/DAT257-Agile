@@ -11,7 +11,7 @@ export default function Header() {
       <nav className={styles.nav}>
         <ul className="flex gap-x-6">
         <li>
-            <Link href="/pages/events">Händelser</Link>
+            <Link href="/">Händelser</Link>
           </li>
           <li>
             <Link href="/pages/visualization">Visualisering</Link>
