@@ -6,7 +6,7 @@ interface DatePickerProps{
     max: string;
     min: string;
 }
-const DatePicker = () => {
+const DatePicker = ({max, min} : DatePickerProps) => {
 
     const [selectedDate, setSelectedDate] = useState<string>('');
     const handleDateChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -18,6 +18,8 @@ const DatePicker = () => {
             <label>Select a startdate: </label>
             <input type="date"
                    value={selectedDate}
+                   min = {min}
+                   max = {max}
                    onChange={handleDateChange}
            />
             <p>Selected date: {selectedDate}</p>
