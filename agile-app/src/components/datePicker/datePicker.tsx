@@ -5,16 +5,16 @@ import styles from './datePicker.module.css';
 
 
 interface DatePickerProps{
-
     min: string;
     max: string;
     title: string;
-    // from: boolean;
-    // to: boolean;
+    defaultDate: string;
 }
-const DatePicker = ({max, min, title} : DatePickerProps) => {
 
-    const [selectedDate, setSelectedDate] = useState<string>('');
+const DatePicker = ({max, min, title, defaultDate} : DatePickerProps) => {
+
+    const [selectedDate, setSelectedDate] = useState<string>(defaultDate);
+
     const handleDateChange = (event: ChangeEvent<HTMLInputElement>) => {
         setSelectedDate(event.target.value);
     };
