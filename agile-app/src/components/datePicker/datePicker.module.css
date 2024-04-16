@@ -1,0 +1,8 @@
+.dateBoxDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateBoxInput {
+    margin: 10px 10px 10px 10px;
+}

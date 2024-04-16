@@ -1,7 +1,7 @@
-import DatePicker from "@/components/datePicker/datePicker";
+import DateInput from "@/components/datePicker/dateInput";
 
 export default function TestDatePicker() {
     return (
-        <DatePicker></DatePicker>
+        <DateInput/>
     )
 }
