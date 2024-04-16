@@ -1,6 +1,8 @@
+"use client"
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import styles from "./page.module.css"
 import "@/app/globals.css";
+import {useState} from "react";
 
 
 interface Event {
@@ -23,6 +25,8 @@ interface Event {
 type Crimes = Event[]
 
 export default function StatisticContainer() {
+    const [showStats, setShowStats] = useState<boolean>(false)
+
     return (
         <div className={styles.statisticContainer}>
             <p className={styles.statisticHeader}>
@@ -38,9 +42,19 @@ export default function StatisticContainer() {
                 <b>Event typ och kommun eller län vald:</b> Genom att välja både kommun eller län samt typ av event så ser du hur många event av den typen på den platsen har rapporterats de senaste 6 månaderna
             </p>
             <ParentSearchComboBox/>
-            <div className={"center"}>
-                <button className={styles.generateStatsButton}>Generera!</button>
-            </div>
+            {showStats
+                ? (
+                    <div className={"center"}>
+                        <button className={styles.generateStatsButton} onClick={()=>setShowStats(false)}>Reset Selection</button>
+                        <p>Button clicked</p>
+                    </div>
+                )
+                : (
+                    <div className={"center"}>
+                        <button className={styles.generateStatsButton} onClick={()=>setShowStats(true)}>Generera!</button>
+                    </div>
+                )
+            }
         </div>
     );
 }
