@@ -3,6 +3,7 @@ import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboB
 import styles from "./page.module.css"
 import "@/app/globals.css";
 import {useState} from "react";
+import {getCrimeData} from "@/scripts/dataFetching";
 
 
 interface Event {
@@ -26,6 +27,60 @@ type Crimes = Event[]
 
 export default function StatisticContainer() {
     const [showStats, setShowStats] = useState<boolean>(false)
+    const [location, setLocation] = useState<string | null>(null)
+    const [type, setType] = useState<string | null>(null)
+    const [tableProps, setTableProps] = useState<string | null>(null)
+
+    async function getEventsOnLocation(location: string) {
+        const fetchedCrimeData: Crimes = await getCrimeData();
+        let crimeData: (string|string|number)[][] = [];
+        let uniqueTypesAmount: [string[], number[]] = [[],[]];
+
+        for (let event of fetchedCrimeData) {
+            if (event.type in uniqueTypesAmount[0]) {
+                let amountIndex : number = uniqueTypesAmount[0].findIndex(x => x == event.type)
+                uniqueTypesAmount[1][amountIndex] += 1;
+            } else {
+                uniqueTypesAmount[0].push(event.type)
+                uniqueTypesAmount[1].push(1)
+            }
+        }
+
+        for (let type of uniqueTypesAmount[0]) {
+            let amountIndex : number = uniqueTypesAmount[0].findIndex(x => x == type)
+            crimeData.push([location, type, uniqueTypesAmount[1][amountIndex]])
+        }
+
+        crimeData.sort((a, b) => {
+            if (a[2] < b[2]) {
+                return -1;
+            }
+            if (a[2] > b[2]) {
+                return 1;
+            }
+            return 0
+        })
+
+        return crimeData;
+    }
+
+    function generateStatistics() {
+        setShowStats(true)
+
+        if (location == null && type == null) {
+            setTableProps("You must select an option in the comboboxes")
+        }
+        else if (location != null && type == null) {
+
+        }
+        else if (location == null && type != null) {
+
+        }
+        else {
+
+        }
+
+    }
 
     return (
         <div className={styles.statisticContainer}>
