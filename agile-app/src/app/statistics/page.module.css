@@ -1,0 +1,36 @@
+.statisticContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-width: 5px;
+    border-color: black;
+}
+
+.statisticHeader{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    border-bottom: 2px;
+}
+
+.generateStatsButton {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid black;
+    margin: 0.9em 0.3em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.generateStatsButton:hover {
+    color: white;
+    background-color: gray;
+}
