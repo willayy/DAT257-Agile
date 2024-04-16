@@ -4,6 +4,7 @@ import styles from "./page.module.css"
 import "@/app/globals.css";
 import {useState} from "react";
 import {getCrimeData} from "@/scripts/dataFetching";
+import Table from "@/components/table/table";
 
 
 interface Event {
@@ -102,6 +103,7 @@ export default function StatisticContainer() {
                     <div className={"center"}>
                         <button className={styles.generateStatsButton} onClick={()=>setShowStats(false)}>Reset Selection</button>
                         <p>Button clicked</p>
+                        <Table></Table>
                     </div>
                 )
                 : (
