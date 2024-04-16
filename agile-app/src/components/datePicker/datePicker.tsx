@@ -1,6 +1,11 @@
 "use client"
 
 import React, {ChangeEvent, useState} from 'react'
+
+interface DatePickerProps{
+    max: string;
+    min: string;
+}
 const DatePicker = () => {
 
     const [selectedDate, setSelectedDate] = useState<string>('');
