@@ -21,6 +21,11 @@ interface Event {
     }
 }
 
+interface NumberDictionary {
+    [key: string]: number;
+}
+
+
 /**
  * Types the list Crimes to have only right foratted "card-information"
  */
@@ -34,22 +39,19 @@ export default function StatisticContainer() {
 
     async function getEventsOnLocation(location: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
+        let typeAmountDict: NumberDictionary = {}
         let crimeData: (string|string|number)[][] = [];
-        let uniqueTypesAmount: [string[], number[]] = [[],[]];
 
         for (let event of fetchedCrimeData) {
-            if (event.type in uniqueTypesAmount[0]) {
-                let amountIndex : number = uniqueTypesAmount[0].findIndex(x => x == event.type)
-                uniqueTypesAmount[1][amountIndex] += 1;
+            if (event.type in Object.keys(typeAmountDict)) {
+                typeAmountDict[event.type] += 1
             } else {
-                uniqueTypesAmount[0].push(event.type)
-                uniqueTypesAmount[1].push(1)
+                typeAmountDict[event.type] = 1
             }
         }
 
-        for (let type of uniqueTypesAmount[0]) {
-            let amountIndex : number = uniqueTypesAmount[0].findIndex(x => x == type)
-            crimeData.push([location, type, uniqueTypesAmount[1][amountIndex]])
+        for (let type of Object.keys(typeAmountDict)) {
+            crimeData.push([location, type, typeAmountDict[type]])
         }
 
         crimeData.sort((a, b) => {
