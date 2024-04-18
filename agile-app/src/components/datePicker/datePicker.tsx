@@ -1,8 +1,5 @@
-"use client"
-
 import React, {ChangeEvent} from 'react';
 import styles from './datePicker.module.css';
-
 
 interface DatePickerProps{
     setDate: (date: string) => void;
