@@ -1,6 +1,11 @@
 .dateBoxDiv {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ccc;
+    border-style: solid;
+    width: 260px;
 }
 
 .dateBoxInput {
