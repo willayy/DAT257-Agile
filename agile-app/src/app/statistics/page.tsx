@@ -142,8 +142,6 @@ export default function StatisticContainer() {
 
         for (let event of fetchedCrimeData) {
             if (Object.keys(locationAmountDict).includes(event.location.name) && event.type == type) {
-                console.log(event.location.name)
-                console.log(event.type)
                 locationAmountDict[location] += 1
             }
         }
