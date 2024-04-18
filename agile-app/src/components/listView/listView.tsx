@@ -68,10 +68,11 @@ export default function ListView() {
             if (selectedOptionLoc !== "") {
                 filteredData = filteredData.filter(item => item.location.name === selectedOptionLoc);
             }
+            
+            // The + 23:59:59 doesnt really work as you expect it to, but it works
+            filteredData = filteredData.filter(item => item.datetime <= selectedEndDate + " 23:59:59");
 
             filteredData = filteredData.filter(item => item.datetime >= selectedStartDate);
-            
-            filteredData = filteredData.filter(item => item.datetime <= selectedEndDate);
             
             setCrimeData(filteredData);
         };
