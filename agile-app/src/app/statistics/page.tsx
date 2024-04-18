@@ -40,12 +40,24 @@ type CrimeData = (string|string|number)[][]
  */
 type Crimes = Event[]
 
+/**
+ * Statistics Container is top-level component for the statistics page
+ * Contains methods to collate and sort events fetched from the police API into a Prop sent to
+ * the Table component which is displayed through clicking the "Generate" button.
+ * Combobox selectors for location and type are included and automatically update the tableProps state variable
+ * which is passed to the Table component
+ */
 export default function StatisticContainer() {
     const [showStats, setShowStats] = useState<boolean>(false)
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
     const [tableProps, setTableProps] = useState<CrimeData | string>("You must select an option in the comboboxes")
 
+    /**
+     * Custom sort method for crimeData array of arrays. Sorts the collated police events on the frequency of events.
+     * Sorts the highest frequency to the lowest frequency
+     * @param crimeData Preprocessed collated events fetched from police API in form [[location, type, frequency]]
+     */
     function sortCrimeDataOnFrequency(crimeData: (string | number)[][]) {
         crimeData.sort((a, b) => {
             if (a[2] < b[2]) {
@@ -58,6 +70,13 @@ export default function StatisticContainer() {
         })
     }
 
+    /**
+     * Processes and collates events fetched from police API with predetermined location.
+     * Collates all equal events of given event type at specified location with frequency of event type at location recorded
+     * After processing sorts events based on frequency
+     * @param location Location of events to collate based on equal event types
+     * @return crimeData Preprocessed collated events fetched from police API in form [[location, type, frequency]]
+     */
     async function getEventsOnLocation(location: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let typeAmountDict: NumberDictionary = {}
@@ -79,6 +98,13 @@ export default function StatisticContainer() {
         return crimeData;
     }
 
+    /**
+     * Processes and collates events fetched from police API with predetermined type.
+     * Collates all equal events of given location of specified type with frequency of event type at location recorded
+     * After processing sorts events based on frequency
+     * @param type Type of events to collate based on equal event locations
+     * @return crimeData Preprocessed collated events fetched from police API in form [[location, type, frequency]]
+     */
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let locationAmountDict: NumberDictionary = {}
@@ -100,6 +126,14 @@ export default function StatisticContainer() {
         return crimeData;
     }
 
+    /**
+     * Processes and collates events fetched from police API with predetermined type and location.
+     * Collates all equal events of specified location and specified type with frequency of event type and location recorded
+     * After processing sorts events based on frequency
+     * @param location Location of events to collate
+     * @param type Type of events to collate
+     * @return crimeData Preprocessed collated events fetched from police API in form [[location, type, frequency]]. Returns only one entry
+     */
     async function getEventsOnLocationAndType(location: string, type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let locationAmountDict: NumberDictionary = {}
@@ -116,6 +150,13 @@ export default function StatisticContainer() {
         return crimeData;
     }
 
+    /**
+     * Method calls getEvents methods based on combobox selection. None selected, one selected, all selected.
+     * getEvents methods return collated event entries which are then set in the tableProps state.
+     * Sets show stats to true
+     * @param location Selected location for events
+     * @param type Selected type for events
+     */
     async function generateStatistics(location: string, type: string) {
         setShowStats(true)
 
@@ -148,6 +189,8 @@ export default function StatisticContainer() {
                 setSelectedOptionCrime={setSelectedOptionCrime}
                 setSelectedOptionLoc={setSelectedOptionLoc}
             />
+            {/** If showStats set to true shows reset selection button and table of generated statistics. If showStats set to false
+            shows generate statistics button */}
             {showStats
                 ? (
                     <div className={"center"}>
