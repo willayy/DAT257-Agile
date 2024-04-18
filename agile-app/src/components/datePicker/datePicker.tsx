@@ -20,17 +20,15 @@ const DatePicker = ({max, min, title, defaultDate} : DatePickerProps) => {
     };
 
     return (
-        <div className={styles.dateBoxDiv}>
-            <label>{title}:
-                <input type="date"
-                       className={styles.dateBoxInput}
-                       value={selectedDate}
-                       min = {min}
-                       max = {max}
-                       onChange={handleDateChange}
-                />
-            </label>
-        </div>
+        <label>{title}:
+            <input type="date"
+                    className={styles.dateBoxInput}
+                    value={selectedDate}
+                    min = {min}
+                    max = {max}
+                    onChange={handleDateChange}
+            />
+        </label>
     );
 
 };
