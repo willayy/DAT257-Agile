@@ -7,6 +7,10 @@ import LineGraph from "@/components/lineGraph/lineGraph";
 const Visualization = () => {
     const [showGraph, setShowGraph] = useState(false);
 
+    
+    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
+    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
+
     const handleClick = () => {
         setShowGraph(true);
     };
@@ -14,8 +18,10 @@ const Visualization = () => {
     return (
         <div className={styles.page}>
             <h1>Visualisering</h1>
-            <ParentSearchComboBox />
+            <ParentSearchComboBox setSelectedOptionCrime={setSelectedOptionCrime} setSelectedOptionLoc={setSelectedOptionLoc}/>
             <button className={styles.button} onClick={handleClick}>Create Graph</button>
+            <h2>{selectedOptionCrime}</h2>
+            <h2>{selectedOptionLoc}</h2>
             {showGraph && <LineGraph />}
         </div> 
     );
