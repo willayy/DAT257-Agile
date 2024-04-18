@@ -1,4 +1,5 @@
-import {useEffect, useState} from "react";
+import {ReactElement, ReactNode, useEffect, useState} from "react";
+import {ReactNodeArray} from "prop-types";
 
 interface Props {
     data : CrimeData | string;
@@ -7,10 +8,18 @@ interface Props {
 type CrimeData = (string|string|number)[][]
 
 export default function Table(Props : Props) {
-    const [eventRows, setEventRows] = useState(null)
+    const [eventRows, setEventRows] = useState<ReactNodeArray | null>(null)
 
     useEffect(() => {
-
+        if (typeof Props.data !== "string") {
+            setEventRows(Props.data.map((rowData: (string | number)[], index: number) => (
+                <tr>
+                    <td scope="row">{rowData[0]}</td>
+                    <td>{rowData[1]}</td>
+                    <td>{rowData[2]}</td>
+                </tr>
+            )))
+        }
     }, [Props])
 
     return(
@@ -23,11 +32,7 @@ export default function Table(Props : Props) {
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td scope="row">valdKommun</td>
-                <td>valdTyp</td>
-                <td>visatAntal</td>
-            </tr>
+            {eventRows}
             </tbody>
         </table>
 
