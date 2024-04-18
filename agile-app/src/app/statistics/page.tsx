@@ -6,9 +6,10 @@ import {useState} from "react";
 import {getCrimeData} from "@/scripts/dataFetching";
 import Table from "@/components/table/table";
 
-
+/**
+ * Interface for an event fetched from the police API
+ */
 interface Event {
-
     id: number;
     datetime: string;
     name: string;
@@ -21,10 +22,16 @@ interface Event {
     }
 }
 
+/**
+ * Interface describing types for dictionary style object for type | location (key) : number (amount)
+ */
 interface NumberDictionary {
     [key: string]: number;
 }
 
+/**
+ * Type describing array of collated event arrays. (
+ */
 type CrimeData = (string|string|number)[][]
 
 
