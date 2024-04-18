@@ -22,7 +22,7 @@ const Visualization = () => {
             <button className={styles.button} onClick={handleClick}>Create Graph</button>
             <h2>{selectedOptionCrime}</h2>
             <h2>{selectedOptionLoc}</h2>
-            {showGraph && <LineGraph />}
+            {showGraph && <LineGraph selectedOptionCrime={selectedOptionCrime} selectedOptionLoc={selectedOptionLoc}/>}
         </div> 
     );
 };
