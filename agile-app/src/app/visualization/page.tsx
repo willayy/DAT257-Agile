@@ -16,17 +16,11 @@ const Visualization = () => {
     return (
         <div className={styles.page}>
             <h1>Visualisering</h1>
-            <ParentSearchComboBox
-                setSelectedOptionCrime={setSelectedOptionCrime}
-                setSelectedOptionLoc={setSelectedOptionLoc}
-            />
-            <button className={styles.button} onClick={handleClick}>Create Plot</button>
-            {showGraph && (
-                <LineGraph
-                    selectedOptionCrime={selectedOptionCrime}
-                    selectedOptionLoc={selectedOptionLoc}
-                />
-            )}
+            <ParentSearchComboBox setSelectedOptionCrime={setSelectedOptionCrime} setSelectedOptionLoc={setSelectedOptionLoc}/>
+            <button className={styles.button} onClick={handleClick}>Create Graph</button>
+            <h2>{selectedOptionCrime}</h2>
+            <h2>{selectedOptionLoc}</h2>
+            {showGraph && <LineGraph selectedOptionCrime={selectedOptionCrime} selectedOptionLoc={selectedOptionLoc}/>}
         </div> 
     );
 };
