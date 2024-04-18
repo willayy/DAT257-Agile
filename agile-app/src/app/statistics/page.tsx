@@ -25,6 +25,8 @@ interface NumberDictionary {
     [key: string]: number;
 }
 
+type CrimeData = (string|string|number)[][]
+
 
 /**
  * Types the list Crimes to have only right foratted "card-information"
@@ -35,12 +37,24 @@ export default function StatisticContainer() {
     const [showStats, setShowStats] = useState<boolean>(false)
     const [location, setLocation] = useState<string | null>(null)
     const [type, setType] = useState<string | null>(null)
-    const [tableProps, setTableProps] = useState<string | null>(null)
+    const [tableProps, setTableProps] = useState<CrimeData | string>("You must select an option in the comboboxes")
+
+    function sortCrimeDataOnFrequency(crimeData: (string | number)[][]) {
+        crimeData.sort((a, b) => {
+            if (a[2] < b[2]) {
+                return -1;
+            }
+            if (a[2] > b[2]) {
+                return 1;
+            }
+            return 0
+        })
+    }
 
     async function getEventsOnLocation(location: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let typeAmountDict: NumberDictionary = {}
-        let crimeData: (string|string|number)[][] = [];
+        let crimeData: CrimeData = [];
 
         for (let event of fetchedCrimeData) {
             if (event.type in Object.keys(typeAmountDict)) {
@@ -54,35 +68,59 @@ export default function StatisticContainer() {
             crimeData.push([location, type, typeAmountDict[type]])
         }
 
-        crimeData.sort((a, b) => {
-            if (a[2] < b[2]) {
-                return -1;
-            }
-            if (a[2] > b[2]) {
-                return 1;
-            }
-            return 0
-        })
-
+        sortCrimeDataOnFrequency(crimeData)
         return crimeData;
     }
 
-    function generateStatistics() {
+    async function getEventsOnType(type: string) {
+        const fetchedCrimeData: Crimes = await getCrimeData();
+        let locationAmountDict: NumberDictionary = {}
+        let crimeData: CrimeData = [];
+
+        for (let event of fetchedCrimeData) {
+            if (event.location.name in Object.keys(locationAmountDict)) {
+                locationAmountDict[event.type] += 1
+            } else {
+                locationAmountDict[event.type] = 1
+            }
+        }
+
+        for (let location of Object.keys(locationAmountDict)) {
+            crimeData.push([location, type, locationAmountDict[location]])
+        }
+
+        sortCrimeDataOnFrequency(crimeData);
+        return crimeData;
+    }
+
+    async function getEventsOnLocationAndType(location: string, type: string) {
+        const fetchedCrimeData: Crimes = await getCrimeData();
+        let locationAmountDict: NumberDictionary = {}
+        locationAmountDict[location] = 0
+        let crimeData: CrimeData = [];
+
+        for (let event of fetchedCrimeData) {
+            if (event.location.name == Object.keys(locationAmountDict)[0] && event.type == type) {
+                locationAmountDict[location] += 1
+            }
+        }
+
+        crimeData.push([location, type, locationAmountDict[location]])
+        return crimeData;
+    }
+
+    async function generateStatistics(location: string, type: string) {
         setShowStats(true)
 
         if (location == null && type == null) {
             setTableProps("You must select an option in the comboboxes")
+        } else if (location != null && type == null) {
+            setTableProps(await getEventsOnLocation(location))
+        } else if (location == null && type != null) {
+            setTableProps(await  getEventsOnType(type))
+        } else {
+            setTableProps(await getEventsOnLocationAndType(location, type))
         }
-        else if (location != null && type == null) {
-
-        }
-        else if (location == null && type != null) {
-
-        }
-        else {
-
-        }
-
     }
 
     return (
