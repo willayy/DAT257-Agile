@@ -8,9 +8,12 @@ import styles from './searchComboBox.module.css'
  * A parent component containing two SearchComboBox components for filtering data based on crime type and location.
  * @returns {JSX} A React component representing the ParentSearchComboBox.
  */
-const ParentSearchComboBox = () => {
-    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
-    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
+interface ParentSearchComboBoxProps {
+    setSelectedOptionCrime: React.Dispatch<React.SetStateAction<string>>;
+    setSelectedOptionLoc: React.Dispatch<React.SetStateAction<string>>;
+}
+const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc }) => {
+    
 
     /**
      * Handles the selection of a crime type option.
