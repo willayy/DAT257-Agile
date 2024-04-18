@@ -83,7 +83,7 @@ export default function StatisticContainer() {
         let crimeData: CrimeData = [];
 
         for (let event of fetchedCrimeData) {
-            if (event.type in Object.keys(typeAmountDict)) {
+            if (Object.keys(typeAmountDict).includes(event.type)) {
                 typeAmountDict[event.type] += 1
             } else {
                 typeAmountDict[event.type] = 1
@@ -111,7 +111,7 @@ export default function StatisticContainer() {
         let crimeData: CrimeData = [];
 
         for (let event of fetchedCrimeData) {
-            if (event.location.name in Object.keys(locationAmountDict)) {
+            if (Object.keys(locationAmountDict).includes(event.location.name)) {
                 locationAmountDict[event.location.name] += 1
             } else {
                 locationAmountDict[event.location.name] = 1
@@ -141,7 +141,7 @@ export default function StatisticContainer() {
         let crimeData: CrimeData = [];
 
         for (let event of fetchedCrimeData) {
-            if (event.location.name == Object.keys(locationAmountDict)[0] && event.type == type) {
+            if (Object.keys(locationAmountDict).includes(event.location.name) && event.type == type) {
                 locationAmountDict[location] += 1
             }
         }
