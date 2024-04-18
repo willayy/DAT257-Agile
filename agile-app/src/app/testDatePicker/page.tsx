@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 
 export default function TestDatePicker() {
 
+    const [minDate, setMinDate] = useState<string>('');
+    const [maxDate, setMaxDate] = useState<string>('');
     const [startDate, setStartDate] = useState<string>('');
     const [endDate, setEndDate] = useState<string>('');
 
@@ -14,11 +16,13 @@ export default function TestDatePicker() {
         todaysDate.setMonth(todaysDate.getMonth() - 6);
         const sixMonthsAgoDate = todaysDate.toLocaleDateString('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' });
 
+        setMinDate(sixMonthsAgoDate);
+        setMaxDate(currentDate);
         setStartDate(sixMonthsAgoDate);
         setEndDate(currentDate);
     }, []); 
 
     return (
-        <DatePickerBox defaultStartDate={startDate} setStartDate={setStartDate} defaultEndDate={endDate} setEndDate={setEndDate} />
+        <DatePickerBox min={minDate} max={maxDate} defaultStartDate={startDate} setStartDate={setStartDate} defaultEndDate={endDate} setEndDate={setEndDate} />
     )
 }
