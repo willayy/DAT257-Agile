@@ -1,14 +1,18 @@
 .dateBoxDiv {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    border: 4px solid #ccc;
-    border-style: solid;
-    width: 260px;
+    justify-content: center;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    width: 100%;
 }
 
 .dateBoxInput {
-    margin: 10px 10px 10px 10px;
-    border: 2px solid #ccc;
+    border: none;
+    font: inherit;
+    margin: 2px 2px 2px 2px;
+    background-color: #ccc;
+}
+
+.dateBoxInput:hover {   
+    background-color: #ddd;
 }
