@@ -29,7 +29,7 @@ type CrimeData = (string|string|number)[][]
 
 
 /**
- * Types the list Crimes to have only right foratted "card-information"
+ * Types the list Crimes to have only right formatted "card-information"
  */
 type Crimes = Event[]
 
@@ -143,7 +143,7 @@ export default function StatisticContainer() {
                     <div className={"center"}>
                         <button className={styles.generateStatsButton} onClick={()=>setShowStats(false)}>Reset Selection</button>
                         <p>Button clicked</p>
-                        <Table></Table>
+                        <Table data={tableProps}/>
                     </div>
                 )
                 : (

@@ -1,6 +1,17 @@
+import {useEffect, useState} from "react";
 
+interface Props {
+    data : CrimeData | string;
+}
 
-export default function Table() {
+type CrimeData = (string|string|number)[][]
+
+export default function Table(Props : Props) {
+    const [eventRows, setEventRows] = useState(null)
+
+    useEffect(() => {
+
+    }, [Props])
 
     return(
         <table>
