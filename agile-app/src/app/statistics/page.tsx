@@ -153,22 +153,31 @@ export default function StatisticContainer() {
     /**
      * Method calls getEvents methods based on combobox selection. None selected, one selected, all selected.
      * getEvents methods return collated event entries which are then set in the tableProps state.
+     * If no events could be found tableProps state is set to error message
+     * If no selection is made tableProps state is set to error message
      * Sets show stats to true
      * @param location Selected location for events
      * @param type Selected type for events
      */
     async function generateStatistics(location: string, type: string) {
         setShowStats(true)
+        let tableProps: CrimeData | string = ''
 
         if (location == '' && type == '') {
-            setTableProps("You must select an option in the comboboxes")
+            tableProps = "Du måste väla ett alternativ ovan för att generera statistik"
         } else if (location != '' && type == '') {
-            setTableProps(await getEventsOnLocation(location))
+            tableProps = await getEventsOnLocation(location)
         } else if (location == '' && type != '') {
-            setTableProps(await  getEventsOnType(type))
+            tableProps = await  getEventsOnType(type)
         } else {
-            setTableProps(await getEventsOnLocationAndType(location, type))
+            tableProps = await getEventsOnLocationAndType(location, type)
         }
+        if (typeof tableProps !== "string" && tableProps.length < 1) {
+            setTableProps("Inga event kunde hittas för dina inställningar")
+        } else {
+            setTableProps(tableProps)
+        }
+
     }
 
     return (
