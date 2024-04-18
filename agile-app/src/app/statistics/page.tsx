@@ -195,7 +195,6 @@ export default function StatisticContainer() {
                 ? (
                     <div className={"center"}>
                         <button className={styles.generateStatsButton} onClick={()=>setShowStats(false)}>Reset Selection</button>
-                        <p>Button clicked</p>
                         <Table data={tableProps}/>
                     </div>
                 )
