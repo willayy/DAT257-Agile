@@ -35,8 +35,8 @@ type Crimes = Event[]
 
 export default function StatisticContainer() {
     const [showStats, setShowStats] = useState<boolean>(false)
-    const [location, setLocation] = useState<string | null>(null)
-    const [type, setType] = useState<string | null>(null)
+    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
+    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
     const [tableProps, setTableProps] = useState<CrimeData | string>("You must select an option in the comboboxes")
 
     function sortCrimeDataOnFrequency(crimeData: (string | number)[][]) {
@@ -112,11 +112,11 @@ export default function StatisticContainer() {
     async function generateStatistics(location: string, type: string) {
         setShowStats(true)
 
-        if (location == null && type == null) {
+        if (location == '' && type == '') {
             setTableProps("You must select an option in the comboboxes")
-        } else if (location != null && type == null) {
+        } else if (location != '' && type == '') {
             setTableProps(await getEventsOnLocation(location))
-        } else if (location == null && type != null) {
+        } else if (location == '' && type != '') {
             setTableProps(await  getEventsOnType(type))
         } else {
             setTableProps(await getEventsOnLocationAndType(location, type))
