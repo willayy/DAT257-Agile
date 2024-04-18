@@ -48,13 +48,6 @@ export default function ListView() {
         setMaxDate(currentDate);
         setSelectedStartDate(sixMonthsAgoDate);
         setSelectedEndDate(currentDate);
-
-        const fetchData = async () => {
-            const fetchedCrimeData: Crimes = await getCrimeData();
-            setCrimeData(fetchedCrimeData);
-        };
-
-        fetchData();
     }, []);
 
     useEffect(() => {
