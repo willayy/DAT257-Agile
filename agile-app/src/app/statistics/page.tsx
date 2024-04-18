@@ -79,9 +79,9 @@ export default function StatisticContainer() {
 
         for (let event of fetchedCrimeData) {
             if (event.location.name in Object.keys(locationAmountDict)) {
-                locationAmountDict[event.type] += 1
+                locationAmountDict[event.location.name] += 1
             } else {
-                locationAmountDict[event.type] = 1
+                locationAmountDict[event.location.name] = 1
             }
         }
 
@@ -137,7 +137,10 @@ export default function StatisticContainer() {
                 <br/>
                 <b>Event typ och kommun eller län vald:</b> Genom att välja både kommun eller län samt typ av event så ser du hur många event av den typen på den platsen har rapporterats de senaste 6 månaderna
             </p>
-            <ParentSearchComboBox/>
+            <ParentSearchComboBox
+                setSelectedOptionCrime={setSelectedOptionCrime}
+                setSelectedOptionLoc={setSelectedOptionLoc}
+            />
             {showStats
                 ? (
                     <div className={"center"}>
@@ -148,7 +151,7 @@ export default function StatisticContainer() {
                 )
                 : (
                     <div className={"center"}>
-                        <button className={styles.generateStatsButton} onClick={()=>setShowStats(true)}>Generera!</button>
+                        <button className={styles.generateStatsButton} onClick={()=>generateStatistics(selectedOptionLoc, selectedOptionCrime)}>Generera!</button>
                     </div>
                 )
             }
