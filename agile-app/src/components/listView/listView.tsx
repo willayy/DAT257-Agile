@@ -58,6 +58,7 @@ export default function ListView() {
     }, []);
 
     useEffect(() => {
+        // Function that filters the data based on the selected options from the user
         const filterAndSetData = async () => {
             let filteredData: Crimes = await getCrimeData();
             
