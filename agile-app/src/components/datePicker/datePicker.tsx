@@ -1,29 +1,28 @@
 "use client"
 
-import React, {ChangeEvent, useState} from 'react';
+import React, {ChangeEvent} from 'react';
 import styles from './datePicker.module.css';
 
 
 interface DatePickerProps{
+    setDate: (date: string) => void;
     min: string;
     max: string;
     title: string;
     defaultDate: string;
 }
 
-const DatePicker = ({max, min, title, defaultDate} : DatePickerProps) => {
-
-    const [selectedDate, setSelectedDate] = useState<string>(defaultDate);
+const DatePicker = ({setDate, max, min, title, defaultDate} : DatePickerProps) => {
 
     const handleDateChange = (event: ChangeEvent<HTMLInputElement>) => {
-        setSelectedDate(event.target.value);
+        setDate(event.target.value);
     };
 
     return (
-        <label>{title}:
-            <input type="date"
+        <label>{title}
+            <input  type="date"
                     className={styles.dateBoxInput}
-                    value={selectedDate}
+                    value={defaultDate}
                     min = {min}
                     max = {max}
                     onChange={handleDateChange}
