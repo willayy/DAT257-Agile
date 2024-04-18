@@ -30,6 +30,10 @@ interface CardInfo {
 type Crimes = CardInfo[]
 
 export default function ListView() {
+    /**
+     * usestate for selectedOptionCrime and selectedOptionLoc that updates the state of the selected option
+     */
+    
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
     const [crimeData, setCrimeData] = useState<Crimes>([]);
