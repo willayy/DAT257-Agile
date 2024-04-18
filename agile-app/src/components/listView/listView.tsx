@@ -5,13 +5,13 @@ import EventCard from "@/components/eventCard/eventCard";
 import styles from './listView.module.css'
 import { getCrimeData } from "@/scripts/dataFetching";
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
+import DatePickerBox from '../datePicker/datePickerBox';
 
 /**
  * Interface that makes sure that information recieved from the API is in the right format for creating cards. 
  */
 
 interface CardInfo {
-
     id: number;
     datetime: string;
     name: string;
@@ -30,11 +30,25 @@ interface CardInfo {
 type Crimes = CardInfo[]
 
 export default function ListView() {
+
+    const [minDate, setMinDate] = useState<string>('');
+    const [maxDate, setMaxDate] = useState<string>('');
+    const [selectedStartDate, setSelectedStartDate] = useState<string>('');
+    const [selectedEndDate, setSelectedEndDate] = useState<string>('');
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
     const [crimeData, setCrimeData] = useState<Crimes>([]);
 
     useEffect(() => {
+        const todaysDate = new Date();
+        const currentDate = todaysDate.toLocaleDateString('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' });
+        todaysDate.setMonth(todaysDate.getMonth() - 6);
+        const sixMonthsAgoDate = todaysDate.toLocaleDateString('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' });
+        setMinDate(sixMonthsAgoDate);
+        setMaxDate(currentDate);
+        setSelectedStartDate(sixMonthsAgoDate);
+        setSelectedEndDate(currentDate);
+
         const fetchData = async () => {
             const fetchedCrimeData: Crimes = await getCrimeData();
             setCrimeData(fetchedCrimeData);
@@ -44,25 +58,26 @@ export default function ListView() {
     }, []);
 
     useEffect(() => {
-        const fetchData = async () => {
-            const fetchedCrimeData: Crimes = await getCrimeData();
-
-            if (selectedOptionCrime === "" && selectedOptionLoc === "") {
-                setCrimeData(fetchedCrimeData);
-            } else if (selectedOptionCrime === "") {
-                const filteredData = fetchedCrimeData.filter(item => item.location.name === selectedOptionLoc);
-                setCrimeData(filteredData);
-            } else if (selectedOptionLoc === "") {
-                const filteredData = fetchedCrimeData.filter(item => item.type === selectedOptionCrime);
-                setCrimeData(filteredData);
-            } else {
-                const filteredData = fetchedCrimeData.filter(item => item.location.name === selectedOptionLoc && item.type === selectedOptionCrime);
-                setCrimeData(filteredData);
+        const filterAndSetData = async () => {
+            let filteredData: Crimes = await getCrimeData();
+            
+            if (selectedOptionCrime !== "") {
+                filteredData = filteredData.filter(item => item.type === selectedOptionCrime);
             }
+            
+            if (selectedOptionLoc !== "") {
+                filteredData = filteredData.filter(item => item.location.name === selectedOptionLoc);
+            }
+
+            filteredData = filteredData.filter(item => item.datetime >= selectedStartDate);
+            
+            filteredData = filteredData.filter(item => item.datetime <= selectedEndDate);
+            
+            setCrimeData(filteredData);
         };
 
-        fetchData();
-    }, [selectedOptionCrime, selectedOptionLoc]);
+        filterAndSetData();
+    }, [selectedOptionCrime, selectedOptionLoc, selectedStartDate, selectedEndDate]);
 
     return (
         <div className = {styles.eventList}>
@@ -73,6 +88,14 @@ export default function ListView() {
             <ParentSearchComboBox 
                 setSelectedOptionCrime={setSelectedOptionCrime} 
                 setSelectedOptionLoc={setSelectedOptionLoc} 
+            />
+            <DatePickerBox
+                min={minDate}
+                max={maxDate}
+                defaultStartDate={selectedStartDate} 
+                setStartDate={setSelectedStartDate} 
+                defaultEndDate={selectedEndDate} 
+                setEndDate={setSelectedEndDate}
             />
             <ul> {/** Maps the crimedata and makes each item into an event card */}
                 {crimeData.map((crimeData: CardInfo) =>(<EventCard data={crimeData}/>))}       
