@@ -40,8 +40,8 @@ export default function Table(Props : Props) {
                         <thead>
                         <tr>
                             <th scope="col">Kommun/län</th>
-                            <th scope="col">Typ</th>
-                            <th scope="col">Antal</th>
+                            <th scope="col">Typ av brott</th>
+                            <th scope="col">Antal inrapporteringar</th>
                         </tr>
                         </thead>
                         <tbody>

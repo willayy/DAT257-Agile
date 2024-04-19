@@ -5,22 +5,7 @@ import "@/app/globals.css";
 import {useState} from "react";
 import {getCrimeData} from "@/scripts/dataFetching";
 import Table from "@/components/table/table";
-
-/**
- * Interface for an event fetched from the police API
- */
-interface Event {
-    id: number;
-    datetime: string;
-    name: string;
-    summary: string;
-    url: string;
-    type: string;
-    location: {
-        name: string;
-        gps: string;
-    }
-}
+import {CrimeData} from "@/scripts/dataFetching";
 
 /**
  * Interface describing types for dictionary style object for type | location (key) : number (amount)
@@ -32,13 +17,13 @@ interface NumberDictionary {
 /**
  * Type describing array of collated event arrays. (
  */
-type CrimeData = (string|string|number)[][]
+type CrimeDataRow = (string|number)[][]
 
 
 /**
  * Types the list Crimes to have only right formatted "card-information"
  */
-type Crimes = Event[]
+type Crimes = CrimeData[]
 
 /**
  * Statistics Container is top-level component for the statistics page
@@ -51,14 +36,14 @@ export default function StatisticContainer() {
     const [showStats, setShowStats] = useState<boolean>(false)
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
-    const [tableProps, setTableProps] = useState<CrimeData | string>("You must select an option in the comboboxes")
+    const [tableProps, setTableProps] = useState<CrimeDataRow | string>("You must select an option in the comboboxes")
 
     /**
      * Custom sort method for crimeData array of arrays. Sorts the collated police events on the frequency of events.
      * Sorts the highest frequency to the lowest frequency
      * @param crimeData Preprocessed collated events fetched from police API in form [[location, type, frequency]]
      */
-    function sortCrimeDataOnFrequency(crimeData: (string | number)[][]) {
+    function sortCrimeDataOnFrequency(crimeData: CrimeDataRow) {
         crimeData.sort((a, b) => {
             if (a[2] < b[2]) {
                 return 1;
@@ -80,7 +65,7 @@ export default function StatisticContainer() {
     async function getEventsOnLocation(location: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let typeAmountDict: NumberDictionary = {}
-        let crimeData: CrimeData = [];
+        let crimeData: CrimeDataRow = [];
 
         for (let event of fetchedCrimeData) {
             if (Object.keys(typeAmountDict).includes(event.type) && location == event.location.name) {
@@ -108,7 +93,7 @@ export default function StatisticContainer() {
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let locationAmountDict: NumberDictionary = {}
-        let crimeData: CrimeData = [];
+        let crimeData: CrimeDataRow = [];
 
         for (let event of fetchedCrimeData) {
             if (Object.keys(locationAmountDict).includes(event.location.name) && type == event.type) {
@@ -138,7 +123,7 @@ export default function StatisticContainer() {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let locationAmountDict: NumberDictionary = {}
         locationAmountDict[location] = 0
-        let crimeData: CrimeData = [];
+        let crimeData: CrimeDataRow = [];
 
         for (let event of fetchedCrimeData) {
             if (Object.keys(locationAmountDict).includes(event.location.name) && event.type == type) {
@@ -161,7 +146,7 @@ export default function StatisticContainer() {
      */
     async function generateStatistics(location: string, type: string) {
         setShowStats(true)
-        let tableProps: CrimeData | string = ''
+        let tableProps: CrimeDataRow | string = ''
 
         if (location == '' && type == '') {
             tableProps = "Du måste väla ett alternativ ovan för att generera statistik"
@@ -186,13 +171,13 @@ export default function StatisticContainer() {
                 Generera Statistik
             </p>
             <p className={"center"}>
-                <b>Endast kommun eller län vald:</b> Genom att välja kommun eller län så kan du se det totala antalet event inrapporterade de senaste 6 månaderna samt vilket typ av event som har rapporterats flest och minst antal gånger.
+                <b>Endast kommun eller län vald:</b> Genom att välja kommun eller län så kan du se det totala antalet brott inrapporterade de senaste 6 månaderna samt vilket typ av brott som har rapporterats flest och minst antal gånger.
                 <br/>
                 <br/>
-                <b>Endast typ av event vald:</b> Genom att välja event typ så kan du se vilket kommun eller län eventet har rapporterats flest och minst antal gånger under de senaste 6 månaderna
+                <b>Endast typ av brott vald:</b> Genom att välja brottstyp så kan du se vilken kommun eller vilket län brottet har rapporterats flest och minst antal gånger i under de senaste 6 månaderna
                 <br/>
                 <br/>
-                <b>Event typ och kommun eller län vald:</b> Genom att välja både kommun eller län samt typ av event så ser du hur många event av den typen på den platsen har rapporterats de senaste 6 månaderna
+                <b>Brottstyp och kommun eller län vald:</b> Genom att välja både kommun eller län samt brottstyp så ser du hur många brott av den typen som har rapporterats på den platsen de senaste 6 månaderna
             </p>
             <ParentSearchComboBox
                 setSelectedOptionCrime={setSelectedOptionCrime}
