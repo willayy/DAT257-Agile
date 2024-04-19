@@ -1,0 +1,75 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+    
+}
+
+.peopleSection {
+    background-color: white;
+    padding: 20px;
+    display: flex;  
+    align-items: center; /* Horizontally center the content */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Evenly distribute items along the main axis */
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+
+.person {
+    width: calc(50% - 20px); /* Set width to half of the container width with some margin */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.person h3 {
+    color: black;
+    align-items: center;
+}
+
+.projectSection {
+    background-color: rgb(139, 139, 163);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the content */
+    border-bottom:2px solid black;
+    margin-bottom: -20px;
+    
+}
+
+.projectSection h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.projectSection p {
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+.developersTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Example color */
+    margin-bottom: 20px; /* Example margin */
+    text-decoration: underline;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 18px;
+    padding-top: 50px;
+   
+}

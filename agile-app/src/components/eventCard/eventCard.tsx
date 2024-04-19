@@ -1,6 +1,7 @@
 "use client"
 import {useState} from "react";
 import styles from './eventCard.module.css'
+import { urlToHttpOptions } from "url";
 
 /**
  * The data passed to the component must follow the interface CardInfo found below
@@ -32,6 +33,8 @@ interface CardInfo {
  */
 export default function EventCard(Props: Props) {
     const [showMore, setShowMore] = useState<boolean>(false)
+
+    Props.data.url = Props.data.url.replace("http://localhost:3000/", "https://polisen.se/");
 
     return (
         <div className={styles.eventCard}>
