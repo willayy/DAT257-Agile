@@ -1,19 +1,22 @@
-table {
+.table{
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
-    border: 2px;
+    border: 1px solid;
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
 
-thead{
+.thead{
     background-color: rgb(237 237 237);
 }
-th,
-td {
-    border: 1px solid;
+.th,
+.td{
+    border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
+    text-align: center
 }
 
-tbody{
+.tbody{
     text-align: center;
 }

@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import {ReactNodeArray} from "prop-types";
+import styles from "./table.module.css"
 
 interface Props {
     data : CrimeData | string;
@@ -18,9 +19,9 @@ export default function Table(Props : Props) {
             setErrorMessage('')
             setEventRows(Props.data.map((rowData: (string | number)[], index: number) => (
                 <tr>
-                    <td scope="row">{rowData[0]}</td>
-                    <td>{rowData[1]}</td>
-                    <td>{rowData[2]}</td>
+                    <td className = {styles.td} scope="row">{rowData[0]}</td>
+                    <td className = {styles.td} >{rowData[1]}</td>
+                    <td className = {styles.td} >{rowData[2]}</td>
                 </tr>
             )))
         } else {
@@ -36,15 +37,15 @@ export default function Table(Props : Props) {
                     <h3>{errorMessage}</h3>
                 )
                 : (
-                    <table>
-                        <thead>
+                    <table className= {styles.table}>
+                        <thead className = {styles.thead}>
                         <tr>
-                            <th scope="col">Kommun/län</th>
-                            <th scope="col">Typ av brott</th>
-                            <th scope="col">Antal inrapporteringar</th>
+                            <th className = {styles.th} scope="col">Kommun/län</th>
+                            <th className = {styles.th} scope="col">Brottstyp</th>
+                            <th className = {styles.th} scope="col">Antal inrapporteringar</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody className = {styles.tbody}>
                         {eventRows}
                         </tbody>
                     </table>
