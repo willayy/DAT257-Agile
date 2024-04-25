@@ -14,6 +14,18 @@ const AboutPage = () => {
                 that contribute to safer communities and informed decision-making processes.
                 </p>
             </div>
+            <div className={styles.unGoalsSection}>
+            <h2>Vår koppling till FN:s utvecklingsmål</h2>
+                <p>
+                Vårt projekt stämmer överens med FN:s hållbara utvecklingsmål 16: Fred, rättvisa och starka institutioner. <br />
+                Vi kartlägger och visar alla former av brott rapporterade av den svenska polisen för att minska våld och dödsfall<br />
+                 och för att skapa en känsla av trygghet på gatorna. Genom att göra brottsdata mer tillgänglig för allmänheten<br />
+                  kan vi främja öppenhet, ansvar och förståelse för brottsituationen, vilket skapar en grund för förändring. <br />
+                  Genom att visualisera historiska trender i brottslighet bidrar vi också till att upprätthålla polisens <br />
+                  transparenta arbete och främja icke-diskriminerande lagar och policys för hållbar utveckling.
+                </p>
+
+            </div>
             <div>
                 <h2 className={styles.developersTitle}>Developers</h2>
             </div>
