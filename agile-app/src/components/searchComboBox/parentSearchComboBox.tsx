@@ -446,7 +446,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                 <div className={styles.innerContainer} > 
                     <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
                 </div>
-                <button onClick={resetChoices}>Återställ val</button>
+                <button className={styles.button} onClick={resetChoices}>Återställ val</button>
             </div>
 
         </div>
