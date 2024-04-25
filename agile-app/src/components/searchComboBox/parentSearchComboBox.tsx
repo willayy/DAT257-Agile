@@ -23,6 +23,11 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         setSelectedOptionLoc(selectedOption);
     };
 
+    const resetChoices= () => {
+        handleSelectCrime("");
+        handleSelectLoc("")
+    };
+
 
     /** list containing all the types of crimes that can be filtered on*/
     const optionsCrime = [
@@ -439,8 +444,9 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                 <div className={styles.innerContainer} > 
                     <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime}/>
                 </div>
-                
+                <button onClick={resetChoices}>Återställ val</button>
             </div>
+
         </div>
     );
 };
