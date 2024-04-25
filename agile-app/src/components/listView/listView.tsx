@@ -82,7 +82,9 @@ export default function ListView() {
             </p>
             <ParentSearchComboBox 
                 setSelectedOptionCrime={setSelectedOptionCrime} 
-                setSelectedOptionLoc={setSelectedOptionLoc} 
+                setSelectedOptionLoc={setSelectedOptionLoc}
+                selectedOptionCrime={selectedOptionCrime}
+                selectedOptionLoc={selectedOptionLoc}
             />
             <DatePickerBox
                 min={minDate}
