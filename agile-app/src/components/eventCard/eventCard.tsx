@@ -2,34 +2,19 @@
 import {useState} from "react";
 import styles from './eventCard.module.css'
 import { urlToHttpOptions } from "url";
+import {CrimeData} from "@/scripts/dataFetching";
 
 /**
- * The data passed to the component must follow the interface CardInfo found below
+ * The data passed to the component must follow the interface CrimeData in dataFetching.ts
  */
 interface Props {
-    data: CardInfo
-}
-
-/**
- * Interface CardInfo is the same as the JSON object found in the police api
- */
-interface CardInfo {
-    id: number,
-    datetime: string,
-    name: string,
-    summary: string,
-    url: string,
-    type: string,
-    location: {
-        name: string,
-        gps: string
-    };
+    data: CrimeData
 }
 
 /**
  * Event card component displaying time, date, location, type, and summary for an event published by the police.
  * Uses a "show more" button to keep the card concise yet containing all pertinent information
- * @param Props {Props} Object following CardInfo interface
+ * @param Props {Props} Object following CrimeData interface
  */
 export default function EventCard(Props: Props) {
     const [showMore, setShowMore] = useState<boolean>(false)
