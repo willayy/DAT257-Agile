@@ -13,6 +13,9 @@ export default function Header() {
         <li>
             <Link href="/">Händelser</Link>
           </li>
+            <li>
+                <Link href={"statistics"}>Statistik</Link>
+            </li>
           <li>
             <Link href="/visualization">Visualisering</Link>
           </li>

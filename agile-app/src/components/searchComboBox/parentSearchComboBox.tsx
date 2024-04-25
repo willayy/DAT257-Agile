@@ -114,7 +114,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         "Våldtäkt",
         "Våldtäkt, försök",
         "Vållande till kroppsskada"
-      ];
+    ];
     /** list containing all the locations that can be filtered on*/
     const optionsLoc = [
         "",
@@ -436,14 +436,13 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                 <div className={styles.innerContainer}>
                     <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} />
                 </div>
-                <div className={styles.innerContainer} > 
+                <div className={styles.innerContainer} >
                     <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime}/>
                 </div>
-                
+
             </div>
         </div>
     );
 };
 
 export default ParentSearchComboBox;
-
