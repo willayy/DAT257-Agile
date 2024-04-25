@@ -11,9 +11,11 @@ import styles from './searchComboBox.module.css'
 interface ParentSearchComboBoxProps {
     setSelectedOptionCrime: React.Dispatch<React.SetStateAction<string>>;
     setSelectedOptionLoc: React.Dispatch<React.SetStateAction<string>>;
+    selectedOptionCrime: string;
+    selectedOptionLoc: string;
 }
 
-const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc }) => {
+const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc , selectedOptionCrime, selectedOptionLoc}) => {
 
     const handleSelectCrime = (selectedOption: string) => {
         setSelectedOptionCrime(selectedOption);
@@ -439,10 +441,10 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         <div className={styles.outerContainer}>
             <div className={styles.container}>
                 <div className={styles.innerContainer}>
-                    <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} />
+                    <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} selectedOption={selectedOptionLoc} />
                 </div>
                 <div className={styles.innerContainer} > 
-                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime}/>
+                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
                 </div>
                 <button onClick={resetChoices}>Återställ val</button>
             </div>
