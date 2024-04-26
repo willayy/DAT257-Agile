@@ -7,7 +7,7 @@ const AboutPage = () => {
             <div className={styles.projectSection}>
                 <h2>Vår Vision</h2>
                 <p>
-                Vårat verktyg för brottsvisualisering är ett försök att revolutionera sättet som data om brott analyseras och hanteras i Sverige.
+                Vårt verktyg för brottsvisualisering är ett försök att revolutionera sättet som data om brott analyseras och hanteras i Sverige.
                 <br /> 
                 Genom att utnyttja kraften i datavisualisering och dra nytta av den svenska polisens händelse-API, strävar vi efter att ge användare handlingsbara insikter
                 <br />
