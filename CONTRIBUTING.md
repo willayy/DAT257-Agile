@@ -27,7 +27,7 @@ Ett task är “done” när den uppfyller sina specifika acceptance criteria.
 ### Konventioner
 * Skriv kommentarer, variabel, klass, directory, dokumentation på Engelska och i camelcase. Packages skall skrivas i lowercase.
 * Variabelnamn, klassnamn och metodnamn skall vara beskrivande, inte tvetydiga och skall helst inte innehålla förkortningar.
-* Kommentarer i kod skall skrivas enligt JsDoc (https://jsdoc.app/about-getting-started), alla klasser och metoder skall kommenteras. 
+* Kommentarer i kod skall skrivas enligt [TSDoc](https://tsdoc.org), alla klasser och metoder skall kommenteras. 
 * Pull request dokumentation (när man mergar sin branhch med main) skall skrivas på formen vad, hur, varför.
 * Alla commit-meddelanden skall beskriva vad som ändrats/lagts till. Är det mycket förändringar bör man stagea commitsen i flera steg och inte commita allt på en gång.
 * Issues skall följa templatesen som finns i .github/ISSUE_TEMPLATE
