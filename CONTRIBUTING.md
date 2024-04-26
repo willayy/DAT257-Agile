@@ -27,12 +27,12 @@ Ett task är “done” när den uppfyller sina specifika acceptance criteria.
 ### Konventioner
 * Skriv kommentarer, variabel, klass, directory, dokumentation på Engelska och i camelcase. Packages skall skrivas i lowercase.
 * Variabelnamn, klassnamn och metodnamn skall vara beskrivande, inte tvetydiga och skall helst inte innehålla förkortningar.
-* Kommentarer i kod skall skrivas enligt JsDoc (https://jsdoc.app/about-getting-started), alla klasser och metoder skall kommenteras. 
+* Kommentarer i kod skall skrivas enligt [TSDoc](https://tsdoc.org), alla klasser och metoder skall kommenteras. 
 * Pull request dokumentation (när man mergar sin branhch med main) skall skrivas på formen vad, hur, varför.
 * Alla commit-meddelanden skall beskriva vad som ändrats/lagts till. Är det mycket förändringar bör man stagea commitsen i flera steg och inte commita allt på en gång.
 * Issues skall följa templatesen som finns i .github/ISSUE_TEMPLATE
 
-### Exempel (JavaScript)
+### Exempel (TypeScript)
 ````js
 
     class Book {
@@ -40,9 +40,9 @@ Ett task är “done” när den uppfyller sina specifika acceptance criteria.
         /**
          * Represents a book
          * @constructor 
-         * @param {str} title the title of the book
-         * @param {int} year the year the book was published
-         * @param {int} pages the number of pages in the book */
+         * @param title the title of the book
+         * @param year the year the book was published
+         * @param pages the number of pages in the book */
         constructor(title, year, pages) {
             this.title = title
             this.year = year
@@ -52,8 +52,8 @@ Ett task är “done” när den uppfyller sina specifika acceptance criteria.
 
     /**
      * The number of pages in a book
-     * @param {str} bookTitle the title of the book
-     * @returns {int} the number of pagens in the book in int's */
+     * @param bookTitle the title of the book
+     * @returns the number of pagens in the book in int's */
     function getBookPages(bookTitle) {
         ...
     }

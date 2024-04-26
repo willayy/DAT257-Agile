@@ -6,28 +6,12 @@ import styles from './listView.module.css'
 import { getCrimeData } from "@/scripts/dataFetching";
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import DatePickerBox from '../datePicker/datePickerBox';
+import {CrimeData} from "@/scripts/dataFetching";
 
 /**
- * Interface that makes sure that information recieved from the API is in the right format for creating cards. 
- */
-
-interface CardInfo {
-    id: number;
-    datetime: string;
-    name: string;
-    summary: string;
-    url: string;
-    type: string;
-    location: {
-        name: string;
-        gps: string;
-    }
-}
-
-/**
-* Types the list Crimes to have only right foratted "card-information"
+* Types the list Crimes to have only correctly formatted "card-information"
 */
-type Crimes = CardInfo[]
+type Crimes = CrimeData[]
 
 export default function ListView() {
 
@@ -95,7 +79,7 @@ export default function ListView() {
                 setEndDate={setSelectedEndDate}
             />
             <ul> {/** Maps the crimedata and makes each item into an event card */}
-                {crimeData.map((crimeData: CardInfo) =>(<EventCard data={crimeData}/>))}       
+                {crimeData.map((crimeData: CrimeData) =>(<EventCard data={crimeData}/>))}
             </ul>
         </div>
     );

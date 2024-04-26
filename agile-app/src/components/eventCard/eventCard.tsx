@@ -2,34 +2,19 @@
 import {useState} from "react";
 import styles from './eventCard.module.css'
 import { urlToHttpOptions } from "url";
+import {CrimeData} from "@/scripts/dataFetching";
 
 /**
- * The data passed to the component must follow the interface CardInfo found below
+ * The data passed to the component must follow the interface CrimeData in dataFetching.ts
  */
 interface Props {
-    data: CardInfo
-}
-
-/**
- * Interface CardInfo is the same as the JSON object found in the police api
- */
-interface CardInfo {
-    id: number,
-    datetime: string,
-    name: string,
-    summary: string,
-    url: string,
-    type: string,
-    location: {
-        name: string,
-        gps: string
-    };
+    data: CrimeData
 }
 
 /**
  * Event card component displaying time, date, location, type, and summary for an event published by the police.
  * Uses a "show more" button to keep the card concise yet containing all pertinent information
- * @param Props {Props} Object following CardInfo interface
+ * @param Props {Props} Object following CrimeData interface
  */
 export default function EventCard(Props: Props) {
     const [showMore, setShowMore] = useState<boolean>(false)
@@ -43,13 +28,13 @@ export default function EventCard(Props: Props) {
                 ? (
                     <>
                         <p className={styles.eventCardText}>{Props.data.summary}</p>
-                        <p>Type: {Props.data.type}</p>
-                        <p>GPS location: {Props.data.location.gps}</p>
+                        <p>Typ: {Props.data.type}</p>
+                        <p>GPS position: {Props.data.location.gps}</p>
                         <p>Id: {Props.data.id}</p>
                         <div className={styles.showMoreContainer}>
-                            <a href={Props.data.url}>Show event at police website</a>
+                            <a href={Props.data.url}>Visa händelse på Polisens hemsida</a>
                             <button className={styles.showMoreButton} onClick={() => setShowMore(!showMore)}>
-                                {showMore ? "Show less" : "Show more"}
+                                {showMore ? "Visa mindre" : "Visa mer"}
                             </button>
                         </div>
                     </>
@@ -58,7 +43,7 @@ export default function EventCard(Props: Props) {
                     <div className={styles.showMoreContainer}>
                         <p className={styles.eventCardText}>{Props.data.summary}</p>
                         <button className={styles.showMoreButton} onClick={() => setShowMore(!showMore)}>
-                            {showMore ? "Show less" : "Show more"}
+                            {showMore ? "Visa mindre" : "Visa mer"}
                         </button>
                     </div>
                 )
