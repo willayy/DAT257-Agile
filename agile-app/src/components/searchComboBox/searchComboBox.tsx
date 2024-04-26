@@ -10,6 +10,7 @@ interface SearchComboBoxProps {
     title: string;
     options: string[];
     onSelect: (selectedOption: string) => void;
+    selectedOption: string;
 }
 
 /**
@@ -18,9 +19,10 @@ interface SearchComboBoxProps {
  * @param {string} props.title - The title of the combo box.
  * @param {string[]} props.options - A list of strings with all options for the combobox.
  * @param {function} props.onSelect - A function to handle the selection of an option.
+ * @param {string} props.selectedOption - The selected option passed down from higher class. Allows for resetting of comboBox
  * @returns {JSX} A React component representing the SearchComboBox.
  */
-const SearchComboBox = ({title, options, onSelect}:SearchComboBoxProps) => {
+const SearchComboBox = ({title, options, onSelect, selectedOption}:SearchComboBoxProps) => {
     const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
         const selectedOption = event.target.value;
         onSelect(selectedOption);
@@ -29,7 +31,7 @@ const SearchComboBox = ({title, options, onSelect}:SearchComboBoxProps) => {
     return (
         <div className={styles.comboContainer}>
             <label>{title}</label>
-            <select onChange={handleSelectChange} className={styles.comboBoxDropdown}>
+            <select value={selectedOption} onChange={handleSelectChange} className={styles.comboBoxDropdown}>
                 {options.map((option, index) => (
                     <option key={index} value={option} >
                         {option}
