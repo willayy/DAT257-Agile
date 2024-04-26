@@ -58,6 +58,32 @@
     line-height: 1.5;
     white-space: pre-line;
 }
+.unGoalsSection {
+    background-color: #5e5c6e;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the content */
+    border-bottom:2px solid black;
+    margin-bottom: -20px;
+    
+}
+
+.unGoalsSection h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.unGoalsSection p {
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    white-space: pre-line;
+}
 
 .developersTitle {
     font-size: 24px;
