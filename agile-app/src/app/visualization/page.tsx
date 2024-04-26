@@ -16,7 +16,12 @@ const Visualization = () => {
     return (
         <div className={styles.page}>
             <h1>Visualisering</h1>
-            <ParentSearchComboBox setSelectedOptionCrime={setSelectedOptionCrime} setSelectedOptionLoc={setSelectedOptionLoc}/>
+            <ParentSearchComboBox
+                setSelectedOptionCrime={setSelectedOptionCrime}
+                setSelectedOptionLoc={setSelectedOptionLoc}
+                selectedOptionLoc={selectedOptionLoc}
+                selectedOptionCrime={selectedOptionCrime}
+            />
             <button className={styles.button} onClick={handleClick}>Generera graf</button>
             {showGraph && <LineGraph selectedOptionCrime={selectedOptionCrime} selectedOptionLoc={selectedOptionLoc}/>}
         </div> 
