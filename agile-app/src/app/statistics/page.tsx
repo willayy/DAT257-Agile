@@ -149,7 +149,7 @@ export default function StatisticContainer() {
         let tableProps: CrimeDataRow | string = ''
 
         if (location == '' && type == '') {
-            tableProps = "Du måste väla ett alternativ ovan för att generera statistik"
+            tableProps = "Du måste välja ett alternativ ovan för att generera statistik"
         } else if (location != '' && type == '') {
             tableProps = await getEventsOnLocation(location)
         } else if (location == '' && type != '') {
@@ -182,6 +182,8 @@ export default function StatisticContainer() {
             <ParentSearchComboBox
                 setSelectedOptionCrime={setSelectedOptionCrime}
                 setSelectedOptionLoc={setSelectedOptionLoc}
+                selectedOptionCrime={selectedOptionCrime}
+                selectedOptionLoc={selectedOptionLoc}
             />
             {/** If showStats set to true shows reset selection button and table of generated statistics. If showStats set to false
             shows generate statistics button */}
