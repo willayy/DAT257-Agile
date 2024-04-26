@@ -28,13 +28,13 @@ export default function EventCard(Props: Props) {
                 ? (
                     <>
                         <p className={styles.eventCardText}>{Props.data.summary}</p>
-                        <p>Type: {Props.data.type}</p>
-                        <p>GPS location: {Props.data.location.gps}</p>
+                        <p>Typ: {Props.data.type}</p>
+                        <p>GPS position: {Props.data.location.gps}</p>
                         <p>Id: {Props.data.id}</p>
                         <div className={styles.showMoreContainer}>
-                            <a href={Props.data.url}>Show event at police website</a>
+                            <a href={Props.data.url}>Visa händelse på Polisens hemsida</a>
                             <button className={styles.showMoreButton} onClick={() => setShowMore(!showMore)}>
-                                {showMore ? "Show less" : "Show more"}
+                                {showMore ? "Visa mindre" : "Visa mer"}
                             </button>
                         </div>
                     </>
@@ -43,7 +43,7 @@ export default function EventCard(Props: Props) {
                     <div className={styles.showMoreContainer}>
                         <p className={styles.eventCardText}>{Props.data.summary}</p>
                         <button className={styles.showMoreButton} onClick={() => setShowMore(!showMore)}>
-                            {showMore ? "Show less" : "Show more"}
+                            {showMore ? "Visa mindre" : "Visa mer"}
                         </button>
                     </div>
                 )

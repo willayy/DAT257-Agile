@@ -20,7 +20,7 @@ export default function Header() {
             <Link href="/visualization">Visualisering</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">Om oss</Link>
           </li>
         </ul>
       </nav>
