@@ -36,7 +36,7 @@ export default function StatisticContainer() {
     const [showStats, setShowStats] = useState<boolean>(false)
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
-    const [tableProps, setTableProps] = useState<CrimeDataRow | string>("You must select an option in the comboboxes")
+    const [tableProps, setTableProps] = useState<CrimeDataRow | string>("Du göra minst ett val i någon av sökrutorna")
 
     /**
      * Custom sort method for crimeData array of arrays. Sorts the collated police events on the frequency of events.
@@ -188,7 +188,7 @@ export default function StatisticContainer() {
             {showStats
                 ? (
                     <div className={"center"}>
-                        <button className={styles.generateStatsButton} onClick={()=>setShowStats(false)}>Reset Selection</button>
+                        <button className={styles.generateStatsButton} onClick={()=>setShowStats(false)}>Rensa resultat</button>
                         <Table data={tableProps}/>
                     </div>
                 )
