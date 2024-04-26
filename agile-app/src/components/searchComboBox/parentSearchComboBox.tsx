@@ -5,8 +5,7 @@ import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
 
 /**
- * A parent component containing two SearchComboBox components for filtering data based on crime type and location.
- * @returns {JSX} A React component representing the ParentSearchComboBox.
+ * The data passed to the component must follow the interface ParentSearchComboBoxProps found below
  */
 interface ParentSearchComboBoxProps {
     setSelectedOptionCrime: React.Dispatch<React.SetStateAction<string>>;
@@ -14,7 +13,12 @@ interface ParentSearchComboBoxProps {
     selectedOptionCrime: string;
     selectedOptionLoc: string;
 }
-
+/**
+ * A parent component containing two SearchComboBox components for filtering data based on crime type and location.
+ * Also contains a button for resetting choices
+ * @param ParentSearchComboBox {ParentSearchComboBoxProps} Object following CardInfo interface
+ * @returns {JSX} A React component representing the ParentSearchComboBox.
+ */
 const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc , selectedOptionCrime, selectedOptionLoc}) => {
 
     const handleSelectCrime = (selectedOption: string) => {
