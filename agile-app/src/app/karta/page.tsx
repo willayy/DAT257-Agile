@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {fetchRegionData} from "@/scripts/geoFetching";
 import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import {GeoJsonObject, GeoJsonProperties} from "geojson";
+import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import styles from "./page.module.css"
 
@@ -13,18 +13,26 @@ type Polygon = Coordinates[]; // Array of coordinates forming a polygon
 type MultiPolygon = Polygon[]; // Array of polygons forming a multi-polygon
 
 
-interface GeoJsonFeature {
-    "type": 'Feature',
-    "geometry": {
-        "type" : "Polygon"
-        "coordinates": MultiPolygon
-    }
-    "properties": {
-        "name": string,
-        "color": number,
-        "l_id": number
-    }
+// interface GeoJsonFeature {
+//     "type": 'Feature',
+//     "geometry": {
+//         "type" : "Polygon"
+//         "coordinates": MultiPolygon
+//     }
+//     "properties": {
+//         "name": string,
+//         "color": number,
+//         "l_id": number
+//     }
+// }
+
+interface CustomFeatureProperties {
+    "name": string,
+    "color": number,
+    "l_id": number
 }
+
+type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 
 function getColor(density : number) {
     return (density > 6 ? '#b30000' :
@@ -36,14 +44,18 @@ function getColor(density : number) {
                           '#FFFFFF')
 }
 
-function style() {
-    return {
-        fillColor: getColor(3),
-        weight: 2,
-        opacity: 0.4,
-        color: 'black',
-        fillOpacity: 0.7
-    };
+function style(feature: CustomFeature) {
+    if (!feature) {
+        return {}
+    } else {
+        return {
+            fillColor: getColor(feature.properties.color),
+            weight: 2,
+            opacity: 0.4,
+            color: 'black',
+            fillOpacity: 0.7
+        };
+    }
 }
 
 export default function Map() {
@@ -69,7 +81,7 @@ export default function Map() {
                     <GeoJSON
                         attribution={'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
                         data={regionData}
-                        style={style}
+                        style={(feature) => style(feature)}
                     />
                 )}
 
