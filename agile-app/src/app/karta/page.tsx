@@ -5,6 +5,8 @@ import {fetchRegionData} from "@/scripts/geoFetching";
 import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {GeoJsonObject, GeoJsonProperties} from "geojson";
+import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
+import styles from "./page.module.css"
 
 type Coordinates = [number, number]; // [longitude, latitude]
 type Polygon = Coordinates[]; // Array of coordinates forming a polygon
@@ -46,6 +48,8 @@ function style() {
 
 export default function Map() {
     const [regionData, setRegionData] = useState<GeoJsonObject>();
+    const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
+    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
 
     useEffect(() => {
         const setData = async () => {
@@ -55,7 +59,7 @@ export default function Map() {
     })
 
     return (
-        <div>
+        <div className={styles.mapWrapper}>
             <MapContainer center={[60.1282, 18.6435]} zoom={5} scrollWheelZoom={false} style={{height: '91vh'}}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -70,6 +74,14 @@ export default function Map() {
                 )}
 
             </MapContainer>
+            <div className={styles.parentSearchWrapper}>
+                <ParentSearchComboBox
+                    setSelectedOptionCrime={setSelectedOptionCrime}
+                    setSelectedOptionLoc={setSelectedOptionLoc}
+                    selectedOptionCrime={selectedOptionCrime}
+                    selectedOptionLoc={selectedOptionLoc}
+                />
+            </div>
         </div>
     )
 }
