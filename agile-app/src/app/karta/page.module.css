@@ -9,3 +9,18 @@
     width: 100px;
     height: 100px;
 }
+
+.mapWrapper {
+    position: relative;
+}
+
+.parentSearchWrapper {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+    padding: 20px;
+    z-index: 10000;
+    border-radius: 15px;
+    border: 2px solid rgba(60, 60, 60, 0.5) ;
+}
