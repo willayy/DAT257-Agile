@@ -1,14 +1,13 @@
 "use client"
 
-import styles from './page.module.css'
 import {useEffect, useState} from "react";
 import {fetchRegionData} from "@/scripts/geoFetching";
-import {MapContainer, Marker, Popup, TileLayer, useMap} from 'react-leaflet'
-const L = require('leaflet')
+import {GeoJSON, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+import {GeoJsonObject} from "geojson";
 
 export default function Map() {
-    const [regionData, setRegionData] = useState<string | null>(null);
+    const [regionData, setRegionData] = useState<GeoJsonObject>();
 
     useEffect(() => {
         const setData = async () => {
@@ -19,16 +18,18 @@ export default function Map() {
 
     return (
         <div>
-            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} style={{height: '100vh'}}>
+            <MapContainer center={[60.1282, 18.6435]} zoom={5} scrollWheelZoom={false} style={{height: '91vh'}}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Marker position={[51.505, -0.09]}>
-                    <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
-                    </Popup>
-                </Marker>
+                {regionData && (
+                    <GeoJSON
+                        attribution={'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
+                        data={regionData}
+                    />
+                )}
+
             </MapContainer>
         </div>
     )
