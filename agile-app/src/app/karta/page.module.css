@@ -1,0 +1,11 @@
+#map { height: 180px; }
+
+.parentMapContainer {
+    height: 180px;
+    width: 200px;
+}
+
+.leaflet-container {
+    width: 100px;
+    height: 100px;
+}
