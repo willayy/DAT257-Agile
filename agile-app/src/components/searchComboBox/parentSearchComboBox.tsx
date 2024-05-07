@@ -58,7 +58,6 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         populateCrimeOptions();
     },[]);
 
-    console.log(optionsCrime2)
 
     /** list containing all the locations that can be filtered on*/
     const optionsLoc = [
