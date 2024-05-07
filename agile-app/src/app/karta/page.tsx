@@ -1,6 +1,6 @@
 "use client"
 
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
 import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -9,11 +9,13 @@ import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
+import { GeoJSON as LeafletGeoJSON } from "leaflet";
 
 interface CustomFeatureProperties {
     "kom_namn": string,
     "color": number,
-    "l_id": number
+    "l_id": number,
+    "name": string
 }
 
 interface NumberDictionary {
@@ -28,6 +30,7 @@ export default function Map() {
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
+    const geoJsonLayerRef = useRef<LeafletGeoJSON | null>(null);
 
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
@@ -58,14 +61,27 @@ export default function Map() {
     function style(feature: CustomFeature) {
         if (feature == null || locationAmountDict == null) {
             return {}
-        } else if (Object.keys(locationAmountDict).includes(feature.properties.kom_namn)) {
-            return {
-                fillColor: getColor(locationAmountDict[feature.properties.kom_namn]),
-                weight: 2,
-                opacity: 0.4,
-                color: 'black',
-                fillOpacity: 0.7
-            };
+        }
+        if (selectedOptionLoc == "Kommun") {
+            if (Object.keys(locationAmountDict).includes(feature.properties.kom_namn)) {
+                return {
+                    fillColor: getColor(locationAmountDict[feature.properties.kom_namn]),
+                    weight: 2,
+                    opacity: 0.4,
+                    color: 'black',
+                    fillOpacity: 0.7
+                }
+            }
+        } else if (selectedOptionLoc == "Län") {
+            if (Object.keys(locationAmountDict).includes(feature.properties.name)) {
+                return {
+                    fillColor: getColor(locationAmountDict[feature.properties.name]),
+                    weight: 2,
+                    opacity: 0.4,
+                    color: 'black',
+                    fillOpacity: 0.7
+                }
+            }
         } else {
             return {
                 fillColor: '#33CEFF',
@@ -75,14 +91,17 @@ export default function Map() {
                 fillOpacity: 0.4
             }
         }
+        return {}
     }
 
     useEffect(() => {
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
+                console.log("ran kommun")
                 setMapTiles(await fetchMunicipalityData())
             } else if (selectedOptionLoc == "Län") {
                 setMapTiles(await  fetchRegionData())
+                console.log("ran län")
             } else {
                 setMapTiles(await fetchMunicipalityData())
             }
@@ -98,6 +117,14 @@ export default function Map() {
         // console.log(selectedOptionCrime)
         // console.log(locationAmountDict)
     }, [selectedOptionCrime])
+
+    useEffect(() => {
+        const layer = geoJsonLayerRef.current
+        if (layer && mapTiles != null) {
+            layer.clearLayers().addData(mapTiles);
+            layer.setStyle((feature) => style(feature))
+        }
+    }, [mapTiles]);
 
     return (
         <div className={styles.mapWrapper}>
@@ -116,6 +143,7 @@ export default function Map() {
                 />
                 {(mapTiles) && (
                     <GeoJSON
+                        ref={geoJsonLayerRef}
                         attribution={'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
                         data={mapTiles}
                         style={(feature) => style(feature)}
