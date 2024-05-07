@@ -38,7 +38,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         handleSelectLoc("")
     };
 
-    const [optionsCrime2, setOptionsCrime2] = useState<string[]>([]);
+    const [optionsCrime, setOptionsCrime] = useState<string[]>([]);
 
     useEffect(() => {
         const populateCrimeOptions = async () => {
@@ -50,9 +50,9 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
             });
 
             // Convert the Set back to an array and sort it alphabetically
-            const optionsCrime2 = Array.from(uniqueCrimeTypes).sort();
-            optionsCrime2.unshift(""); // Add an empty string as the first element
-            setOptionsCrime2(optionsCrime2);
+            const optionsCrime = Array.from(uniqueCrimeTypes).sort();
+            optionsCrime.unshift(""); // Add an empty string as the first element
+            setOptionsCrime(optionsCrime);
         };
 
         populateCrimeOptions();
@@ -474,7 +474,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                     <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} selectedOption={selectedOptionLoc} />
                 </div>
                 <div className={styles.innerContainer} > 
-                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime2} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
+                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
                 </div>
                 <button className={styles.button} onClick={resetChoices}>Återställ val</button>
             </div>
