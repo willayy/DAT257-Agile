@@ -1,6 +1,5 @@
 "use client"
 
-import React, {useState} from 'react'
 import React, {useEffect, useState} from 'react'
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
@@ -475,7 +474,6 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                     <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} selectedOption={selectedOptionLoc} />
                 </div>
                 <div className={styles.innerContainer} > 
-                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
                     <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime2} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
                 </div>
                 <button className={styles.button} onClick={resetChoices}>Återställ val</button>
