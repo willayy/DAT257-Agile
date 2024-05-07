@@ -5,7 +5,7 @@ import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
 import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
-import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
+import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
@@ -126,7 +126,7 @@ export default function Map() {
 
             </MapContainer>
             <div className={styles.parentSearchWrapper}>
-                <ParentSearchComboBox
+                <MapSearchComboBox
                     setSelectedOptionCrime={setSelectedOptionCrime}
                     setSelectedOptionLoc={setSelectedOptionLoc}
                     selectedOptionCrime={selectedOptionCrime}
