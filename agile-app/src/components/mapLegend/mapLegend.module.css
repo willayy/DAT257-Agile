@@ -1,0 +1,23 @@
+.legend {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+  .legendItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .legendColor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  
+  .legendLabel {
+    font-size: 14px;
+  }
+  

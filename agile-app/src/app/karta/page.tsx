@@ -9,6 +9,7 @@ import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
+import MapLegend from "@/components/mapLegend/mapLegend";
 
 interface CustomFeatureProperties {
     "kom_namn": string,
@@ -54,6 +55,16 @@ export default function Map() {
                             density > 1 ? '#fef0d9' :
                                 '#FFFFFF')
     }
+
+    const legendItems = [
+        { color: '#b30000', label: '> 6 händelser' },
+        { color: '#e34a33', label: '6 händelser' },
+        { color: '#fc8d59', label: '5 händelser' },
+        { color: '#fdbb84', label: '4 händelser' },
+        { color: '#fdd49e', label: '3 händelser' },
+        { color: '#fef0d9', label: '2 händelser' },
+        { color: '#FFFFFF', label: '1 händelser' },
+      ];
 
     function style(feature: CustomFeature) {
         if (feature == null || locationAmountDict == null) {
@@ -121,7 +132,9 @@ export default function Map() {
                         style={(feature) => style(feature)}
                     />
                 )}
-
+                <div className={styles.legends}>
+                    <MapLegend legendItems={legendItems} />
+                </div>
             </MapContainer>
             <div className={styles.parentSearchWrapper}>
                 <MapSearchComboBox
@@ -132,5 +145,5 @@ export default function Map() {
                 />
             </div>
         </div>
-    )
+    );
 }
