@@ -35,8 +35,6 @@ export default function Map() {
 
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
-        console.log(type)
-        console.log(fetchedCrimeData)
         let locationAmountDict: NumberDictionary = {}
 
         for (let event of fetchedCrimeData) {
@@ -108,11 +106,9 @@ export default function Map() {
     useEffect(() => {
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
-                console.log("ran kommun")
                 setMapTiles(await fetchMunicipalityData())
             } else if (selectedOptionLoc == "Län") {
                 setMapTiles(await  fetchRegionData())
-                console.log("ran län")
             } else {
                 setMapTiles(await fetchMunicipalityData())
             }
@@ -125,8 +121,6 @@ export default function Map() {
             setLocationAmountDict(await getEventsOnType(selectedOptionCrime))
         }
         setEventsOnType()
-        // console.log(selectedOptionCrime)
-        // console.log(locationAmountDict)
     }, [selectedOptionCrime])
 
     useEffect(() => {
