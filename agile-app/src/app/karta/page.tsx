@@ -10,24 +10,6 @@ import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
 
-type Coordinates = [number, number]; // [longitude, latitude]
-type Polygon = Coordinates[]; // Array of coordinates forming a polygon
-type MultiPolygon = Polygon[]; // Array of polygons forming a multi-polygon
-
-
-// interface GeoJsonFeature {
-//     "type": 'Feature',
-//     "geometry": {
-//         "type" : "Polygon"
-//         "coordinates": MultiPolygon
-//     }
-//     "properties": {
-//         "name": string,
-//         "color": number,
-//         "l_id": number
-//     }
-// }
-
 interface CustomFeatureProperties {
     "kom_namn": string,
     "color": number,
@@ -42,7 +24,7 @@ type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
 
 export default function Map() {
-    const [regionData, setRegionData] = useState<GeoJsonObject | null>(null);
+    const [mapTiles, setMapTiles] = useState<GeoJsonObject | null>(null);
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
@@ -86,19 +68,27 @@ export default function Map() {
             };
         } else {
             return {
-                weight: 3,
-                opacity: 0.6,
-                fillOpacity: 0.2
+                fillColor: '#33CEFF',
+                weight: 2,
+                color: '#3368FF',
+                opacity: 0.4,
+                fillOpacity: 0.4
             }
         }
     }
 
     useEffect(() => {
-        const setData = async () => {
-            setRegionData(await fetchMunicipalityData())
+        const setTiles = async () => {
+            if (selectedOptionLoc == "Kommun") {
+                setMapTiles(await fetchMunicipalityData())
+            } else if (selectedOptionLoc == "Län") {
+                setMapTiles(await  fetchRegionData())
+            } else {
+                setMapTiles(await fetchMunicipalityData())
+            }
         }
-        setData()
-    })
+        setTiles()
+    }, [selectedOptionLoc])
 
     useEffect(() => {
         const setEventsOnType = async () => {
@@ -116,10 +106,10 @@ export default function Map() {
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                {(regionData) && (
+                {(mapTiles) && (
                     <GeoJSON
                         attribution={'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
-                        data={regionData}
+                        data={mapTiles}
                         style={(feature) => style(feature)}
                     />
                 )}
