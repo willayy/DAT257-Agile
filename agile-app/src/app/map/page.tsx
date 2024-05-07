@@ -27,6 +27,17 @@ type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
 
 export default function Map() {
+  /**
+ * Represents a map page displaying geographical data and crime statistics.
+ * 
+ * This page integrates with React and React Leaflet for rendering maps and GeoJSON data.
+ * It also provides functionality to fetch crime data and display it on the map.
+ * 
+ * @remarks
+ * This page is designed to display crime data overlaid on a map with options to view data
+ * at different geographical levels (e.g., municipalities, regions).
+ * 
+   */
     const [mapTiles, setMapTiles] = useState<GeoJsonObject | null>(null);
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
@@ -47,6 +58,13 @@ export default function Map() {
         return locationAmountDict;
     }
 
+    /**
+     * Determines the color style for rendering GeoJSON features based on the density of crime events.
+     * 
+     * @param density - The density of crime events.
+     * @returns The color code for rendering the feature.
+     */
+
     function getColor(density : number) {
         return (density > 6 ? '#b30000' :
             density > 5 ? '#e34a33' :
@@ -56,6 +74,7 @@ export default function Map() {
                             density > 1 ? '#fef0d9' :
                                 '#FFFFFF')
     }
+    
 
     const legendItems = [
         { color: '#b30000', label: '> 6 händelser' },
@@ -66,6 +85,13 @@ export default function Map() {
         { color: '#fef0d9', label: '2 händelser' },
         { color: '#FFFFFF', label: '1 händelser' },
       ];
+
+      /**
+     * Styling function for GeoJSON features based on crime data and selected location type.
+     * 
+     * @param feature - The GeoJSON feature to style.
+     * @returns The style object for rendering the feature.
+     */
 
     function style(feature: CustomFeature) {
         if (feature == null || locationAmountDict == null) {
@@ -103,6 +129,10 @@ export default function Map() {
         return {}
     }
 
+    /**
+     * Effect hook to fetch map tiles data based on the selected location type.
+     */
+
     useEffect(() => {
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
@@ -116,6 +146,10 @@ export default function Map() {
         setTiles()
     }, [selectedOptionLoc])
 
+    /**
+     * Effect hook to fetch crime data based on the selected crime type.
+     */
+
     useEffect(() => {
         const setEventsOnType = async () => {
             setLocationAmountDict(await getEventsOnType(selectedOptionCrime))
@@ -123,6 +157,9 @@ export default function Map() {
         setEventsOnType()
     }, [selectedOptionCrime])
 
+    /**
+     * Effect hook to update the GeoJSON layer when map tiles data changes.
+     */
     useEffect(() => {
         const layer = geoJsonLayerRef.current
         if (layer && mapTiles != null) {
@@ -132,6 +169,7 @@ export default function Map() {
     }, [mapTiles]);
 
     return (
+        // TSX and rendering details...
         <div className={styles.mapWrapper}>
             <MapContainer
                 center={[62.1282, 18.6435]}
