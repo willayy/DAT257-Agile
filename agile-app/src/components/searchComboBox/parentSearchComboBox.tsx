@@ -1,6 +1,7 @@
 "use client"
 
 import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
 import {getCrimeData} from "@/scripts/dataFetching";
@@ -37,6 +38,28 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         handleSelectCrime("");
         handleSelectLoc("")
     };
+
+    const [optionsCrime2, setOptionsCrime2] = useState<string[]>([]);
+
+    useEffect(() => {
+        const populateCrimeOptions = async () => {
+            const allCrimes: Crimes = await getCrimeData();
+            const uniqueCrimeTypes = new Set<string>(); // Creating a set to avoid duplicates, since no dupes in a set
+
+            allCrimes.forEach(crime => {
+                uniqueCrimeTypes.add(crime.type);
+            });
+
+            // Convert the Set back to an array and sort it alphabetically
+            const optionsCrime2 = Array.from(uniqueCrimeTypes).sort();
+            optionsCrime2.unshift(""); // Add an empty string as the first element
+            setOptionsCrime2(optionsCrime2);
+        };
+
+        populateCrimeOptions();
+    },[]);
+
+    console.log(optionsCrime2)
 
 
     /** list containing all the types of crimes that can be filtered on*/
