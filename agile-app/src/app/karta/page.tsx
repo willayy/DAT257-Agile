@@ -101,10 +101,18 @@ export default function Map() {
 
     return (
         <div className={styles.mapWrapper}>
-            <MapContainer center={[60.1282, 18.6435]} zoom={5} scrollWheelZoom={false} style={{height: '91vh'}}>
+            <MapContainer
+                center={[62.1282, 18.6435]}
+                zoom={5}
+                minZoom={5}
+                scrollWheelZoom={true}
+                style={{height: '91vh'}}
+                maxBounds={[[70.007779, 2.403012], [52.194064, 32.681995]]}
+                maxBoundsViscosity={0.0}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    bounds={[[70.007779, 2.403012], [52.194064, 32.681995]]}
                 />
                 {(mapTiles) && (
                     <GeoJSON
