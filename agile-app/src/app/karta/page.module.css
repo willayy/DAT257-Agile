@@ -3,6 +3,7 @@
 .parentMapContainer {
     height: 180px;
     width: 200px;
+    position: relative;
 }
 
 .leaflet-container {
@@ -23,4 +24,12 @@
     z-index: 10000;
     border-radius: 15px;
     border: 2px solid rgba(60, 60, 60, 0.5) ;
+}
+
+.legends {
+    position: absolute;
+     /* Adjust this value as needed */
+    left: 10px; /* Adjust this value as needed */
+    z-index: 1000;
+    bottom: 50vh;
 }
