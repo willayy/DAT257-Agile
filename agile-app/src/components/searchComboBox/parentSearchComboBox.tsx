@@ -3,6 +3,10 @@
 import React, {useState} from 'react'
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
+import {getCrimeData} from "@/scripts/dataFetching";
+import {CrimeData} from "@/scripts/dataFetching";
+
+type Crimes = CrimeData[]
 
 /**
  * The data passed to the component must follow the interface ParentSearchComboBoxProps found below
