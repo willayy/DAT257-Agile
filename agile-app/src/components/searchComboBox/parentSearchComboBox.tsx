@@ -382,10 +382,20 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         <div className={styles.outerContainer}>
             <div className={styles.container}>
                 <div className={styles.innerContainer}>
-                    <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} selectedOption={selectedOptionLoc} />
+                    <SearchComboBox
+                        title="Filtrera på kommun eller län: "
+                        options={optionsLoc}
+                        onSelect={handleSelectLoc}
+                        selectedOption={selectedOptionLoc}
+                    />
                 </div>
                 <div className={styles.innerContainer} > 
-                    <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
+                    <SearchComboBox
+                        title="Filtrera på brottstyp: "
+                        options={optionsCrime}
+                        onSelect={handleSelectCrime}
+                        selectedOption={selectedOptionCrime}
+                    />
                 </div>
                 <button className={styles.button} onClick={resetChoices}>Återställ val</button>
             </div>
