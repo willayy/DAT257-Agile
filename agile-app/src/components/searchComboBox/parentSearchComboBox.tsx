@@ -6,6 +6,9 @@ import styles from './searchComboBox.module.css'
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
 
+/**
+ * Types the list Crimes to have all elements follow the CrimeData interface in dataFetching.js
+ * */
 type Crimes = CrimeData[]
 
 /**
@@ -41,6 +44,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
     const [optionsCrime, setOptionsCrime] = useState<string[]>([]);
 
     useEffect(() => {
+        /** Function that populates the optionsCrime list with all crimes types in the reported crime */
         const populateCrimeOptions = async () => {
             const allCrimes: Crimes = await getCrimeData();
             const uniqueCrimeTypes = new Set<string>(); // Creating a set to avoid duplicates, since no dupes in a set
