@@ -8,22 +8,29 @@
 
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
-const dataFolder = "agile-app/src/scripts/data/";
-let lastFetchDate: Date = new Date("2021-01-01");
-let fetchInterval: number = 1000 * 10 * 6; // 60 seconds
+const dataFolder = "agile-app//src//scripts//data//";
+let fetchInterval: number = 61; // 61 seconds to comply with the API rate limit of 60
 let currentDate: Date | null = null;
 let sixMonthsAgo: Date | null = null;
+let toBeFetched = getNextFetchDate();
+let lastFetchDate = new Date("2021-01-01T00:00:00.000Z");
 
 function updateDate() {
     currentDate = new Date();
-    sixMonthsAgo = new Date(currentDate.getFullYear(), currentDate.getMonth() - 6, currentDate.getDate());
+    sixMonthsAgo = new Date(currentDate);
+    sixMonthsAgo.setMonth(currentDate.getMonth() - 6);
 }
 
-function getLastFetchDate() {
-    const files = fs.readdirSync(dataFolder);
-    files.forEach((file: string) => {
-
-    });
+function getNextFetchDate() {
+    const files = fs.readdirSync(dataFolder)
+    if (files.length == 0) {
+        return new Date()
+    }
+    let recentFetchInData = files[0]
+    recentFetchInData = recentFetchInData.replace(".json", "")
+    let date = new Date(recentFetchInData)
+    date.setDate(date.getDate() - 1)
+    return date
 }
 
 function pruneData() {
@@ -41,26 +48,7 @@ function pruneData() {
     });
 }
 
-async function fetchData(date: String) {
-    
-    // Get the current date minus the fetch interval seconds,
-    // if this date is greater than the last fetch date, fetch new data
-    
-    let fetchDate = new Date(new Date().getTime() - fetchInterval)
-
-    console.log("Last fetch date: " + lastFetchDate);
-    console.log("Fetch date: " + fetchDate);
-
-    while (lastFetchDate > fetchDate) {
-        console.log("Denied");
-
-
-    }
-
-    console.log("Fetching data");
-
-    // Update the last fetch date
-    lastFetchDate = new Date();
+async function fetchFromApiAndWrite(date: string) {
 
     // Fetch a response from the URL
     const res = await fetch(url + "?DateTime=" + date);
@@ -74,36 +62,39 @@ async function fetchData(date: String) {
     // Parse the JSON to a string
     const fileContent = JSON.stringify(jsonData, null, 2);
     // Write the string to a file named with the current date
-    const fileName = dataFolder + new Date().toISOString() + ".json";
+    const fileName = dataFolder + date + ".json";
     fs.writeFile(fileName, fileContent, function(err: Error) {
         if(err) { return console.log(err) }
+    });
+    lastFetchDate = new Date();
+}
+
+function fetchDataCheck(date: string) {
+    
+    // Get the current date minus the fetch interval seconds,
+    // if this date is greater than the last fetch date, fetch new data
+    
+    let okFetchDate = lastFetchDate
+    okFetchDate.setSeconds(okFetchDate.getSeconds() - fetchInterval);
+
+    console.log("Fetching date: " + okFetchDate.toISOString().split("T")[0]);
+
+    if (lastFetchDate > okFetchDate) {
+        console.log("Denied");
+        return;
+    }
+
+    console.log("Fetching data");
+    fetchFromApiAndWrite(date).then(() => {
+        console.log("Data fetched");
+        // Decrease the date to fetch by one day
+        toBeFetched.setDate(toBeFetched.getDate() - 1);
     });
 }
 
 console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
 
-let toBeFetched = new Date();
-let newCurrentDate = new Date();
-let newSixMonthsAgo: Date = new Date(newCurrentDate.getFullYear(), newCurrentDate.getMonth() - 6, newCurrentDate.getDate());
-var toBeFetchedString = toBeFetched.toISOString().split("T")[0];
-
-while (toBeFetched > newSixMonthsAgo) {
-    
-
-    console.log("Fetching data for: " + toBeFetched.toISOString());
-    toBeFetched.setDate(toBeFetched.getDate() - 1);
-    toBeFetchedString = toBeFetched.toISOString().split("T")[0];
-    updateDate();
-    fetchData(toBeFetchedString);
-    
-}
-
-for (let i = 0; i < 3; i++) {
-    //updateDate();
-    //fetchData("2024-01-0"+i);
-}
-
-
-
-
-
+updateDate()
+console.log(currentDate)
+console.log(sixMonthsAgo)
+console.log(toBeFetched)
