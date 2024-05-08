@@ -8,7 +8,7 @@
 
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
-const dataFolder = "agile-app//src//scripts//data//";
+const dataFolder = "agile-app/src/scripts/data/";
 let fetchInterval: number = 61; // 61 seconds to comply with the API rate limit of 60
 let currentDate: Date | null = null;
 let sixMonthsAgo: Date | null = null;
