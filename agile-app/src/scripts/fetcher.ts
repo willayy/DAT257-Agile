@@ -9,10 +9,8 @@
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
 const dataFolder = "agile-app/src/scripts/data/";
-let lastFetchDate: Date = new Date();
-lastFetchDate.setFullYear(0); // Set the date to 0 to force a fetch
+let lastFetchDate: Date = new Date("2021-01-01");
 let fetchInterval: number = 1000 * 10 * 6; // 60 seconds
-let prune: boolean = false;
 let currentDate: Date | null = null;
 let sixMonthsAgo: Date | null = null;
 
@@ -43,25 +41,32 @@ function pruneData() {
     });
 }
 
-async function fetchData() {
+async function fetchData(date: String) {
     
     // Get the current date minus the fetch interval seconds,
     // if this date is greater than the last fetch date, fetch new data
+    
     let fetchDate = new Date(new Date().getTime() - fetchInterval)
 
-    if (lastFetchDate < fetchDate) {
+    console.log("Last fetch date: " + lastFetchDate);
+    console.log("Fetch date: " + fetchDate);
+
+    if (lastFetchDate > fetchDate) {
+        console.log("Denied");
         return;
     }
 
+    console.log("Fetching data");
+
+    // Update the last fetch date
+    lastFetchDate = new Date();
+
     // Fetch a response from the URL
-    const res = await fetch(url);
+    const res = await fetch(url + "?DateTime=" + date);
 
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
     }
-
-    // Update the last fetch date
-    lastFetchDate = new Date();
 
     // Parse the response to JSON
     const jsonData = await res.json();
@@ -76,8 +81,10 @@ async function fetchData() {
 
 console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
 
-updateDate();
-fetchData();
-fetchData();
-fetchData();
+for (let i = 0; i < 3; i++) {
+    updateDate();
+    fetchData("2024-01-0"+i);
+}
+
+
 
