@@ -9,7 +9,8 @@
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
 const dataFolder = "agile-app/src/scripts/data/";
-let lastFetchDate: Date | null = null;
+let lastFetchDate: Date = new Date();
+lastFetchDate.setFullYear(0); // Set the date to 0 to force a fetch
 let fetchInterval: number = 1000 * 10 * 6; // 60 seconds
 let prune: boolean = false;
 let currentDate: Date | null = null;
@@ -48,10 +49,8 @@ async function fetchData() {
     // if this date is greater than the last fetch date, fetch new data
     let fetchDate = new Date(new Date().getTime() - fetchInterval)
 
-    if (lastFetchDate != null) {
-        if (fetchDate <= lastFetchDate!) {
-            return;
-        }
+    if (lastFetchDate < fetchDate) {
+        return;
     }
 
     // Fetch a response from the URL
