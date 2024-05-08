@@ -51,9 +51,10 @@ async function fetchData(date: String) {
     console.log("Last fetch date: " + lastFetchDate);
     console.log("Fetch date: " + fetchDate);
 
-    if (lastFetchDate > fetchDate) {
+    while (lastFetchDate > fetchDate) {
         console.log("Denied");
-        return;
+
+
     }
 
     console.log("Fetching data");
@@ -81,10 +82,28 @@ async function fetchData(date: String) {
 
 console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
 
-for (let i = 0; i < 3; i++) {
+let toBeFetched = new Date();
+let newCurrentDate = new Date();
+let newSixMonthsAgo: Date = new Date(newCurrentDate.getFullYear(), newCurrentDate.getMonth() - 6, newCurrentDate.getDate());
+var toBeFetchedString = toBeFetched.toISOString().split("T")[0];
+
+while (toBeFetched > newSixMonthsAgo) {
+    
+
+    console.log("Fetching data for: " + toBeFetched.toISOString());
+    toBeFetched.setDate(toBeFetched.getDate() - 1);
+    toBeFetchedString = toBeFetched.toISOString().split("T")[0];
     updateDate();
-    fetchData("2024-01-0"+i);
+    fetchData(toBeFetchedString);
+    
 }
+
+for (let i = 0; i < 3; i++) {
+    //updateDate();
+    //fetchData("2024-01-0"+i);
+}
+
+
 
 
 
