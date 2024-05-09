@@ -45,9 +45,11 @@ export async function getLastFiveHundred() {
 }
 
 export async function getCrimeData() {
-  const res = await fetch("/data");
-  let fetchedData = await res.json();
-  let fetchedCrimeData: CrimeData[] = JSON.parse(fetchedData);
-  return fetchedCrimeData;
+    const response = await fetch("http://localhost:3000/api/json", {
+        cache: "no-cache",
+    });
+    const data = await response.json();
+    let fetchedCrimeData: CrimeData[] = JSON.parse(data);
+    return fetchedCrimeData;
 }
 
