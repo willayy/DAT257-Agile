@@ -9,26 +9,26 @@
 
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
-const dataFolder = "agile-app/src/scripts/data/";
-const fileSet = new Set<String>()
-let dateToFetch = new Date();
+const dataFolder: string = "agile-app/src/scripts/data/";
+const fileSet: Set<String> = new Set<String>()
+let dateToFetch: Date = new Date();
 let fetchInterval: number = 60; // 61 seconds to comply with the API rate limit of 60
 let currentDate: Date | null = null;
 let sixMonthsAgo: Date | null = null;
-let lastApiCall = new Date("2021-01-01T00:00:00.000Z");
-let iteration = 0;
+let lastApiCall: Date = new Date("2021-01-01T00:00:00.000Z");
+let iteration: number = 0;
 
-function sleep(ms: number) {
+function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function updateCurrentDate() {
+function updateCurrentDate(): void {
     currentDate = new Date();
     sixMonthsAgo = new Date(currentDate);
     sixMonthsAgo.setMonth(currentDate.getMonth() - 6);
 }
 
-function readSavedFiles() {
+function readSavedFiles(): void {
     const files = fs.readdirSync(dataFolder) 
     files.forEach((file: string) => {
         fileSet.add(file)
@@ -48,8 +48,9 @@ function getNextFetchDate(): string | null {
     return null
 }
 
-function pruneData() {
+function pruneData(): void {
     // Read in files from the data folder
+    console.log("Pruning data older than six months")
     const files = fs.readdirSync(dataFolder);
     files.forEach((file: string) => {
         const fileDate = new Date(file.replace(".json", "")); // Parse the date from the file name
@@ -61,7 +62,11 @@ function pruneData() {
     });
 }
 
-async function fetchFromApiAndWrite(date: string) {
+function validateTodaysDate(date: string): boolean {
+    // TODO: Implement
+}
+
+async function fetchFromApiAndWrite(date: string): Promise<void> {
 
     lastApiCall = new Date();
 
@@ -103,11 +108,11 @@ function canCallApi(): boolean {
     }
 }
 
-async function main() {
+async function main(): Promise<void> {
     console.log("---------------------------------------------------------")
     console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
     console.log("---------------------------------------------------------")
-    
+
     readSavedFiles()
 
     while (true) {
@@ -121,6 +126,8 @@ async function main() {
             let nextFetchDate = getNextFetchDate()
             if (nextFetchDate != null) {
                 await fetchFromApiAndWrite(nextFetchDate)
+            } else {
+                
             }
         }
 
