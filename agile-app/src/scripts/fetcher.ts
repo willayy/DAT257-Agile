@@ -62,8 +62,8 @@ function pruneData(): void {
     });
 }
 
-function validateTodaysDate(date: string): boolean {
-    // TODO: Implement
+function validateTodaysDate(date: string): void {
+    
 }
 
 async function fetchFromApiAndWrite(date: string): Promise<void> {
