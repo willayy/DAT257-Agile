@@ -1,5 +1,41 @@
 [
   {
+    "id": 521971,
+    "datetime": "2024-05-09 11:06:21 +02:00",
+    "name": "09 maj 09.33, Trafikkontroll, Karlstad",
+    "summary": "En bilist är misstänkt för brott",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-09.33-trafikkontroll-karlstad/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 521970,
+    "datetime": "2024-05-09 10:57:58 +02:00",
+    "name": "09 maj 06.21, Brand, Örkelljunga",
+    "summary": "Brand i villa",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-06.21-brand-orkelljunga/",
+    "type": "Brand",
+    "location": {
+      "name": "Örkelljunga",
+      "gps": "56.283635,13.278832"
+    }
+  },
+  {
+    "id": 521968,
+    "datetime": "2024-05-09 10:34:12 +02:00",
+    "name": "09 maj 10.33, Stöld/inbrott, Jönköping",
+    "summary": "Inbrott i klädbutik i Huskvarna.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-10.33-stoldinbrott-jonkoping/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Jönköping",
+      "gps": "57.782614,14.161788"
+    }
+  },
+  {
     "id": 521967,
     "datetime": "2024-05-09 10:04:48 +02:00",
     "name": "09 maj 07.09, Arbetsplatsolycka, Gävle",
