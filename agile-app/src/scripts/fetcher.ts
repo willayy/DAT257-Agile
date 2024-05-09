@@ -62,10 +62,6 @@ function pruneData(): void {
     });
 }
 
-function validateTodaysDate(date: string): void {
-    
-}
-
 async function fetchFromApiAndWrite(date: string): Promise<void> {
 
     lastApiCall = new Date();
@@ -119,7 +115,6 @@ async function main(): Promise<void> {
 
         if (iteration % 100 == 0) {
             updateCurrentDate()
-            pruneData()
         }
 
         if (canCallApi()) {
@@ -127,7 +122,11 @@ async function main(): Promise<void> {
             if (nextFetchDate != null) {
                 await fetchFromApiAndWrite(nextFetchDate)
             } else {
-                
+                console.log("Pruning data older than six months")
+                pruneData()
+                console.log("Revalidating todays json file")
+                let today = new Date().toISOString().split("T")[0]
+                await fetchFromApiAndWrite(today)
             }
         }
 
