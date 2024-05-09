@@ -4,38 +4,51 @@
  * in the data folder.
  */
 
+
 // Run with: npx ts-node agile-app/src/scripts/fetcher.ts
 
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
 const dataFolder = "agile-app/src/scripts/data/";
-let fetchInterval: number = 61; // 61 seconds to comply with the API rate limit of 60
+const fileSet = new Set<String>()
+let dateToFetch = new Date();
+let fetchInterval: number = 60; // 61 seconds to comply with the API rate limit of 60
 let currentDate: Date | null = null;
 let sixMonthsAgo: Date | null = null;
-let toBeFetched = getNextFetchDate();
-let lastFetchDate = new Date("2021-01-01T00:00:00.000Z");
+let lastApiCall = new Date("2021-01-01T00:00:00.000Z");
+let iteration = 0;
 
-function updateDate() {
+function sleep(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function updateCurrentDate() {
     currentDate = new Date();
     sixMonthsAgo = new Date(currentDate);
     sixMonthsAgo.setMonth(currentDate.getMonth() - 6);
 }
 
-function getNextFetchDate() {
-    const files = fs.readdirSync(dataFolder)
-    if (files.length == 0) {
-        return new Date()
+function readSavedFiles() {
+    const files = fs.readdirSync(dataFolder) 
+    files.forEach((file: string) => {
+        fileSet.add(file)
+    })
+}
+
+function getNextFetchDate(): string | null {
+    while (dateToFetch >= sixMonthsAgo!) {
+        let fileName = dateToFetch.toISOString().split("T")[0] + ".json" 
+        if (!fileSet.has(fileName)) {
+            fileSet.add(fileName)
+            return fileName.replace(".json", "")
+        }
+        dateToFetch.setDate(dateToFetch.getDate() - 1)
     }
-    let recentFetchInData = files[0]
-    recentFetchInData = recentFetchInData.replace(".json", "")
-    let date = new Date(recentFetchInData)
-    date.setDate(date.getDate() - 1)
-    return date
+    console.log("No more JSON to fetch from API")
+    return null
 }
 
 function pruneData() {
-    // Update the dates
-    updateDate();
     // Read in files from the data folder
     const files = fs.readdirSync(dataFolder);
     files.forEach((file: string) => {
@@ -50,8 +63,10 @@ function pruneData() {
 
 async function fetchFromApiAndWrite(date: string) {
 
+    lastApiCall = new Date();
+
     // Fetch a response from the URL
-    const res = await fetch(url + "?DateTime=" + date);
+    const res = await (await fetch(url + "?DateTime=" + date))
 
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
@@ -65,36 +80,54 @@ async function fetchFromApiAndWrite(date: string) {
     const fileName = dataFolder + date + ".json";
     fs.writeFile(fileName, fileContent, function(err: Error) {
         if(err) { return console.log(err) }
+        console.log("The file " + fileName + " was saved!");
+        console.log("---------------------------------------------------------")
     });
-    lastFetchDate = new Date();
 }
 
-function fetchDataCheck(date: string) {
+function canCallApi(): boolean {
     
-    // Get the current date minus the fetch interval seconds,
-    // if this date is greater than the last fetch date, fetch new data
-    
-    let okFetchDate = lastFetchDate
-    okFetchDate.setSeconds(okFetchDate.getSeconds() - fetchInterval);
+    let currentDate = new Date();
+    let okFetchDate = new Date(lastApiCall);
+    okFetchDate.setSeconds(okFetchDate.getSeconds() + fetchInterval);
 
-    console.log("Fetching date: " + okFetchDate.toISOString().split("T")[0]);
+    console.log("Checking if allowed to call API, last call: " + lastApiCall.toISOString() + ", now: " + (new Date()).toISOString());
 
-    if (lastFetchDate > okFetchDate) {
+    if (currentDate < okFetchDate) {
         console.log("Denied");
-        return;
+        console.log("---------------------------------------------------------")
+        return false;
+    } else {
+        console.log("Allowed");
+        return true;
     }
-
-    console.log("Fetching data");
-    fetchFromApiAndWrite(date).then(() => {
-        console.log("Data fetched");
-        // Decrease the date to fetch by one day
-        toBeFetched.setDate(toBeFetched.getDate() - 1);
-    });
 }
 
-console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
+async function main() {
+    console.log("---------------------------------------------------------")
+    console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
+    console.log("---------------------------------------------------------")
+    
+    readSavedFiles()
 
-updateDate()
-console.log(currentDate)
-console.log(sixMonthsAgo)
-console.log(toBeFetched)
+    while (true) {
+
+        if (iteration % 100 == 0) {
+            updateCurrentDate()
+            pruneData()
+        }
+
+        if (canCallApi()) {
+            let nextFetchDate = getNextFetchDate()
+            if (nextFetchDate != null) {
+                await fetchFromApiAndWrite(nextFetchDate)
+            }
+        }
+
+        await sleep(61000);
+
+        iteration++;
+    }
+}
+
+main()
