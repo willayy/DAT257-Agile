@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import EventCard from "@/components/eventCard/eventCard";
 import styles from './listView.module.css'
-import { getCrimeData } from "@/scripts/dataFetching";
+import { getCrimeData, getLastFiveHundred} from "@/scripts/dataFetching";
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import DatePickerBox from '../datePicker/datePickerBox';
 import {CrimeData} from "@/scripts/dataFetching";
@@ -38,7 +38,7 @@ export default function ListView() {
         // Function that filters the data based on the selected options from the user
         const filterAndSetData = async () => {
 
-            let filteredData: Crimes = await getCrimeData();
+            let filteredData: Crimes = await getCrimeData()
             
             if (selectedOptionCrime !== "") {
                 filteredData = filteredData.filter(item => item.type === selectedOptionCrime);

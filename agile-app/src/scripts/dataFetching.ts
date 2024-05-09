@@ -37,18 +37,9 @@ export async function getCrimeData(): Promise<CrimeData[]>{
 }
 
 export async function getCrimeData() {
-    const res = await fetch("/data",
-      // Sends a JSON object as a POST request to the server.
-      {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ "query": "crime" }),
-      }
-  );
+  const res = await fetch("/data");
   let fetchedData = await res.json();
-  console.log(fetchedData);
-  return fetchedData;
+  let fetchedCrimeData: CrimeData[] = JSON.parse(fetchedData);
+  return fetchedCrimeData;
 }
 
