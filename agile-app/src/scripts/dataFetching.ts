@@ -3,6 +3,8 @@ import path from "path";
 import { promises as fs } from 'fs';
 import { GetServerSideProps } from "next";
 
+
+const dataFolder: string = "agile-app/src/scripts/data/";
 // Interface for storing the data fetched from the API
 export interface CrimeData {
     id: number;
@@ -29,33 +31,14 @@ export async function getCrimeData(): Promise<CrimeData[]>{
     }
     const jsonData = await res.json()
     const stringData = JSON.stringify(jsonData, null, 2);
-    const fetchedCrimeData: CrimeData[] = await JSON.parse(stringData);
-    return fetchedCrimeData;
+    const crimeDataArray: CrimeData[] = JSON.parse(stringData);
+
+    return crimeDataArray;
 }
 
-// Array of strings for the crimeOptions
-let crimeTypes: string[] = [];
-
-/** Function that populates crimeOptions array */
-const populateCrimeOptions = async () => {
-    const allCrimes: CrimeData[] = await getCrimeData();
-    const uniqueCrimeTypes = new Set<string>(); /** Using a set to avoid duplicates */
-
-    allCrimes.forEach(crime => {
-        uniqueCrimeTypes.add(crime.type);
-    });
-
-    crimeTypes = Array.from(uniqueCrimeTypes).sort();
-    crimeTypes.unshift(""); /** Adds an empty string as the first element */
-};
-
-populateCrimeOptions();
-
-/** Function that returns the crimeOptions after it's populated
- * @returns crimeTypes - Array of crime types */
-export const getUniqueCrimeTypes = () => {
-    return crimeTypes;
-};
+export async function getCrimeData() { 
+    
+}
 
 export const getServerSideProps: GetServerSideProps = async () => {
     const files = await fs.readdir(process.cwd() + dataFolder, 'utf8');
