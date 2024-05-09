@@ -1,9 +1,3 @@
-import { each } from "chart.js/helpers";
-import path from "path";
-import { promises as fs } from 'fs';
-import { GetServerSideProps } from "next";
-
-
 const dataFolder: string = "agile-app/src/scripts/data/";
 // Interface for storing the data fetched from the API
 export interface CrimeData {
@@ -50,23 +44,19 @@ export async function getLastFiveHundred() {
     return crimeDataArray;
 }
 
-export async function getCrimeData() { 
-    
+export async function getCrimeData() {
+    const res = await fetch("/data",
+      // Sends a JSON object as a POST request to the server.
+      {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ "query": "crime" }),
+      }
+  );
+  let fetchedData = await res.json();
+  console.log(fetchedData);
+  return fetchedData;
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
-    const files = await fs.readdir(process.cwd() + dataFolder, 'utf8');
-    let crimeDataArray: CrimeData[] = [];
-    
-    for (const file of files) {
-        const filePath = path.join(dataFolder, file);
-        const fileData = await fs.readFile(filePath, "utf-8");
-        const jsonData = JSON.parse(fileData);
-        crimeDataArray = crimeDataArray.concat(jsonData);
-    }
-    return {
-        props: {
-            crimeDataArray
-        }
-    };
-}
