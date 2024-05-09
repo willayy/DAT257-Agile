@@ -1,32 +1,23 @@
+import { promises as fs } from 'fs';
 import { NextResponse } from 'next/server';
 import path from 'path';
-import { CrimeData } from "@/scripts/dataFetching"  ;
+
 
 const dataFolderPath: string = "agile-app/src/scripts/data/"
-const fs = require('fs');
 
-export async function POST(request: Request) {
 
-    const { text: query } = await request.json();
-
-    if (!query) {
-        return NextResponse.json("Query not provided");
-    }
+export async function GET() {
 
     try {
         const files = await fs.readdir(dataFolderPath);
-        let combinedData;
-
-        for (const file of files) {
-            const filePath = path.join(dataFolderPath, file);
+        
+        // for (const file of files) {
+            const filePath = dataFolderPath + files[0];
             const fileData = await fs.readFile(filePath, 'utf-8');
-            const jsonData = JSON.parse(fileData);
-            combinedData = jsonData.stringify()
-        }
-
-        return NextResponse.json(combinedData);
+            return NextResponse.json(fileData);
+        // }
     } 
     catch (error) {
-        return NextResponse.json("An error occured" + error);
+      return NextResponse.json(error);
     }
 }
