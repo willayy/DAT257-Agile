@@ -2,7 +2,11 @@
  * This file contains code for the data fetching sub-program.
  * While running it continously fetches data from the Polisen API and stores it in .json files
  * in the data folder.
- */
+ * 
+ * The script WONT fetch data older than six months, and it will prune data older than six months.
+ * The script WONT violate the API rate limit of 10 secondd between each call ,60 calls per hour, 1440 calls per day.
+ * The script WILL revalidate todays date when there is no more data to fetch (according to our set six month limit).
+*/
 
 
 // Run with: npx ts-node agile-app/src/scripts/fetcher.ts
@@ -18,16 +22,24 @@ let sixMonthsAgo: Date | null = null;
 let lastApiCall: Date = new Date("2021-01-01T00:00:00.000Z");
 let iteration: number = 0;
 
+/**
+ * Sleeps for the given amount of milliseconds
+ * @param ms the amount of milliseconds to sleep for
+ * @returns a promise that resolves after the given amount of milliseconds */
 function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+/**
+ * Updates the current date and six months ago date */
 function updateCurrentDate(): void {
     currentDate = new Date();
     sixMonthsAgo = new Date(currentDate);
     sixMonthsAgo.setMonth(currentDate.getMonth() - 6);
 }
 
+/**
+ * Reads the files in the data folder and adds them to the file set */
 function readSavedFiles(): void {
     const files = fs.readdirSync(dataFolder) 
     files.forEach((file: string) => {
@@ -35,6 +47,9 @@ function readSavedFiles(): void {
     })
 }
 
+/**
+ * Returns the next date to fetch data for.
+ * @returns the next date string to be fetched from the api or null if the time limit has been reached */
 function getNextFetchDate(): string | null {
     while (dateToFetch >= sixMonthsAgo!) {
         let fileName = dateToFetch.toISOString().split("T")[0] + ".json" 
@@ -48,13 +63,15 @@ function getNextFetchDate(): string | null {
     return null
 }
 
+/**
+ * Prunes data older than six months from the data folder */
 function pruneData(): void {
     // Read in files from the data folder
     console.log("Pruning data older than six months")
     const files = fs.readdirSync(dataFolder);
     files.forEach((file: string) => {
         const fileDate = new Date(file.replace(".json", "")); // Parse the date from the file name
-        if (fileDate < sixMonthsAgo!) {
+        if (fileDate <= sixMonthsAgo!) {
             fs.unlink(dataFolder + file, function(err: Error) {
                 if(err) { return console.log(err) }
             });
@@ -62,6 +79,9 @@ function pruneData(): void {
     });
 }
 
+/**
+ * Fetches data from the Polisen API and writes it to a file
+ * @param date the date to fetch data for */
 async function fetchFromApiAndWrite(date: string): Promise<void> {
 
     lastApiCall = new Date();
@@ -86,6 +106,9 @@ async function fetchFromApiAndWrite(date: string): Promise<void> {
     });
 }
 
+/**
+ * Checks if the API can be called based on the last call date and the fetch interval
+ * @returns true if the API can be called, false otherwise */
 function canCallApi(): boolean {
     
     let currentDate = new Date();
@@ -104,6 +127,8 @@ function canCallApi(): boolean {
     }
 }
 
+/**
+ * Main function of the program, runs the fetcher logic loop*/
 async function main(): Promise<void> {
     console.log("---------------------------------------------------------")
     console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
@@ -113,16 +138,19 @@ async function main(): Promise<void> {
 
     while (true) {
 
+        // Every 100th iteration update the current date state of the program
         if (iteration % 100 == 0) {
             updateCurrentDate()
+            console.log("Updated current date to: " + currentDate!.toISOString())
+            console.log("Updated six months ago to: " + sixMonthsAgo!.toISOString())
         }
 
+        // if the api can be called, either fetch new data or revalidate todays data
         if (canCallApi()) {
             let nextFetchDate = getNextFetchDate()
             if (nextFetchDate != null) {
                 await fetchFromApiAndWrite(nextFetchDate)
             } else {
-                console.log("Pruning data older than six months")
                 pruneData()
                 console.log("Revalidating todays json file")
                 let today = new Date().toISOString().split("T")[0]
@@ -130,7 +158,8 @@ async function main(): Promise<void> {
             }
         }
 
-        await sleep(61000);
+        // Sleep for 60 seconds, its unnecessary to call the API more often since the call limit wont allow it
+        await sleep(60000);
 
         iteration++;
     }
