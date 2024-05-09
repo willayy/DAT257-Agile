@@ -1,3 +1,7 @@
+import { each } from "chart.js/helpers";
+import path from "path";
+import { promises as fs } from 'fs';
+import { GetServerSideProps } from "next";
 
 // Interface for storing the data fetched from the API
 export interface CrimeData {
@@ -13,35 +17,20 @@ export interface CrimeData {
     }
 }
 
-// Configs for the data fetch
-const url: URL = new URL("https://polisen.se/api/events");
-const fetchingTimeframe = 60; // This is the timeframe in seconds that the data is cached for
-
 /**
- * Async function that tries to fetch data from the specified URL,
- * if the time since the last call is less than the number of allowed calls per hour
- * the cached data is returned instead.
- * 
- * To use this function in a react component function you need to mark the function as async
- * 
+ * Function that fetches data from a server side API endpoint.
+ * To use this function in a react component function you need to mark the component function as async.
  * @throws Error - If the fetch request fails
- * 
  * @returns crimeDataArray - Array of crime data */
-export async function getCrimeData() {
-
-    // Fetch a response from the URL
-    const res = await fetch(url,{next: {revalidate: fetchingTimeframe}});
-
+export async function getCrimeData(): Promise<CrimeData[]>{
+    const res = await fetch("http://localhost:3000/api/json", { cache: 'no-store' });
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
     }
-
-    // Parse the response to JSON and then into a CrimeData array
-    const jsonData = await res.json();
+    const jsonData = await res.json()
     const stringData = JSON.stringify(jsonData, null, 2);
-    const crimeDataArray: CrimeData[] = JSON.parse(stringData);
-
-    return crimeDataArray;
+    const fetchedCrimeData: CrimeData[] = await JSON.parse(stringData);
+    return fetchedCrimeData;
 }
 
 // Array of strings for the crimeOptions
@@ -67,3 +56,20 @@ populateCrimeOptions();
 export const getUniqueCrimeTypes = () => {
     return crimeTypes;
 };
+
+export const getServerSideProps: GetServerSideProps = async () => {
+    const files = await fs.readdir(process.cwd() + dataFolder, 'utf8');
+    let crimeDataArray: CrimeData[] = [];
+    
+    for (const file of files) {
+        const filePath = path.join(dataFolder, file);
+        const fileData = await fs.readFile(filePath, "utf-8");
+        const jsonData = JSON.parse(fileData);
+        crimeDataArray = crimeDataArray.concat(jsonData);
+    }
+    return {
+        props: {
+            crimeDataArray
+        }
+    };
+}
