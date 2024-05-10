@@ -1,15 +1,8 @@
 "use client"
 
-import React, {useEffect, useState} from 'react'
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
-import {getCrimeData} from "@/scripts/dataFetching";
-import {CrimeData} from "@/scripts/dataFetching";
-
-/**
- * Types the list Crimes to have all elements follow the CrimeData interface in dataFetching.js
- * */
-type Crimes = CrimeData[]
+import {getUniqueCrimeTypes} from "@/scripts/dataFetching";
 
 /**
  * The data passed to the component must follow the interface ParentSearchComboBoxProps found below
