@@ -8,7 +8,6 @@
  * The script WILL revalidate todays date when there is no more data to fetch (according to our set six month limit).
 */
 
-
 // Run with: npx ts-node agile-app/src/scripts/fetcher.ts
 
 const url: URL = new URL("https://polisen.se/api/events");
@@ -127,9 +126,30 @@ function canCallApi(): boolean {
     }
 }
 
+interface CrimeData {
+    id: number;
+    datetime: string;
+    name: string;
+    summary: string;
+    url: string;
+    type: string;
+    location: {
+        name: string
+        gps: string
+    }
+}
+
 /**
  * Main function of the program, runs the fetcher logic loop*/
-async function main(): Promise<void> {
+async function main() {
+
+    const res = await fetch("http://localhost:3000/api/json");
+    const jsonData = await res.json()
+    const stringData = JSON.stringify(jsonData, null, 2);
+    const fetchedCrimeData: CrimeData[] = await JSON.parse(stringData);
+    fs.writeFileSync(dataFolder + "fetched.json", fetchedCrimeData, null, 2);
+    console.log("");
+
     console.log("---------------------------------------------------------")
     console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
     console.log("---------------------------------------------------------")

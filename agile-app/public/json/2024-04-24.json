@@ -1,0 +1,1106 @@
+[
+  {
+    "id": 519108,
+    "datetime": "2024-04-24 20:31:00 +02:00",
+    "name": "24 april 18.32, Övrigt, Stockholm",
+    "summary": "Polis larmas till ett möte i Gubbängen.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-18.32-ovrigt-stockholm/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 519156,
+    "datetime": "2024-04-25 8:19:39 +02:00",
+    "name": "24 april 22.54, Trafikolycka, smitning från, Stockholm",
+    "summary": "Cyklist påkörd av smitare i Högdalen.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-22.54-trafikolycka-smitning-fran-stockholm/",
+    "type": "Trafikolycka, smitning från",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 519114,
+    "datetime": "2024-04-24 21:38:09 +02:00",
+    "name": "24 april 21.27, Brand, Malmö",
+    "summary": "Brand i garage, Spillepengen.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-21.27-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 519119,
+    "datetime": "2024-04-24 23:44:38 +02:00",
+    "name": "24 april 23.43, Misshandel, Sölvesborg",
+    "summary": "Kvinna gripen, Sölvesborg.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-23.43-misshandel-solvesborg/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Sölvesborg",
+      "gps": "56.053743,14.579688"
+    }
+  },
+  {
+    "id": 519118,
+    "datetime": "2024-04-24 22:58:36 +02:00",
+    "name": "24 april 20.11, Djur, Malmö",
+    "summary": "Omhändertagna hundar, Kirseberg.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-20.11-djur-malmo/",
+    "type": "Djur",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 519117,
+    "datetime": "2024-04-24 22:51:49 +02:00",
+    "name": "24 april 22.49, Misshandel, Hässleholm",
+    "summary": "Man gripen, Hässleholm.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-22.49-misshandel-hassleholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Hässleholm",
+      "gps": "56.158915,13.766765"
+    }
+  },
+  {
+    "id": 519115,
+    "datetime": "2024-04-24 21:56:34 +02:00",
+    "name": "24 april 22.00, Övrigt, Västra Götalands län",
+    "summary": "Presstelefonen kopplas om för natten.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-22.00-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 519116,
+    "datetime": "2024-04-24 21:56:30 +02:00",
+    "name": "24 april 22.00, Övrigt, Hallands län",
+    "summary": "Presstelefonen kopplas om för natten.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-22.00-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 519113,
+    "datetime": "2024-04-24 21:34:55 +02:00",
+    "name": "24 april 18.47, Rån, Göteborg",
+    "summary": "Brunnsparken, personrån",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-18.47-ran-goteborg/",
+    "type": "Rån",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 519112,
+    "datetime": "2024-04-24 21:29:22 +02:00",
+    "name": "24 april 20.19, Misshandel, Stockholm",
+    "summary": "Polis larmas till bråk utomhus i Vällingby.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-20.19-misshandel-stockholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 519111,
+    "datetime": "2024-04-24 21:16:12 +02:00",
+    "name": "24 april 21.04, Trafikkontroll, Härjedalen",
+    "summary": "E45 Ytterhogdal, resultat efter trafikkontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-21.04-trafikkontroll-harjedalen/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 519110,
+    "datetime": "2024-04-24 21:02:59 +02:00",
+    "name": "24 april 19.33, Misshandel, Stockholm",
+    "summary": "Personal i matbutik på Kungsholmen trycker på överfallslarmet.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-19.33-misshandel-stockholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 519109,
+    "datetime": "2024-04-24 20:47:08 +02:00",
+    "name": "24 april 20.25, Misshandel, grov, Eskilstuna",
+    "summary": "En till sjukhus efter grov misshandel.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-20.25-misshandel-grov-eskilstuna/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Eskilstuna",
+      "gps": "59.371249,16.509805"
+    }
+  },
+  {
+    "id": 519106,
+    "datetime": "2024-04-24 20:21:35 +02:00",
+    "name": "24 april 15.13, Stöld, Luleå",
+    "summary": "Storheden, man stoppad efter misstänkt ringa stöld i butik",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.13-stold-lulea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 519105,
+    "datetime": "2024-04-24 20:18:02 +02:00",
+    "name": "24 april 19.38, Trafikolycka, Lindesberg",
+    "summary": "Två personbilar har kolliderat på väg 860 i Lindesberg.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-19.38-trafikolycka-lindesberg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Lindesberg",
+      "gps": "59.597698,15.222911"
+    }
+  },
+  {
+    "id": 519104,
+    "datetime": "2024-04-24 20:14:34 +02:00",
+    "name": "24 april 18.28, Misshandel, Arvika",
+    "summary": "En man i sextioårsåldern har utsatts för misshandel.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-18.28-misshandel-arvika/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Arvika",
+      "gps": "59.654853,12.592136"
+    }
+  },
+  {
+    "id": 519070,
+    "datetime": "2024-04-24 16:37:04 +02:00",
+    "name": "24 april 15.50, Brand, Mora",
+    "summary": "Ett flertal byggnader brinner i Våmhus, Mora kommun.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.50-brand-mora/",
+    "type": "Brand",
+    "location": {
+      "name": "Mora",
+      "gps": "61.004878,14.537003"
+    }
+  },
+  {
+    "id": 519086,
+    "datetime": "2024-04-24 20:04:46 +02:00",
+    "name": "24 april 15.53, Olaga hot, Umeå",
+    "summary": "Umedalen, misstänkt olaga hot och ofredande i samband med felparkering",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.53-olaga-hot-umea/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 519103,
+    "datetime": "2024-04-24 20:03:37 +02:00",
+    "name": "24 april 17.26, Brand, Kristinehamn",
+    "summary": "Polisen har inlett förundersökning gällande allmänfarlig vårdslöshet efter en brand på en balkong  i Kristineh",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.26-brand-kristinehamn/",
+    "type": "Brand",
+    "location": {
+      "name": "Kristinehamn",
+      "gps": "59.310068,14.108919"
+    }
+  },
+  {
+    "id": 519102,
+    "datetime": "2024-04-24 19:53:59 +02:00",
+    "name": "24 april 18.50, Trafikbrott, Umeå",
+    "summary": "Berghem, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-18.50-trafikbrott-umea/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 519085,
+    "datetime": "2024-04-24 19:35:30 +02:00",
+    "name": "24 april 15.07, Skadegörelse, Skellefteå",
+    "summary": "Kåge, polis kontaktas gällande en man som tagit sig in i en bostad och eventuell skadegörelse",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.07-skadegorelse-skelleftea/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 519100,
+    "datetime": "2024-04-24 19:32:46 +02:00",
+    "name": "24 april 17.13, Skadegörelse, Falkenberg",
+    "summary": "Skadegörelse och stöld",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.13-skadegorelse-falkenberg/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Falkenberg",
+      "gps": "56.902733,12.488801"
+    }
+  },
+  {
+    "id": 519099,
+    "datetime": "2024-04-24 19:26:14 +02:00",
+    "name": "24 april 17.18, Skadegörelse, Håbo",
+    "summary": "Skadegörelse på Västerängsskolan.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.18-skadegorelse-habo/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Håbo",
+      "gps": "59.627071,17.452298"
+    }
+  },
+  {
+    "id": 519098,
+    "datetime": "2024-04-24 19:24:23 +02:00",
+    "name": "24 april 17.34, Trafikolycka, Härnösand",
+    "summary": "Kronholmen, larm om trafikolycka vid Holmgatan/Stationsgatan",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.34-trafikolycka-harnosand/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 519097,
+    "datetime": "2024-04-24 19:21:22 +02:00",
+    "name": "24 april 17.22, Stöld, Sundsvall",
+    "summary": "Matfors, tonåringar stoppade efter misstänkt ringa stöld i butik",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.22-stold-sundsvall/",
+    "type": "Stöld",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 519096,
+    "datetime": "2024-04-24 19:17:23 +02:00",
+    "name": "24 april 16.54, Fylleri/LOB, Sundsvall",
+    "summary": "Stenstan, man omhändertagen av polis",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-16.54-fyllerilob-sundsvall/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 519095,
+    "datetime": "2024-04-24 19:16:07 +02:00",
+    "name": "24 april 16.07, Rattfylleri, Sollefteå",
+    "summary": "Sollefteå, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-16.07-rattfylleri-solleftea/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 519094,
+    "datetime": "2024-04-24 19:13:04 +02:00",
+    "name": "24 april 18.06, Misshandel, Sundsvall",
+    "summary": "Bredsand, polis kontaktas gällande misshandel utomhus",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-18.06-misshandel-sundsvall/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 519093,
+    "datetime": "2024-04-24 19:08:05 +02:00",
+    "name": "24 april 19.05, Misshandel, Katrineholm",
+    "summary": "Misstänkt misshandel i centrala Katrineholm.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-19.05-misshandel-katrineholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Katrineholm",
+      "gps": "58.995551,16.205476"
+    }
+  },
+  {
+    "id": 519092,
+    "datetime": "2024-04-24 18:41:35 +02:00",
+    "name": "24 april 17.38, Trafikolycka, Borås",
+    "summary": "Väg 27, trafikplats Osdal",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.38-trafikolycka-boras/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 519091,
+    "datetime": "2024-04-24 18:16:01 +02:00",
+    "name": "24 april 17.26, Trafikolycka, personskada, Solna",
+    "summary": "Tre bilar inblandade i trafikolycka på E18.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.26-trafikolycka-personskada-solna/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Solna",
+      "gps": "59.368879,18.008433"
+    }
+  },
+  {
+    "id": 519090,
+    "datetime": "2024-04-24 18:15:45 +02:00",
+    "name": "24 april 18.05, Trafikolycka, Emmaboda",
+    "summary": "Personbil i olycka, Emmaboda.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-18.05-trafikolycka-emmaboda/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Emmaboda",
+      "gps": "56.630686,15.540006"
+    }
+  },
+  {
+    "id": 519089,
+    "datetime": "2024-04-24 18:05:44 +02:00",
+    "name": "24 april 17.35, Trafikkontroll, Härnösand",
+    "summary": "E4 Kittjärn, resultat efter trafikkontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.35-trafikkontroll-harnosand/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 519073,
+    "datetime": "2024-04-24 16:50:27 +02:00",
+    "name": "24 april 13.50, Försvunnen person, Uppsala",
+    "summary": "Polisen sökte efter en kvinna i 85-årsåldern.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.50-forsvunnen-person-uppsala/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 519088,
+    "datetime": "2024-04-24 17:57:30 +02:00",
+    "name": "24 april 17.02, Fylleri/LOB, Östersund",
+    "summary": "Östesund, påverkad man omhändertagen av polis",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.02-fyllerilob-ostersund/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 519087,
+    "datetime": "2024-04-24 17:56:40 +02:00",
+    "name": "24 april 15.55, Rattfylleri, Ljungby",
+    "summary": "Misstänkt rattfylleri, Hångers.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.55-rattfylleri-ljungby/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Ljungby",
+      "gps": "56.833877,13.941042"
+    }
+  },
+  {
+    "id": 519084,
+    "datetime": "2024-04-24 17:39:36 +02:00",
+    "name": "24 april 14.34, Misshandel, Gotland",
+    "summary": "Polisen får samtal om ett slagsmål vid Almedalsbiblioteket.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-14.34-misshandel-gotland/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Gotland",
+      "gps": "57.468412,18.486745"
+    }
+  },
+  {
+    "id": 519083,
+    "datetime": "2024-04-24 17:36:39 +02:00",
+    "name": "24 april 14.31, Narkotikabrott, Umeå",
+    "summary": "Ålidhem, man kontrollerad av polis",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-14.31-narkotikabrott-umea/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 519080,
+    "datetime": "2024-04-24 17:27:49 +02:00",
+    "name": "24 april 15.57, Stöld, försök, Partille",
+    "summary": "Kyrktorget, Partille Norra",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.57-stold-forsok-partille/",
+    "type": "Stöld, försök",
+    "location": {
+      "name": "Partille",
+      "gps": "57.73665,12.125197"
+    }
+  },
+  {
+    "id": 519079,
+    "datetime": "2024-04-24 17:26:09 +02:00",
+    "name": "24 april 15.50, Trafikolycka, Stockholm",
+    "summary": "Två bilar kolliderat på E4.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.50-trafikolycka-stockholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 519078,
+    "datetime": "2024-04-24 17:23:09 +02:00",
+    "name": "24 april 17.00, Trafikkontroll, Västerbottens län",
+    "summary": "Västerbotten, ett urval av polisens arbete i trafiken under dagen",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-17.00-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 519052,
+    "datetime": "2024-04-24 13:44:56 +02:00",
+    "name": "24 april 10.45, Vapenlagen, Sollentuna",
+    "summary": "I samband med att polisen kontrollerade två män i Sollentuna påträffades ett vapenliknande föremål.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-10.45-vapenlagen-sollentuna/",
+    "type": "Vapenlagen",
+    "location": {
+      "name": "Sollentuna",
+      "gps": "59.43911,17.94148"
+    }
+  },
+  {
+    "id": 519077,
+    "datetime": "2024-04-24 17:09:16 +02:00",
+    "name": "24 april 15.09, Olaga hot, Karlstad",
+    "summary": "Två personer har gripits misstänkta för övergrepp i rättssak.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-15.09-olaga-hot-karlstad/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 519075,
+    "datetime": "2024-04-24 16:54:22 +02:00",
+    "name": "24 april 13.13, Rattfylleri, Lycksele",
+    "summary": "Lycksele, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.13-rattfylleri-lycksele/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Lycksele",
+      "gps": "64.59581,18.676367"
+    }
+  },
+  {
+    "id": 519074,
+    "datetime": "2024-04-24 16:50:31 +02:00",
+    "name": "24 april 16.38, Trafikolycka, Västervik",
+    "summary": "Personbil i olycka, E22.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-16.38-trafikolycka-vastervik/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Västervik",
+      "gps": "57.757716,16.636976"
+    }
+  },
+  {
+    "id": 519072,
+    "datetime": "2024-04-24 16:44:46 +02:00",
+    "name": "24 april 14.09, Trafikbrott, Sollefteå",
+    "summary": "Sollefteå, A-traktor stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-14.09-trafikbrott-solleftea/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 519071,
+    "datetime": "2024-04-24 16:36:48 +02:00",
+    "name": "24 april 16.00, Trafikolycka, personskada, Västerås",
+    "summary": "Cyklist påkörd av bilist.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-16.00-trafikolycka-personskada-vasteras/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Västerås",
+      "gps": "59.609901,16.544809"
+    }
+  },
+  {
+    "id": 519069,
+    "datetime": "2024-04-24 16:30:06 +02:00",
+    "name": "24 april 14.58, Fylleri/LOB, Gävle",
+    "summary": "Berusad man omhändertas efter skadegörelse på kyrkogård.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-14.58-fyllerilob-gavle/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 519065,
+    "datetime": "2024-04-24 15:06:29 +02:00",
+    "name": "24 april 13.43, Trafikolycka, personskada, Lilla edet",
+    "summary": "Lödöse järnvägsstation",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.43-trafikolycka-personskada-lilla-edet/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Lilla edet",
+      "gps": "58.132158,12.124134"
+    }
+  },
+  {
+    "id": 519068,
+    "datetime": "2024-04-24 16:04:35 +02:00",
+    "name": "24 april 14.05, Trafikkontroll, Örnsköldsvik",
+    "summary": "Själevad, resultat efter trafikkontroll",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-14.05-trafikkontroll-ornskoldsvik/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 519067,
+    "datetime": "2024-04-24 15:44:11 +02:00",
+    "name": "24 april 13.52, Trafikolycka, Gällivare",
+    "summary": "Övre Heden, larm om trafikolycka vid Messhedsvägen",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.52-trafikolycka-gallivare/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Gällivare",
+      "gps": "67.1379,20.659362"
+    }
+  },
+  {
+    "id": 519063,
+    "datetime": "2024-04-24 14:48:29 +02:00",
+    "name": "24 april 14.07, Trafikolycka, Smedjebacken",
+    "summary": "En singelolycka har inträffat på Vasagatan i Smedjebacken",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-14.07-trafikolycka-smedjebacken/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Smedjebacken",
+      "gps": "60.143193,15.415992"
+    }
+  },
+  {
+    "id": 519062,
+    "datetime": "2024-04-24 14:46:35 +02:00",
+    "name": "24 april 13.29, Trafikolycka, personskada, Trollhättan",
+    "summary": "Singelolycka, Hjortmossegatan",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.29-trafikolycka-personskada-trollhattan/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Trollhättan",
+      "gps": "58.283489,12.285821"
+    }
+  },
+  {
+    "id": 519055,
+    "datetime": "2024-04-24 14:17:40 +02:00",
+    "name": "24 april 13.06, Olovlig körning, Nordmaling",
+    "summary": "Misstänkt olovlig körning norr om Gräsmyr.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.06-olovlig-korning-nordmaling/",
+    "type": "Olovlig körning",
+    "location": {
+      "name": "Nordmaling",
+      "gps": "63.567106,19.505022"
+    }
+  },
+  {
+    "id": 519061,
+    "datetime": "2024-04-24 14:17:10 +02:00",
+    "name": "24 april 10.11, Narkotikabrott, Örebro",
+    "summary": "Kvinnan misstänkt för innehav av narkotika",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-10.11-narkotikabrott-orebro/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 519060,
+    "datetime": "2024-04-24 14:10:59 +02:00",
+    "name": "24 april 11.07, Rattfylleri, Örebro",
+    "summary": "Polispatrull har stoppat en misstänkt påverkad bilist",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-11.07-rattfylleri-orebro/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 519059,
+    "datetime": "2024-04-24 14:07:02 +02:00",
+    "name": "24 april 12.59, Narkotikabrott, Sundsvall",
+    "summary": "I samband med ett fordonsstopp påträffas misstänkt narkotika som tas i beslag.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-12.59-narkotikabrott-sundsvall/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 519058,
+    "datetime": "2024-04-24 14:06:47 +02:00",
+    "name": "24 april 11.54, Narkotikabrott, Örebro",
+    "summary": "Påverkad kvinnan kontrollerad i Örebro",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-11.54-narkotikabrott-orebro/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 519057,
+    "datetime": "2024-04-24 14:04:29 +02:00",
+    "name": "24 april 12.48, Rattfylleri, Karlskoga",
+    "summary": "Misstänkt påverkad bilist stoppad i Karlskoga",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-12.48-rattfylleri-karlskoga/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Karlskoga",
+      "gps": "59.328634,14.536414"
+    }
+  },
+  {
+    "id": 519056,
+    "datetime": "2024-04-24 14:04:23 +02:00",
+    "name": "24 april 12.51, Stöld, Sundsvall",
+    "summary": "Ringa stöld i butik, Birsta.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-12.51-stold-sundsvall/",
+    "type": "Stöld",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 519054,
+    "datetime": "2024-04-24 13:49:28 +02:00",
+    "name": "24 april 13.49, Trafikkontroll, Norrbottens län",
+    "summary": "Urval av polisens arbete i trafiken",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-13.49-trafikkontroll-norrbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 519051,
+    "datetime": "2024-04-24 13:39:30 +02:00",
+    "name": "24 april 11.47, Stöld, Örebro",
+    "summary": "Polisen utreder misstänkt stöld av fordon",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-11.47-stold-orebro/",
+    "type": "Stöld",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 519043,
+    "datetime": "2024-04-24 12:32:48 +02:00",
+    "name": "24 april 12.32, Trafikkontroll, Östersund",
+    "summary": "Urval av polisens arbete i trafiken",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-12.32-trafikkontroll-ostersund/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 519042,
+    "datetime": "2024-04-24 12:31:52 +02:00",
+    "name": "24 april 12.31, Trafikkontroll, Västernorrlands län",
+    "summary": "Urval av polisens arbete i trafiken",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-12.31-trafikkontroll-vasternorrlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 519038,
+    "datetime": "2024-04-24 11:31:29 +02:00",
+    "name": "24 april 10.59, Brand, Örebro",
+    "summary": "En bil brinner på Höglundagatan i Örebro",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-10.59-brand-orebro/",
+    "type": "Brand",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 519040,
+    "datetime": "2024-04-24 11:36:44 +02:00",
+    "name": "24 april 10.48, Trafikolycka, Grums",
+    "summary": "Kollision mellan flera fordon har inträffat på E18 i Grums",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-10.48-trafikolycka-grums/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Grums",
+      "gps": "59.353179,13.111732"
+    }
+  },
+  {
+    "id": 519039,
+    "datetime": "2024-04-24 11:35:50 +02:00",
+    "name": "24 april 11.35, Trafikkontroll, Skellefteå",
+    "summary": "Resultat efter två trafikkontroller",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-11.35-trafikkontroll-skelleftea/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 519037,
+    "datetime": "2024-04-24 10:46:05 +02:00",
+    "name": "24 april 10.28, Trafikolycka, singel, Ljusnarsberg",
+    "summary": "Söder om Kopparberg på Rv 50 har en singelolycka med lastbil inträffat",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-10.28-trafikolycka-singel-ljusnarsberg/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Ljusnarsberg",
+      "gps": "59.877447,14.998849"
+    }
+  },
+  {
+    "id": 519036,
+    "datetime": "2024-04-24 10:51:47 +02:00",
+    "name": "24 april 09.30, Mord/dråp, försök, Göteborg",
+    "summary": "En knivskuren man anträffas på Hjalmars gata av två personer.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-09.30-morddrap-forsok-goteborg/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 519031,
+    "datetime": "2024-04-24 10:26:46 +02:00",
+    "name": "24 april 10.04, Trafikolycka, vilt, Älvsbyn",
+    "summary": "Polisen får in en anmälan om en viltolycka på länsväg 374, Bredsel.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-10.04-trafikolycka-vilt-alvsbyn/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Älvsbyn",
+      "gps": "65.677136,20.992866"
+    }
+  },
+  {
+    "id": 519030,
+    "datetime": "2024-04-24 10:12:37 +02:00",
+    "name": "24 april 08.34, Stöld, Strömsund",
+    "summary": "Ringa stöld i matbutik i Strömsund.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-08.34-stold-stromsund/",
+    "type": "Stöld",
+    "location": {
+      "name": "Strömsund",
+      "gps": "63.853662,15.556869"
+    }
+  },
+  {
+    "id": 519028,
+    "datetime": "2024-04-24 10:01:53 +02:00",
+    "name": "24 april 09.11, Trafikolycka, Vilhelmina",
+    "summary": "Singelolycka på E45, nordost om Vilhelmina.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-09.11-trafikolycka-vilhelmina/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vilhelmina",
+      "gps": "64.624471,16.655497"
+    }
+  },
+  {
+    "id": 519006,
+    "datetime": "2024-04-24 9:11:52 +02:00",
+    "name": "24 april 07.55, Trafikolycka, Örnsköldsvik",
+    "summary": "Larm om trafikolycka på Genesåsvägen, Domsjö.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.55-trafikolycka-ornskoldsvik/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 519016,
+    "datetime": "2024-04-24 8:38:08 +02:00",
+    "name": "24 april 08.02, Trafikolycka, Vännäs",
+    "summary": "Larm om trafikolycka på länsväg 544/länsväg 554, Vännäsby.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-08.02-trafikolycka-vannas/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vännäs",
+      "gps": "63.908007,19.752965"
+    }
+  },
+  {
+    "id": 519005,
+    "datetime": "2024-04-24 7:44:52 +02:00",
+    "name": "24 april 07.14, Trafikolycka, personskada, Skövde",
+    "summary": "På Skövdevägen vid Skultorp är det en bilist som blir påkörd bakifrån av en annan bilist.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.14-trafikolycka-personskada-skovde/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Skövde",
+      "gps": "58.390278,13.846121"
+    }
+  },
+  {
+    "id": 519002,
+    "datetime": "2024-04-24 7:37:05 +02:00",
+    "name": "24 april 07.45, Sammanfattning natt, Östergötlands län",
+    "summary": "En lugn natt polisiärt i Östergötland.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.45-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 519003,
+    "datetime": "2024-04-24 7:36:59 +02:00",
+    "name": "24 april 07.45, Sammanfattning natt, Södermanlands län",
+    "summary": "En lugn natt polisärt i Södermanland.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.45-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 519004,
+    "datetime": "2024-04-24 7:36:52 +02:00",
+    "name": "24 april 07.45, Sammanfattning natt, Jönköpings län",
+    "summary": "En lugn natt polisärt i Jönköpings län.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.45-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 518998,
+    "datetime": "2024-04-24 7:24:42 +02:00",
+    "name": "24 april 07.20, Trafikolycka, vilt, Uppsala län",
+    "summary": "Flera viltolyckor i Uppsala län under morgonen.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.20-trafikolycka-vilt-uppsala-lan/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Uppsala län",
+      "gps": "60.009226,17.271459"
+    }
+  },
+  {
+    "id": 519001,
+    "datetime": "2024-04-24 7:11:45 +02:00",
+    "name": "24 april 07.10, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Örebro",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.10-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 518996,
+    "datetime": "2024-04-24 7:11:42 +02:00",
+    "name": "24 april 07.11, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet 22.00-07.00.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.11-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 519000,
+    "datetime": "2024-04-24 7:11:40 +02:00",
+    "name": "24 april 07.10, Sammanfattning natt, Dalarnas län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Dalarna",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.10-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 518999,
+    "datetime": "2024-04-24 7:11:37 +02:00",
+    "name": "24 april 07.10, Sammanfattning natt, Värmlands län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Värmland",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.10-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 518993,
+    "datetime": "2024-04-24 7:10:21 +02:00",
+    "name": "24 april 07.10, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet 22.00-07.00.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.10-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 518991,
+    "datetime": "2024-04-24 7:07:30 +02:00",
+    "name": "24 april 07.07, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet 22.00-07.00.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.07-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 518997,
+    "datetime": "2024-04-24 7:06:56 +02:00",
+    "name": "24 april 07.06, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet 22.00-07.00.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-07.06-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 518992,
+    "datetime": "2024-04-24 7:02:24 +02:00",
+    "name": "24 april 06.00, Sammanfattning natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-06.00-sammanfattning-natt-hallands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 518995,
+    "datetime": "2024-04-24 7:02:13 +02:00",
+    "name": "24 april 06.00, Sammanfattning natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-06.00-sammanfattning-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 518994,
+    "datetime": "2024-04-24 6:56:30 +02:00",
+    "name": "24 april 04.05, Brand, Södertälje",
+    "summary": "Polis och räddningstjänst kallas till ett industriområde i Södertälje med anledning av brand i en verkstad.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-04.05-brand-sodertalje/",
+    "type": "Brand",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 518990,
+    "datetime": "2024-04-24 6:34:18 +02:00",
+    "name": "24 april 01.59, Rattfylleri, Kristianstad",
+    "summary": "Misstänkt rattfylleri på Östra Kaserngatan.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-01.59-rattfylleri-kristianstad/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 518989,
+    "datetime": "2024-04-24 6:30:25 +02:00",
+    "name": "24 april 00.14, Brand, Malmö",
+    "summary": "Brand i garage på Söderkullagatan.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-00.14-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 518988,
+    "datetime": "2024-04-24 6:22:49 +02:00",
+    "name": "24 april 06.10, Brand, Växjö",
+    "summary": "Rökutveckling på Vänortsvägen.",
+    "url": "/aktuellt/handelser/2024/april/24/24-april-06.10-brand-vaxjo/",
+    "type": "Brand",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  }
+]

@@ -1,0 +1,734 @@
+[
+  {
+    "id": 505604,
+    "datetime": "2024-02-19 10:18:21 +01:00",
+    "name": "17 februari 18.23, Mord/dråp, försök, Torsby",
+    "summary": "En man i 60-årsåldern har gripits och sedermera anhållits misstänkt för ett flertal grova brott",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-18.23-morddrap-forsok-torsby/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Torsby",
+      "gps": "60.140907,13.010213"
+    }
+  },
+  {
+    "id": 505522,
+    "datetime": "2024-02-18 0:48:25 +01:00",
+    "name": "17 februari 17.00, Försvunnen person, Uppsala",
+    "summary": "Polisen söker en försvunnen person i Uppsala",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-17.00-forsvunnen-person-uppsala/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 505502,
+    "datetime": "2024-02-17 11:59:59 +01:00",
+    "name": "17 februari 11.31, Mord/dråp, försök, Göteborg",
+    "summary": "Skottlossning i Skälltorp. En person skottskadad.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-11.31-morddrap-forsok-goteborg/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 505519,
+    "datetime": "2024-02-17 21:35:52 +01:00",
+    "name": "17 februari 21.14, Trafikolycka, Kristianstad",
+    "summary": "Personbil i olycka, Everöd.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-21.14-trafikolycka-kristianstad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 505521,
+    "datetime": "2024-02-17 23:54:32 +01:00",
+    "name": "17 februari 23.42, Brand, Östra göinge",
+    "summary": "Bilbrand, Sibbhult.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-23.42-brand-ostra-goinge/",
+    "type": "Brand",
+    "location": {
+      "name": "Östra göinge",
+      "gps": "56.237877,14.216166"
+    }
+  },
+  {
+    "id": 505520,
+    "datetime": "2024-02-17 22:55:03 +01:00",
+    "name": "17 februari 22.20, Misshandel, Stockholm",
+    "summary": "En person gripen misstänkt för misshandel.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-22.20-misshandel-stockholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 505518,
+    "datetime": "2024-02-17 20:12:50 +01:00",
+    "name": "17 februari 20.06, Trafikolycka, Kalmar",
+    "summary": "Bil kör in i stenmur, Påryd.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-20.06-trafikolycka-kalmar/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kalmar",
+      "gps": "56.663445,16.356779"
+    }
+  },
+  {
+    "id": 505517,
+    "datetime": "2024-02-17 20:00:38 +01:00",
+    "name": "17 februari 19.37, Kontroll person/fordon, Trelleborg",
+    "summary": "Man med vapenliknande föremål, Trelleborg.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-19.37-kontroll-personfordon-trelleborg/",
+    "type": "Kontroll person/fordon",
+    "location": {
+      "name": "Trelleborg",
+      "gps": "55.376243,13.157423"
+    }
+  },
+  {
+    "id": 505516,
+    "datetime": "2024-02-17 19:25:30 +01:00",
+    "name": "17 februari 16.34, Misshandel, grov, Köping",
+    "summary": "Bråk i Kolsva har resulterat i anmälan om grov misshandel och två gripna.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-16.34-misshandel-grov-koping/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Köping",
+      "gps": "59.512096,15.99451"
+    }
+  },
+  {
+    "id": 505474,
+    "datetime": "2024-02-17 15:45:31 +01:00",
+    "name": "17 februari 15.45, Övrigt, Hallands län",
+    "summary": "Hemsidan/händelser uppdateras inte mer idag.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-15.45-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 505515,
+    "datetime": "2024-02-17 15:45:12 +01:00",
+    "name": "17 februari 15.45, Övrigt, Västra Götalands län",
+    "summary": "Hemsidan/händelser uppdateras inte mer idag.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-15.45-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 505514,
+    "datetime": "2024-02-17 14:41:35 +01:00",
+    "name": "17 februari 14.08, Brand, Stockholm",
+    "summary": "Rökutveckling från källare i flerfamiljshus i Rinkeby. Polisen biträder räddningstjänsten i arbetet på platsen",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-14.08-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 505513,
+    "datetime": "2024-02-17 14:06:20 +01:00",
+    "name": "17 februari 10.31, Stöld, Östersund",
+    "summary": "Östersund, ringa stöld i butik.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-10.31-stold-ostersund/",
+    "type": "Stöld",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 505488,
+    "datetime": "2024-02-17 9:29:24 +01:00",
+    "name": "17 februari 08.05, Trafikolycka, singel, Falköping",
+    "summary": "Enligt SOS så har en singeloycka inträffat vid Odensberg.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.05-trafikolycka-singel-falkoping/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Falköping",
+      "gps": "58.175029,13.553217"
+    }
+  },
+  {
+    "id": 505512,
+    "datetime": "2024-02-17 13:32:57 +01:00",
+    "name": "17 februari 12.53, Arbetsplatsolycka, Örebro",
+    "summary": "En arbetsplatsolycka har inträffat på ett företag i Pilängen",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.53-arbetsplatsolycka-orebro/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 505511,
+    "datetime": "2024-02-17 13:29:15 +01:00",
+    "name": "17 februari 12.28, Fylleri/LOB, Skellefteå",
+    "summary": "Skellefteå, person omhändertagen i centrum.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.28-fyllerilob-skelleftea/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 505505,
+    "datetime": "2024-02-17 12:23:44 +01:00",
+    "name": "17 februari 12.05, Brand, Växjö",
+    "summary": "Söder om Kalvsvik. Brand i byggnad.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.05-brand-vaxjo/",
+    "type": "Brand",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 505510,
+    "datetime": "2024-02-17 13:03:06 +01:00",
+    "name": "17 februari 12.34, Brand, Stockholm",
+    "summary": "Det kommer larm om rökutveckling från källare i Rinkeby. Branden släcks snabbt av räddningstjänsten.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.34-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 505508,
+    "datetime": "2024-02-17 12:47:42 +01:00",
+    "name": "17 februari 12.45, Stöld, Norrköping",
+    "summary": "Inbrott i ett tiotal fordon i Norrköping.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.45-stold-norrkoping/",
+    "type": "Stöld",
+    "location": {
+      "name": "Norrköping",
+      "gps": "58.587745,16.192421"
+    }
+  },
+  {
+    "id": 505509,
+    "datetime": "2024-02-17 12:39:32 +01:00",
+    "name": "17 februari 12.39, Skadegörelse, Sundsvall",
+    "summary": "Sundsvall, skadegörelse av bildäck.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.39-skadegorelse-sundsvall/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 505507,
+    "datetime": "2024-02-17 12:27:45 +01:00",
+    "name": "17 februari 02.22, Misshandel, Gotlands län",
+    "summary": "Under natten kom larm om att en man misshandlat en person han har en relation med. Mannen greps och är nu anhå",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-02.22-misshandel-gotlands-lan/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Gotlands län",
+      "gps": "57.468412,18.486745"
+    }
+  },
+  {
+    "id": 505506,
+    "datetime": "2024-02-17 12:24:37 +01:00",
+    "name": "17 februari 12.24, Trafikkontroll, Norrbottens län",
+    "summary": "Norrbotten, resultat från trafikkontroller.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.24-trafikkontroll-norrbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 505504,
+    "datetime": "2024-02-17 12:20:36 +01:00",
+    "name": "17 februari 12.20, Trafikkontroll, Västerbottens län",
+    "summary": "Västerbotten, resultat från trafikkontroller.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-12.20-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 505503,
+    "datetime": "2024-02-17 12:13:15 +01:00",
+    "name": "17 februari 11.01, Trafikolycka, Örnsköldsvik",
+    "summary": "Singelolycka på E4 vid Överhörnäs.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-11.01-trafikolycka-ornskoldsvik/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 505492,
+    "datetime": "2024-02-17 9:42:57 +01:00",
+    "name": "17 februari 09.40, Trafikolycka, Eskilstuna",
+    "summary": "Flera bilar inblandade i olycka på E20.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-09.40-trafikolycka-eskilstuna/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Eskilstuna",
+      "gps": "59.371249,16.509805"
+    }
+  },
+  {
+    "id": 505498,
+    "datetime": "2024-02-17 10:29:16 +01:00",
+    "name": "17 februari 10.25, Trafikolycka, Tranås",
+    "summary": "Flera drabbade vid trafikolycka utanför Tranås.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-10.25-trafikolycka-tranas/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Tranås",
+      "gps": "58.035518,14.975696"
+    }
+  },
+  {
+    "id": 505501,
+    "datetime": "2024-02-17 11:25:17 +01:00",
+    "name": "17 februari 11.15, Trafikolycka, Aneby",
+    "summary": "Ytterligare en trafikolycka på riksväg 32.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-11.15-trafikolycka-aneby/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Aneby",
+      "gps": "57.838521,14.817802"
+    }
+  },
+  {
+    "id": 505500,
+    "datetime": "2024-02-17 11:22:09 +01:00",
+    "name": "17 februari 10.26, Trafikkontroll, Botkyrka",
+    "summary": "En trafikkontroll med fokus på nykterhet har skett utanför Systembolaget i Norsborg.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-10.26-trafikkontroll-botkyrka/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Botkyrka",
+      "gps": "59.245941,17.840858"
+    }
+  },
+  {
+    "id": 505495,
+    "datetime": "2024-02-17 10:07:11 +01:00",
+    "name": "17 februari 09.42, Trafikolycka, Örnsköldsvik",
+    "summary": "Örnsköldsvik, singelolycka på Gullänget.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-09.42-trafikolycka-ornskoldsvik/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 505499,
+    "datetime": "2024-02-17 10:56:07 +01:00",
+    "name": "17 februari 01.11, Hemfridsbrott, Torsby",
+    "summary": "Två personer har gripits misstänkta för två brott",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-01.11-hemfridsbrott-torsby/",
+    "type": "Hemfridsbrott",
+    "location": {
+      "name": "Torsby",
+      "gps": "60.140907,13.010213"
+    }
+  },
+  {
+    "id": 505497,
+    "datetime": "2024-02-17 10:20:54 +01:00",
+    "name": "17 februari 07.58, Rattfylleri, Umeå",
+    "summary": "Umeå, misstänkt rattfylleri i centrala stan.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.58-rattfylleri-umea/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 505491,
+    "datetime": "2024-02-17 9:06:57 +01:00",
+    "name": "17 februari 08.54, Trafikolycka, Malung-Sälen",
+    "summary": "En trafikolycka med två bilister har inträffat på riksväg 66, Lima",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.54-trafikolycka-malung-salen/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malung-Sälen",
+      "gps": "60.900926,13.322618"
+    }
+  },
+  {
+    "id": 505496,
+    "datetime": "2024-02-17 10:09:08 +01:00",
+    "name": "17 februari 08.53, Trafikolycka, Umeå",
+    "summary": "Umeå, trafikolycka vid Alviksrondellen.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.53-trafikolycka-umea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 505479,
+    "datetime": "2024-02-17 7:36:05 +01:00",
+    "name": "17 februari 05.33, Trafikolycka, singel, Lomma",
+    "summary": "Alnarp. Personbil i kollision.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-05.33-trafikolycka-singel-lomma/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Lomma",
+      "gps": "55.673138,13.067406"
+    }
+  },
+  {
+    "id": 505493,
+    "datetime": "2024-02-17 9:45:20 +01:00",
+    "name": "17 februari 09.22, Trafikolycka, Sigtuna",
+    "summary": "En bil har sladdat ned i diket på E4 i höjd med Arlanda. Ingen är skadad men det uppges vara väldigt halt på v",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-09.22-trafikolycka-sigtuna/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Sigtuna",
+      "gps": "59.619146,17.723419"
+    }
+  },
+  {
+    "id": 505490,
+    "datetime": "2024-02-17 9:01:11 +01:00",
+    "name": "17 februari 08.02, Trafikolycka, Härnösand",
+    "summary": "Älandsbro, singelolycka på E4.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.02-trafikolycka-harnosand/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 505486,
+    "datetime": "2024-02-17 8:53:53 +01:00",
+    "name": "17 februari 07.52, Trafikolycka, singel, Härryda",
+    "summary": "Enligt SOS så har en personbil voltat vid Hindås.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.52-trafikolycka-singel-harryda/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Härryda",
+      "gps": "57.691744,12.294416"
+    }
+  },
+  {
+    "id": 505489,
+    "datetime": "2024-02-17 8:34:37 +01:00",
+    "name": "17 februari 08.11, Trafikolycka, Vänersborg",
+    "summary": "Enligt SOS så har en lastbil snurrat runt på riksväg 44, Grunnebo.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.11-trafikolycka-vanersborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vänersborg",
+      "gps": "58.379728,12.324803"
+    }
+  },
+  {
+    "id": 505487,
+    "datetime": "2024-02-17 8:17:32 +01:00",
+    "name": "17 februari 08.17, Polisinsats/kommendering, Västerbottens län",
+    "summary": "Sammanfattning av polisens arbete i samband med Rally-VM, fredag",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.17-polisinsatskommendering-vasterbottens-lan/",
+    "type": "Polisinsats/kommendering",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 505465,
+    "datetime": "2024-02-17 8:00:08 +01:00",
+    "name": "17 februari 08.00, Sammanfattning natt, Jönköpings län",
+    "summary": "Här följer en kort sammanfattning från nattens händelser.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.00-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 505464,
+    "datetime": "2024-02-17 8:00:03 +01:00",
+    "name": "17 februari 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "Här följer en kort sammanfattning från nattens händelser.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 505463,
+    "datetime": "2024-02-17 7:59:47 +01:00",
+    "name": "17 februari 08.00, Sammanfattning natt, Södermanlands län",
+    "summary": "Här följer en kort sammanfattning från nattens händelser.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-08.00-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 505467,
+    "datetime": "2024-02-17 7:59:45 +01:00",
+    "name": "17 februari 07.59, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.59-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 505478,
+    "datetime": "2024-02-17 7:57:21 +01:00",
+    "name": "17 februari 07.57, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.57-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 505482,
+    "datetime": "2024-02-17 7:56:53 +01:00",
+    "name": "17 februari 07.56, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.56-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 505485,
+    "datetime": "2024-02-17 7:55:48 +01:00",
+    "name": "17 februari 07.55, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.55-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 505483,
+    "datetime": "2024-02-17 7:52:53 +01:00",
+    "name": "17 februari 07.36, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer ett urval av nattens operativa händelser i länet",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.36-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 505460,
+    "datetime": "2024-02-17 7:40:25 +01:00",
+    "name": "17 februari 06.54, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats. Nedan följer ett urval ur kvällen/nattens händelser i länet.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-06.54-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 505462,
+    "datetime": "2024-02-17 7:40:01 +01:00",
+    "name": "17 februari 06.57, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstaelsperson är på plats. Nedan följer ett urval ur kvällen/nattens händelser i länet.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-06.57-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 505481,
+    "datetime": "2024-02-17 7:38:46 +01:00",
+    "name": "17 februari 02.53, Misshandel, Stockholm",
+    "summary": "Personer har slagits på en restaurang/klubb vid Stureplan. En anmälan om misshandel skrivs och en person tas o",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-02.53-misshandel-stockholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 505480,
+    "datetime": "2024-02-17 7:36:47 +01:00",
+    "name": "17 februari 07.21, Sammanfattning natt, Dalarnas län",
+    "summary": "Nedan följer ett urval av nattens operativa händelser i länet",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.21-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 505477,
+    "datetime": "2024-02-17 7:33:31 +01:00",
+    "name": "17 februari 01.30, Rån övrigt, Malmö",
+    "summary": "Limhamn. Rån i bostad.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-01.30-ran-ovrigt-malmo/",
+    "type": "Rån övrigt",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 505476,
+    "datetime": "2024-02-17 7:32:31 +01:00",
+    "name": "17 februari 01.16, Trafikolycka, Malmö",
+    "summary": "Nobelvägen, vid Nobeltorget. Kollision mellan två personer, som färdas på elsparkcyklar.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-01.16-trafikolycka-malmo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 505473,
+    "datetime": "2024-02-17 7:30:45 +01:00",
+    "name": "17 februari 03.01, Misshandel, grov, Karlskrona",
+    "summary": "Norr om Karlskrona. En man utsätter en kvinna för våld i bostad.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-03.01-misshandel-grov-karlskrona/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Karlskrona",
+      "gps": "56.161224,15.5869"
+    }
+  },
+  {
+    "id": 505472,
+    "datetime": "2024-02-17 7:29:41 +01:00",
+    "name": "17 februari 02.19, Knivlagen, Ystad",
+    "summary": "Dragongatan. En man bär kniv i restauranglokal.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-02.19-knivlagen-ystad/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Ystad",
+      "gps": "55.429505,13.820031"
+    }
+  },
+  {
+    "id": 505471,
+    "datetime": "2024-02-17 7:28:53 +01:00",
+    "name": "17 februari 02.06, Skadegörelse, Kristianstad",
+    "summary": "Norretullsvägen. Brand utomhus.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-02.06-skadegorelse-kristianstad/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 505470,
+    "datetime": "2024-02-17 7:27:43 +01:00",
+    "name": "17 februari 01.08, Rattfylleri, Kalmar",
+    "summary": "Södra vägen. Kontroll av förare och fordon leder till misstanke om rattfylleri.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-01.08-rattfylleri-kalmar/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Kalmar",
+      "gps": "56.663445,16.356779"
+    }
+  },
+  {
+    "id": 505469,
+    "datetime": "2024-02-17 7:21:43 +01:00",
+    "name": "17 februari 07.20, Sammanfattning natt, Värmlands län",
+    "summary": "Nedan följer ett urval av nattens operativa händelser i länet",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.20-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 505468,
+    "datetime": "2024-02-17 7:20:04 +01:00",
+    "name": "17 februari 07.10, Rattfylleri, Stockholms län",
+    "summary": "Sedan midnatt har totalt fem bilförare som stoppats blivit misstänkta för rattfylleri.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-07.10-rattfylleri-stockholms-lan/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Stockholms län",
+      "gps": "59.602496,18.138438"
+    }
+  },
+  {
+    "id": 505466,
+    "datetime": "2024-02-17 7:06:51 +01:00",
+    "name": "17 februari 06.09, Rattfylleri, Stockholm",
+    "summary": "En bilförare som stoppas på Kungsholmen misstänks för rattfylleri och tas med för provtagning.",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-06.09-rattfylleri-stockholm/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 505459,
+    "datetime": "2024-02-17 3:46:55 +01:00",
+    "name": "17 februari 00.40, Våldtäkt, Uppsala",
+    "summary": "Våldtäkt utomhus i Uppsala",
+    "url": "/aktuellt/handelser/2024/februari/17/17-februari-00.40-valdtakt-uppsala/",
+    "type": "Våldtäkt",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  }
+]
