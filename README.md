@@ -30,7 +30,7 @@ Otherwise / afterwards, run the development server:
 npm run dev
 ```
 
-The application uses an external script to safely and continously fetch JSON data from the police API to aqqurire a bigger dataset. This script is run by the following command:
+The application uses an external script to safely and continously fetch JSON data from the police API to aquire a bigger dataset. This script is run by the following command:
 
 ```bash
 npx ts-node src/scripts/fetcher.ts
