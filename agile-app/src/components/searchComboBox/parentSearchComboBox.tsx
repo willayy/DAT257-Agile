@@ -41,26 +41,8 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         handleSelectLoc("")
     };
 
-    const [optionsCrime, setOptionsCrime] = useState<string[]>([]);
-
-    useEffect(() => {
-        /** Function that populates the optionsCrime list with all crimes types in the reported crime */
-        const populateCrimeOptions = async () => {
-            const allCrimes: Crimes = await getCrimeData();
-            const uniqueCrimeTypes = new Set<string>(); // Creating a set to avoid duplicates, since no dupes in a set
-
-            allCrimes.forEach(crime => {
-                uniqueCrimeTypes.add(crime.type);
-            });
-
-            // Convert the Set back to an array and sort it alphabetically
-            const optionsCrime = Array.from(uniqueCrimeTypes).sort();
-            optionsCrime.unshift(""); // Add an empty string as the first element
-            setOptionsCrime(optionsCrime);
-        };
-
-        populateCrimeOptions();
-    },[]);
+    /** list containing all the crime types that can be filtered on. Get the array from dataFetching.ts */
+    const optionsCrime = getUniqueCrimeTypes()
 
 
     /** list containing all the locations that can be filtered on*/
