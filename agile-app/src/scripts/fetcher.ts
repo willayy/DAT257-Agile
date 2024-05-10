@@ -12,8 +12,8 @@
 
 const url: URL = new URL("https://polisen.se/api/events");
 const fs = require('fs');
-const dataFolder: string = "agile-app/src/scripts/data/";
-const fileSet: Set<String> = new Set<String>()
+const dataFolder: string = "agile-app/public/json/";
+const fileSet: Set<string> = new Set<string>()
 let dateToFetch: Date = new Date();
 let fetchInterval: number = 60; // 61 seconds to comply with the API rate limit of 60
 let currentDate: Date | null = null;
@@ -86,7 +86,7 @@ async function fetchFromApiAndWrite(date: string): Promise<void> {
     lastApiCall = new Date();
 
     // Fetch a response from the URL
-    const res = await (await fetch(url + "?DateTime=" + date))
+    const res = await fetch(url + "?DateTime=" + date)
 
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
@@ -126,29 +126,10 @@ function canCallApi(): boolean {
     }
 }
 
-interface CrimeData {
-    id: number;
-    datetime: string;
-    name: string;
-    summary: string;
-    url: string;
-    type: string;
-    location: {
-        name: string
-        gps: string
-    }
-}
 
 /**
  * Main function of the program, runs the fetcher logic loop*/
 async function main() {
-
-    const res = await fetch("http://localhost:3000/api/json");
-    const jsonData = await res.json()
-    const stringData = JSON.stringify(jsonData, null, 2);
-    const fetchedCrimeData: CrimeData[] = await JSON.parse(stringData);
-    fs.writeFileSync(dataFolder + "fetched.json", fetchedCrimeData, null, 2);
-    console.log("");
 
     console.log("---------------------------------------------------------")
     console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");

@@ -6,8 +6,7 @@ import styles from './listView.module.css'
 // import { getCrimeData, getLastFiveHundred} from "@/api/json/scripts";
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import DatePickerBox from '../datePicker/datePickerBox';
-import {CrimeData} from "@/scripts/dataFetching";
-import { getCrimeData } from '@/app/api/json/scripts';
+import {getCrimeData, CrimeData} from "@/scripts/dataFetching";
 
 /**
 * Types the list Crimes to have only correctly formatted "card-information"
