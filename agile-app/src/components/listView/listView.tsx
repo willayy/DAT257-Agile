@@ -3,10 +3,11 @@
 import React, { useState, useEffect } from 'react';
 import EventCard from "@/components/eventCard/eventCard";
 import styles from './listView.module.css'
-import { getCrimeData, getLastFiveHundred} from "@/scripts/dataFetching";
+// import { getCrimeData, getLastFiveHundred} from "@/api/json/scripts";
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import DatePickerBox from '../datePicker/datePickerBox';
 import {CrimeData} from "@/scripts/dataFetching";
+import { getCrimeData } from '@/app/api/json/scripts';
 
 /**
 * Types the list Crimes to have only correctly formatted "card-information"
@@ -38,7 +39,7 @@ export default function ListView() {
         // Function that filters the data based on the selected options from the user
         const filterAndSetData = async () => {
 
-            let filteredData: Crimes = await getCrimeData()
+            let filteredData: CrimeData[] = await getCrimeData();
             
             if (selectedOptionCrime !== "") {
                 filteredData = filteredData.filter(item => item.type === selectedOptionCrime);

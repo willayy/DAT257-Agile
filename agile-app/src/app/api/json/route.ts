@@ -1,10 +1,18 @@
-import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { promises as fs } from "node:fs";
+import fs from 'fs'
+import path from "node:path";
 
-export async function GET(req: NextRequest) {
-  const filePath = new URL("agile-app/src/scripts/data/2024-03-08.json")
-  const fileBuffer = await fs.readFile(filePath);
-  const json = JSON.parse(fileBuffer.toString());
-  return NextResponse.json(json);
+export async function GET() {
+  const dirRelativeToPublicFolder = 'json'
+  const dir = path.resolve('./public', dirRelativeToPublicFolder);
+  let combinedData = "[";
+  let fileNames = fs.readdirSync(dir)
+  for (const fileName of fileNames) {
+    let fileData = fs.readFileSync(dir + "/" + fileName, 'utf-8');
+    fileData = fileData.replace("[", "").replace("]", ",");
+    combinedData += fileData;
+  }
+  combinedData = combinedData.slice(0, -1);
+  combinedData += "]";
+  return NextResponse.json(combinedData);
 }
