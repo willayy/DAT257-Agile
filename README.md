@@ -30,6 +30,12 @@ Otherwise / afterwards, run the development server:
 npm run dev
 ```
 
+The application uses an external script to safely and continously fetch JSON data from the police API to aqqurire a bigger dataset. This script is run by the following command:
+
+```bash
+npx ts-node src/scripts/fetcher.ts
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
