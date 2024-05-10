@@ -58,3 +58,27 @@ export async function getCrimeData(): Promise<CrimeData[]>{
     const fetchedCrimeData: CrimeData[] = await JSON.parse(stringData);
     return fetchedCrimeData;
 }
+
+// Array of strings for the crimeOptions
+let crimeTypes: string[] = [];
+
+/** Function that populates crimeOptions array */
+const populateCrimeOptions = async () => {
+    const allCrimes: CrimeData[] = await getCrimeData();
+    const uniqueCrimeTypes = new Set<string>(); /** Using a set to avoid duplicates */
+
+    allCrimes.forEach(crime => {
+        uniqueCrimeTypes.add(crime.type);
+    });
+
+    crimeTypes = Array.from(uniqueCrimeTypes).sort();
+    crimeTypes.unshift(""); /** Adds an empty string as the first element */
+};
+
+populateCrimeOptions();
+
+/** Function that returns the crimeOptions after it's populated
+ * @returns crimeTypes - Array of crime types */
+export const getUniqueCrimeTypes = () => {
+    return crimeTypes;
+};
