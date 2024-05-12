@@ -132,7 +132,7 @@ function canCallApi(): boolean {
 async function main() {
 
     console.log("---------------------------------------------------------")
-    console.log("Welcome to fetcher, to to stop the srcript press ctrl + c");
+    console.log("Welcome to fetcher, to stop the srcript press ctrl + c");
     console.log("---------------------------------------------------------")
 
     readSavedFiles()
