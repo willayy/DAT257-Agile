@@ -114,7 +114,7 @@ function canCallApi(): boolean {
     let okFetchDate = new Date(lastApiCall);
     okFetchDate.setSeconds(okFetchDate.getSeconds() + fetchInterval);
 
-    console.log("Checking if allowed to call API, last call: " + lastApiCall.toISOString() + ", now: " + (new Date()).toISOString());
+    console.log("Checking if allowed to call API, last call: " + lastApiCall.toISOString() + ", now: " + currentDate.toISOString());
 
     if (currentDate < okFetchDate) {
         console.log("Denied");
