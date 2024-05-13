@@ -1,0 +1,1034 @@
+[
+  {
+    "id": 513253,
+    "datetime": "2024-03-22 10:59:34 +01:00",
+    "name": "22 mars 10.33, Mord/dråp, Malmö",
+    "summary": "Två skadade män",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-10.33-morddrap-malmo/",
+    "type": "Mord/dråp",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 513223,
+    "datetime": "2024-03-22 8:08:00 +01:00",
+    "name": "22 mars 06.28, Misshandel, grov, Borås",
+    "summary": "Polis larmas till en adress i kommunen där förbipasserade påträffat en kvinna och en man, liggandes utomhus på",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-06.28-misshandel-grov-boras/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 513398,
+    "datetime": "2024-03-22 22:21:08 +01:00",
+    "name": "22 mars 21.48, Farligt föremål, misstänkt, Göteborg",
+    "summary": "Polisinsats i Billdal Norra",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-21.48-farligt-foremal-misstankt-goteborg/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 513388,
+    "datetime": "2024-03-22 20:24:55 +01:00",
+    "name": "22 mars 18.58, Fjällräddning, Malung-Sälen",
+    "summary": "En skidåkare har skadat sig under offpiståkning",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-18.58-fjallraddning-malung-salen/",
+    "type": "Fjällräddning",
+    "location": {
+      "name": "Malung-Sälen",
+      "gps": "60.900926,13.322618"
+    }
+  },
+  {
+    "id": 513397,
+    "datetime": "2024-03-22 22:05:28 +01:00",
+    "name": "22 mars 21.48, Trafikolycka, Ängelholm",
+    "summary": "Lastbil och personbil i olycka, Ängelholm.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-21.48-trafikolycka-angelholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ängelholm",
+      "gps": "56.245748,12.863881"
+    }
+  },
+  {
+    "id": 513393,
+    "datetime": "2024-03-22 22:01:27 +01:00",
+    "name": "22 mars 17.14, Åldringsbrott, Nacka",
+    "summary": "Äldre kvinna utsatt för bedrägeri.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.14-aldringsbrott-nacka/",
+    "type": "Åldringsbrott",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 513394,
+    "datetime": "2024-03-22 21:56:56 +01:00",
+    "name": "22 mars 21.56, Övrigt, Hallands län",
+    "summary": "Presstelefonen stängs för natten.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-21.56-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 513395,
+    "datetime": "2024-03-22 21:56:46 +01:00",
+    "name": "22 mars 21.56, Övrigt, Västra Götalands län",
+    "summary": "Presstelefonen stängs för natten.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-21.56-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 513396,
+    "datetime": "2024-03-22 21:15:39 +01:00",
+    "name": "22 mars 20.38, Trafikolycka, vilt, Östersund",
+    "summary": "Polisen får in en anmälan om en viltolycka på E45, Nyvik.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-20.38-trafikolycka-vilt-ostersund/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513390,
+    "datetime": "2024-03-22 20:34:12 +01:00",
+    "name": "22 mars 18.19, Försvunnen person, Landskrona",
+    "summary": "Försvunnen man, Landskrona.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-18.19-forsvunnen-person-landskrona/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Landskrona",
+      "gps": "55.870348,12.83008"
+    }
+  },
+  {
+    "id": 513391,
+    "datetime": "2024-03-22 21:01:02 +01:00",
+    "name": "22 mars 20.26, Trafikolycka, Luleå",
+    "summary": "Larm om trafikolycka på riksväg 97, Gammelstad.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-20.26-trafikolycka-lulea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 513392,
+    "datetime": "2024-03-22 20:42:36 +01:00",
+    "name": "22 mars 20.17, Trafikolycka, vilt, Östersund",
+    "summary": "Polisen får in en anmälan om en viltolycka i Marieby.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-20.17-trafikolycka-vilt-ostersund/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513389,
+    "datetime": "2024-03-22 20:29:22 +01:00",
+    "name": "22 mars 19.22, Fylleri/LOB, Mora",
+    "summary": "En höggradigt berusad man omhändertagen",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.22-fyllerilob-mora/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Mora",
+      "gps": "61.004878,14.537003"
+    }
+  },
+  {
+    "id": 513387,
+    "datetime": "2024-03-22 20:19:59 +01:00",
+    "name": "22 mars 19.52, Trafikolycka, vilt, Boden",
+    "summary": "Polisen får in en anmälan om en olycka med en mindre lasbil och en ren.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.52-trafikolycka-vilt-boden/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Boden",
+      "gps": "65.825119,21.688703"
+    }
+  },
+  {
+    "id": 513385,
+    "datetime": "2024-03-22 20:10:17 +01:00",
+    "name": "22 mars 19.55, Brand, Skurup",
+    "summary": "Brand i villa, Skurup.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.55-brand-skurup/",
+    "type": "Brand",
+    "location": {
+      "name": "Skurup",
+      "gps": "55.48045,13.502349"
+    }
+  },
+  {
+    "id": 513386,
+    "datetime": "2024-03-22 20:17:00 +01:00",
+    "name": "22 mars 19.00, Misshandel, Borlänge",
+    "summary": "Två män var varit oense i Bullermuren i Borlänge",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.00-misshandel-borlange/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Borlänge",
+      "gps": "60.484304,15.433969"
+    }
+  },
+  {
+    "id": 513384,
+    "datetime": "2024-03-22 20:03:54 +01:00",
+    "name": "22 mars 19.44, Trafikolycka, vilt, Umeå",
+    "summary": "Polisen får in en anmälan om en viltolycka på länsväg 363, Forslunda.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.44-trafikolycka-vilt-umea/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 513383,
+    "datetime": "2024-03-22 20:01:02 +01:00",
+    "name": "22 mars 20.00, Rattfylleri, Lindesberg",
+    "summary": "Misstänkt påverkad mopedist stoppad",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-20.00-rattfylleri-lindesberg/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Lindesberg",
+      "gps": "59.597698,15.222911"
+    }
+  },
+  {
+    "id": 513382,
+    "datetime": "2024-03-22 19:58:49 +01:00",
+    "name": "22 mars 19.58, Anträffad död, Finspång",
+    "summary": "En kropp har anträffats i Skutbosjön.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.58-antraffad-dod-finspang/",
+    "type": "Anträffad död",
+    "location": {
+      "name": "Finspång",
+      "gps": "58.707488,15.773595"
+    }
+  },
+  {
+    "id": 513381,
+    "datetime": "2024-03-22 19:39:47 +01:00",
+    "name": "22 mars 19.39, Rån, försök, Sundsvall",
+    "summary": "En man i centrala Sundsvall har under sen eftermiddag anhållits misstänkt för bland annat försök till rån.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-19.39-ran-forsok-sundsvall/",
+    "type": "Rån, försök",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 513373,
+    "datetime": "2024-03-22 19:23:24 +01:00",
+    "name": "22 mars 17.39, Stöld/inbrott, Kungsör",
+    "summary": "Inbrott i bostad.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.39-stoldinbrott-kungsor/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Kungsör",
+      "gps": "59.422397,16.097786"
+    }
+  },
+  {
+    "id": 513370,
+    "datetime": "2024-03-22 19:22:47 +01:00",
+    "name": "22 mars 17.02, Trafikolycka, Uppsala",
+    "summary": "Bil började brinna på E4 efter kollision med mitträcke.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.02-trafikolycka-uppsala/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 513376,
+    "datetime": "2024-03-22 19:10:58 +01:00",
+    "name": "22 mars 17.51, Övrigt, Partille",
+    "summary": "Kontroll av person, Gamla Kronvägen",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.51-ovrigt-partille/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Partille",
+      "gps": "57.73665,12.125197"
+    }
+  },
+  {
+    "id": 513347,
+    "datetime": "2024-03-22 17:18:39 +01:00",
+    "name": "22 mars 16.42, Rattfylleri, Malung-Sälen",
+    "summary": "Polispatrull har stoppat misstänkt påverkad bilist",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.42-rattfylleri-malung-salen/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Malung-Sälen",
+      "gps": "60.900926,13.322618"
+    }
+  },
+  {
+    "id": 513375,
+    "datetime": "2024-03-22 19:02:51 +01:00",
+    "name": "22 mars 16.09, Skadegörelse, Umeå",
+    "summary": "Polis beordras till Ersboda med anledning av en skadegörelse.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.09-skadegorelse-umea/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 513374,
+    "datetime": "2024-03-22 18:56:16 +01:00",
+    "name": "22 mars 18.45, Bråk, Eslöv",
+    "summary": "Larm om bråk, Eslöv.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-18.45-brak-eslov/",
+    "type": "Bråk",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 513341,
+    "datetime": "2024-03-22 17:05:49 +01:00",
+    "name": "22 mars 16.06, Trafikolycka, Örebro",
+    "summary": "En kollision mellan buss och A-traktor har inträffat på Lv752",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.06-trafikolycka-orebro/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 513372,
+    "datetime": "2024-03-22 18:52:28 +01:00",
+    "name": "22 mars 18.10, Stöld/inbrott, Västerås",
+    "summary": "Inbrott i flera förråd.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-18.10-stoldinbrott-vasteras/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Västerås",
+      "gps": "59.609901,16.544809"
+    }
+  },
+  {
+    "id": 513371,
+    "datetime": "2024-03-22 18:52:19 +01:00",
+    "name": "22 mars 17.11, Misshandel, Göteborg",
+    "summary": "En man misstänks för misshandel, Gamlestaden",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.11-misshandel-goteborg/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 513346,
+    "datetime": "2024-03-22 17:14:22 +01:00",
+    "name": "22 mars 17.06, Trafikolycka, Malung-Sälen",
+    "summary": "En skoterolycka har inträffat i Hemfjällstangen",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.06-trafikolycka-malung-salen/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malung-Sälen",
+      "gps": "60.900926,13.322618"
+    }
+  },
+  {
+    "id": 513344,
+    "datetime": "2024-03-22 17:09:05 +01:00",
+    "name": "22 mars 16.53, Trafikolycka, Östersund",
+    "summary": "Larm om trafikolycka på Rödvägen/Lövstavägen, Mjälle.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.53-trafikolycka-ostersund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513369,
+    "datetime": "2024-03-22 18:37:33 +01:00",
+    "name": "22 mars 17.34, Stöld, Härnösand",
+    "summary": "Misstänkt ringa stöld i matbutik, Kronholmen.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.34-stold-harnosand/",
+    "type": "Stöld",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 513345,
+    "datetime": "2024-03-22 18:34:33 +01:00",
+    "name": "22 mars 16.43, Bråk, Umeå",
+    "summary": "Polispatrull berodras till Vasaplan med anledning av ett bråk med två män inblandade.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.43-brak-umea/",
+    "type": "Bråk",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 513312,
+    "datetime": "2024-03-22 15:57:26 +01:00",
+    "name": "22 mars 15.49, Trafikolycka, Kristinehamn",
+    "summary": "En trafikolycka mellan två fordon har inträffat på E18 vid Ölme",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-15.49-trafikolycka-kristinehamn/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kristinehamn",
+      "gps": "59.310068,14.108919"
+    }
+  },
+  {
+    "id": 513339,
+    "datetime": "2024-03-22 16:57:48 +01:00",
+    "name": "22 mars 16.52, Trafikolycka, Kristinehamn",
+    "summary": "En trafikolycka har inträffat i Kristinehamn på E18",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.52-trafikolycka-kristinehamn/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kristinehamn",
+      "gps": "59.310068,14.108919"
+    }
+  },
+  {
+    "id": 513368,
+    "datetime": "2024-03-22 18:24:47 +01:00",
+    "name": "22 mars 17.13, Trafikolycka, Södertälje",
+    "summary": "Flera bilar inblandade i trafikolycka.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.13-trafikolycka-sodertalje/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 513366,
+    "datetime": "2024-03-22 18:18:33 +01:00",
+    "name": "22 mars 13.25, Trafikkontroll, Härjedalen",
+    "summary": "Resultat efter trafikkontroll på Bergarvägen, Ramundberget.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-13.25-trafikkontroll-harjedalen/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 513364,
+    "datetime": "2024-03-22 18:04:24 +01:00",
+    "name": "22 mars 17.45, Trafikolycka, vilt, Storuman",
+    "summary": "Polisen får in en anmälan om en viltolycka på E12, Forsvik.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.45-trafikolycka-vilt-storuman/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Storuman",
+      "gps": "65.09562,17.112277"
+    }
+  },
+  {
+    "id": 513363,
+    "datetime": "2024-03-22 18:00:02 +01:00",
+    "name": "22 mars 17.59, Övrigt, Malmö",
+    "summary": "UAS (drönare) över Holma och Kroksbäck.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-17.59-ovrigt-malmo/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 513355,
+    "datetime": "2024-03-22 17:44:57 +01:00",
+    "name": "22 mars 16.06, Rattfylleri, Örebro",
+    "summary": "Polisaptrull har stoppat en misstänkt påverkad bilist",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.06-rattfylleri-orebro/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 513349,
+    "datetime": "2024-03-22 17:24:58 +01:00",
+    "name": "22 mars 10.55, Rattfylleri, Luleå",
+    "summary": "Misstänkt rattfylleri på E4, Ersnäs.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-10.55-rattfylleri-lulea/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 513333,
+    "datetime": "2024-03-22 17:03:09 +01:00",
+    "name": "22 mars 13.51, Ofredande/förargelse, Östersund",
+    "summary": "Polisen kontaktas angående ett sexuellt ofredande.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-13.51-ofredandeforargelse-ostersund/",
+    "type": "Ofredande/förargelse",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513309,
+    "datetime": "2024-03-22 15:49:02 +01:00",
+    "name": "22 mars 15.24, Trafikolycka, Mora",
+    "summary": "En skoterolycka har inträffat nordväst om Särna",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-15.24-trafikolycka-mora/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Mora",
+      "gps": "61.004878,14.537003"
+    }
+  },
+  {
+    "id": 513330,
+    "datetime": "2024-03-22 16:30:18 +01:00",
+    "name": "22 mars 16.11, Brand, Kristianstad",
+    "summary": "Brand i villa, Träne-Djurröd.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.11-brand-kristianstad/",
+    "type": "Brand",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 513303,
+    "datetime": "2024-03-22 15:18:37 +01:00",
+    "name": "22 mars 15.06, Brand, Staffanstorp",
+    "summary": "Larm om brand i radhus, Staffanstorp.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-15.06-brand-staffanstorp/",
+    "type": "Brand",
+    "location": {
+      "name": "Staffanstorp",
+      "gps": "55.641065,13.212229"
+    }
+  },
+  {
+    "id": 513331,
+    "datetime": "2024-03-22 16:30:44 +01:00",
+    "name": "22 mars 16.25, Trafikolycka, Askersund",
+    "summary": "En trafikolycka har inträffat på Rv 50 vid Ingelsbyn",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-16.25-trafikolycka-askersund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Askersund",
+      "gps": "58.889427,14.910987"
+    }
+  },
+  {
+    "id": 513326,
+    "datetime": "2024-03-22 16:25:13 +01:00",
+    "name": "22 mars 15.00, Rattfylleri, Sunne",
+    "summary": "Misstänkt påverkad bilist stoppad",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-15.00-rattfylleri-sunne/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Sunne",
+      "gps": "59.836558,13.144046"
+    }
+  },
+  {
+    "id": 513272,
+    "datetime": "2024-03-22 13:09:17 +01:00",
+    "name": "22 mars 12.34, Trafikolycka, Östersund",
+    "summary": "E14 Lugnviks industriområde, två bilister inblandad i olycka",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-12.34-trafikolycka-ostersund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513300,
+    "datetime": "2024-03-22 15:06:44 +01:00",
+    "name": "22 mars 11.44, Arbetsplatsolycka, Göteborg",
+    "summary": "Byggarbetsplats, Torslanda",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-11.44-arbetsplatsolycka-goteborg/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 513298,
+    "datetime": "2024-03-22 14:54:42 +01:00",
+    "name": "22 mars 14.48, Stöld, Kungsör",
+    "summary": "Dubbla stölder från BMW-bilar.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-14.48-stold-kungsor/",
+    "type": "Stöld",
+    "location": {
+      "name": "Kungsör",
+      "gps": "59.422397,16.097786"
+    }
+  },
+  {
+    "id": 513292,
+    "datetime": "2024-03-22 14:42:23 +01:00",
+    "name": "22 mars 12.57, Trafikolycka, Östersund",
+    "summary": "Larm om trafikolycka i Torvalla by.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-12.57-trafikolycka-ostersund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513286,
+    "datetime": "2024-03-22 14:03:17 +01:00",
+    "name": "22 mars 11.23, Stöld, Umeå",
+    "summary": "Centrala stan, man gripen misstänkt för stöld i butik",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-11.23-stold-umea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 513283,
+    "datetime": "2024-03-22 13:55:13 +01:00",
+    "name": "22 mars 13.14, Trafikolycka, Lessebo",
+    "summary": "Singelolycka, Skruv",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-13.14-trafikolycka-lessebo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Lessebo",
+      "gps": "56.751264,15.270001"
+    }
+  },
+  {
+    "id": 513279,
+    "datetime": "2024-03-22 13:34:36 +01:00",
+    "name": "22 mars 13.21, Trafikolycka, Malmö",
+    "summary": "Personbil och cyklist i kollision",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-13.21-trafikolycka-malmo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 513274,
+    "datetime": "2024-03-22 13:25:12 +01:00",
+    "name": "22 mars 10.19, Fjällräddning, Åre",
+    "summary": "Några kilometer från Blåhammarens fjällstation, en kvinna har ramlat och gjort sig illa",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-10.19-fjallraddning-are/",
+    "type": "Fjällräddning",
+    "location": {
+      "name": "Åre",
+      "gps": "63.399043,13.081506"
+    }
+  },
+  {
+    "id": 513271,
+    "datetime": "2024-03-22 13:06:32 +01:00",
+    "name": "22 mars 11.59, Stöld, Östersund",
+    "summary": "Östersund, polis kontaktas gällande ringa stöld i livsmedelsbutik",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-11.59-stold-ostersund/",
+    "type": "Stöld",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 513256,
+    "datetime": "2024-03-22 11:14:42 +01:00",
+    "name": "22 mars 09.45, Trafikolycka, Strömsund",
+    "summary": "Länsväg 345, singelolycka ett par mil söder om Strömsund",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-09.45-trafikolycka-stromsund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Strömsund",
+      "gps": "63.853662,15.556869"
+    }
+  },
+  {
+    "id": 513261,
+    "datetime": "2024-03-22 11:49:05 +01:00",
+    "name": "22 mars 11.40, Trafikolycka, Värnamo",
+    "summary": "Trafikolycka på riksväg 27.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-11.40-trafikolycka-varnamo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Värnamo",
+      "gps": "57.183161,14.047821"
+    }
+  },
+  {
+    "id": 513255,
+    "datetime": "2024-03-22 11:10:13 +01:00",
+    "name": "22 mars 10.54, Trafikkontroll, Pajala",
+    "summary": "Länsväg 392, resultat efter trafikkontroll",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-10.54-trafikkontroll-pajala/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Pajala",
+      "gps": "67.212782,23.367392"
+    }
+  },
+  {
+    "id": 513241,
+    "datetime": "2024-03-22 9:29:52 +01:00",
+    "name": "22 mars 09.00, Trafikolycka, Umeå",
+    "summary": "Carlslidrondellen, två bilister har kolliderat i rondell",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-09.00-trafikolycka-umea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 513251,
+    "datetime": "2024-03-22 10:41:00 +01:00",
+    "name": "22 mars 09.45, Olaga hot, Stockholm",
+    "summary": "Polisen har gripit en man i södra Stockholm. Han misstänks ha hotat och tagit ett strypgrepp på en kvinna som ",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-09.45-olaga-hot-stockholm/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 513244,
+    "datetime": "2024-03-22 10:08:05 +01:00",
+    "name": "22 mars 08.57, Knivlagen, Sollefteå",
+    "summary": "Sollefteå, man kontrollerad av polis",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-08.57-knivlagen-solleftea/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 513240,
+    "datetime": "2024-03-22 9:26:03 +01:00",
+    "name": "22 mars 08.55, Trafikolycka, Skellefteå",
+    "summary": "E4 Kåge, larm om att två fordon kolliderat i en rondell.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-08.55-trafikolycka-skelleftea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 513239,
+    "datetime": "2024-03-22 9:21:58 +01:00",
+    "name": "22 mars 08.12, Trafikkontroll, Örnsköldsvik",
+    "summary": "Örnsköldsvik, resultat efter trafikkontroll vid Bromvägen",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-08.12-trafikkontroll-ornskoldsvik/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 513219,
+    "datetime": "2024-03-22 7:50:10 +01:00",
+    "name": "22 mars 07.50, Sammanfattning natt, Södermanlands län",
+    "summary": "Här följer en kort sammanfattning från nattens händelser.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.50-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 513210,
+    "datetime": "2024-03-22 7:09:54 +01:00",
+    "name": "22 mars 05.28, Brand, Mellerud",
+    "summary": "SOS larmas om en brand i en butik på bottenvåningen i ett flerfamiljshus. Räddningstjänst, polis och ambulans ",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-05.28-brand-mellerud/",
+    "type": "Brand",
+    "location": {
+      "name": "Mellerud",
+      "gps": "58.702568,12.451842"
+    }
+  },
+  {
+    "id": 513222,
+    "datetime": "2024-03-22 7:50:18 +01:00",
+    "name": "22 mars 07.50, Sammanfattning natt, Jönköpings län",
+    "summary": "Här följer en kort sammanfattning från nattens händelser.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.50-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 513217,
+    "datetime": "2024-03-22 7:50:04 +01:00",
+    "name": "22 mars 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "Östergötland mellan 22:00 och 07:00",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 513221,
+    "datetime": "2024-03-22 7:46:02 +01:00",
+    "name": "22 mars 07.34, Sammanfattning natt, Jämtlands län",
+    "summary": "Jämtland, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.34-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 513220,
+    "datetime": "2024-03-22 7:44:27 +01:00",
+    "name": "22 mars 03.01, Brand, Uppsala",
+    "summary": "Bostadsbrand med personskada.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-03.01-brand-uppsala/",
+    "type": "Brand",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 513218,
+    "datetime": "2024-03-22 7:38:25 +01:00",
+    "name": "22 mars 07.29, Sammanfattning natt, Dalarnas län",
+    "summary": "Natt till fredag polisområde Dalarna",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.29-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 513216,
+    "datetime": "2024-03-22 7:34:13 +01:00",
+    "name": "22 mars 07.25, Sammanfattning natt, Västernorrlands län",
+    "summary": "Västernorrland, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.25-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 513213,
+    "datetime": "2024-03-22 7:29:03 +01:00",
+    "name": "22 mars 07.28, Sammanfattning natt, Värmlands län",
+    "summary": "Natt till fredag polisområde Värmland",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.28-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 513215,
+    "datetime": "2024-03-22 7:25:53 +01:00",
+    "name": "22 mars 07.21, Sammanfattning natt, Västerbottens län",
+    "summary": "Västerbotten, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.21-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 513214,
+    "datetime": "2024-03-22 7:21:52 +01:00",
+    "name": "22 mars 07.00, Sammanfattning natt, Norrbottens län",
+    "summary": "Norrbotten, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.00-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 513211,
+    "datetime": "2024-03-22 7:16:14 +01:00",
+    "name": "22 mars 07.16, Sammanfattning natt, Örebro län",
+    "summary": "Natt till fredag polisområde Örebro",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.16-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 513212,
+    "datetime": "2024-03-22 7:13:40 +01:00",
+    "name": "22 mars 02.33, Arbetsplatsolycka, Karlshamn",
+    "summary": "Starkström",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-02.33-arbetsplatsolycka-karlshamn/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Karlshamn",
+      "gps": "56.170303,14.863073"
+    }
+  },
+  {
+    "id": 513209,
+    "datetime": "2024-03-22 7:08:21 +01:00",
+    "name": "22 mars 07.07, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.07-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 513208,
+    "datetime": "2024-03-22 7:07:44 +01:00",
+    "name": "22 mars 05.51, Arbetsplatsolycka, Helsingborg",
+    "summary": "Person påkörd av tåg",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-05.51-arbetsplatsolycka-helsingborg/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 513207,
+    "datetime": "2024-03-22 7:07:24 +01:00",
+    "name": "22 mars 07.07, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-07.07-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 513206,
+    "datetime": "2024-03-22 7:04:22 +01:00",
+    "name": "22 mars 02.53, Stöld, Älmhult",
+    "summary": "Inbrott i guldaffär",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-02.53-stold-almhult/",
+    "type": "Stöld",
+    "location": {
+      "name": "Älmhult",
+      "gps": "56.552446,14.137405"
+    }
+  },
+  {
+    "id": 513205,
+    "datetime": "2024-03-22 7:01:36 +01:00",
+    "name": "22 mars 02.50, Trafikolycka, Trelleborg",
+    "summary": "Gislövs strandväg",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-02.50-trafikolycka-trelleborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Trelleborg",
+      "gps": "55.376243,13.157423"
+    }
+  },
+  {
+    "id": 513204,
+    "datetime": "2024-03-22 6:54:39 +01:00",
+    "name": "22 mars 01.19, Olaga intrång, Helsingborg",
+    "summary": "Man som tagit sig in på inhägnat område",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-01.19-olaga-intrang-helsingborg/",
+    "type": "Olaga intrång",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 513203,
+    "datetime": "2024-03-22 6:51:48 +01:00",
+    "name": "22 mars 01.08, Brand, Malmö",
+    "summary": "Bilbrand",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-01.08-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 513202,
+    "datetime": "2024-03-22 6:50:20 +01:00",
+    "name": "22 mars 00.28, Rån, Malmö",
+    "summary": "Personrån, Värnhem",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-00.28-ran-malmo/",
+    "type": "Rån",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 513200,
+    "datetime": "2024-03-22 1:58:02 +01:00",
+    "name": "22 mars 01.36, Mord/dråp, Linköping",
+    "summary": "Kvinna hittad avliden i bostad.",
+    "url": "/aktuellt/handelser/2024/mars/22/22-mars-01.36-morddrap-linkoping/",
+    "type": "Mord/dråp",
+    "location": {
+      "name": "Linköping",
+      "gps": "58.410807,15.621373"
+    }
+  }
+]

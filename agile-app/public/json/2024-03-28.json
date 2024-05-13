@@ -1,0 +1,854 @@
+[
+  {
+    "id": 514212,
+    "datetime": "2024-03-29 10:51:28 +01:00",
+    "name": "28 mars 08.09, Arbetsplatsolycka, Hofors",
+    "summary": "Man klämskadad.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-08.09-arbetsplatsolycka-hofors/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Hofors",
+      "gps": "60.54595,16.2841"
+    }
+  },
+  {
+    "id": 514191,
+    "datetime": "2024-03-29 7:00:05 +01:00",
+    "name": "28 mars 20.33, Vållande till kroppsskada, Surahammar",
+    "summary": "Man skottskadad i samband med jakt.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-20.33-vallande-till-kroppsskada-surahammar/",
+    "type": "Vållande till kroppsskada",
+    "location": {
+      "name": "Surahammar",
+      "gps": "59.707226,16.226841"
+    }
+  },
+  {
+    "id": 514185,
+    "datetime": "2024-03-28 23:32:34 +01:00",
+    "name": "28 mars 22.49, Misshandel, grov, Kristianstad",
+    "summary": "Man misshandlad av ett flertal personer",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-22.49-misshandel-grov-kristianstad/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 514184,
+    "datetime": "2024-03-28 22:12:07 +01:00",
+    "name": "28 mars 22.00, Övrigt, Hallands län",
+    "summary": "Efter klockan 22:00 finns ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl i m",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-22.00-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 514183,
+    "datetime": "2024-03-28 22:11:49 +01:00",
+    "name": "28 mars 22.00, Övrigt, Västra Götalands län",
+    "summary": "Efter klockan 22:00 finns ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl i m",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-22.00-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 514181,
+    "datetime": "2024-03-28 21:28:19 +01:00",
+    "name": "28 mars 19.59, Bedrägeri, Ljungby",
+    "summary": "Bedrägeri",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-19.59-bedrageri-ljungby/",
+    "type": "Bedrägeri",
+    "location": {
+      "name": "Ljungby",
+      "gps": "56.833877,13.941042"
+    }
+  },
+  {
+    "id": 514177,
+    "datetime": "2024-03-28 21:52:49 +01:00",
+    "name": "28 mars 18.23, Stöld, Luleå",
+    "summary": "Hertsön, polis kontaktas gällande misstänkt stöld ur trapphus och bodar",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-18.23-stold-lulea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 514182,
+    "datetime": "2024-03-28 21:52:35 +01:00",
+    "name": "28 mars 19.41, Rattfylleri, Laxå",
+    "summary": "En utländsk lastbilschufför gripen misstänkt för grovt rattfylleri.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-19.41-rattfylleri-laxa/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Laxå",
+      "gps": "58.98269,14.62289"
+    }
+  },
+  {
+    "id": 514180,
+    "datetime": "2024-03-28 21:27:39 +01:00",
+    "name": "28 mars 21.03, Brand, Borås",
+    "summary": "Det brinner i en lägenhet i ett flerfamiljshus på Dalbogatan.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-21.03-brand-boras/",
+    "type": "Brand",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 514179,
+    "datetime": "2024-03-28 21:12:47 +01:00",
+    "name": "28 mars 20.12, Fylleri/LOB, Åre",
+    "summary": "Åre, polis påträffar en berusad person under 15 år",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-20.12-fyllerilob-are/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Åre",
+      "gps": "63.399043,13.081506"
+    }
+  },
+  {
+    "id": 514178,
+    "datetime": "2024-03-28 21:06:10 +01:00",
+    "name": "28 mars 19.50, Övrigt, Helsingborg",
+    "summary": "Falsklarm",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-19.50-ovrigt-helsingborg/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 514172,
+    "datetime": "2024-03-28 19:16:18 +01:00",
+    "name": "28 mars 17.06, Försvunnen person, Malmö",
+    "summary": "12-årig pojke försvunnen",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-17.06-forsvunnen-person-malmo/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 514175,
+    "datetime": "2024-03-28 20:32:17 +01:00",
+    "name": "28 mars 18.06, Trafikolycka, Vilhelmina",
+    "summary": "Öster om Kittelfjäll, larm om skoterolycka",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-18.06-trafikolycka-vilhelmina/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vilhelmina",
+      "gps": "64.624471,16.655497"
+    }
+  },
+  {
+    "id": 514174,
+    "datetime": "2024-03-28 19:40:39 +01:00",
+    "name": "28 mars 19.22, Trafikkontroll, Västerbottens län",
+    "summary": "Västerbotten, ett urval av polisen arbete i trafiken under eftermiddagen och kvällen",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-19.22-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 514173,
+    "datetime": "2024-03-28 19:22:26 +01:00",
+    "name": "28 mars 19.00, Trafikkontroll, Norrbottens län",
+    "summary": "Norrbotten, ett urval av polisens arbete i trafiken under eftermiddagen och kvällen",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-19.00-trafikkontroll-norrbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 514167,
+    "datetime": "2024-03-28 17:20:23 +01:00",
+    "name": "28 mars 17.09, Trafikolycka, Borlänge",
+    "summary": "Två personbilar uppges ha kolliderat vid Domnarvsrondellen i Borlängen",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-17.09-trafikolycka-borlange/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Borlänge",
+      "gps": "60.484304,15.433969"
+    }
+  },
+  {
+    "id": 514171,
+    "datetime": "2024-03-28 18:57:09 +01:00",
+    "name": "28 mars 18.07, Fylleri/LOB, Åre",
+    "summary": "Centrala Åre, ung man omhändertagen av polis",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-18.07-fyllerilob-are/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Åre",
+      "gps": "63.399043,13.081506"
+    }
+  },
+  {
+    "id": 514170,
+    "datetime": "2024-03-28 18:07:27 +01:00",
+    "name": "28 mars 14.15, Rattfylleri, Skellefteå",
+    "summary": "Skellefteå, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-14.15-rattfylleri-skelleftea/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 514169,
+    "datetime": "2024-03-28 18:00:42 +01:00",
+    "name": "28 mars 16.01, Trafikbrott, Luleå",
+    "summary": "Skutvikens industriområde, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-16.01-trafikbrott-lulea/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 514168,
+    "datetime": "2024-03-28 17:35:00 +01:00",
+    "name": "28 mars 12.00, Narkotikabrott, Östersund",
+    "summary": "Centrum, patrull åker till centrum och två personer kontrolleras",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-12.00-narkotikabrott-ostersund/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 514166,
+    "datetime": "2024-03-28 17:19:39 +01:00",
+    "name": "28 mars 15.33, Fylleri/LOB, Sollefteå",
+    "summary": "Stadsparken, polis kontaktas gällande berusad man",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-15.33-fyllerilob-solleftea/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 514165,
+    "datetime": "2024-03-28 17:17:50 +01:00",
+    "name": "28 mars 15.24, Fylleri/LOB, Sundsvall",
+    "summary": "Stenstan, man omhändertagen av polis",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-15.24-fyllerilob-sundsvall/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 514164,
+    "datetime": "2024-03-28 17:15:06 +01:00",
+    "name": "28 mars 14.51, Rattfylleri, Härnösand",
+    "summary": "Centrum, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-14.51-rattfylleri-harnosand/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 514163,
+    "datetime": "2024-03-28 17:08:25 +01:00",
+    "name": "28 mars 13.24, Våld/hot mot tjänsteman, Timrå",
+    "summary": "Timrå, misstänkt hot och våld mot tjänsteman",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-13.24-valdhot-mot-tjansteman-timra/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Timrå",
+      "gps": "62.485456,17.324865"
+    }
+  },
+  {
+    "id": 514162,
+    "datetime": "2024-03-28 16:54:16 +01:00",
+    "name": "28 mars 16.20, Trafikolycka, Vaggeryd",
+    "summary": "Flera polispatruller på plats vid trafikolycka.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-16.20-trafikolycka-vaggeryd/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vaggeryd",
+      "gps": "57.498962,14.14863"
+    }
+  },
+  {
+    "id": 514161,
+    "datetime": "2024-03-28 16:47:27 +01:00",
+    "name": "28 mars 13.55, Trafikolycka, Lycksele",
+    "summary": "Länsväg 360, trafikolycka några mil väster om Lycksele",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-13.55-trafikolycka-lycksele/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Lycksele",
+      "gps": "64.59581,18.676367"
+    }
+  },
+  {
+    "id": 514160,
+    "datetime": "2024-03-28 16:26:36 +01:00",
+    "name": "28 mars 16.15, Övrigt, Borås",
+    "summary": "Polisen söker efter tips som kan leda utredningen av ett misstänkt mord från 2021 framåt.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-16.15-ovrigt-boras/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 514159,
+    "datetime": "2024-03-28 16:21:33 +01:00",
+    "name": "28 mars 13.52, Trafikolycka, singel, Storuman",
+    "summary": "E12, singelolycka cirka en mil norr om Storuman",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-13.52-trafikolycka-singel-storuman/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Storuman",
+      "gps": "65.09562,17.112277"
+    }
+  },
+  {
+    "id": 514158,
+    "datetime": "2024-03-28 16:15:46 +01:00",
+    "name": "28 mars 11.18, Stöld, Umeå",
+    "summary": "Holmsund, polis kontaktas gällande en påverkad kvinna som olovligen tagit sig in till en kommunal verksamhet",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-11.18-stold-umea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 514157,
+    "datetime": "2024-03-28 15:56:45 +01:00",
+    "name": "28 mars 15.06, Knivlagen, Göteborg",
+    "summary": "Två personer bråkar på Nils Erikssonsplatsen. En av dem ska enligt de första uppgifterna bära kniv.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-15.06-knivlagen-goteborg/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 514156,
+    "datetime": "2024-03-28 15:38:12 +01:00",
+    "name": "28 mars 11.41, Rattfylleri, Övertorneå",
+    "summary": "Övertorneå, bilist stoppad i trafikkontroll",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-11.41-rattfylleri-overtornea/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Övertorneå",
+      "gps": "66.388444,23.639283"
+    }
+  },
+  {
+    "id": 514128,
+    "datetime": "2024-03-28 13:16:15 +01:00",
+    "name": "28 mars 12.11, Farligt föremål, misstänkt, Huddinge",
+    "summary": "Misstänkt farligt föremål påträffat under utredningsåtgärder",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-12.11-farligt-foremal-misstankt-huddinge/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Huddinge",
+      "gps": "59.23633,17.982156"
+    }
+  },
+  {
+    "id": 514149,
+    "datetime": "2024-03-28 14:38:08 +01:00",
+    "name": "28 mars 14.32, Trafikolycka, Ronneby",
+    "summary": "Flera personbilar i olycka, Ronneby.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-14.32-trafikolycka-ronneby/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ronneby",
+      "gps": "56.210434,15.276023"
+    }
+  },
+  {
+    "id": 514148,
+    "datetime": "2024-03-28 14:28:23 +01:00",
+    "name": "28 mars 14.22, Trafikolycka, Ängelholm",
+    "summary": "Husbil och personbil i olycka, E6.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-14.22-trafikolycka-angelholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ängelholm",
+      "gps": "56.245748,12.863881"
+    }
+  },
+  {
+    "id": 514147,
+    "datetime": "2024-03-28 14:16:10 +01:00",
+    "name": "28 mars 14.02, Trafikolycka, Höör",
+    "summary": "Två personbilar i olycka, Sätofta.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-14.02-trafikolycka-hoor/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Höör",
+      "gps": "55.934859,13.53959"
+    }
+  },
+  {
+    "id": 514139,
+    "datetime": "2024-03-28 13:31:41 +01:00",
+    "name": "28 mars 11.28, Fjällräddning, Storuman",
+    "summary": "Fjällräddningen undsätter skadad man.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-11.28-fjallraddning-storuman/",
+    "type": "Fjällräddning",
+    "location": {
+      "name": "Storuman",
+      "gps": "65.09562,17.112277"
+    }
+  },
+  {
+    "id": 514137,
+    "datetime": "2024-03-28 13:29:40 +01:00",
+    "name": "28 mars 10.19, Rattfylleri, Lycksele",
+    "summary": "Misstänkt rattfylleri i centrum.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.19-rattfylleri-lycksele/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Lycksele",
+      "gps": "64.59581,18.676367"
+    }
+  },
+  {
+    "id": 514135,
+    "datetime": "2024-03-28 13:23:06 +01:00",
+    "name": "28 mars 12.41, Skadegörelse, Vimmerby",
+    "summary": "Pågående skadegörelse, Vimmerby.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-12.41-skadegorelse-vimmerby/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Vimmerby",
+      "gps": "57.669034,15.858857"
+    }
+  },
+  {
+    "id": 514126,
+    "datetime": "2024-03-28 13:07:26 +01:00",
+    "name": "28 mars 09.00, Hemfridsbrott, Vännäs",
+    "summary": "Hemfridsbrott anmält i Vännäs.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-09.00-hemfridsbrott-vannas/",
+    "type": "Hemfridsbrott",
+    "location": {
+      "name": "Vännäs",
+      "gps": "63.908007,19.752965"
+    }
+  },
+  {
+    "id": 514125,
+    "datetime": "2024-03-28 13:05:32 +01:00",
+    "name": "28 mars 12.52, Trafikolycka, Vellinge",
+    "summary": "Larm om trafikolycka, Hököpinge",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-12.52-trafikolycka-vellinge/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vellinge",
+      "gps": "55.470893,13.01999"
+    }
+  },
+  {
+    "id": 514123,
+    "datetime": "2024-03-28 12:54:36 +01:00",
+    "name": "28 mars 12.39, Trafikolycka, Vänersborg",
+    "summary": "På E45 strax söder om Brålanda har en personbil kört in i ett mitträcke.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-12.39-trafikolycka-vanersborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vänersborg",
+      "gps": "58.379728,12.324803"
+    }
+  },
+  {
+    "id": 514122,
+    "datetime": "2024-03-28 12:54:07 +01:00",
+    "name": "28 mars 10.40, Rattfylleri, Älvsbyn",
+    "summary": "Misstänkt drograttfylleri i Älvsbyn.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.40-rattfylleri-alvsbyn/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Älvsbyn",
+      "gps": "65.677136,20.992866"
+    }
+  },
+  {
+    "id": 514117,
+    "datetime": "2024-03-28 11:46:22 +01:00",
+    "name": "28 mars 11.19, Trafikolycka, Tibro",
+    "summary": "På riksväg 49, i utkanten av Tibro och i riktning mot Skövde, kör en kranbil in i en vägportal.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-11.19-trafikolycka-tibro/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Tibro",
+      "gps": "58.424323,14.161642"
+    }
+  },
+  {
+    "id": 514099,
+    "datetime": "2024-03-28 10:47:15 +01:00",
+    "name": "28 mars 07.42, Misshandel, grov, Solna",
+    "summary": "En man är misstänkt för grov misshandel av en närstående kvinna",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.42-misshandel-grov-solna/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Solna",
+      "gps": "59.368879,18.008433"
+    }
+  },
+  {
+    "id": 514115,
+    "datetime": "2024-03-28 12:14:49 +01:00",
+    "name": "28 mars 10.14, Våld/hot mot tjänsteman, Karlstad",
+    "summary": "En man i femtioårsåldern misstänks för bland annat våldsamt motstånd",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.14-valdhot-mot-tjansteman-karlstad/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 514116,
+    "datetime": "2024-03-28 11:45:37 +01:00",
+    "name": "28 mars 10.25, Knivlagen, Nyköping",
+    "summary": "En man med yxa gripen av polis.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.25-knivlagen-nykoping/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Nyköping",
+      "gps": "58.752844,17.009159"
+    }
+  },
+  {
+    "id": 514107,
+    "datetime": "2024-03-28 11:17:31 +01:00",
+    "name": "28 mars 10.35, Farligt föremål, misstänkt, Göteborg",
+    "summary": "Polis är på plats vid Östra sjukhuset för att kontrollera ett misstänkt farligt föremål.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.35-farligt-foremal-misstankt-goteborg/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 514112,
+    "datetime": "2024-03-28 11:23:00 +01:00",
+    "name": "28 mars 10.25, Olovlig körning, Östersund",
+    "summary": "Bilförare misstänks för grov olovlig körning.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.25-olovlig-korning-ostersund/",
+    "type": "Olovlig körning",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 514106,
+    "datetime": "2024-03-28 11:17:09 +01:00",
+    "name": "28 mars 10.33, Trafikolycka, Sollefteå",
+    "summary": "Trafikolycka på länsväg 345 Ramsele, Sollefteå.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.33-trafikolycka-solleftea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 514105,
+    "datetime": "2024-03-28 11:13:53 +01:00",
+    "name": "28 mars 09.51, Olovlig körning, Sundsvall",
+    "summary": "Man misstänks för grov olovlig körning i Njurunda.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-09.51-olovlig-korning-sundsvall/",
+    "type": "Olovlig körning",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 514104,
+    "datetime": "2024-03-28 11:11:13 +01:00",
+    "name": "28 mars 08.42, Fylleri/LOB, Sundsvall",
+    "summary": "Man omhändertagen i Sidsjö, Sundsvall.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-08.42-fyllerilob-sundsvall/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 514097,
+    "datetime": "2024-03-28 10:02:49 +01:00",
+    "name": "28 mars 10.02, Trafikkontroll, Västerbottens län",
+    "summary": "Resultat av polisens arbete i trafiken.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-10.02-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 514082,
+    "datetime": "2024-03-28 7:51:41 +01:00",
+    "name": "28 mars 07.52, Mord/dråp, Katrineholm",
+    "summary": "Polisen utreder ett misstänkt mord i Katrinheholm.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.52-morddrap-katrineholm/",
+    "type": "Mord/dråp",
+    "location": {
+      "name": "Katrineholm",
+      "gps": "58.995551,16.205476"
+    }
+  },
+  {
+    "id": 514090,
+    "datetime": "2024-03-28 8:51:57 +01:00",
+    "name": "28 mars 08.00, Övrigt, Norrköping",
+    "summary": "Premiär i allsvensk fotboll - kommenderingschefen tillgänlig för media",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-08.00-ovrigt-norrkoping/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Norrköping",
+      "gps": "58.587745,16.192421"
+    }
+  },
+  {
+    "id": 514077,
+    "datetime": "2024-03-28 8:35:45 +01:00",
+    "name": "28 mars 08.35, Trafikolycka, personskada, Örebro län",
+    "summary": "Trafikolycka tåg.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-08.35-trafikolycka-personskada-orebro-lan/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 514087,
+    "datetime": "2024-03-28 8:08:43 +01:00",
+    "name": "28 mars 04.21, Trafikbrott, Nacka",
+    "summary": "Tre personer smiter från polisen vid en trafikkontroll.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-04.21-trafikbrott-nacka/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 514086,
+    "datetime": "2024-03-28 7:54:25 +01:00",
+    "name": "28 mars 07.53, Sammanfattning natt, Jönköpings län",
+    "summary": "Polisen har hanterat ett 40-tal ärenden i Jönköpings län mellan klockan 22:00 och 07:00.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.53-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 514085,
+    "datetime": "2024-03-28 7:53:17 +01:00",
+    "name": "28 mars 07.53, Sammanfattning natt, Östergötlands län",
+    "summary": "En polisiärt lugn natt i Östergötland.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.53-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 514084,
+    "datetime": "2024-03-28 7:52:23 +01:00",
+    "name": "28 mars 07.52, Sammanfattning natt, Katrineholm",
+    "summary": "En polisiärt lugn natt i Södermanland.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.52-sammanfattning-natt-katrineholm/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Katrineholm",
+      "gps": "58.995551,16.205476"
+    }
+  },
+  {
+    "id": 514083,
+    "datetime": "2024-03-28 7:52:22 +01:00",
+    "name": "28 mars 06.52, Trafikolycka, personskada, Stenungsund",
+    "summary": "På Kristinedalsvägen blir ett mindre barn påbackad av en personbil.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-06.52-trafikolycka-personskada-stenungsund/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Stenungsund",
+      "gps": "58.067839,11.829434"
+    }
+  },
+  {
+    "id": 514069,
+    "datetime": "2024-03-28 7:13:07 +01:00",
+    "name": "28 mars 07.13, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet i Västernorrlands län.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.13-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 514074,
+    "datetime": "2024-03-28 7:21:54 +01:00",
+    "name": "28 mars 04.33, Brand, Stockholm",
+    "summary": "Larm om brand i bil och på en restaurang i Midsommarkransen.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-04.33-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 514072,
+    "datetime": "2024-03-28 7:18:14 +01:00",
+    "name": "28 mars 06.45, Trafikolycka, Kristianstad",
+    "summary": "Olycka mellan lätt lastbil och personbil, Everöd.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-06.45-trafikolycka-kristianstad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 514071,
+    "datetime": "2024-03-28 7:12:49 +01:00",
+    "name": "28 mars 07.12, Sammanfattning natt, Jämtlands län",
+    "summary": "Nattens polisverksamhet i Jämtlands län.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.12-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 514066,
+    "datetime": "2024-03-28 7:12:40 +01:00",
+    "name": "28 mars 07.12, Sammanfattning natt, Värmlands län",
+    "summary": "Natt till torsdag polisområde Värmland.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.12-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 514070,
+    "datetime": "2024-03-28 7:08:46 +01:00",
+    "name": "28 mars 07.04, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.04-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 514068,
+    "datetime": "2024-03-28 7:05:21 +01:00",
+    "name": "28 mars 06.04, Inbrott, Karlskrona",
+    "summary": "Inbrott på förskola, Trossö.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-06.04-inbrott-karlskrona/",
+    "type": "Inbrott",
+    "location": {
+      "name": "Karlskrona",
+      "gps": "56.161224,15.5869"
+    }
+  },
+  {
+    "id": 514067,
+    "datetime": "2024-03-28 7:04:33 +01:00",
+    "name": "28 mars 07.03, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-07.03-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 514065,
+    "datetime": "2024-03-28 7:00:35 +01:00",
+    "name": "28 mars 05.19, Inbrott, försök, Vellinge",
+    "summary": "Boende avbryter inbrott, Höllviken.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-05.19-inbrott-forsok-vellinge/",
+    "type": "Inbrott, försök",
+    "location": {
+      "name": "Vellinge",
+      "gps": "55.470893,13.01999"
+    }
+  },
+  {
+    "id": 514064,
+    "datetime": "2024-03-28 6:59:04 +01:00",
+    "name": "28 mars 06.58, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet i Västerbottens län.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-06.58-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 514063,
+    "datetime": "2024-03-28 6:51:57 +01:00",
+    "name": "28 mars 06.51, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet i Norrbottens län.",
+    "url": "/aktuellt/handelser/2024/mars/28/28-mars-06.51-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  }
+]
