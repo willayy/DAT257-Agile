@@ -1,0 +1,914 @@
+[
+  {
+    "id": 484117,
+    "datetime": "2024-01-16 7:51:04 +01:00",
+    "name": "15 januari 22.06, Våld/hot mot tjänsteman, Stockholm",
+    "summary": "Unga män trakasserar ordningsvakter.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-22.06-valdhot-mot-tjansteman-stockholm/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 484118,
+    "datetime": "2024-01-16 7:51:00 +01:00",
+    "name": "15 januari 22.15, Stöld, Haninge",
+    "summary": "Stöld av registreringsskylt.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-22.15-stold-haninge/",
+    "type": "Stöld",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 484102,
+    "datetime": "2024-01-15 23:03:24 +01:00",
+    "name": "15 januari 22.13, Räddningsinsats, Stockholm",
+    "summary": "En person har gått igenom isen vid Fredhäll.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-22.13-raddningsinsats-stockholm/",
+    "type": "Räddningsinsats",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 484101,
+    "datetime": "2024-01-15 22:10:14 +01:00",
+    "name": "15 januari 21.28, Knivlagen, Örebro",
+    "summary": "En man i trettioårsåldern misstänks för brott mot knivlagen.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-21.28-knivlagen-orebro/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 484100,
+    "datetime": "2024-01-15 22:08:27 +01:00",
+    "name": "15 januari 17.59, Åldringsbrott, Malmö",
+    "summary": "Fågelbacken. Äldre kvinna blir bedragen.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-17.59-aldringsbrott-malmo/",
+    "type": "Åldringsbrott",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 484099,
+    "datetime": "2024-01-15 21:45:52 +01:00",
+    "name": "15 januari 20.55, Trafikolycka, Stockholm",
+    "summary": "Trafikolycka i västra Stockholm.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-20.55-trafikolycka-stockholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 484098,
+    "datetime": "2024-01-15 21:44:49 +01:00",
+    "name": "15 januari 19.37, Olaga hot, Värnamo",
+    "summary": "Man hotade inför barn",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-19.37-olaga-hot-varnamo/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Värnamo",
+      "gps": "57.183161,14.047821"
+    }
+  },
+  {
+    "id": 484097,
+    "datetime": "2024-01-15 21:39:54 +01:00",
+    "name": "15 januari 20.16, Trafikbrott, Säffle",
+    "summary": "Föraren av en epa-traktor, en pojke under arton år misstänks för vårdslöshet i trafik.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-20.16-trafikbrott-saffle/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Säffle",
+      "gps": "59.132661,12.930107"
+    }
+  },
+  {
+    "id": 484096,
+    "datetime": "2024-01-15 21:30:51 +01:00",
+    "name": "15 januari 19.01, Våld/hot mot tjänsteman, Göteborg",
+    "summary": "Grovt våld mot tjänsteman, Kortedala",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-19.01-valdhot-mot-tjansteman-goteborg/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 484075,
+    "datetime": "2024-01-15 16:38:56 +01:00",
+    "name": "15 januari 14.56, Trafikolycka, Tranemo",
+    "summary": "Kollission mellan lastbil och personbil",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-14.56-trafikolycka-tranemo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Tranemo",
+      "gps": "57.485569,13.35241"
+    }
+  },
+  {
+    "id": 484095,
+    "datetime": "2024-01-15 20:12:14 +01:00",
+    "name": "15 januari 14.46, Våld/hot mot tjänsteman, Uddevalla",
+    "summary": "Uddevalla och Trollhättan, berusad, aggressiv man",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-14.46-valdhot-mot-tjansteman-uddevalla/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Uddevalla",
+      "gps": "58.3498,11.935649"
+    }
+  },
+  {
+    "id": 484094,
+    "datetime": "2024-01-15 20:01:50 +01:00",
+    "name": "15 januari 18.38, Trafikbrott, Krokom",
+    "summary": "E14 Åse, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-18.38-trafikbrott-krokom/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Krokom",
+      "gps": "63.326242,14.448654"
+    }
+  },
+  {
+    "id": 484093,
+    "datetime": "2024-01-15 20:00:10 +01:00",
+    "name": "15 januari 17.19, Trafikbrott, Härjedalen",
+    "summary": "Sveg, lastbilschaufför stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-17.19-trafikbrott-harjedalen/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 484092,
+    "datetime": "2024-01-15 19:57:24 +01:00",
+    "name": "15 januari 17.33, Fylleri/LOB, Östersund",
+    "summary": "Centrum, polis kontaktas gällande berusad man vid Busstorget",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-17.33-fyllerilob-ostersund/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 484091,
+    "datetime": "2024-01-15 19:41:20 +01:00",
+    "name": "15 januari 19.30, Trafikolycka, vilt, Västerbottens län",
+    "summary": "Västerbotten, flera viltolyckor och renpåkörningar",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-19.30-trafikolycka-vilt-vasterbottens-lan/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 484089,
+    "datetime": "2024-01-15 19:04:53 +01:00",
+    "name": "15 januari 18.53, Trafikolycka, Lund",
+    "summary": "Lv103, mellan lv108 och trafikplats Lomma. Kollision mellan två personbilar.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-18.53-trafikolycka-lund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Lund",
+      "gps": "55.70466,13.191007"
+    }
+  },
+  {
+    "id": 484074,
+    "datetime": "2024-01-15 16:38:02 +01:00",
+    "name": "15 januari 16.23, Brand, Östra göinge",
+    "summary": "Glimåkra. Befarad brand i bostad.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-16.23-brand-ostra-goinge/",
+    "type": "Brand",
+    "location": {
+      "name": "Östra göinge",
+      "gps": "56.237877,14.216166"
+    }
+  },
+  {
+    "id": 484084,
+    "datetime": "2024-01-15 18:43:26 +01:00",
+    "name": "15 januari 17.32, Försvunnen person, Västerås",
+    "summary": "Polisen söker efter en man i 85-årsåldern som befaras ha lämnat sitt boende mellan Vallby och Råby.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-17.32-forsvunnen-person-vasteras/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Västerås",
+      "gps": "59.609901,16.544809"
+    }
+  },
+  {
+    "id": 484090,
+    "datetime": "2024-01-15 19:11:48 +01:00",
+    "name": "15 januari 15.55, Trafikolycka, singel, Vännäs",
+    "summary": "Länsväg 544/547, singelolycka i Vännäsby",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-15.55-trafikolycka-singel-vannas/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Vännäs",
+      "gps": "63.908007,19.752965"
+    }
+  },
+  {
+    "id": 484067,
+    "datetime": "2024-01-15 15:24:12 +01:00",
+    "name": "15 januari 13.15, Misshandel, Borås",
+    "summary": "Kvinna gripen för misshandel mot barn",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-13.15-misshandel-boras/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 484064,
+    "datetime": "2024-01-15 15:06:40 +01:00",
+    "name": "15 januari 13.54, Arbetsplatsolycka, Töreboda",
+    "summary": "Olycka vid en arbetsplats",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-13.54-arbetsplatsolycka-toreboda/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Töreboda",
+      "gps": "58.705509,14.126147"
+    }
+  },
+  {
+    "id": 483829,
+    "datetime": "2024-01-15 8:45:33 +01:00",
+    "name": "15 januari 08.31, Trafikolycka, Uddevalla",
+    "summary": "Vid en tågövergång i kommunen är en lastbil och ett pendeltåg involverade i en olycka.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-08.31-trafikolycka-uddevalla/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Uddevalla",
+      "gps": "58.3498,11.935649"
+    }
+  },
+  {
+    "id": 484083,
+    "datetime": "2024-01-15 17:52:46 +01:00",
+    "name": "15 januari 14.29, Trafikbrott, Timrå",
+    "summary": "Timrå, bilist stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-14.29-trafikbrott-timra/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Timrå",
+      "gps": "62.485456,17.324865"
+    }
+  },
+  {
+    "id": 484082,
+    "datetime": "2024-01-15 17:42:51 +01:00",
+    "name": "15 januari 17.28, Trafikkontroll, Krokom",
+    "summary": "Industrivägen, resultat efter nykterhetskontroll i trafiken",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-17.28-trafikkontroll-krokom/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Krokom",
+      "gps": "63.326242,14.448654"
+    }
+  },
+  {
+    "id": 484081,
+    "datetime": "2024-01-15 17:41:37 +01:00",
+    "name": "15 januari 16.59, Trafikbrott, Härjedalen",
+    "summary": "Sveg, polis kontrollerar en bil som lämnats på tomgång",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-16.59-trafikbrott-harjedalen/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 484080,
+    "datetime": "2024-01-15 17:05:52 +01:00",
+    "name": "15 januari 15.14, Fylleri/LOB, Örnsköldsvik",
+    "summary": "Centrala Örnsköldsvik, polis kontaktas gällande berusad man",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-15.14-fyllerilob-ornskoldsvik/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 484077,
+    "datetime": "2024-01-15 16:42:46 +01:00",
+    "name": "15 januari 14.39, Trafikbrott, Kramfors",
+    "summary": "Riksväg 90, bilist stoppas för kontroll",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-14.39-trafikbrott-kramfors/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Kramfors",
+      "gps": "62.928433,17.786295"
+    }
+  },
+  {
+    "id": 484046,
+    "datetime": "2024-01-15 14:05:02 +01:00",
+    "name": "15 januari 13.36, Bråk, Nacka",
+    "summary": "En gråtande person har sprungit ut ur ett trapphus i Orminge. Det finns historiska uppgifter om att det ofta b",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-13.36-brak-nacka/",
+    "type": "Bråk",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 484063,
+    "datetime": "2024-01-15 14:46:05 +01:00",
+    "name": "15 januari 14.31, Trafikolycka, Trelleborg",
+    "summary": "En trafikolycka inträffar mellan två personbilar på väg 101 utanför Hönsinge.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-14.31-trafikolycka-trelleborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Trelleborg",
+      "gps": "55.376243,13.157423"
+    }
+  },
+  {
+    "id": 484072,
+    "datetime": "2024-01-15 16:06:00 +01:00",
+    "name": "15 januari 15.22, Trafikbrott, Luleå",
+    "summary": "Notviken, bilist stoppad efter hastighetsöverträdelse på riksväg 97",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-15.22-trafikbrott-lulea/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 484071,
+    "datetime": "2024-01-15 16:05:46 +01:00",
+    "name": "15 januari 13.04, Rån väpnat, Askersund",
+    "summary": "En matvarubutik i Åsbro utsattes strax efter lunch för ett väpnat rån.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-13.04-ran-vapnat-askersund/",
+    "type": "Rån väpnat",
+    "location": {
+      "name": "Askersund",
+      "gps": "58.889427,14.910987"
+    }
+  },
+  {
+    "id": 484070,
+    "datetime": "2024-01-15 16:02:46 +01:00",
+    "name": "15 januari 15.08, Trafikolycka, Piteå",
+    "summary": "Zonområdet, larm om påkörd person",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-15.08-trafikolycka-pitea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Piteå",
+      "gps": "65.316698,21.480036"
+    }
+  },
+  {
+    "id": 484069,
+    "datetime": "2024-01-15 15:53:02 +01:00",
+    "name": "15 januari 14.18, Trafikbrott, Berg",
+    "summary": "Länsväg 316, trafikant stoppad för kontroll",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-14.18-trafikbrott-berg/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Berg",
+      "gps": "62.772481,14.169867"
+    }
+  },
+  {
+    "id": 484062,
+    "datetime": "2024-01-15 14:39:58 +01:00",
+    "name": "15 januari 13.45, Arbetsplatsolycka, Eslöv",
+    "summary": "Polis larmas till Eslöv med anledning av en arbetsplatsolycka.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-13.45-arbetsplatsolycka-eslov/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 484061,
+    "datetime": "2024-01-15 14:36:02 +01:00",
+    "name": "15 januari 13.45, Brand, Hörby",
+    "summary": "Det brinner i en ladugårdsbyggnad norr om Östraby.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-13.45-brand-horby/",
+    "type": "Brand",
+    "location": {
+      "name": "Hörby",
+      "gps": "55.851716,13.661926"
+    }
+  },
+  {
+    "id": 484025,
+    "datetime": "2024-01-15 11:53:15 +01:00",
+    "name": "15 januari 11.46, Trafikolycka, Gullspång",
+    "summary": "På E20 söder om Hova är en lastbil och en personbil involverade i en olycka.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-11.46-trafikolycka-gullspang/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Gullspång",
+      "gps": "58.985467,14.096623"
+    }
+  },
+  {
+    "id": 484028,
+    "datetime": "2024-01-15 11:59:24 +01:00",
+    "name": "15 januari 11.40, Trafikolycka, Vellinge",
+    "summary": "Singelolycka med buss",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-11.40-trafikolycka-vellinge/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vellinge",
+      "gps": "55.470893,13.01999"
+    }
+  },
+  {
+    "id": 484036,
+    "datetime": "2024-01-15 12:52:41 +01:00",
+    "name": "15 januari 12.46, Trafikolycka, personskada, Karlstad",
+    "summary": "En bilist har kört på en person",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-12.46-trafikolycka-personskada-karlstad/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 484034,
+    "datetime": "2024-01-15 12:34:38 +01:00",
+    "name": "15 januari 12.33, Övrigt, Örebro",
+    "summary": "Polisen är på plats vid en adress i Örebro kommun",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-12.33-ovrigt-orebro/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 484032,
+    "datetime": "2024-01-15 12:30:35 +01:00",
+    "name": "15 januari 10.11, Trafikbrott, Östersund",
+    "summary": "Östersund, misstänkt grov olovlig körning.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-10.11-trafikbrott-ostersund/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 484030,
+    "datetime": "2024-01-15 12:17:00 +01:00",
+    "name": "15 januari 09.16, Trafikkontroll, Berg",
+    "summary": "Svenstavik, ordningsbot (böter) utfärdad.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-09.16-trafikkontroll-berg/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Berg",
+      "gps": "62.772481,14.169867"
+    }
+  },
+  {
+    "id": 484029,
+    "datetime": "2024-01-15 12:12:51 +01:00",
+    "name": "15 januari 12.12, Trafikkontroll, Västerbottens län",
+    "summary": "Västerbotten, resultat i urval från dagens trafikkontroller.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-12.12-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 483840,
+    "datetime": "2024-01-15 11:15:41 +01:00",
+    "name": "15 januari 11.15, Trafikkontroll, Västernorrlands län",
+    "summary": "Västernorrland, resultat i urval från dagens trafikkontroller.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-11.15-trafikkontroll-vasternorrlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 483862,
+    "datetime": "2024-01-15 11:14:45 +01:00",
+    "name": "15 januari 09.00, Stöld, Uppsala",
+    "summary": "Gripen man misstänkt för flera brott.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-09.00-stold-uppsala/",
+    "type": "Stöld",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 483803,
+    "datetime": "2024-01-15 6:51:06 +01:00",
+    "name": "15 januari 03.42, Farligt föremål, misstänkt, Bromölla",
+    "summary": "Föremål undersöks, Gualöv",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-03.42-farligt-foremal-misstankt-bromolla/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Bromölla",
+      "gps": "56.074362,14.477659"
+    }
+  },
+  {
+    "id": 483864,
+    "datetime": "2024-01-15 10:53:06 +01:00",
+    "name": "15 januari 10.23, Bedrägeri, Södertälje",
+    "summary": "Ett äldre par i Vårdinge som ringer till polisen meddelar att de tillsammans har blivit bedragna på en stor su",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-10.23-bedrageri-sodertalje/",
+    "type": "Bedrägeri",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 483856,
+    "datetime": "2024-01-15 10:38:41 +01:00",
+    "name": "15 januari 10.17, Farligt föremål, misstänkt, Karlstad",
+    "summary": "Lagen om brandfarliga och explosiva varor",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-10.17-farligt-foremal-misstankt-karlstad/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 483849,
+    "datetime": "2024-01-15 10:17:54 +01:00",
+    "name": "15 januari 10.14, Trafikbrott, Örebro",
+    "summary": "Trafikkontroll vid USÖ",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-10.14-trafikbrott-orebro/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 483848,
+    "datetime": "2024-01-15 10:07:26 +01:00",
+    "name": "15 januari 09.59, Trafikolycka, Åstorp",
+    "summary": "Larm om trafikolycka, Åstorp",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-09.59-trafikolycka-astorp/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Åstorp",
+      "gps": "56.134262,12.945908"
+    }
+  },
+  {
+    "id": 483841,
+    "datetime": "2024-01-15 9:50:54 +01:00",
+    "name": "15 januari 09.45, Trafikolycka, Landskrona",
+    "summary": "Larm om trafikolycka",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-09.45-trafikolycka-landskrona/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Landskrona",
+      "gps": "55.870348,12.83008"
+    }
+  },
+  {
+    "id": 483838,
+    "datetime": "2024-01-15 9:29:13 +01:00",
+    "name": "15 januari 09.29, Trafikkontroll, Norrbottens län",
+    "summary": "Norrbotten, resultat i urval från kontroller i trafiken.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-09.29-trafikkontroll-norrbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 483835,
+    "datetime": "2024-01-15 9:18:39 +01:00",
+    "name": "15 januari 09.18, Trafikolycka, vilt, Jämtlands län",
+    "summary": "Jämtland, anmälda viltolyckor.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-09.18-trafikolycka-vilt-jamtlands-lan/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 483806,
+    "datetime": "2024-01-15 6:57:41 +01:00",
+    "name": "15 januari 06.57, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-06.57-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 483828,
+    "datetime": "2024-01-15 8:24:20 +01:00",
+    "name": "15 januari 06.09, Rån, Ovanåker",
+    "summary": "Man tillgrep kontanter och hotade hotellpersonal.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-06.09-ran-ovanaker/",
+    "type": "Rån",
+    "location": {
+      "name": "Ovanåker",
+      "gps": "61.446923,15.738922"
+    }
+  },
+  {
+    "id": 483827,
+    "datetime": "2024-01-15 8:19:52 +01:00",
+    "name": "15 januari 07.30, Trafikolycka, Västerås",
+    "summary": "Två bilar i kollision på riksväg 66.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.30-trafikolycka-vasteras/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Västerås",
+      "gps": "59.609901,16.544809"
+    }
+  },
+  {
+    "id": 483826,
+    "datetime": "2024-01-15 8:19:39 +01:00",
+    "name": "15 januari 08.09, Trafikolycka, Malmö",
+    "summary": "Larm om trafikolycka",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-08.09-trafikolycka-malmo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 483812,
+    "datetime": "2024-01-15 7:22:13 +01:00",
+    "name": "15 januari 06.51, Trafikolycka, Luleå",
+    "summary": "Luleå, trafikolycka på riksväg 97 vid Sunderbybäcken.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-06.51-trafikolycka-lulea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 483823,
+    "datetime": "2024-01-15 8:10:58 +01:00",
+    "name": "15 januari 03.01, Motorfordon, stöld, Knivsta",
+    "summary": "Förföljande efter stulet fordon.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-03.01-motorfordon-stold-knivsta/",
+    "type": "Motorfordon, stöld",
+    "location": {
+      "name": "Knivsta",
+      "gps": "59.72612,17.792036"
+    }
+  },
+  {
+    "id": 483824,
+    "datetime": "2024-01-15 7:58:10 +01:00",
+    "name": "15 januari 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 483821,
+    "datetime": "2024-01-15 7:57:53 +01:00",
+    "name": "15 januari 08.00, Sammanfattning natt, Södermanlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-08.00-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 483820,
+    "datetime": "2024-01-15 7:57:31 +01:00",
+    "name": "15 januari 08.00, Sammanfattning natt, Jönköpings län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-08.00-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 483822,
+    "datetime": "2024-01-15 7:56:13 +01:00",
+    "name": "15 januari 07.45, Kontroll person/fordon, Huddinge",
+    "summary": "Polisens ledningscentral har larmat ut registreringsnummer på en personbil som körde på Huddingevägen i Flemin",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.45-kontroll-personfordon-huddinge/",
+    "type": "Kontroll person/fordon",
+    "location": {
+      "name": "Huddinge",
+      "gps": "59.23633,17.982156"
+    }
+  },
+  {
+    "id": 483819,
+    "datetime": "2024-01-15 7:27:23 +01:00",
+    "name": "15 januari 07.26, Övrigt, Dalarnas län",
+    "summary": "Under natten och morgonen har det snöat ymnigt på sina håll – vilket i regel påverkar trafiken och vägbanorna.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.26-ovrigt-dalarnas-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 483818,
+    "datetime": "2024-01-15 7:26:50 +01:00",
+    "name": "15 januari 07.26, Övrigt, Örebro län",
+    "summary": "Under natten och morgonen har det snöat ymnigt på sina håll – vilket i regel påverkar trafiken och vägbanorna.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.26-ovrigt-orebro-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 483817,
+    "datetime": "2024-01-15 7:26:06 +01:00",
+    "name": "15 januari 07.24, Övrigt, Värmlands län",
+    "summary": "Under natten och morgonen har det snöat ymnigt – vilket i regel påverkar trafiken och vägbanorna.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.24-ovrigt-varmlands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 483816,
+    "datetime": "2024-01-15 7:24:24 +01:00",
+    "name": "15 januari 07.23, Sammanfattning natt, Dalarnas län",
+    "summary": "Det har varit en lugn natt ur polisiär synvinkel",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.23-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 483815,
+    "datetime": "2024-01-15 7:23:27 +01:00",
+    "name": "15 januari 07.22, Sammanfattning natt, Örebro län",
+    "summary": "Det har varit en lugn natt ur polisiär synvinkel",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.22-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 483814,
+    "datetime": "2024-01-15 7:22:33 +01:00",
+    "name": "15 januari 07.21, Sammanfattning natt, Värmlands län",
+    "summary": "Det har varit en lugn natt ur polisiär synvinkel",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.21-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 483804,
+    "datetime": "2024-01-15 7:16:14 +01:00",
+    "name": "15 januari 07.16, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.16-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 483808,
+    "datetime": "2024-01-15 7:15:32 +01:00",
+    "name": "15 januari 07.15, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.15-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 483809,
+    "datetime": "2024-01-15 7:14:07 +01:00",
+    "name": "15 januari 07.14, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.14-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 483811,
+    "datetime": "2024-01-15 7:13:31 +01:00",
+    "name": "15 januari 07.13, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-07.13-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 483810,
+    "datetime": "2024-01-15 7:13:05 +01:00",
+    "name": "15 januari 03.07, Trafikhinder, Båstad",
+    "summary": "Trafikhinder, Östra Karup",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-03.07-trafikhinder-bastad/",
+    "type": "Trafikhinder",
+    "location": {
+      "name": "Båstad",
+      "gps": "56.427389,12.847722"
+    }
+  },
+  {
+    "id": 483807,
+    "datetime": "2024-01-15 6:58:55 +01:00",
+    "name": "15 januari 06.58, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-06.58-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 483805,
+    "datetime": "2024-01-15 6:57:14 +01:00",
+    "name": "15 januari 00.12, Stöld, försök, Kristianstad",
+    "summary": "Man misstänkt för försök till stöld",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-00.12-stold-forsok-kristianstad/",
+    "type": "Stöld, försök",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 483802,
+    "datetime": "2024-01-15 6:48:14 +01:00",
+    "name": "15 januari 05.48, Trafikolycka, Helsingborg",
+    "summary": "Larm om trafikolycka",
+    "url": "/aktuellt/handelser/2024/januari/15/15-januari-05.48-trafikolycka-helsingborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  }
+]
