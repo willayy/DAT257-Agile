@@ -1,0 +1,482 @@
+[
+  {
+    "id": 480732,
+    "datetime": "2024-01-01 22:25:10 +01:00",
+    "name": "01 januari 16.34, Olaga hot, Malmö",
+    "summary": "Västra Hindbyvägen. Skador på byggnad leder till misstanke om brott.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-16.34-olaga-hot-malmo/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 480727,
+    "datetime": "2024-01-01 20:01:58 +01:00",
+    "name": "01 januari 19.48, Mord/dråp, försök, Linköping",
+    "summary": "Polisen utreder ett grovt brott i Linköping då en skadad person inkommit till sjukvården.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-19.48-morddrap-forsok-linkoping/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Linköping",
+      "gps": "58.410807,15.621373"
+    }
+  },
+  {
+    "id": 480724,
+    "datetime": "2024-01-01 14:44:55 +01:00",
+    "name": "01 januari 13.18, Skottlossning, Burlöv",
+    "summary": "Skott mot lägenhet, Arlöv.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-13.18-skottlossning-burlov/",
+    "type": "Skottlossning",
+    "location": {
+      "name": "Burlöv",
+      "gps": "55.631913,13.096379"
+    }
+  },
+  {
+    "id": 480726,
+    "datetime": "2024-01-01 15:01:49 +01:00",
+    "name": "01 januari 13.59, Farligt föremål, misstänkt, Göteborg",
+    "summary": "Stampen, misstänkt granat",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-13.59-farligt-foremal-misstankt-goteborg/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 480725,
+    "datetime": "2024-01-01 14:51:58 +01:00",
+    "name": "01 januari 14.42, Kontroll person/fordon, Solna",
+    "summary": "Ett vittne som färdas i en bil på Essingeleden iakttar en annan bilist som framför sitt fordon mycket vingligt",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-14.42-kontroll-personfordon-solna/",
+    "type": "Kontroll person/fordon",
+    "location": {
+      "name": "Solna",
+      "gps": "59.368879,18.008433"
+    }
+  },
+  {
+    "id": 480721,
+    "datetime": "2024-01-01 14:19:01 +01:00",
+    "name": "01 januari 13.09, Övrigt, Gävleborgs län",
+    "summary": "Två skadade efter liftolycka på Kungsberget.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-13.09-ovrigt-gavleborgs-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Gävleborgs län",
+      "gps": "61.301199,16.153421"
+    }
+  },
+  {
+    "id": 480723,
+    "datetime": "2024-01-01 14:34:26 +01:00",
+    "name": "01 januari 14.32, Misshandel, Nybro",
+    "summary": "Man gripen, Nybro.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-14.32-misshandel-nybro/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Nybro",
+      "gps": "56.7438,15.908681"
+    }
+  },
+  {
+    "id": 480722,
+    "datetime": "2024-01-01 14:25:47 +01:00",
+    "name": "01 januari 12.16, Arbetsplatsolycka, Växjö",
+    "summary": "Kvinna till sjukhus, Ingelstad.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-12.16-arbetsplatsolycka-vaxjo/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 480720,
+    "datetime": "2024-01-01 14:02:12 +01:00",
+    "name": "01 januari 12.48, Rattfylleri, Nacka",
+    "summary": "En bilist har testats positiv i ett alkoholutandningsprov i Insjön.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-12.48-rattfylleri-nacka/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 480719,
+    "datetime": "2024-01-01 13:46:09 +01:00",
+    "name": "01 januari 13.46, Trafikkontroll, Västerbottens län",
+    "summary": "Resultat av polisens arbete i trafiken.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-13.46-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 480718,
+    "datetime": "2024-01-01 13:41:04 +01:00",
+    "name": "01 januari 11.19, Rån, Klippan",
+    "summary": "Kvinna rånad i bostad, Klippan.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-11.19-ran-klippan/",
+    "type": "Rån",
+    "location": {
+      "name": "Klippan",
+      "gps": "56.1349,13.129041"
+    }
+  },
+  {
+    "id": 480716,
+    "datetime": "2024-01-01 12:57:29 +01:00",
+    "name": "01 januari 12.48, Brand, Sundbyberg",
+    "summary": "Vittnen observerar när det kommer rök ur en lägenhet i ett flerbostadshus i Lilla Alby.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-12.48-brand-sundbyberg/",
+    "type": "Brand",
+    "location": {
+      "name": "Sundbyberg",
+      "gps": "59.367047,17.966309"
+    }
+  },
+  {
+    "id": 480717,
+    "datetime": "2024-01-01 13:02:21 +01:00",
+    "name": "01 januari 13.02, Trafikkontroll, Västernorrlands län",
+    "summary": "Resultat av polisens arbete i trafiken.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-13.02-trafikkontroll-vasternorrlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 480715,
+    "datetime": "2024-01-01 12:49:28 +01:00",
+    "name": "01 januari 09.07, Övrigt, Göteborg",
+    "summary": "Utåtagerande man på en buss",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-09.07-ovrigt-goteborg/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 480714,
+    "datetime": "2024-01-01 12:44:43 +01:00",
+    "name": "01 januari 10.51, Trafikkontroll, Skellefteå",
+    "summary": "Trafikolycka på länsväg 829 Södra Bergsbyn, Skellefteå.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-10.51-trafikkontroll-skelleftea/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 480713,
+    "datetime": "2024-01-01 12:43:34 +01:00",
+    "name": "01 januari 12.24, Skadegörelse, Stockholm",
+    "summary": "En polispatrull lyckas spåra ägaren till en salong som tidigare under dygnet fått ett stort hål i sitt skyltfö",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-12.24-skadegorelse-stockholm/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 480712,
+    "datetime": "2024-01-01 11:21:02 +01:00",
+    "name": "01 januari 10.35, Rattfylleri, Mark",
+    "summary": "Fritsla, rattfylleri",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-10.35-rattfylleri-mark/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Mark",
+      "gps": "57.425318,12.569522"
+    }
+  },
+  {
+    "id": 480708,
+    "datetime": "2024-01-01 9:43:44 +01:00",
+    "name": "01 januari 09.41, Larm Överfall, Stockholm",
+    "summary": "En busschaufför ombord på en buss i Skärholmen har utlöst överfallslarm.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-09.41-larm-overfall-stockholm/",
+    "type": "Larm Överfall",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 480711,
+    "datetime": "2024-01-01 11:08:38 +01:00",
+    "name": "01 januari 00.36, Våld/hot mot tjänsteman, Kungälv",
+    "summary": "Försök till våld mot tjänsteman m.m.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-00.36-valdhot-mot-tjansteman-kungalv/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Kungälv",
+      "gps": "57.869754,11.974032"
+    }
+  },
+  {
+    "id": 480710,
+    "datetime": "2024-01-01 10:52:04 +01:00",
+    "name": "01 januari 09.21, Rattfylleri, Kalix",
+    "summary": "Misstänkt rattfylleri i centrum.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-09.21-rattfylleri-kalix/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Kalix",
+      "gps": "65.855281,23.143965"
+    }
+  },
+  {
+    "id": 480709,
+    "datetime": "2024-01-01 10:22:58 +01:00",
+    "name": "01 januari 03.29, Misshandel, grov, Mölndal",
+    "summary": "Grov misshandel, Krokslätt",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-03.29-misshandel-grov-molndal/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Mölndal",
+      "gps": "57.65,12.016667"
+    }
+  },
+  {
+    "id": 480707,
+    "datetime": "2024-01-01 9:37:47 +01:00",
+    "name": "01 januari 09.37, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nyårsnattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-09.37-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 480706,
+    "datetime": "2024-01-01 8:59:23 +01:00",
+    "name": "01 januari 07.06, Mord/dråp, försök, Solna",
+    "summary": "En man har gripits mistänkt för mordförsök på en kvinna i Solna.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-07.06-morddrap-forsok-solna/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Solna",
+      "gps": "59.368879,18.008433"
+    }
+  },
+  {
+    "id": 480702,
+    "datetime": "2024-01-01 8:55:27 +01:00",
+    "name": "01 januari 08.55, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nyårsnattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.55-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 480705,
+    "datetime": "2024-01-01 8:30:11 +01:00",
+    "name": "01 januari 08.00, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är i tjänst.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.00-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 480704,
+    "datetime": "2024-01-01 8:25:05 +01:00",
+    "name": "01 januari 08.00, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson är i tjänst.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.00-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 480698,
+    "datetime": "2024-01-01 8:16:19 +01:00",
+    "name": "01 januari 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 480700,
+    "datetime": "2024-01-01 8:16:15 +01:00",
+    "name": "01 januari 08.00, Sammanfattning natt, Södermanlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.00-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 480703,
+    "datetime": "2024-01-01 8:16:11 +01:00",
+    "name": "01 januari 08.00, Sammanfattning natt, Jönköpings län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.00-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 480701,
+    "datetime": "2024-01-01 8:04:27 +01:00",
+    "name": "01 januari 08.04, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nyårsnattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-08.04-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 480699,
+    "datetime": "2024-01-01 7:42:42 +01:00",
+    "name": "01 januari 00.16, Vapenlagen, Hultsfred",
+    "summary": "Kvinna anhållen, Järnforsen.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-00.16-vapenlagen-hultsfred/",
+    "type": "Vapenlagen",
+    "location": {
+      "name": "Hultsfred",
+      "gps": "57.49484,15.841651"
+    }
+  },
+  {
+    "id": 480697,
+    "datetime": "2024-01-01 7:15:01 +01:00",
+    "name": "01 januari 03.49, Skottlossning, Malmö",
+    "summary": "Skott mot fastighet, Augustenborg.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-03.49-skottlossning-malmo/",
+    "type": "Skottlossning",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 480696,
+    "datetime": "2024-01-01 7:13:23 +01:00",
+    "name": "01 januari 07.13, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nyårsnattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-07.13-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 480695,
+    "datetime": "2024-01-01 7:13:10 +01:00",
+    "name": "01 januari 07.00, Polisinsats/kommendering, Stockholms län",
+    "summary": "Nyårskvällen och natten i region Stockholm innebar många larm om smällare och fyrverkerier, och bränder till f",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-07.00-polisinsatskommendering-stockholms-lan/",
+    "type": "Polisinsats/kommendering",
+    "location": {
+      "name": "Stockholms län",
+      "gps": "59.602496,18.138438"
+    }
+  },
+  {
+    "id": 480694,
+    "datetime": "2024-01-01 7:06:37 +01:00",
+    "name": "01 januari 02.24, Vapenlagen, Helsingborg",
+    "summary": "Vapen anträffat, Helsingborg.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-02.24-vapenlagen-helsingborg/",
+    "type": "Vapenlagen",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 480693,
+    "datetime": "2024-01-01 7:01:18 +01:00",
+    "name": "01 januari 02.03, Misshandel, Ängelholm",
+    "summary": "Man misshandlad, Ängelholm.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-02.03-misshandel-angelholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Ängelholm",
+      "gps": "56.245748,12.863881"
+    }
+  },
+  {
+    "id": 480692,
+    "datetime": "2024-01-01 6:57:39 +01:00",
+    "name": "01 januari 01.38, Misshandel, Helsingborg",
+    "summary": "Man till sjukhus, Helsingborg.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-01.38-misshandel-helsingborg/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 480691,
+    "datetime": "2024-01-01 6:47:59 +01:00",
+    "name": "01 januari 00.16, Misshandel, grov, Kalmar",
+    "summary": "Man till sjukhus, Kalmar.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-00.16-misshandel-grov-kalmar/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Kalmar",
+      "gps": "56.663445,16.356779"
+    }
+  },
+  {
+    "id": 480690,
+    "datetime": "2024-01-01 6:43:14 +01:00",
+    "name": "01 januari 00.11, Brand, Eslöv",
+    "summary": "Villabrand, Eslöv.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-00.11-brand-eslov/",
+    "type": "Brand",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 480689,
+    "datetime": "2024-01-01 6:38:28 +01:00",
+    "name": "01 januari 00.04, Brand, Nybro",
+    "summary": "Brand på skola, Nybro.",
+    "url": "/aktuellt/handelser/2024/januari/1/01-januari-00.04-brand-nybro/",
+    "type": "Brand",
+    "location": {
+      "name": "Nybro",
+      "gps": "56.7438,15.908681"
+    }
+  }
+]

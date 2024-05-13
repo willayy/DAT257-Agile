@@ -86,7 +86,7 @@ async function fetchFromApiAndWrite(date: string): Promise<void> {
     lastApiCall = new Date();
 
     // Fetch a response from the URL
-    const res = await fetch(url + "?DateTime=" + date)
+    const res = await fetch(url + "?DateTime=" + date,  { cache: 'no-store' })
 
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
