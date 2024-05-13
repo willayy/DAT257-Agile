@@ -18,7 +18,7 @@ interface MapParentSearchComboBoxProps {
 }
 /**
  * A parent component containing two SearchComboBox components for filtering data based on crime type and location.
- * Also contains a button for resetting choices
+ * Also contains a button for resetting choices and showing / hiding map markers
  * @param ParentSearchComboBox {MapParentSearchComboBoxProps} Object following CardInfo interface
  * @returns {JSX} A React component representing the ParentSearchComboBox.
  */

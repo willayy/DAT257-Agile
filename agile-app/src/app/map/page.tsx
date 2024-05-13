@@ -17,7 +17,7 @@ import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
-import L, {GeoJSON as LeafletGeoJSON, LatLngExpression} from "leaflet";
+import {GeoJSON as LeafletGeoJSON, LatLngExpression} from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
 
 interface CustomFeatureProperties {
@@ -209,15 +209,23 @@ export default function Map() {
         }
     }, [mapTiles]);
 
+    /**
+     * Effect hook to update the markers placed on highlighted parts of the map.
+     * Activates when the map tiles data changes or as a cascading reaction to updating the selected crime.
+     */
     useEffect(() => {
+        // Variable declarations are mostly to convert from one data type to another for access to properties
         const markers : ReactElement[] = []
         if (mapTiles?.type == "FeatureCollection") {
             const featureCollection : FeatureCollection = mapTiles as FeatureCollection;
+            // Iterates over each tile on the map
             featureCollection.features.forEach((feature : Feature) => {
                 const typedFeature = feature as CustomFeature;
                 if (typedFeature && locationAmountDict) {
+                    // Calculate center of tile from polygon as latitude and longitude
                     const markerPositionFeature : Feature<Point> = centroid(feature)
                     const markerPosition = new L.latLng(markerPositionFeature.geometry.coordinates[1], markerPositionFeature.geometry.coordinates[0])
+                    // Difference in external JSON document structure requires if else for region or municipality
                     if (selectedOptionLoc == "Kommun" && Object.keys(locationAmountDict).includes(typedFeature.properties.kom_namn)) {
                         markers.push(
                             <Marker position={markerPosition} icon={markerIcon} key={typedFeature.properties.kom_namn}>
