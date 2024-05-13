@@ -2,14 +2,14 @@
 
 import {useEffect, useRef, useState} from "react";
 import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
-import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
+import {GeoJSON, GeoJSONProps, MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
 import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
-import { GeoJSON as LeafletGeoJSON } from "leaflet";
+import L, { GeoJSON as LeafletGeoJSON } from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
 
 interface CustomFeatureProperties {
@@ -43,6 +43,11 @@ export default function Map() {
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Kommun');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
     const geoJsonLayerRef = useRef<LeafletGeoJSON | null>(null);
+    const L = require("leaflet");
+    const markerIcon = L.icon({
+        iconRetinaUrl: "/marker-icon-2x.png",
+        iconUrl: "/marker-icon.png",
+        shadowUrl:"/marker-shadow.png"})
 
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
@@ -146,7 +151,6 @@ export default function Map() {
      */
 
     useEffect(() => {
-        console.log("Started effect")
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
                 setMapTiles(await fetchMunicipalityData())
@@ -205,6 +209,11 @@ export default function Map() {
                         style={(feature) => style(feature)}
                     />
                 )}
+                <Marker position={[62.1282, 18.6435]} icon={markerIcon}>
+                    <Popup>
+                        A pretty CSS3 popup. <br /> Easily customizable.
+                    </Popup>
+                </Marker>
                 <div className={styles.legends}>
                     <MapLegend legendItems={legendItems} />
                 </div>
