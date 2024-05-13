@@ -90,24 +90,28 @@ export default function Map() {
      */
 
     function getColor(density : number) {
-        return (density > 6 ? '#b30000' :
-            density > 5 ? '#e34a33' :
-                density > 4 ? '#fc8d59' :
-                    density > 3 ? '#fdbb84' :
-                        density > 2 ? '#fdd49e' :
-                            density > 1 ? '#fef0d9' :
-                                '#FFFFFF')
+        return (
+            density > 8 ? '#7f0000' :
+            density > 7 ? '#b30000' :
+            density > 6 ? '#d7301f' :
+            density > 5 ? '#ef6548' :
+            density > 4 ? '#fc8d59' :
+            density > 3 ? '#fdbb84' :
+            density > 2 ? '#fdd49e' :
+            density > 1 ? '#fee8c8' :
+            '#fff7ec')
     }
-    
 
     const legendItems = [
-        { color: '#b30000', label: '> 6 händelser' },
-        { color: '#e34a33', label: '6 händelser' },
+        { color: '#7f0000', label: '> 8 händelser' },
+        { color: '#b30000', label: '8 händelser' },
+        { color: '#d7301f', label: '7 händelser' },
+        { color: '#ef6548', label: '6 händelser' },
         { color: '#fc8d59', label: '5 händelser' },
         { color: '#fdbb84', label: '4 händelser' },
         { color: '#fdd49e', label: '3 händelser' },
-        { color: '#fef0d9', label: '2 händelser' },
-        { color: '#FFFFFF', label: '1 händelser' },
+        { color: '#fee8c8', label: '2 händelser' },
+        { color: '#fff7ec', label: '1 händelser' },
       ];
 
       /**
