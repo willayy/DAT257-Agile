@@ -40,7 +40,7 @@ export default function Map() {
    */
     const [mapTiles, setMapTiles] = useState<GeoJsonObject | null>(null);
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
-    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('');
+    const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Kommun');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
     const geoJsonLayerRef = useRef<LeafletGeoJSON | null>(null);
 
@@ -95,7 +95,13 @@ export default function Map() {
 
     function style(feature: CustomFeature) {
         if (feature == null || locationAmountDict == null) {
-            return {}
+            return {
+                fillColor: '#33CEFF',
+                weight: 2,
+                color: '#3368FF',
+                opacity: 0.4,
+                fillOpacity: 0.4
+            }
         }
         if (selectedOptionLoc == "Kommun") {
             if (Object.keys(locationAmountDict).includes(feature.properties.kom_namn)) {
@@ -126,7 +132,13 @@ export default function Map() {
                 fillOpacity: 0.4
             }
         }
-        return {}
+        return {
+            fillColor: '#33CEFF',
+            weight: 2,
+            color: '#3368FF',
+            opacity: 0.4,
+            fillOpacity: 0.4
+        }
     }
 
     /**
@@ -134,6 +146,7 @@ export default function Map() {
      */
 
     useEffect(() => {
+        console.log("Started effect")
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
                 setMapTiles(await fetchMunicipalityData())
