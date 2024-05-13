@@ -1,0 +1,722 @@
+[
+  {
+    "id": 522162,
+    "datetime": "2024-05-11 13:12:10 +02:00",
+    "name": "11 maj 12.55, Trafikolycka, Ängelholm",
+    "summary": "MC i olycka med traktor, Ängelholm.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-12.55-trafikolycka-angelholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ängelholm",
+      "gps": "56.245748,12.863881"
+    }
+  },
+  {
+    "id": 522194,
+    "datetime": "2024-05-11 22:47:10 +02:00",
+    "name": "11 maj 22.45, Polisinsats/kommendering, Malmö",
+    "summary": "Polisinsats, Hyllie.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-22.45-polisinsatskommendering-malmo/",
+    "type": "Polisinsats/kommendering",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522214,
+    "datetime": "2024-05-12 8:13:10 +02:00",
+    "name": "11 maj 21.56, Brand, Umeå",
+    "summary": "Stöcksjö, larm om brand i byggnad",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-21.56-brand-umea/",
+    "type": "Brand",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 522207,
+    "datetime": "2024-05-12 7:43:53 +02:00",
+    "name": "11 maj 22.46, Misshandel, Uppsala",
+    "summary": "Man misstänks för misshandel.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-22.46-misshandel-uppsala/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 522193,
+    "datetime": "2024-05-11 21:57:50 +02:00",
+    "name": "11 maj 21.57, Övrigt, Hallands län",
+    "summary": "Efter klockan 22:00 finns ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl i m",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-21.57-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 522192,
+    "datetime": "2024-05-11 21:57:32 +02:00",
+    "name": "11 maj 21.56, Övrigt, Västra Götalands län",
+    "summary": "Efter klockan 22:00 finns ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl i m",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-21.56-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 522188,
+    "datetime": "2024-05-11 21:48:08 +02:00",
+    "name": "11 maj 20.15, Trafikolycka, personskada, Tanum",
+    "summary": "SOS larmar polis om en trafikolycka i Kämpersvik, Tanum.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-20.15-trafikolycka-personskada-tanum/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Tanum",
+      "gps": "58.732727,11.457819"
+    }
+  },
+  {
+    "id": 522191,
+    "datetime": "2024-05-11 20:55:58 +02:00",
+    "name": "11 maj 20.16, Farligt föremål, misstänkt, Malmö",
+    "summary": "Oxie. Polisen hanterar ett misstänkt farligt föremål.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-20.16-farligt-foremal-misstankt-malmo/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522186,
+    "datetime": "2024-05-11 19:04:56 +02:00",
+    "name": "11 maj 18.45, Övrigt, Ulricehamn",
+    "summary": "Larm via SOS, en balkong har rasat i Ulricehamn och flera personer uppges vara skadade. Räddningstjänst, ambul",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-18.45-ovrigt-ulricehamn/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Ulricehamn",
+      "gps": "57.794789,13.420516"
+    }
+  },
+  {
+    "id": 522190,
+    "datetime": "2024-05-11 20:49:03 +02:00",
+    "name": "11 maj 20.06, Kontroll person/fordon, Stockholm",
+    "summary": "Polisen fick in vittnesuppgifter om att en person på en balkong på Södermalm observerades med vapen i handen.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-20.06-kontroll-personfordon-stockholm/",
+    "type": "Kontroll person/fordon",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 522185,
+    "datetime": "2024-05-11 18:22:02 +02:00",
+    "name": "11 maj 17.53, Sedlighetsbrott, Stockholm",
+    "summary": "En minderårig flicka på ett badhus i Stockholm har blivit utsatt för att en pojke har försök föra upp sina tår",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-17.53-sedlighetsbrott-stockholm/",
+    "type": "Sedlighetsbrott",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 522187,
+    "datetime": "2024-05-11 19:05:25 +02:00",
+    "name": "11 maj 15.38, Olaga hot, Åstorp",
+    "summary": "Tätorten, Åstorp. En man hotar en annan man med ett vapenliknande föremål.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-15.38-olaga-hot-astorp/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Åstorp",
+      "gps": "56.134262,12.945908"
+    }
+  },
+  {
+    "id": 522184,
+    "datetime": "2024-05-11 18:08:47 +02:00",
+    "name": "11 maj 15.42, Trafikolycka, Göteborg",
+    "summary": "På Blåsvädersgatan har ett barn i 10-årsåldern blivit påkörd av en bil.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-15.42-trafikolycka-goteborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 522183,
+    "datetime": "2024-05-11 17:53:14 +02:00",
+    "name": "11 maj 11.12, Djur, Malmö",
+    "summary": "Västra hamnen. En hund biter ett barn.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-11.12-djur-malmo/",
+    "type": "Djur",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522180,
+    "datetime": "2024-05-11 17:09:47 +02:00",
+    "name": "11 maj 17.08, Försvunnen person, Falun",
+    "summary": "Sökinsats avslutad i Falun",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-17.08-forsvunnen-person-falun/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Falun",
+      "gps": "60.60646,15.6355"
+    }
+  },
+  {
+    "id": 522179,
+    "datetime": "2024-05-11 16:54:01 +02:00",
+    "name": "11 maj 16.50, Försvunnen person, Kävlinge",
+    "summary": "Försvunnen pojke, Barsebäck.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-16.50-forsvunnen-person-kavlinge/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Kävlinge",
+      "gps": "55.794,13.110429"
+    }
+  },
+  {
+    "id": 522178,
+    "datetime": "2024-05-11 16:51:17 +02:00",
+    "name": "11 maj 15.53, Trafikolycka, personskada, Göteborg",
+    "summary": "SOS ringer in om en trafikolycka i Brunnsparken",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-15.53-trafikolycka-personskada-goteborg/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 522174,
+    "datetime": "2024-05-11 16:05:19 +02:00",
+    "name": "11 maj 16.00, Övrigt, Malmö",
+    "summary": "Allmän sammankomst, Stortorget.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-16.00-ovrigt-malmo/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522143,
+    "datetime": "2024-05-11 8:02:59 +02:00",
+    "name": "11 maj 07.46, Farligt föremål, misstänkt, Malmö",
+    "summary": "Misstänkt farligt föremål, Rosengård.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.46-farligt-foremal-misstankt-malmo/",
+    "type": "Farligt föremål, misstänkt",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522177,
+    "datetime": "2024-05-11 16:11:41 +02:00",
+    "name": "11 maj 15.39, Trafikhinder, Sollentuna",
+    "summary": "Polisen har beställt bärgare till ett fordon som tappat ett hjul i Häggviksledens tunnel. Fordonet står i den ",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-15.39-trafikhinder-sollentuna/",
+    "type": "Trafikhinder",
+    "location": {
+      "name": "Sollentuna",
+      "gps": "59.43911,17.94148"
+    }
+  },
+  {
+    "id": 522173,
+    "datetime": "2024-05-11 14:54:08 +02:00",
+    "name": "11 maj 14.37, Kontroll person/fordon, Haninge",
+    "summary": "Ett vittne observerar en förare till en A-traktor på Gålö som kör väldigt vingligt. En polispatrull har beordr",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-14.37-kontroll-personfordon-haninge/",
+    "type": "Kontroll person/fordon",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 522172,
+    "datetime": "2024-05-11 14:49:53 +02:00",
+    "name": "11 maj 14.05, Trafikkontroll, Sollefteå",
+    "summary": "Långsele, resultat efter nykterhetskontroll i trafiken",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-14.05-trafikkontroll-solleftea/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 522171,
+    "datetime": "2024-05-11 14:44:39 +02:00",
+    "name": "11 maj 11.47, Skadegörelse, Sundsvall",
+    "summary": "Alnö, polis kontaktas gällande krossade rutor på förskola",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-11.47-skadegorelse-sundsvall/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 522170,
+    "datetime": "2024-05-11 14:23:15 +02:00",
+    "name": "11 maj 13.37, Rattfylleri, Hallsberg",
+    "summary": "Polispatrull har stoppat misstänkt påverkad bilist",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-13.37-rattfylleri-hallsberg/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Hallsberg",
+      "gps": "59.066532,15.10229"
+    }
+  },
+  {
+    "id": 522169,
+    "datetime": "2024-05-11 13:58:06 +02:00",
+    "name": "11 maj 13.42, Trafikbrott, Skellefteå",
+    "summary": "Centrum, polis kontrollerar bilist som spelar hög musik",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-13.42-trafikbrott-skelleftea/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 522168,
+    "datetime": "2024-05-11 13:49:43 +02:00",
+    "name": "11 maj 09.02, Stöld/inbrott, Norberg",
+    "summary": "Inbrott i källare.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-09.02-stoldinbrott-norberg/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Norberg",
+      "gps": "60.065042,15.923796"
+    }
+  },
+  {
+    "id": 522167,
+    "datetime": "2024-05-11 13:49:32 +02:00",
+    "name": "11 maj 11.40, Stöld, Piteå",
+    "summary": "Zonområdet, kvinna stoppad efter misstänkt ringa stöld i butik",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-11.40-stold-pitea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Piteå",
+      "gps": "65.316698,21.480036"
+    }
+  },
+  {
+    "id": 522166,
+    "datetime": "2024-05-11 13:47:08 +02:00",
+    "name": "11 maj 10.18, Trafikolycka, Tierp",
+    "summary": "Trafikolycka vid Tierp.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-10.18-trafikolycka-tierp/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Tierp",
+      "gps": "60.347587,17.520509"
+    }
+  },
+  {
+    "id": 522154,
+    "datetime": "2024-05-11 12:22:57 +02:00",
+    "name": "11 maj 12.00, Trafikolycka, Leksand",
+    "summary": "En MC Olycka har inträffat på Lv 570 sydväst om Leksand",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-12.00-trafikolycka-leksand/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Leksand",
+      "gps": "60.730308,14.999892"
+    }
+  },
+  {
+    "id": 522165,
+    "datetime": "2024-05-11 13:23:20 +02:00",
+    "name": "11 maj 10.13, Trafikkontroll, Åre",
+    "summary": "Åre, resultat efter nykterhetskontroll i trafiken",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-10.13-trafikkontroll-are/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Åre",
+      "gps": "63.399043,13.081506"
+    }
+  },
+  {
+    "id": 522163,
+    "datetime": "2024-05-11 13:12:32 +02:00",
+    "name": "11 maj 12.17, Trafikolycka, personskada, Göteborg",
+    "summary": "Kollision mellan cyklist och bilist",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-12.17-trafikolycka-personskada-goteborg/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 522161,
+    "datetime": "2024-05-11 13:09:28 +02:00",
+    "name": "11 maj 08.50, Skadegörelse, Sundsvall",
+    "summary": "Nacksta, polis kontaktas gällande klotter vid en hiss i en fastighet",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.50-skadegorelse-sundsvall/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 522160,
+    "datetime": "2024-05-11 13:06:26 +02:00",
+    "name": "11 maj 12.22, Stöld, Falun",
+    "summary": "Fyrhjulig stulen i Falu kommun",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-12.22-stold-falun/",
+    "type": "Stöld",
+    "location": {
+      "name": "Falun",
+      "gps": "60.60646,15.6355"
+    }
+  },
+  {
+    "id": 522159,
+    "datetime": "2024-05-11 13:02:54 +02:00",
+    "name": "11 maj 08.42, Trafikkontroll, Sollefteå",
+    "summary": "Riksväg 90 Remsle, resultat efter trafikkontroll",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.42-trafikkontroll-solleftea/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Sollefteå",
+      "gps": "63.165407,17.277135"
+    }
+  },
+  {
+    "id": 522158,
+    "datetime": "2024-05-11 12:58:51 +02:00",
+    "name": "11 maj 08.37, Trafikkontroll, Härnösand",
+    "summary": "Granudden, resultat efter trafikkontroll vid Södra vägen",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.37-trafikkontroll-harnosand/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 522157,
+    "datetime": "2024-05-11 12:57:15 +02:00",
+    "name": "11 maj 09.37, Anträffad död, Karlshamn",
+    "summary": "Avliden man anträffad, Dalgången.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-09.37-antraffad-dod-karlshamn/",
+    "type": "Anträffad död",
+    "location": {
+      "name": "Karlshamn",
+      "gps": "56.170303,14.863073"
+    }
+  },
+  {
+    "id": 522156,
+    "datetime": "2024-05-11 12:52:03 +02:00",
+    "name": "11 maj 12.45, Trafikkontroll, Västerbottens län",
+    "summary": "Västerbotten, ett urval av polisens arbete i trafiken under morgon och förmiddag",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-12.45-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 522155,
+    "datetime": "2024-05-11 12:32:36 +02:00",
+    "name": "11 maj 12.15, Rån, Haninge",
+    "summary": "Person i Kolartorp rånades på halskedja.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-12.15-ran-haninge/",
+    "type": "Rån",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 522153,
+    "datetime": "2024-05-11 11:51:55 +02:00",
+    "name": "11 maj 08.49, Misshandel, Ale",
+    "summary": "Man skadad av bilist",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.49-misshandel-ale/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Ale",
+      "gps": "57.841175,12.029249"
+    }
+  },
+  {
+    "id": 522152,
+    "datetime": "2024-05-11 11:33:33 +02:00",
+    "name": "11 maj 10.52, Trafikolycka, Tidaholm",
+    "summary": "Två motorcyklister kolliderat",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-10.52-trafikolycka-tidaholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Tidaholm",
+      "gps": "58.181769,13.959474"
+    }
+  },
+  {
+    "id": 522151,
+    "datetime": "2024-05-11 11:14:45 +02:00",
+    "name": "11 maj 11.03, Rattfylleri, Stockholm",
+    "summary": "Misstänkt rattfylleri i Västberga.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-11.03-rattfylleri-stockholm/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 522150,
+    "datetime": "2024-05-11 11:05:34 +02:00",
+    "name": "11 maj 09.57, Olovlig körning, Karlstad",
+    "summary": "Bilist utan körkort stoppad i Välsviken",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-09.57-olovlig-korning-karlstad/",
+    "type": "Olovlig körning",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 522149,
+    "datetime": "2024-05-11 10:24:56 +02:00",
+    "name": "11 maj 10.24, Trafikolycka, Nyköping",
+    "summary": "SOS-larm om trafikolycka utanför Kärrsta.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-10.24-trafikolycka-nykoping/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Nyköping",
+      "gps": "58.752844,17.009159"
+    }
+  },
+  {
+    "id": 522134,
+    "datetime": "2024-05-11 7:27:07 +02:00",
+    "name": "11 maj 02.16, Misshandel, grov, Haninge",
+    "summary": "Två gripna misstänkta för misshandel i Handen.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-02.16-misshandel-grov-haninge/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 522148,
+    "datetime": "2024-05-11 9:32:00 +02:00",
+    "name": "11 maj 09.03, Trafikkontroll, Gällivare",
+    "summary": "Mellanområdet, resultat efter nykterhetskontroll vid Sommarvägen",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-09.03-trafikkontroll-gallivare/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Gällivare",
+      "gps": "67.1379,20.659362"
+    }
+  },
+  {
+    "id": 522147,
+    "datetime": "2024-05-11 9:22:51 +02:00",
+    "name": "11 maj 09.00, Sammanfattning natt, Jämtlands län",
+    "summary": "Jämtland, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-09.00-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 522145,
+    "datetime": "2024-05-11 8:40:57 +02:00",
+    "name": "11 maj 08.03, Sammanfattning natt, Västernorrlands län",
+    "summary": "Västernorrland, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.03-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 522137,
+    "datetime": "2024-05-11 8:04:13 +02:00",
+    "name": "11 maj 08.02, Sammanfattning natt, Jönköpings län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.02-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 522136,
+    "datetime": "2024-05-11 8:03:48 +02:00",
+    "name": "11 maj 08.02, Sammanfattning natt, Östergötlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.02-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 522132,
+    "datetime": "2024-05-11 8:03:13 +02:00",
+    "name": "11 maj 08.02, Sammanfattning natt, Södermanlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.02-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 522144,
+    "datetime": "2024-05-11 8:03:06 +02:00",
+    "name": "11 maj 08.00, Sammanfattning natt, Västerbottens län",
+    "summary": "Västerbotten, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-08.00-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 522142,
+    "datetime": "2024-05-11 7:54:01 +02:00",
+    "name": "11 maj 01.33, Rattfylleri, Nacka",
+    "summary": "Fordonsförare på Kvarnholmen rapporteras för drograttfylleri.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-01.33-rattfylleri-nacka/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 522141,
+    "datetime": "2024-05-11 7:50:21 +02:00",
+    "name": "11 maj 07.45, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Örebro",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.45-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 522140,
+    "datetime": "2024-05-11 7:50:18 +02:00",
+    "name": "11 maj 07.45, Sammanfattning natt, Dalarnas län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Dalarna",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.45-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 522139,
+    "datetime": "2024-05-11 7:50:15 +02:00",
+    "name": "11 maj 07.45, Sammanfattning natt, Värmlands län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Värmland",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.45-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 522135,
+    "datetime": "2024-05-11 7:27:19 +02:00",
+    "name": "11 maj 07.00, Sammanfattning natt, Norrbottens län",
+    "summary": "Norrbotten, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.00-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 522133,
+    "datetime": "2024-05-11 7:26:44 +02:00",
+    "name": "11 maj 00.42, Misshandel, Gävle",
+    "summary": "Två personer misstänks för misshandel.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-00.42-misshandel-gavle/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 522131,
+    "datetime": "2024-05-11 7:04:19 +02:00",
+    "name": "11 maj 03.18, Misshandel, grov, Malmö",
+    "summary": "En man skadad.",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-03.18-misshandel-grov-malmo/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522130,
+    "datetime": "2024-05-11 6:50:15 +02:00",
+    "name": "11 maj 07.00, Sammanfattning natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.00-sammanfattning-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 522129,
+    "datetime": "2024-05-11 6:20:38 +02:00",
+    "name": "11 maj 07.00, Sammanfattning natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats",
+    "url": "/aktuellt/handelser/2024/maj/11/11-maj-07.00-sammanfattning-natt-hallands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  }
+]

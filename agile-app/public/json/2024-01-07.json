@@ -1,0 +1,458 @@
+[
+  {
+    "id": 481683,
+    "datetime": "2024-01-08 7:37:40 +01:00",
+    "name": "07 januari 23.01, Olaga intrång, Gävle",
+    "summary": "Olaga intrång i flerfamiljshus.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-23.01-olaga-intrang-gavle/",
+    "type": "Olaga intrång",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 481654,
+    "datetime": "2024-01-07 20:50:18 +01:00",
+    "name": "07 januari 20.36, Brand, Trelleborg",
+    "summary": "Österlid. Rökutveckling från villa.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-20.36-brand-trelleborg/",
+    "type": "Brand",
+    "location": {
+      "name": "Trelleborg",
+      "gps": "55.376243,13.157423"
+    }
+  },
+  {
+    "id": 481656,
+    "datetime": "2024-01-07 21:46:44 +01:00",
+    "name": "07 januari 21.40, Brand, Malmö",
+    "summary": "Kryddgården. Brand i fordon.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-21.40-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 481655,
+    "datetime": "2024-01-07 21:28:15 +01:00",
+    "name": "07 januari 20.14, Trafikolycka, singel, Eslöv",
+    "summary": "E22, mellan trafikplatserna 24 och 25. En personbil har voltat av vägen.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-20.14-trafikolycka-singel-eslov/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 481653,
+    "datetime": "2024-01-07 20:51:36 +01:00",
+    "name": "07 januari 20.38, Trafikolycka, Uppsala",
+    "summary": "Trafikolycka i korsningen Råbyvägen / Tycho Hedéns väg",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-20.38-trafikolycka-uppsala/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 481643,
+    "datetime": "2024-01-07 14:12:08 +01:00",
+    "name": "07 januari 14.11, Polisinsats/kommendering, Jönköping",
+    "summary": "Polis har avlossat skott efter tumult situation.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-14.11-polisinsatskommendering-jonkoping/",
+    "type": "Polisinsats/kommendering",
+    "location": {
+      "name": "Jönköping",
+      "gps": "57.782614,14.161788"
+    }
+  },
+  {
+    "id": 481651,
+    "datetime": "2024-01-07 18:39:31 +01:00",
+    "name": "07 januari 18.25, Trafikolycka, vilt, Älmhult",
+    "summary": "Rv23, i höjd med Froafälle. Kollision mellan personbil och älg.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-18.25-trafikolycka-vilt-almhult/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Älmhult",
+      "gps": "56.552446,14.137405"
+    }
+  },
+  {
+    "id": 481648,
+    "datetime": "2024-01-07 15:29:20 +01:00",
+    "name": "07 januari 15.02, Räddningsinsats, Emmaboda",
+    "summary": "Järnvägsgatan. Förmodat gasutsläpp.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-15.02-raddningsinsats-emmaboda/",
+    "type": "Räddningsinsats",
+    "location": {
+      "name": "Emmaboda",
+      "gps": "56.630686,15.540006"
+    }
+  },
+  {
+    "id": 481650,
+    "datetime": "2024-01-07 16:02:16 +01:00",
+    "name": "07 januari 16.02, Övrigt, Hallands län",
+    "summary": "Efter klockan 22.00 finns det ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-16.02-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 481649,
+    "datetime": "2024-01-07 16:02:03 +01:00",
+    "name": "07 januari 16.01, Övrigt, Västra Götalands län",
+    "summary": "Efter klockan 22.00 finns det ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-16.01-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 481646,
+    "datetime": "2024-01-07 14:29:00 +01:00",
+    "name": "07 januari 06.59, Stöld/inbrott, Södertälje",
+    "summary": "Polis kallas till en vårdinrättning i Södertälje med anledning av att det varit inbrott i lokalerna.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-06.59-stoldinbrott-sodertalje/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 481647,
+    "datetime": "2024-01-07 14:30:54 +01:00",
+    "name": "07 januari 14.19, Trafikolycka, Ljungby",
+    "summary": "Sidokrock",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-14.19-trafikolycka-ljungby/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ljungby",
+      "gps": "56.833877,13.941042"
+    }
+  },
+  {
+    "id": 481645,
+    "datetime": "2024-01-07 14:27:12 +01:00",
+    "name": "07 januari 14.09, Trafikolycka, Ystad",
+    "summary": "Stora köpinge",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-14.09-trafikolycka-ystad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ystad",
+      "gps": "55.429505,13.820031"
+    }
+  },
+  {
+    "id": 481642,
+    "datetime": "2024-01-07 13:08:27 +01:00",
+    "name": "07 januari 12.44, Trafikolycka, Hörby",
+    "summary": "E22 Hörby, singelolycka",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-12.44-trafikolycka-horby/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Hörby",
+      "gps": "55.851716,13.661926"
+    }
+  },
+  {
+    "id": 481639,
+    "datetime": "2024-01-07 13:12:57 +01:00",
+    "name": "07 januari 11.15, Rattfylleri, Östersund",
+    "summary": "Misstänkt rattfylleri centrala Östersund",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-11.15-rattfylleri-ostersund/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 481638,
+    "datetime": "2024-01-07 11:04:42 +01:00",
+    "name": "07 januari 10.52, Trafikolycka, Hallsberg",
+    "summary": "En sidokrock har inträffat på Hallsbergsvägen i Pålsboda",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-10.52-trafikolycka-hallsberg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Hallsberg",
+      "gps": "59.066532,15.10229"
+    }
+  },
+  {
+    "id": 481641,
+    "datetime": "2024-01-07 12:47:47 +01:00",
+    "name": "07 januari 08.53, Våld/hot mot tjänsteman, Hallsberg",
+    "summary": "En man i 30-årsåldern har gripits misstänkt för flera brott",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.53-valdhot-mot-tjansteman-hallsberg/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Hallsberg",
+      "gps": "59.066532,15.10229"
+    }
+  },
+  {
+    "id": 481640,
+    "datetime": "2024-01-07 12:33:11 +01:00",
+    "name": "07 januari 11.27, Rattfylleri, Karlskoga",
+    "summary": "En bilist är misstänkt för brott",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-11.27-rattfylleri-karlskoga/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Karlskoga",
+      "gps": "59.328634,14.536414"
+    }
+  },
+  {
+    "id": 481637,
+    "datetime": "2024-01-07 10:23:03 +01:00",
+    "name": "07 januari 09.44, Trafikolycka, Göteborg",
+    "summary": "På Lundbyleden, i höjd med Ringön och i riktning mot Lundbytunneln, har en trafikolycka inträffat.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-09.44-trafikolycka-goteborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 481636,
+    "datetime": "2024-01-07 10:21:48 +01:00",
+    "name": "07 januari 09.52, Brand, Stockholm",
+    "summary": "Polis och räddningstjänst kallas till Hammarbyhöjden med anledning av befarad lägenhetsbrand.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-09.52-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481633,
+    "datetime": "2024-01-07 9:55:50 +01:00",
+    "name": "07 januari 06.54, Brand, Umeå",
+    "summary": "Brand i bostad, Obbola, Umeå",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-06.54-brand-umea/",
+    "type": "Brand",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 481627,
+    "datetime": "2024-01-07 9:10:35 +01:00",
+    "name": "07 januari 07.19, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens händelser",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-07.19-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 481631,
+    "datetime": "2024-01-07 9:02:15 +01:00",
+    "name": "07 januari 08.14, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens händelser",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.14-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 481618,
+    "datetime": "2024-01-07 8:53:41 +01:00",
+    "name": "07 januari 07.03, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urvar av nattens händelser",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-07.03-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 481632,
+    "datetime": "2024-01-07 8:51:27 +01:00",
+    "name": "07 januari 00.54, Trafikbrott, Stockholm",
+    "summary": "En polispatrull stoppar en bil som framförs vårdslöst på E4:an vid Fruängen.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-00.54-trafikbrott-stockholm/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481617,
+    "datetime": "2024-01-07 8:45:01 +01:00",
+    "name": "07 januari 06.46, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens händelser",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-06.46-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 481630,
+    "datetime": "2024-01-07 8:25:15 +01:00",
+    "name": "07 januari 00.47, Rattfylleri, Stockholm",
+    "summary": "I samband med att en polispatrull stoppade en bil för kontroll av föraren uppstod misstanke om rattfylleri.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-00.47-rattfylleri-stockholm/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481622,
+    "datetime": "2024-01-07 8:24:40 +01:00",
+    "name": "07 januari 08.23, Sammanfattning natt, Södermanlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.23-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 481624,
+    "datetime": "2024-01-07 8:24:15 +01:00",
+    "name": "07 januari 08.23, Sammanfattning natt, Östergötlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.23-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 481629,
+    "datetime": "2024-01-07 8:23:15 +01:00",
+    "name": "07 januari 08.23, Sammanfattning natt, Jönköpings län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.23-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 481628,
+    "datetime": "2024-01-07 8:21:41 +01:00",
+    "name": "07 januari 06.46, Brand, Mora",
+    "summary": "Ett fritidshus har brunnit i Våmhus",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-06.46-brand-mora/",
+    "type": "Brand",
+    "location": {
+      "name": "Mora",
+      "gps": "61.004878,14.537003"
+    }
+  },
+  {
+    "id": 481626,
+    "datetime": "2024-01-07 8:11:21 +01:00",
+    "name": "07 januari 08.09, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.09-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 481625,
+    "datetime": "2024-01-07 8:09:07 +01:00",
+    "name": "07 januari 08.07, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-08.07-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 481623,
+    "datetime": "2024-01-07 7:48:17 +01:00",
+    "name": "07 januari 07.47, Sammanfattning natt, Värmlands län",
+    "summary": "Nedan följer en sammanfattning av nattens händelser i länet",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-07.47-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 481621,
+    "datetime": "2024-01-07 7:47:25 +01:00",
+    "name": "07 januari 07.45, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer en sammanfattning av nattens händelser i länet",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-07.45-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 481620,
+    "datetime": "2024-01-07 7:45:50 +01:00",
+    "name": "07 januari 07.41, Sammanfattning natt, Dalarnas län",
+    "summary": "Nedan följer en sammanfattning av nattens händelser i länet",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-07.41-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 481616,
+    "datetime": "2024-01-07 6:58:15 +01:00",
+    "name": "07 januari 03.30, Rån, Karlskrona",
+    "summary": "Personrån",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-03.30-ran-karlskrona/",
+    "type": "Rån",
+    "location": {
+      "name": "Karlskrona",
+      "gps": "56.161224,15.5869"
+    }
+  },
+  {
+    "id": 481615,
+    "datetime": "2024-01-07 6:55:42 +01:00",
+    "name": "07 januari 03.54, Rån, Helsingborg",
+    "summary": "Personrån",
+    "url": "/aktuellt/handelser/2024/januari/7/07-januari-03.54-ran-helsingborg/",
+    "type": "Rån",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  }
+]

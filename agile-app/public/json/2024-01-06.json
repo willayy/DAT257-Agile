@@ -1,0 +1,542 @@
+[
+  {
+    "id": 481580,
+    "datetime": "2024-01-06 8:02:52 +01:00",
+    "name": "06 januari 08.02, Sammanfattning natt, Jönköpings län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.02-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 481613,
+    "datetime": "2024-01-06 23:51:53 +01:00",
+    "name": "06 januari 23.50, Mord/dråp, försök, Linköping",
+    "summary": "Samtal kommer till polisen om en skadad person i Linköping. En person är förd till sjukhus med vad som ser ut ",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-23.50-morddrap-forsok-linkoping/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Linköping",
+      "gps": "58.410807,15.621373"
+    }
+  },
+  {
+    "id": 481619,
+    "datetime": "2024-01-07 7:39:29 +01:00",
+    "name": "06 januari 15.15, Ordningslagen, Sala",
+    "summary": "Brott mot ordningslagen, Sala",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-15.15-ordningslagen-sala/",
+    "type": "Ordningslagen",
+    "location": {
+      "name": "Sala",
+      "gps": "59.920859,16.606328"
+    }
+  },
+  {
+    "id": 481612,
+    "datetime": "2024-01-06 22:34:46 +01:00",
+    "name": "06 januari 20.50, Mord/dråp, försök, Österåker",
+    "summary": "Man knivhuggen vid bråk.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-20.50-morddrap-forsok-osteraker/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Österåker",
+      "gps": "59.500058,18.352485"
+    }
+  },
+  {
+    "id": 481611,
+    "datetime": "2024-01-06 22:24:30 +01:00",
+    "name": "06 januari 21.52, Våld/hot mot tjänsteman, Kävlinge",
+    "summary": "Järnvägsstationen. Bråk ombord på ett tåg.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-21.52-valdhot-mot-tjansteman-kavlinge/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Kävlinge",
+      "gps": "55.794,13.110429"
+    }
+  },
+  {
+    "id": 481609,
+    "datetime": "2024-01-06 20:06:50 +01:00",
+    "name": "06 januari 19.26, Rån övrigt, Bromölla",
+    "summary": "Tians väg. Personrån.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-19.26-ran-ovrigt-bromolla/",
+    "type": "Rån övrigt",
+    "location": {
+      "name": "Bromölla",
+      "gps": "56.074362,14.477659"
+    }
+  },
+  {
+    "id": 481610,
+    "datetime": "2024-01-06 20:16:07 +01:00",
+    "name": "06 januari 16.26, Åldringsbrott, Stockholm",
+    "summary": "Bedragare tar smycken från en äldre kvinna i Vasastan.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-16.26-aldringsbrott-stockholm/",
+    "type": "Åldringsbrott",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481608,
+    "datetime": "2024-01-06 20:04:09 +01:00",
+    "name": "06 januari 17.45, Rån, Sundbyberg",
+    "summary": "Man till sjukhus efter att ha blivit rånad.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-17.45-ran-sundbyberg/",
+    "type": "Rån",
+    "location": {
+      "name": "Sundbyberg",
+      "gps": "59.367047,17.966309"
+    }
+  },
+  {
+    "id": 481606,
+    "datetime": "2024-01-06 17:57:31 +01:00",
+    "name": "06 januari 17.35, Trafikolycka, singel, Skurup",
+    "summary": "E65, trafikplats Stenbäck. En personbil har kört av vägen.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-17.35-trafikolycka-singel-skurup/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Skurup",
+      "gps": "55.48045,13.502349"
+    }
+  },
+  {
+    "id": 481607,
+    "datetime": "2024-01-06 18:21:17 +01:00",
+    "name": "06 januari 16.32, Brand, Härnösand",
+    "summary": "Brand i bostad",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-16.32-brand-harnosand/",
+    "type": "Brand",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 481605,
+    "datetime": "2024-01-06 16:03:46 +01:00",
+    "name": "06 januari 16.03, Övrigt, Hallands län",
+    "summary": "Efter klockan 22.00 finns det ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-16.03-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 481604,
+    "datetime": "2024-01-06 16:03:22 +01:00",
+    "name": "06 januari 16.00, Övrigt, Västra Götalands län",
+    "summary": "Efter klockan 22.00 finns det ingen presstalesperson i tjänst.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-16.00-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 481603,
+    "datetime": "2024-01-06 15:28:54 +01:00",
+    "name": "06 januari 15.00, Brand, Stockholm",
+    "summary": "Lägenhetsbrand på Hälsingegatan.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-15.00-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481591,
+    "datetime": "2024-01-06 14:25:46 +01:00",
+    "name": "06 januari 14.25, Trafikkontroll, Västernorrlands län",
+    "summary": "Ett urval av dagens trafikkontroller",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-14.25-trafikkontroll-vasternorrlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 481593,
+    "datetime": "2024-01-06 14:11:16 +01:00",
+    "name": "06 januari 09.00, Trafikkontroll, Arvidsjaur",
+    "summary": "En person fick böter i trafikkontroll",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.00-trafikkontroll-arvidsjaur/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Arvidsjaur",
+      "gps": "65.592077,19.180283"
+    }
+  },
+  {
+    "id": 481602,
+    "datetime": "2024-01-06 13:53:46 +01:00",
+    "name": "06 januari 09.49, Rattfylleri, Arvidsjaur",
+    "summary": "Misstänkt rattfylleri i Arvidsjaurs kommun",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.49-rattfylleri-arvidsjaur/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Arvidsjaur",
+      "gps": "65.592077,19.180283"
+    }
+  },
+  {
+    "id": 481601,
+    "datetime": "2024-01-06 13:40:08 +01:00",
+    "name": "06 januari 12.39, Trafikolycka, vilt, Jämtlands län",
+    "summary": "Viltolyckor i Strömsund samt Björnrike",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-12.39-trafikolycka-vilt-jamtlands-lan/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 481599,
+    "datetime": "2024-01-06 13:33:32 +01:00",
+    "name": "06 januari 10.42, Trafikkontroll, Krokom",
+    "summary": "Tre fick böter i trafikkontroll",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-10.42-trafikkontroll-krokom/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Krokom",
+      "gps": "63.326242,14.448654"
+    }
+  },
+  {
+    "id": 481600,
+    "datetime": "2024-01-06 13:01:53 +01:00",
+    "name": "06 januari 10.53, Mord/dråp, Växjö",
+    "summary": "Polisinsats under morgonen",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-10.53-morddrap-vaxjo/",
+    "type": "Mord/dråp",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 481582,
+    "datetime": "2024-01-06 8:04:28 +01:00",
+    "name": "06 januari 08.04, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.04-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 481598,
+    "datetime": "2024-01-06 11:25:29 +01:00",
+    "name": "06 januari 10.43, Brand, Stockholm",
+    "summary": "Polis och räddningstjänst kallas till en skönhetssalong på Kungsholmen med anledning av brand.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-10.43-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481597,
+    "datetime": "2024-01-06 11:19:04 +01:00",
+    "name": "06 januari 10.50, Trafikolycka, smitning från, Haninge",
+    "summary": "Polis kallas till Tungelsta med anledning av en trafikolycka där en av de inblandade har sprungit från platsen",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-10.50-trafikolycka-smitning-fran-haninge/",
+    "type": "Trafikolycka, smitning från",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 481596,
+    "datetime": "2024-01-06 10:53:03 +01:00",
+    "name": "06 januari 09.41, Trafikolycka, Lund",
+    "summary": "Person och buss i kollision",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.41-trafikolycka-lund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Lund",
+      "gps": "55.70466,13.191007"
+    }
+  },
+  {
+    "id": 481595,
+    "datetime": "2024-01-06 10:46:19 +01:00",
+    "name": "06 januari 07.25, Fylleri/LOB, Luleå",
+    "summary": "Två personer omhändertaga för fylleri",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-07.25-fyllerilob-lulea/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 481589,
+    "datetime": "2024-01-06 10:03:27 +01:00",
+    "name": "06 januari 09.20, Försvunnen person, Stenungsund",
+    "summary": "En kvinna i 90-årsåldern har avvikit från ett demensboende på Kringleskärsvägen i Stenungsund.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.20-forsvunnen-person-stenungsund/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Stenungsund",
+      "gps": "58.067839,11.829434"
+    }
+  },
+  {
+    "id": 481594,
+    "datetime": "2024-01-06 10:26:25 +01:00",
+    "name": "06 januari 08.48, Brand, Herrljunga",
+    "summary": "SOS larmas om en fullt utvecklad brand i en fastighet i Ljung.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.48-brand-herrljunga/",
+    "type": "Brand",
+    "location": {
+      "name": "Herrljunga",
+      "gps": "58.078029,13.018839"
+    }
+  },
+  {
+    "id": 481592,
+    "datetime": "2024-01-06 10:15:57 +01:00",
+    "name": "06 januari 09.30, Djur, Härjedalen",
+    "summary": "Ren på vägen",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.30-djur-harjedalen/",
+    "type": "Djur",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 481590,
+    "datetime": "2024-01-06 10:09:47 +01:00",
+    "name": "06 januari 09.03, Trafikbrott, Nynäshamn",
+    "summary": "I samband med att en polispatrull skulle stoppa en bil för kontroll Nynäshamn, vägrade föraren att stanna.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.03-trafikbrott-nynashamn/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Nynäshamn",
+      "gps": "58.902926,17.946529"
+    }
+  },
+  {
+    "id": 481588,
+    "datetime": "2024-01-06 9:52:13 +01:00",
+    "name": "06 januari 08.59, Djur, Umeå",
+    "summary": "Renar på väg",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.59-djur-umea/",
+    "type": "Djur",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 481587,
+    "datetime": "2024-01-06 9:45:52 +01:00",
+    "name": "06 januari 09.24, Brand, Södertälje",
+    "summary": "Polis och räddningstjänst kallas till Södertälje med anledning av befarad lägenhetsbrand.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-09.24-brand-sodertalje/",
+    "type": "Brand",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 481585,
+    "datetime": "2024-01-06 8:48:20 +01:00",
+    "name": "06 januari 07.26, Trafikolycka, vilt, Arjeplog",
+    "summary": "Viltolycka på riksväg 95",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-07.26-trafikolycka-vilt-arjeplog/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Arjeplog",
+      "gps": "66.051505,17.890054"
+    }
+  },
+  {
+    "id": 481584,
+    "datetime": "2024-01-06 8:10:02 +01:00",
+    "name": "06 januari 00.14, Övrigt, Klippan",
+    "summary": "Man anhållen",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-00.14-ovrigt-klippan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Klippan",
+      "gps": "56.1349,13.129041"
+    }
+  },
+  {
+    "id": 481576,
+    "datetime": "2024-01-06 8:05:01 +01:00",
+    "name": "06 januari 08.04, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.04-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 481583,
+    "datetime": "2024-01-06 8:04:52 +01:00",
+    "name": "06 januari 08.04, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.04-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 481581,
+    "datetime": "2024-01-06 8:04:11 +01:00",
+    "name": "06 januari 08.03, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.03-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 481571,
+    "datetime": "2024-01-06 8:03:16 +01:00",
+    "name": "06 januari 08.02, Sammanfattning natt, Södermanlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.02-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 481577,
+    "datetime": "2024-01-06 8:03:07 +01:00",
+    "name": "06 januari 08.02, Sammanfattning natt, Östergötlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-08.02-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 481565,
+    "datetime": "2024-01-06 2:34:28 +01:00",
+    "name": "06 januari 01.28, Mord/dråp, försök, Göteborg",
+    "summary": "Explosion vid fastighet i Tynnered.",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-01.28-morddrap-forsok-goteborg/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 481578,
+    "datetime": "2024-01-06 7:38:15 +01:00",
+    "name": "06 januari 01.00, Knivlagen, Hudiksvall",
+    "summary": "Knivlagen, Hudiksvall",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-01.00-knivlagen-hudiksvall/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Hudiksvall",
+      "gps": "61.727391,17.107401"
+    }
+  },
+  {
+    "id": 481572,
+    "datetime": "2024-01-06 7:26:35 +01:00",
+    "name": "06 januari 06.24, Misshandel, grov, Eslöv",
+    "summary": "Skadad kvinna",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-06.24-misshandel-grov-eslov/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 481570,
+    "datetime": "2024-01-06 7:15:10 +01:00",
+    "name": "06 januari 06.37, Brand, Stockholm",
+    "summary": "Polis och räddningstjänst kallas till Högdalen med uppgifter om röklukt och tjutande brandvarnare i ett flerfa",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-06.37-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481569,
+    "datetime": "2024-01-06 7:07:52 +01:00",
+    "name": "06 januari 04.18, Rattfylleri, Stockholm",
+    "summary": "När en polispatrull stoppade en bil på Skeppsbron för fordon och förarkontroll uppstod misstanke om rattfyller",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-04.18-rattfylleri-stockholm/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 481568,
+    "datetime": "2024-01-06 7:04:10 +01:00",
+    "name": "06 januari 04.49, Våld/hot mot tjänsteman, Huddinge",
+    "summary": "Polis kallas till ett hotell i Segeltorp med anledning av att en man iklädd enbart kalsonger går runt och skri",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-04.49-valdhot-mot-tjansteman-huddinge/",
+    "type": "Våld/hot mot tjänsteman",
+    "location": {
+      "name": "Huddinge",
+      "gps": "59.23633,17.982156"
+    }
+  },
+  {
+    "id": 481567,
+    "datetime": "2024-01-06 7:00:42 +01:00",
+    "name": "06 januari 07.00, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-07.00-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 481566,
+    "datetime": "2024-01-06 6:40:59 +01:00",
+    "name": "06 januari 06.40, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/januari/6/06-januari-06.40-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  }
+]
