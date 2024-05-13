@@ -1,0 +1,278 @@
+[
+  {
+    "id": 521971,
+    "datetime": "2024-05-09 11:06:21 +02:00",
+    "name": "09 maj 09.33, Trafikkontroll, Karlstad",
+    "summary": "En bilist är misstänkt för brott",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-09.33-trafikkontroll-karlstad/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 521970,
+    "datetime": "2024-05-09 10:57:58 +02:00",
+    "name": "09 maj 06.21, Brand, Örkelljunga",
+    "summary": "Brand i villa",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-06.21-brand-orkelljunga/",
+    "type": "Brand",
+    "location": {
+      "name": "Örkelljunga",
+      "gps": "56.283635,13.278832"
+    }
+  },
+  {
+    "id": 521968,
+    "datetime": "2024-05-09 10:34:12 +02:00",
+    "name": "09 maj 10.33, Stöld/inbrott, Jönköping",
+    "summary": "Inbrott i klädbutik i Huskvarna.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-10.33-stoldinbrott-jonkoping/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Jönköping",
+      "gps": "57.782614,14.161788"
+    }
+  },
+  {
+    "id": 521967,
+    "datetime": "2024-05-09 10:04:48 +02:00",
+    "name": "09 maj 07.09, Arbetsplatsolycka, Gävle",
+    "summary": "Man brännskadad på arbetsplats.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.09-arbetsplatsolycka-gavle/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 521966,
+    "datetime": "2024-05-09 8:02:31 +02:00",
+    "name": "09 maj 07.00, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Nedan följer ett urval av nattens händelser.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.00-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 521963,
+    "datetime": "2024-05-09 7:59:34 +02:00",
+    "name": "09 maj 08.00, Sammanfattning natt, Jönköpings län",
+    "summary": "En man skjuten i centrala Jönköping.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-08.00-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 521964,
+    "datetime": "2024-05-09 7:59:28 +02:00",
+    "name": "09 maj 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "En polisiärt sett lugn natt i Östergötlands län.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 521965,
+    "datetime": "2024-05-09 7:59:23 +02:00",
+    "name": "09 maj 08.00, Sammanfattning natt, Södermanlands län",
+    "summary": "En lugn natt polisiärt sett i Södermanland.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-08.00-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 521950,
+    "datetime": "2024-05-09 7:44:28 +02:00",
+    "name": "09 maj 07.44, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.44-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 521955,
+    "datetime": "2024-05-09 7:41:15 +02:00",
+    "name": "09 maj 07.41, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.41-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 521958,
+    "datetime": "2024-05-09 7:40:19 +02:00",
+    "name": "09 maj 07.40, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.40-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 521962,
+    "datetime": "2024-05-09 7:39:27 +02:00",
+    "name": "09 maj 07.39, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.39-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 521961,
+    "datetime": "2024-05-09 7:37:12 +02:00",
+    "name": "09 maj 07.36, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer ett urval av nattens operativa händelser i länet",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.36-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 521960,
+    "datetime": "2024-05-09 7:36:30 +02:00",
+    "name": "09 maj 07.35, Sammanfattning natt, Värmlands län",
+    "summary": "Nedan följer ett urval av nattens operativa händelser i länet",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-07.35-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 521959,
+    "datetime": "2024-05-09 7:35:07 +02:00",
+    "name": "09 maj 06.24, Sammanfattning natt, Dalarnas län",
+    "summary": "Det har varit en lugn natt operativt i länet",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-06.24-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 521957,
+    "datetime": "2024-05-09 7:26:47 +02:00",
+    "name": "09 maj 02.41, Rattfylleri, Sundbyberg",
+    "summary": "En man i Duvbo frihetsberövades enligt lagen om omhändertagande av berusade personer.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-02.41-rattfylleri-sundbyberg/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Sundbyberg",
+      "gps": "59.367047,17.966309"
+    }
+  },
+  {
+    "id": 521956,
+    "datetime": "2024-05-09 7:24:00 +02:00",
+    "name": "09 maj 04.00, Misshandel, Stockholm",
+    "summary": "En patrull påträffar en man på Södermalm. Mannen uppger att han har blivit misshandlad.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-04.00-misshandel-stockholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 521954,
+    "datetime": "2024-05-09 7:20:09 +02:00",
+    "name": "09 maj 05.22, Knivlagen, Stockholm",
+    "summary": "En man i Liljeholmen frihetsberövades enligt lagen om omhändertagande av berusade personer.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-05.22-knivlagen-stockholm/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 521953,
+    "datetime": "2024-05-09 7:09:23 +02:00",
+    "name": "09 maj 03.22, Stöld/inbrott, Uppsala",
+    "summary": "Inbrott i nationsbyggnad.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-03.22-stoldinbrott-uppsala/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Uppsala",
+      "gps": "59.858564,17.638927"
+    }
+  },
+  {
+    "id": 521952,
+    "datetime": "2024-05-09 7:06:33 +02:00",
+    "name": "09 maj 06.21, Brand, Malmö",
+    "summary": "Det brinner i ett garage och en villa norr om Åsljunga.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-06.21-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 521951,
+    "datetime": "2024-05-09 7:06:00 +02:00",
+    "name": "09 maj 06.00, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Nedan följer en sammanfattning av nattens händelser.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-062.00-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 521949,
+    "datetime": "2024-05-09 6:51:31 +02:00",
+    "name": "09 maj 02.17, Misshandel, Helsingborg",
+    "summary": "Polis larmas till Billeplatsen med anledning av ett pågående slagsmål.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-02.17-misshandel-helsingborg/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 521948,
+    "datetime": "2024-05-09 6:45:21 +02:00",
+    "name": "09 maj 04.34, Brand, Malmö",
+    "summary": "Man i 55-årsåldern grips efter bilbrand.",
+    "url": "/aktuellt/handelser/2024/maj/9/09-maj-04.34-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  }
+]

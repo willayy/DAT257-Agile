@@ -1,0 +1,590 @@
+[
+  {
+    "id": 515122,
+    "datetime": "2024-04-06 21:16:22 +02:00",
+    "name": "06 april 19.47, Olaga hot, Stockholm",
+    "summary": "En man gripen misstänkt för olaga hot och misshandel på sin fru.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-19.47-olaga-hot-stockholm/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 515121,
+    "datetime": "2024-04-06 19:17:15 +02:00",
+    "name": "06 april 15.15, Åldringsbrott, Stockholm",
+    "summary": "En äldre kvinna får ett samtal från en person som uppger att han ska komma för att leverera en TV.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-15.15-aldringsbrott-stockholm/",
+    "type": "Åldringsbrott",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 515120,
+    "datetime": "2024-04-06 19:07:23 +02:00",
+    "name": "06 april 18.07, Misshandel, grov, Eslöv",
+    "summary": "Försök till grov misshandel, grön laser",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-18.07-misshandel-grov-eslov/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 515114,
+    "datetime": "2024-04-06 14:39:01 +02:00",
+    "name": "06 april 14.34, Trafikolycka, Landskrona",
+    "summary": "En personbil voltar på E6 i höjd med Landskrona.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-14.34-trafikolycka-landskrona/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Landskrona",
+      "gps": "55.870348,12.83008"
+    }
+  },
+  {
+    "id": 515115,
+    "datetime": "2024-04-06 15:07:16 +02:00",
+    "name": "06 april 09.31, Rån, försök, Härryda",
+    "summary": "Två personer misstänkta för försök till grov misshandel, försök till grovt rån samt grov vårdslöshet i trafik",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-09.31-ran-forsok-harryda/",
+    "type": "Rån, försök",
+    "location": {
+      "name": "Härryda",
+      "gps": "57.691744,12.294416"
+    }
+  },
+  {
+    "id": 515119,
+    "datetime": "2024-04-06 16:21:24 +02:00",
+    "name": "06 april 16.00, Övrigt, Hallands län",
+    "summary": "Presstelefonen stängs för dagen.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-16.00-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 515118,
+    "datetime": "2024-04-06 16:20:51 +02:00",
+    "name": "06 april 16.00, Övrigt, Västra Götalands län",
+    "summary": "Presstelefonen stängs för dagen.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-16.00-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 515117,
+    "datetime": "2024-04-06 15:53:16 +02:00",
+    "name": "06 april 14.32, Ofredande/förargelse, Nacka",
+    "summary": "En flicka under 10 år blir ofredad av en okänd man i Älta.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-14.32-ofredandeforargelse-nacka/",
+    "type": "Ofredande/förargelse",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 515096,
+    "datetime": "2024-04-06 8:06:54 +02:00",
+    "name": "06 april 01.20, Mord/dråp, försök, Mölndal",
+    "summary": "Skott avlossade mot radhus, Lindome",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-01.20-morddrap-forsok-molndal/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Mölndal",
+      "gps": "57.65,12.016667"
+    }
+  },
+  {
+    "id": 515116,
+    "datetime": "2024-04-06 15:08:28 +02:00",
+    "name": "06 april 14.56, Trafikbrott, Skellefteå",
+    "summary": "Bilist blev av med körkortet efter hastighetsöverträdelse.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-14.56-trafikbrott-skelleftea/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 515111,
+    "datetime": "2024-04-06 14:16:17 +02:00",
+    "name": "06 april 13.27, Fjällräddning, Härjedalen",
+    "summary": "Lavin i Fjällnäs, Härjedalen.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-13.27-fjallraddning-harjedalen/",
+    "type": "Fjällräddning",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 515113,
+    "datetime": "2024-04-06 14:30:51 +02:00",
+    "name": "06 april 11.33, Stöld, Örnsköldsvik",
+    "summary": "Man misstänks för stöld efter förrådsinbrott.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-11.33-stold-ornskoldsvik/",
+    "type": "Stöld",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 515112,
+    "datetime": "2024-04-06 14:20:45 +02:00",
+    "name": "06 april 12.00, Rattfylleri, Växjö",
+    "summary": "Polis larmas till Hornaryd med anledning av en misstänkt rattfyllerist.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-12.00-rattfylleri-vaxjo/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 515110,
+    "datetime": "2024-04-06 14:06:49 +02:00",
+    "name": "06 april 12.50, Stöld, försök, Stockholm",
+    "summary": "Två personer greps i en butik på Norrmalm efter att de försökt stjäla en vara genom att försöka ta bort varans",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-12.50-stold-forsok-stockholm/",
+    "type": "Stöld, försök",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 515109,
+    "datetime": "2024-04-06 13:43:28 +02:00",
+    "name": "06 april 12.12, Stöld, Luleå",
+    "summary": "Kvinna misstänks för ringa stöld samt häleri.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-12.12-stold-lulea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 515105,
+    "datetime": "2024-04-06 12:07:20 +02:00",
+    "name": "06 april 11.39, Brand, Avesta",
+    "summary": "Det brinner i en villa öster om Horndal",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-11.39-brand-avesta/",
+    "type": "Brand",
+    "location": {
+      "name": "Avesta",
+      "gps": "60.14533,16.17384"
+    }
+  },
+  {
+    "id": 515108,
+    "datetime": "2024-04-06 13:24:30 +02:00",
+    "name": "06 april 10.55, Stöld, Boden",
+    "summary": "Ringa stöld på apotek i Boden.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-10.55-stold-boden/",
+    "type": "Stöld",
+    "location": {
+      "name": "Boden",
+      "gps": "65.825119,21.688703"
+    }
+  },
+  {
+    "id": 515107,
+    "datetime": "2024-04-06 13:14:20 +02:00",
+    "name": "06 april 13.14, Rattfylleri, Norrbottens län",
+    "summary": "Personer i länet rapporterade för rattfylleri.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-13.14-rattfylleri-norrbottens-lan/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 515106,
+    "datetime": "2024-04-06 13:09:02 +02:00",
+    "name": "06 april 10.03, Narkotikabrott, Umeå",
+    "summary": "Tonåring misstänks vara påverkad av narkotika.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-10.03-narkotikabrott-umea/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 515104,
+    "datetime": "2024-04-06 11:15:09 +02:00",
+    "name": "06 april 10.24, Brand, Luleå",
+    "summary": "Brand i buss vid Luleå busstation.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-10.24-brand-lulea/",
+    "type": "Brand",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 515103,
+    "datetime": "2024-04-06 10:57:45 +02:00",
+    "name": "06 april 10.53, Narkotikabrott, Hagfors",
+    "summary": "Man misstänkr för narkotikabrott samt brott mot knivlagen efter kontroll",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-10.53-narkotikabrott-hagfors/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Hagfors",
+      "gps": "60.03437,13.694508"
+    }
+  },
+  {
+    "id": 515102,
+    "datetime": "2024-04-06 10:53:04 +02:00",
+    "name": "06 april 10.48, Rattfylleri, Kristinehamn",
+    "summary": "Misstänkt rattfyllerist stoppad i Kristinehamn",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-10.48-rattfylleri-kristinehamn/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Kristinehamn",
+      "gps": "59.310068,14.108919"
+    }
+  },
+  {
+    "id": 515101,
+    "datetime": "2024-04-06 10:45:40 +02:00",
+    "name": "06 april 07.07, Stöld/inbrott, Alingsås",
+    "summary": "Bilstöld m.m. i Nolhaga",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.07-stoldinbrott-alingsas/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Alingsås",
+      "gps": "57.930021,12.536211"
+    }
+  },
+  {
+    "id": 515098,
+    "datetime": "2024-04-06 8:20:58 +02:00",
+    "name": "06 april 08.00, Sammanfattning natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är i tjänst. Nedan följer ett urval av nattens händelser.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-08.00-sammanfattning-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 515099,
+    "datetime": "2024-04-06 8:24:56 +02:00",
+    "name": "06 april 07.43, Rån, Malmö",
+    "summary": "En man blir rånad på sin bil på Monbijougatan.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.43-ran-malmo/",
+    "type": "Rån",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 515088,
+    "datetime": "2024-04-06 7:32:35 +02:00",
+    "name": "06 april 06.20, Trafikolycka, Helsingborg",
+    "summary": "En trafikolycka med en perosonbil inträffar på Hälsovägen när personbilen av okänd anledning kör in i en butik",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-06.20-trafikolycka-helsingborg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 515097,
+    "datetime": "2024-04-06 8:08:46 +02:00",
+    "name": "06 april 08.00, Sammanfattning natt, Hallands län",
+    "summary": "Dagens presstalesperson är i tjänst. Nedan följer ett urval av nattens händelser.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-08.00-sammanfattning-natt-hallands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 515094,
+    "datetime": "2024-04-06 8:01:03 +02:00",
+    "name": "06 april 07.48, Sammanfattning natt, Södermanlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.48-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 515093,
+    "datetime": "2024-04-06 8:00:54 +02:00",
+    "name": "06 april 07.46, Sammanfattning natt, Östergötlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.46-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 515095,
+    "datetime": "2024-04-06 8:00:46 +02:00",
+    "name": "06 april 07.58, Sammanfattning natt, Jönköpings län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.58-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 515084,
+    "datetime": "2024-04-06 7:29:55 +02:00",
+    "name": "06 april 07.25, Sammanfattning natt, Värmlands län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Värmland",
+    "url": "/aktuellt/handelser/2024/april/5/06-april-07.25-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 515092,
+    "datetime": "2024-04-06 7:43:49 +02:00",
+    "name": "06 april 02.44, Narkotikabrott, Stockholm",
+    "summary": "En man på Södermalm sågs ta narkotika. Mannen kontrollerades och medtogs för vidare utredning.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-02.44-narkotikabrott-stockholm/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 515090,
+    "datetime": "2024-04-06 7:36:39 +02:00",
+    "name": "06 april 07.15, Skadegörelse, Kristianstad",
+    "summary": "Allmänhet ser en man som slår på bilar på Kvarngatan.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.15-skadegorelse-kristianstad/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 515089,
+    "datetime": "2024-04-06 7:36:36 +02:00",
+    "name": "06 april 01.29, Olaga hot, Södertälje",
+    "summary": "En man i Södertälje ringde till polisen om att några personer brutit sig in i bostaden när han sov.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-01.29-olaga-hot-sodertalje/",
+    "type": "Olaga hot",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 515087,
+    "datetime": "2024-04-06 7:30:41 +02:00",
+    "name": "06 april 01.47, Misshandel, Gotlands län",
+    "summary": "En anhörig till en kvinna i Visby ringde in om att kvinnan blivit slagen och sparkad av en kvinna.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-01.47-misshandel-gotlands-lan/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Gotlands län",
+      "gps": "57.468412,18.486745"
+    }
+  },
+  {
+    "id": 515086,
+    "datetime": "2024-04-06 7:30:00 +02:00",
+    "name": "06 april 07.25, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Örebro",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.25-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 515085,
+    "datetime": "2024-04-06 7:29:57 +02:00",
+    "name": "06 april 07.25, Sammanfattning natt, Dalarnas län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Dalarna",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.25-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 515083,
+    "datetime": "2024-04-06 7:28:45 +02:00",
+    "name": "06 april 07.28, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.28-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 515082,
+    "datetime": "2024-04-06 7:25:09 +02:00",
+    "name": "06 april 03.31, Rån, Stockholm",
+    "summary": "En man på Södermalm påkallar uppnmärksamhet från en polispatrull då mannen vill anmäla att han blivit rånad av",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-03.31-ran-stockholm/",
+    "type": "Rån",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 515081,
+    "datetime": "2024-04-06 7:22:52 +02:00",
+    "name": "06 april 00.37, Misshandel, Järfälla",
+    "summary": "En anmälare i centrala Jakobsberg ringde in om att denne sett en man utomhus ta ett grepp på en kvinna som ver",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-00.37-misshandel-jarfalla/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Järfälla",
+      "gps": "59.410065,17.836804"
+    }
+  },
+  {
+    "id": 515080,
+    "datetime": "2024-04-06 7:18:37 +02:00",
+    "name": "06 april 07.18, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.18-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 515079,
+    "datetime": "2024-04-06 7:16:51 +02:00",
+    "name": "06 april 03.53, Fylleri/LOB, Stockholm",
+    "summary": "En berusad man utanför en restaurang på Norrmalm var nära att bli påkörd på grund av sin berusning.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-03.53-fyllerilob-stockholm/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 515078,
+    "datetime": "2024-04-06 7:07:54 +02:00",
+    "name": "06 april 07.07, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-07.07-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 515077,
+    "datetime": "2024-04-06 7:03:37 +02:00",
+    "name": "06 april 04.59, Misshandel, Västervik",
+    "summary": "Polis larmas till Västerviks sjukhus med anledning av en misshandel.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-04.59-misshandel-vastervik/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Västervik",
+      "gps": "57.757716,16.636976"
+    }
+  },
+  {
+    "id": 515076,
+    "datetime": "2024-04-06 6:59:38 +02:00",
+    "name": "06 april 03.16, Misshandel, Lund",
+    "summary": "Man i 45-årsåldern blir slagen vid Lund centralstation.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-03.16-misshandel-lund/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Lund",
+      "gps": "55.70466,13.191007"
+    }
+  },
+  {
+    "id": 515075,
+    "datetime": "2024-04-06 6:50:53 +02:00",
+    "name": "06 april 01.14, Misshandel, Kalmar",
+    "summary": "Polis larmas till Kalmar centralstation där två män i 18-årsåldern utsatts för misshandel.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-01.14-misshandel-kalmar/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Kalmar",
+      "gps": "56.663445,16.356779"
+    }
+  },
+  {
+    "id": 515074,
+    "datetime": "2024-04-06 6:48:06 +02:00",
+    "name": "06 april 06.47, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet klockan 00:00-07:00:",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-06.47-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 515073,
+    "datetime": "2024-04-06 6:46:10 +02:00",
+    "name": "06 april 00.54, Inbrott, Eslöv",
+    "summary": "Ett inbrott sker på ett inhängat företagsområde i Hurva.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-00.54-inbrott-eslov/",
+    "type": "Inbrott",
+    "location": {
+      "name": "Eslöv",
+      "gps": "55.83912,13.303391"
+    }
+  },
+  {
+    "id": 515072,
+    "datetime": "2024-04-06 5:37:23 +02:00",
+    "name": "06 april 05.37, Sammanfattning natt, Västmanlands län",
+    "summary": "Sammanfattning natt Västmanland.",
+    "url": "/aktuellt/handelser/2024/april/6/06-april-05.37-sammanfattning-natt-vastmanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västmanlands län",
+      "gps": "59.671388,16.215895"
+    }
+  }
+]

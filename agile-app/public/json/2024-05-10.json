@@ -1,0 +1,410 @@
+[
+  {
+    "id": 522067,
+    "datetime": "2024-05-10 12:35:20 +02:00",
+    "name": "10 maj 10.04, Trafikolycka, Umeå",
+    "summary": "E4, Mariehem. Två personbilar har krockat",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-10.04-trafikolycka-umea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 522066,
+    "datetime": "2024-05-10 12:23:25 +02:00",
+    "name": "10 maj 11.27, Trafikolycka, Hässleholm",
+    "summary": "Larm om trafikolycka",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-11.27-trafikolycka-hassleholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Hässleholm",
+      "gps": "56.158915,13.766765"
+    }
+  },
+  {
+    "id": 522065,
+    "datetime": "2024-05-10 12:23:21 +02:00",
+    "name": "10 maj 12.23, Trafikkontroll, Norrbottens län",
+    "summary": "Ett urval av polisen arbete i trafiken",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-12.23-trafikkontroll-norrbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 522064,
+    "datetime": "2024-05-10 12:17:04 +02:00",
+    "name": "10 maj 11.20, Rattfylleri, Upplands väsby",
+    "summary": "En bilförare som uppfattas ha kört vårdslöst på E4 stoppas och misstänks för rattfylleri. Mannen tas med för p",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-11.20-rattfylleri-upplands-vasby/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Upplands väsby",
+      "gps": "59.51961,17.92834"
+    }
+  },
+  {
+    "id": 522063,
+    "datetime": "2024-05-10 11:55:41 +02:00",
+    "name": "10 maj 09.57, Djur, Östhammar",
+    "summary": "Död utter hittas på tomt.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-09.57-djur-osthammar/",
+    "type": "Djur",
+    "location": {
+      "name": "Östhammar",
+      "gps": "60.259302,18.365341"
+    }
+  },
+  {
+    "id": 522061,
+    "datetime": "2024-05-10 11:29:45 +02:00",
+    "name": "10 maj 11.29, Knivlagen, Falun",
+    "summary": "Kvinna gripen av ordningsvakt på Falu Tingsrätt",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-11.29-knivlagen-falun/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Falun",
+      "gps": "60.60646,15.6355"
+    }
+  },
+  {
+    "id": 522059,
+    "datetime": "2024-05-10 11:09:28 +02:00",
+    "name": "10 maj 11.09, Trafikkontroll, Västernorrlands län",
+    "summary": "Ett urval av polisens arbete i trafiken under förmiddagen",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-11.09-trafikkontroll-vasternorrlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 522058,
+    "datetime": "2024-05-10 10:56:08 +02:00",
+    "name": "10 maj 09.51, Trafikolycka, vilt, Sigtuna",
+    "summary": "Ett tåg har kört på ett lodjur i höjd med Odensala. Lodjuret som är dött kommer enligt rutin att köras till Na",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-09.51-trafikolycka-vilt-sigtuna/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Sigtuna",
+      "gps": "59.619146,17.723419"
+    }
+  },
+  {
+    "id": 522057,
+    "datetime": "2024-05-10 10:54:11 +02:00",
+    "name": "10 maj 10.18, Trafikkontroll, Jämtlands län",
+    "summary": "Ett urval av polisens arbete i trafiken under förmiddagen",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-10.18-trafikkontroll-jamtlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 522056,
+    "datetime": "2024-05-10 10:27:57 +02:00",
+    "name": "10 maj 08.53, Rattfylleri, Örebro",
+    "summary": "Misstänkt påverkad bilist stoppad på E18 i Örebro",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-08.53-rattfylleri-orebro/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 522055,
+    "datetime": "2024-05-10 10:18:02 +02:00",
+    "name": "10 maj 05.36, Trafikolycka, Umeå",
+    "summary": "E12 Brattby, en personbil har voltat och kört av vägen",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-05.36-trafikolycka-umea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 522052,
+    "datetime": "2024-05-10 10:08:27 +02:00",
+    "name": "10 maj 08.24, Trafikolycka, Knivsta",
+    "summary": "Olycka på E4.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-08.24-trafikolycka-knivsta/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Knivsta",
+      "gps": "59.72612,17.792036"
+    }
+  },
+  {
+    "id": 522051,
+    "datetime": "2024-05-10 10:02:27 +02:00",
+    "name": "10 maj 07.26, Stöld/inbrott, Hallstahammar",
+    "summary": "Anmälningar om stöld genom inbrott.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.26-stoldinbrott-hallstahammar/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Hallstahammar",
+      "gps": "59.613204,16.229476"
+    }
+  },
+  {
+    "id": 522044,
+    "datetime": "2024-05-10 9:15:01 +02:00",
+    "name": "10 maj 09.04, Arbetsplatsolycka, Tingsryd",
+    "summary": "Larm om arbetsplatsolycka",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-09.04-arbetsplatsolycka-tingsryd/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Tingsryd",
+      "gps": "56.524745,14.978534"
+    }
+  },
+  {
+    "id": 522033,
+    "datetime": "2024-05-10 7:59:08 +02:00",
+    "name": "10 maj 07.59, Sammanfattning natt, Jönköpings län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.59-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 522035,
+    "datetime": "2024-05-10 8:03:50 +02:00",
+    "name": "10 maj 08.03, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av polisens arbete 22:00-07:00",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-08.03-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 522034,
+    "datetime": "2024-05-10 8:01:01 +02:00",
+    "name": "10 maj 08.00, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av polisens arbete 22:00-07:00",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-08.00-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 522024,
+    "datetime": "2024-05-10 8:00:07 +02:00",
+    "name": "10 maj 07.59, Sammanfattning natt, Södermanlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.59-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 522029,
+    "datetime": "2024-05-10 7:59:52 +02:00",
+    "name": "10 maj 07.59, Sammanfattning natt, Östergötlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.59-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 522032,
+    "datetime": "2024-05-10 7:57:43 +02:00",
+    "name": "10 maj 07.57, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av polisens arbete 22:00-07:00",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.57-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 522030,
+    "datetime": "2024-05-10 7:53:16 +02:00",
+    "name": "10 maj 07.53, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av polisens arbete 22:00-07:00",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.53-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 522028,
+    "datetime": "2024-05-10 7:50:24 +02:00",
+    "name": "10 maj 05.51, Brand, Stockholm",
+    "summary": "Det har brunnit vid/i en lägenhet i Ulvsunda och branden misstänks i nuläget vara anlagd. Ingen har varit hemm",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-05.51-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 522025,
+    "datetime": "2024-05-10 7:29:07 +02:00",
+    "name": "10 maj 04.05, Olaga intrång, Håbo",
+    "summary": "Krossad ruta på pendeltågsstationen. Två personer misstänkta.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-04.05-olaga-intrang-habo/",
+    "type": "Olaga intrång",
+    "location": {
+      "name": "Håbo",
+      "gps": "59.627071,17.452298"
+    }
+  },
+  {
+    "id": 522014,
+    "datetime": "2024-05-10 7:11:00 +02:00",
+    "name": "10 maj 07.10, Sammanfattning natt, Örebro län",
+    "summary": "Nedan följer ett urval av nattens händelser i polisområde Örebro",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.10-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 522013,
+    "datetime": "2024-05-10 7:10:26 +02:00",
+    "name": "10 maj 07.10, Sammanfattning natt, Dalarnas län",
+    "summary": "Det har varit en lugn natt operativt i polisområde Dalarna.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.10-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 522012,
+    "datetime": "2024-05-10 7:10:14 +02:00",
+    "name": "10 maj 07.10, Sammanfattning natt, Värmlands län",
+    "summary": "Det har varit en lugn natt operativt i polisområde Värmland",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-07.10-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 522011,
+    "datetime": "2024-05-10 7:04:36 +02:00",
+    "name": "10 maj 04.21, Rattfylleri, Haninge",
+    "summary": "En bilförare har kört av vägen in i en rondell i Vendelsömalm. Föraren misstänks för rattfylleri och tas med f",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-04.21-rattfylleri-haninge/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 522004,
+    "datetime": "2024-05-10 7:02:28 +02:00",
+    "name": "10 maj 06.00, Sammanfattning natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-06.00-sammanfattning-natt-hallands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 522010,
+    "datetime": "2024-05-10 7:02:19 +02:00",
+    "name": "10 maj 06.00, Sammanfattning natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-06.00-sammanfattning-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 522009,
+    "datetime": "2024-05-10 7:00:56 +02:00",
+    "name": "10 maj 02.45, Rån, Upplands väsby",
+    "summary": "En man har hotat till sig en företagsbil som kör ut paket. Rånaren och bilen hittas i närområdet och rånaren g",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-02.45-ran-upplands-vasby/",
+    "type": "Rån",
+    "location": {
+      "name": "Upplands väsby",
+      "gps": "59.51961,17.92834"
+    }
+  },
+  {
+    "id": 522008,
+    "datetime": "2024-05-10 6:56:42 +02:00",
+    "name": "10 maj 06.16, Trafikolycka, Malmö",
+    "summary": "Två bussar kolliderar på Carl Gustafs väg.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-06.16-trafikolycka-malmo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 522007,
+    "datetime": "2024-05-10 6:50:56 +02:00",
+    "name": "10 maj 05.18, Skadegörelse, Kristianstad",
+    "summary": "Bakrutan på en bil krossas i Hammar.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-05.18-skadegorelse-kristianstad/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Kristianstad",
+      "gps": "56.029394,14.156678"
+    }
+  },
+  {
+    "id": 522006,
+    "datetime": "2024-05-10 6:47:19 +02:00",
+    "name": "10 maj 06.45, Rattfylleri, Åstorp",
+    "summary": "Man i 20-årsåldern blir misstänkt för rattfylleri efter kontroll.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-06.45-rattfylleri-astorp/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Åstorp",
+      "gps": "56.134262,12.945908"
+    }
+  },
+  {
+    "id": 522005,
+    "datetime": "2024-05-10 6:45:18 +02:00",
+    "name": "10 maj 01.45, Brand, Malmö",
+    "summary": "Polis larmas till en lägenhetsbrand på Delsjögatan.",
+    "url": "/aktuellt/handelser/2024/maj/10/10-maj-01.45-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  }
+]
