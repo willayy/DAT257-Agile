@@ -18,7 +18,7 @@ export interface CrimeData {
  * @throws Error - If the fetch request fails
  * @returns crimeDataArray - Array of crime data */
 export async function getCrimeData(): Promise<CrimeData[]>{
-    const res = await fetch("http://localhost:3000/api/json");
+    const res = await fetch("http://localhost:3000/api/json", { cache: 'no-store' });
     if (!res.ok) {
         throw new Error("Failed to fetch data, message: " + res.statusText);
     }
