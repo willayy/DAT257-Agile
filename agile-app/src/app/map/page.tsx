@@ -1,29 +1,47 @@
 "use client"
 
-import {useEffect, useRef, useState} from "react";
+import {ReactElement, useEffect, useRef, useState} from "react";
 import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
-import {GeoJSON, GeoJSONProps, MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
+import {GeoJSON, MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
+import {centroid} from "turf"
+import {
+    Feature,
+    FeatureCollection,
+    GeoJsonObject,
+    Geometry,
+    Point,
+    Position
+} from "geojson";
 import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
-import L, { GeoJSON as LeafletGeoJSON } from "leaflet";
+import L, {GeoJSON as LeafletGeoJSON, LatLngExpression} from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
 
 interface CustomFeatureProperties {
     "kom_namn": string,
     "color": number,
     "l_id": number,
-    "name": string
+    "name": string,
+    "geo_point_2d": LatLngExpression
 }
 
 interface NumberDictionary {
     [key: string]: number;
 }
 
-type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
+interface CustomFeatureInterface extends Feature<Geometry, CustomFeatureProperties> {
+    "geometry" : {
+        "type": "Polygon",
+        "coordinates": Position[][]
+    }
+    "properties": CustomFeatureProperties
+}
+
+type CustomFeature = CustomFeatureInterface | undefined
+type LayerFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
 
 export default function Map() {
@@ -39,6 +57,7 @@ export default function Map() {
  * 
    */
     const [mapTiles, setMapTiles] = useState<GeoJsonObject | null>(null);
+    const [mapMarkers, setMapMarkers] = useState<ReactElement[]>()
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Kommun');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
@@ -98,7 +117,7 @@ export default function Map() {
      * @returns The style object for rendering the feature.
      */
 
-    function style(feature: CustomFeature) {
+    function style(feature: LayerFeature) {
         if (feature == null || locationAmountDict == null) {
             return {
                 fillColor: '#33CEFF',
@@ -185,6 +204,41 @@ export default function Map() {
         }
     }, [mapTiles]);
 
+    useEffect(() => {
+        const markers : ReactElement[] = []
+        if (mapTiles?.type == "FeatureCollection") {
+            const featureCollection : FeatureCollection = mapTiles as FeatureCollection;
+            featureCollection.features.forEach((feature : Feature) => {
+                const typedFeature = feature as CustomFeature;
+                if (typedFeature && locationAmountDict) {
+                    const markerPositionFeature : Feature<Point> = centroid(feature)
+                    const markerPosition = new L.latLng(markerPositionFeature.geometry.coordinates[1], markerPositionFeature.geometry.coordinates[0])
+                    if (selectedOptionLoc == "Kommun" && Object.keys(locationAmountDict).includes(typedFeature.properties.kom_namn)) {
+                        markers.push(
+                            <Marker position={markerPosition} icon={markerIcon}>
+                                <Popup>
+                                    Plats: {typedFeature.properties.kom_namn} <br />
+                                    Antal Brott: {locationAmountDict[typedFeature.properties.kom_namn]} <br />
+                                    Latitud: {markerPosition.lat} <br />
+                                    Longitud: {markerPosition.lng}]
+                                </Popup>
+                            </Marker>)
+                    } else if (Object.keys(locationAmountDict).includes(typedFeature.properties.name)) {
+                        markers.push(<Marker position={markerPosition} icon={markerIcon}>
+                            <Popup>
+                                Plats: {typedFeature.properties.name} <br />
+                                Antal Brott: {locationAmountDict[typedFeature.properties.name]} <br />
+                                Latitud: {markerPosition.lat} <br />
+                                Longitud: {markerPosition.lng}]
+                            </Popup>
+                        </Marker>)
+                    }
+                }
+            })
+        }
+        setMapMarkers(markers)
+    }, [locationAmountDict, mapTiles])
+
     return (
         // TSX and rendering details...
         <div className={styles.mapWrapper}>
@@ -209,11 +263,10 @@ export default function Map() {
                         style={(feature) => style(feature)}
                     />
                 )}
-                <Marker position={[62.1282, 18.6435]} icon={markerIcon}>
-                    <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
-                    </Popup>
-                </Marker>
+                {(mapMarkers) && (
+                    mapMarkers.map((marker : ReactElement) => (marker))
+                )}
+
                 <div className={styles.legends}>
                     <MapLegend legendItems={legendItems} />
                 </div>
