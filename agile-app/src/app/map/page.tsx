@@ -220,23 +220,24 @@ export default function Map() {
                     const markerPosition = new L.latLng(markerPositionFeature.geometry.coordinates[1], markerPositionFeature.geometry.coordinates[0])
                     if (selectedOptionLoc == "Kommun" && Object.keys(locationAmountDict).includes(typedFeature.properties.kom_namn)) {
                         markers.push(
-                            <Marker position={markerPosition} icon={markerIcon}>
+                            <Marker position={markerPosition} icon={markerIcon} key={typedFeature.properties.kom_namn}>
                                 <Popup>
                                     Plats: {typedFeature.properties.kom_namn} <br />
                                     Antal Brott: {locationAmountDict[typedFeature.properties.kom_namn]} <br />
                                     Latitud: {markerPosition.lat} <br />
-                                    Longitud: {markerPosition.lng}]
+                                    Longitud: {markerPosition.lng}
                                 </Popup>
                             </Marker>)
                     } else if (Object.keys(locationAmountDict).includes(typedFeature.properties.name)) {
-                        markers.push(<Marker position={markerPosition} icon={markerIcon}>
-                            <Popup>
-                                Plats: {typedFeature.properties.name} <br />
-                                Antal Brott: {locationAmountDict[typedFeature.properties.name]} <br />
-                                Latitud: {markerPosition.lat} <br />
-                                Longitud: {markerPosition.lng}]
-                            </Popup>
-                        </Marker>)
+                        markers.push(
+                            <Marker position={markerPosition} icon={markerIcon} key={typedFeature.properties.name}>
+                                <Popup>
+                                    Plats: {typedFeature.properties.name} <br />
+                                    Antal Brott: {locationAmountDict[typedFeature.properties.name]} <br />
+                                    Latitud: {markerPosition.lat} <br />
+                                    Longitud: {markerPosition.lng}
+                                </Popup>
+                            </Marker>)
                     }
                 }
             })
