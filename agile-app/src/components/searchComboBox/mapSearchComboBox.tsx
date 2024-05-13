@@ -11,6 +11,8 @@ import { get } from 'http'
 interface MapParentSearchComboBoxProps {
     setSelectedOptionCrime: React.Dispatch<React.SetStateAction<string>>;
     setSelectedOptionLoc: React.Dispatch<React.SetStateAction<string>>;
+    setShowMarkers: React.Dispatch<React.SetStateAction<boolean>>;
+    showMarkers : boolean;
     selectedOptionCrime: string;
     selectedOptionLoc: string;
 }
@@ -20,7 +22,8 @@ interface MapParentSearchComboBoxProps {
  * @param ParentSearchComboBox {MapParentSearchComboBoxProps} Object following CardInfo interface
  * @returns {JSX} A React component representing the ParentSearchComboBox.
  */
-const MapParentSearchComboBox: React.FC<MapParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc , selectedOptionCrime, selectedOptionLoc}) => {
+const MapParentSearchComboBox: React.FC<MapParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc , setShowMarkers, showMarkers, selectedOptionCrime, selectedOptionLoc}) => {
+    const [markerText, setMarkerText] = useState<string>("Dölj Markeringar")
 
     const handleSelectCrime = (selectedOption: string) => {
         setSelectedOptionCrime(selectedOption);
@@ -29,6 +32,16 @@ const MapParentSearchComboBox: React.FC<MapParentSearchComboBoxProps> = ({ setSe
     const handleSelectLoc = (selectedOption: string) => {
         setSelectedOptionLoc(selectedOption);
     };
+
+    const handleSelectMarker = () => {
+        if (showMarkers) {
+            setMarkerText("Visa Markeringar")
+            setShowMarkers(!showMarkers)
+        } else {
+            setMarkerText("Dölj Markeringar")
+            setShowMarkers(!showMarkers)
+        }
+    }
 
     const resetChoices= () => {
         handleSelectCrime("");
@@ -55,6 +68,7 @@ const MapParentSearchComboBox: React.FC<MapParentSearchComboBoxProps> = ({ setSe
                     <SearchComboBox title="Filtrera på brottstyp: " options={optionsCrime} onSelect={handleSelectCrime} selectedOption={selectedOptionCrime}/>
                 </div>
                 <button className={styles.button} onClick={resetChoices}>Återställ val</button>
+                <button className={styles.button} onClick={handleSelectMarker}>{markerText}</button>
             </div>
 
         </div>

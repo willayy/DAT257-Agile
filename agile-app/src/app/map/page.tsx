@@ -57,7 +57,8 @@ export default function Map() {
  * 
    */
     const [mapTiles, setMapTiles] = useState<GeoJsonObject | null>(null);
-    const [mapMarkers, setMapMarkers] = useState<ReactElement[]>()
+    const [mapMarkers, setMapMarkers] = useState<ReactElement[]>();
+    const [showMarkers, setShowMarkers] = useState<boolean>(true);
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Kommun');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
@@ -267,7 +268,7 @@ export default function Map() {
                         style={(feature) => style(feature)}
                     />
                 )}
-                {(mapMarkers) && (
+                {(mapMarkers && showMarkers) && (
                     mapMarkers.map((marker : ReactElement) => (marker))
                 )}
 
@@ -279,9 +280,10 @@ export default function Map() {
                 <MapSearchComboBox
                     setSelectedOptionCrime={setSelectedOptionCrime}
                     setSelectedOptionLoc={setSelectedOptionLoc}
+                    setShowMarkers={setShowMarkers}
                     selectedOptionCrime={selectedOptionCrime}
                     selectedOptionLoc={selectedOptionLoc}
-                />
+                    showMarkers={showMarkers}/>
             </div>
         </div>
     );
