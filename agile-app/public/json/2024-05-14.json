@@ -1,0 +1,362 @@
+[
+  {
+    "id": 523534,
+    "datetime": "2024-05-14 12:39:51 +02:00",
+    "name": "14 maj 12.25, Trafikolycka, Borlänge",
+    "summary": "A-traktor uppges ha körts in i ett parkerat fordon på Gyllhemsvägen i Borlänge.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-12.25-trafikolycka-borlange/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Borlänge",
+      "gps": "60.484304,15.433969"
+    }
+  },
+  {
+    "id": 523602,
+    "datetime": "2024-05-14 14:33:03 +02:00",
+    "name": "14 maj 13.16, Knivlagen, Kalmar",
+    "summary": "Man misstänkt för brott mot knivlagen",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-13.16-knivlagen-kalmar/",
+    "type": "Knivlagen",
+    "location": {
+      "name": "Kalmar",
+      "gps": "56.663445,16.356779"
+    }
+  },
+  {
+    "id": 523598,
+    "datetime": "2024-05-14 14:14:12 +02:00",
+    "name": "14 maj 10.54, Skadegörelse, Piteå",
+    "summary": "Skadegörelse på parkerad bil.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-10.54-skadegorelse-pitea/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Piteå",
+      "gps": "65.316698,21.480036"
+    }
+  },
+  {
+    "id": 523597,
+    "datetime": "2024-05-14 14:13:00 +02:00",
+    "name": "14 maj 12.02, Fylleri/LOB, Östersund",
+    "summary": "Påverkad man omhändertagen på bank i Östersund.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-122.02-fyllerilob-ostersund/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 523585,
+    "datetime": "2024-05-14 13:10:30 +02:00",
+    "name": "14 maj 12.02, Fylleri/LOB, Östersund",
+    "summary": "Påverkad man omhändertagen på bank i Östersund.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-12.02-fyllerilob-ostersund/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 523544,
+    "datetime": "2024-05-14 13:03:38 +02:00",
+    "name": "14 maj 09.39, Skadegörelse, Härnösand",
+    "summary": "Man misstänks för skadegörelse mm.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-09.39-skadegorelse-harnosand/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 523541,
+    "datetime": "2024-05-14 12:42:19 +02:00",
+    "name": "14 maj 12.42, Trafikkontroll, Jämtlands län",
+    "summary": "Resultat av polisens arbete i trafiken.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-12.42-trafikkontroll-jamtlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 523521,
+    "datetime": "2024-05-14 12:11:35 +02:00",
+    "name": "14 maj 12.11, Trafikolycka, singel, Jönköping",
+    "summary": "Bilist körde in i mitträcket på E4:an i höjd med Ekhagen.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-12.11-trafikolycka-singel-jonkoping/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Jönköping",
+      "gps": "57.782614,14.161788"
+    }
+  },
+  {
+    "id": 523533,
+    "datetime": "2024-05-14 12:37:55 +02:00",
+    "name": "14 maj 12.16, Narkotikabrott, Östersund",
+    "summary": "Man misstänks för ringa narkotikabrott.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-12.16-narkotikabrott-ostersund/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 523525,
+    "datetime": "2024-05-14 12:23:03 +02:00",
+    "name": "14 maj 11.48, Trafikolycka, Båstad",
+    "summary": "Larm om trafikolycka, Ö Karup",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-11.48-trafikolycka-bastad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Båstad",
+      "gps": "56.427389,12.847722"
+    }
+  },
+  {
+    "id": 523515,
+    "datetime": "2024-05-14 11:25:55 +02:00",
+    "name": "14 maj 07.45, Övrigt, Lund",
+    "summary": "Icke tillståndsgiven allmän sammankomst, Lundagård",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.45-ovrigt-lund/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Lund",
+      "gps": "55.70466,13.191007"
+    }
+  },
+  {
+    "id": 523513,
+    "datetime": "2024-05-14 11:04:56 +02:00",
+    "name": "14 maj 10.49, Brand, Tyresö",
+    "summary": "I samband med en eldning i en trädgård i Raksta sprider sig elden till fjolårsgräset.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-10.49-brand-tyreso/",
+    "type": "Brand",
+    "location": {
+      "name": "Tyresö",
+      "gps": "59.242595,18.283392"
+    }
+  },
+  {
+    "id": 523493,
+    "datetime": "2024-05-14 9:26:14 +02:00",
+    "name": "14 maj 07.39, Trafikolycka, Borås",
+    "summary": "Hästhagsgatan, Byttorp",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.39-trafikolycka-boras/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 523511,
+    "datetime": "2024-05-14 10:55:36 +02:00",
+    "name": "14 maj 10.55, Trafikkontroll, Västerbottens län",
+    "summary": "Resultat av polisens arbete i trafiken.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-10.55-trafikkontroll-vasterbottens-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 523510,
+    "datetime": "2024-05-14 10:50:44 +02:00",
+    "name": "14 maj 09.31, Narkotikabrott, Östersund",
+    "summary": "Man misstänks för narkotikainnehav.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-09.31-narkotikabrott-ostersund/",
+    "type": "Narkotikabrott",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 523507,
+    "datetime": "2024-05-14 10:42:32 +02:00",
+    "name": "14 maj 10.30, Trafikolycka, Sollentuna",
+    "summary": "En lastbil och en personbil har sammanstött på E4 i Tureberg i nordlig riktning.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-10.30-trafikolycka-sollentuna/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Sollentuna",
+      "gps": "59.43911,17.94148"
+    }
+  },
+  {
+    "id": 523498,
+    "datetime": "2024-05-14 10:08:35 +02:00",
+    "name": "14 maj 06.09, Stöld, Lidköping",
+    "summary": "Stöld, olaga hot och olaga intrång",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-06.09-stold-lidkoping/",
+    "type": "Stöld",
+    "location": {
+      "name": "Lidköping",
+      "gps": "58.503505,13.157077"
+    }
+  },
+  {
+    "id": 523494,
+    "datetime": "2024-05-14 9:36:33 +02:00",
+    "name": "14 maj 07.08, Skadegörelse, Mark",
+    "summary": "Skadegörelse, försök till misshandel samt ofredande",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.08-skadegorelse-mark/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Mark",
+      "gps": "57.425318,12.569522"
+    }
+  },
+  {
+    "id": 523492,
+    "datetime": "2024-05-14 8:33:01 +02:00",
+    "name": "14 maj 07.54, Trafikolycka, Högsby",
+    "summary": "Rasad bro vid Emån",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.54-trafikolycka-hogsby/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Högsby",
+      "gps": "57.172604,16.020619"
+    }
+  },
+  {
+    "id": 523491,
+    "datetime": "2024-05-14 7:48:17 +02:00",
+    "name": "14 maj 07.48, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet i Västernorrlands län.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.48-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 523487,
+    "datetime": "2024-05-14 7:37:48 +02:00",
+    "name": "14 maj 07.37, Sammanfattning natt, Södermanlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.37-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 523489,
+    "datetime": "2024-05-14 7:37:28 +02:00",
+    "name": "14 maj 07.36, Sammanfattning natt, Östergötlands län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.36-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 523490,
+    "datetime": "2024-05-14 7:33:42 +02:00",
+    "name": "14 maj 07.33, Sammanfattning natt, Jönköpings län",
+    "summary": "Här kommer ett urval av nattens händelser i polisområdet.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.33-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 523486,
+    "datetime": "2024-05-14 7:16:15 +02:00",
+    "name": "14 maj 07.15, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet i Jämtlands län.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.15-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 523485,
+    "datetime": "2024-05-14 7:12:18 +02:00",
+    "name": "14 maj 07.12, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet i Västerbottens län.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.12-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 523484,
+    "datetime": "2024-05-14 7:05:58 +02:00",
+    "name": "14 maj 07.00, Sammanfattning natt, Hallands län",
+    "summary": "Dagens presstalesperson är i tjänst.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.00-sammanfattning-natt-hallands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 523482,
+    "datetime": "2024-05-14 7:04:38 +02:00",
+    "name": "14 maj 07.00, Sammanfattning natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är i tjänst. Nedan följer ett urval av nattens händelser.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.00-sammanfattning-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 523481,
+    "datetime": "2024-05-14 7:04:16 +02:00",
+    "name": "14 maj 07.04, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet i Norrbottens län.",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-07.04-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 523480,
+    "datetime": "2024-05-14 6:55:31 +02:00",
+    "name": "14 maj 00.53, Skadegörelse, Kalmar",
+    "summary": "Krossad ruta på bostad",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-00.53-skadegorelse-kalmar/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Kalmar",
+      "gps": "56.663445,16.356779"
+    }
+  },
+  {
+    "id": 523478,
+    "datetime": "2024-05-14 6:49:50 +02:00",
+    "name": "14 maj 01.52, Stöld/inbrott, Karlskrona",
+    "summary": "Man gripen efter inbrott på skola",
+    "url": "/aktuellt/handelser/2024/maj/14/14-maj-01.52-stoldinbrott-karlskrona/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Karlskrona",
+      "gps": "56.161224,15.5869"
+    }
+  }
+]
