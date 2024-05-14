@@ -8,20 +8,37 @@
 }
 
 .page button {
-    margin-top: 20px;
-    padding: 15px 20px;
-    background-color: #1e2e57;
-    color: white;
+    width: 100%;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #ccc;
+    font: inherit;
+    margin: 5px 2px 5px 2px;
 }
 
 .page button:hover {
-    background-color: #3622bb;
+    background-color: #ddd;;
 }
 
 .page button:active {
     transform: scale(0.70);
+}
+
+.page generateButton{
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid black;
+    margin: 0.9em 0.3em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.page generateButton:hover{
+    color: white;
+    background-color: gray;
 }

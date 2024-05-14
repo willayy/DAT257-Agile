@@ -43,26 +43,53 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
     const groupedData: { [month: string]: number } = {};
     filteredCrimeData.forEach(crime => {
         const date = new Date(crime.datetime);
-        const month = date.toLocaleString('default', { month: 'long' });
-        console.log(month)
+        const monthYear = date.toLocaleString('sv', { month: 'numeric' , year: 'numeric'});
+        console.log(monthYear)
 
-        if (!groupedData[month]) {
-            groupedData[month] = 0;
+        if (!groupedData[monthYear]) {
+            groupedData[monthYear] = 0;
         }
 
         // Only increment the count if the crime type matches the selected option
         if (!selectedOptionCrime || crime.type === selectedOptionCrime) {
-            groupedData[month]++;
+            groupedData[monthYear]++;
         }
     });
 
+    const monthsMap: { [month: string]: number } = {
+        January: 1,
+        February: 2,
+        March: 3,
+        April: 4,
+        May: 5,
+        June: 6,
+        July: 7,
+        August: 8,
+        September: 9,
+        October: 10,
+        November: 11,
+        December: 12,
+    };
+    
+
     // Get all months and ensure they have a value even if no occurrences exist
     const allMonths = new Set(Object.keys(groupedData));
-    const labels = Array.from(allMonths).sort(); // Sort the months chronologically
+    const labels =  Array.from(allMonths).sort((a, b) => {
+        const [aMonth, aYear] = a.split(' ');
+        const [bMonth, bYear] = b.split(' ');
+
+        // Compare years first
+        if (parseInt(aYear) !== parseInt(bYear)) {
+            return parseInt(aYear) - parseInt(bYear);
+        }
+
+        // If years are the same, then compare months
+        return monthsMap[aMonth] - monthsMap[bMonth];
+    }).reverse();
 
     // Convert the grouped data into chart format
     const chartData = {
-        labels: labels,
+        labels: labels, 
         datasets: [
             {
                 label: selectedOptionCrime,
