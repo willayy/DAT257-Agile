@@ -1,0 +1,986 @@
+[
+  {
+    "id": 472895,
+    "datetime": "2023-11-29 23:14:01 +01:00",
+    "name": "29 november 22.49, Trafikolycka, Åstorp",
+    "summary": "En singelolycka med en lastbil inträffar på E4 i höjd med Åstorp.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-22.49-trafikolycka-astorp/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Åstorp",
+      "gps": "56.134262,12.945908"
+    }
+  },
+  {
+    "id": 472892,
+    "datetime": "2023-11-29 21:48:45 +01:00",
+    "name": "29 november 21.41, Brand, Solna",
+    "summary": "Det kommer ut rök från en bostad i ett flerfamiljshus i Huvudsta",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-21.41-brand-solna/",
+    "type": "Brand",
+    "location": {
+      "name": "Solna",
+      "gps": "59.368879,18.008433"
+    }
+  },
+  {
+    "id": 472894,
+    "datetime": "2023-11-29 22:04:23 +01:00",
+    "name": "29 november 20.24, Trafikbrott, Örnsköldsvik",
+    "summary": "Örnskölsvik, A-traktor stoppas för kontroll",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.24-trafikbrott-ornskoldsvik/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 472893,
+    "datetime": "2023-11-29 21:52:15 +01:00",
+    "name": "29 november 20.24, Brand, Sundsvall",
+    "summary": "Bredsand, larm inkommer gällande bilbrand",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.24-brand-sundsvall/",
+    "type": "Brand",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 472891,
+    "datetime": "2023-11-29 21:45:11 +01:00",
+    "name": "29 november 21.45, Övrigt, Hallands län",
+    "summary": "Efter klockan 22:00 finns det ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-21.45-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 472890,
+    "datetime": "2023-11-29 21:45:05 +01:00",
+    "name": "29 november 21.45, Övrigt, Västra Götalands län",
+    "summary": "Efter klockan 22:00 finns det ingen presstalesperson i tjänst. Frågor från media besvaras av vakthavande befäl",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-21.45-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 472889,
+    "datetime": "2023-11-29 21:43:16 +01:00",
+    "name": "29 november 21.39, Trafikolycka, singel, Haninge",
+    "summary": "En personbil på riksväg 73 i södergående riktning invid trafikplats Jordbro har kört av vägen.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-21.39-trafikolycka-singel-haninge/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 472888,
+    "datetime": "2023-11-29 21:41:44 +01:00",
+    "name": "29 november 18.12, Trafikolycka, Karlskrona",
+    "summary": "En personbil kör in i ett elskåp och ett staket på Ronnebyvägen.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-18.12-trafikolycka-karlskrona/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Karlskrona",
+      "gps": "56.161224,15.5869"
+    }
+  },
+  {
+    "id": 472887,
+    "datetime": "2023-11-29 21:36:46 +01:00",
+    "name": "29 november 17.07, Misshandel, Umeå",
+    "summary": "Umeå, man gripen misstänkt för misshandel",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-17.07-misshandel-umea/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 472886,
+    "datetime": "2023-11-29 21:31:06 +01:00",
+    "name": "29 november 20.28, Stöld, Härnösand",
+    "summary": "Bondsjöstaden, man stoppad efter misstänkt ringa stöld i livsmedelsbutik",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.28-stold-harnosand/",
+    "type": "Stöld",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 472885,
+    "datetime": "2023-11-29 21:14:33 +01:00",
+    "name": "29 november 20.30, Stöld, Karlstad",
+    "summary": "Man gripen för stöld av kläder från en butik i Karlstad.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.30-stold-karlstad/",
+    "type": "Stöld",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 472884,
+    "datetime": "2023-11-29 20:53:29 +01:00",
+    "name": "29 november 20.40, Trafikolycka, Ängelholm",
+    "summary": "En singelolyckan med en lastbil inträffar på E6 vid Norra Varalöv.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.40-trafikolycka-angelholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ängelholm",
+      "gps": "56.245748,12.863881"
+    }
+  },
+  {
+    "id": 472883,
+    "datetime": "2023-11-29 20:31:51 +01:00",
+    "name": "29 november 20.19, Bråk, Södertälje",
+    "summary": "Flera personer som hör bråk från en lägenhet i Södertälje har ringt till polisen och är oroliga.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.19-brak-sodertalje/",
+    "type": "Bråk",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 472876,
+    "datetime": "2023-11-29 19:27:45 +01:00",
+    "name": "29 november 19.13, Brand, Avesta",
+    "summary": "Det brinner i en villa i Hede, Avesta kommun.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-19.13-brand-avesta/",
+    "type": "Brand",
+    "location": {
+      "name": "Avesta",
+      "gps": "60.14533,16.17384"
+    }
+  },
+  {
+    "id": 472882,
+    "datetime": "2023-11-29 20:15:18 +01:00",
+    "name": "29 november 20.13, Rån, Eskilstuna",
+    "summary": "Personrån i Fröslunda",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-20.13-ran-eskilstuna/",
+    "type": "Rån",
+    "location": {
+      "name": "Eskilstuna",
+      "gps": "59.371249,16.509805"
+    }
+  },
+  {
+    "id": 472881,
+    "datetime": "2023-11-29 20:07:10 +01:00",
+    "name": "29 november 17.35, Stöld, Umeå",
+    "summary": "Centrala stan, polis beordras till en galleria med anledning av misstänkt ringa stöld",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-17.35-stold-umea/",
+    "type": "Stöld",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 472880,
+    "datetime": "2023-11-29 20:03:35 +01:00",
+    "name": "29 november 19.41, Trafikolycka, Vellinge",
+    "summary": "En singelolycka med en personbil sker på E6 i höjd med Vellinge.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-19.41-trafikolycka-vellinge/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vellinge",
+      "gps": "55.470893,13.01999"
+    }
+  },
+  {
+    "id": 472875,
+    "datetime": "2023-11-29 19:12:54 +01:00",
+    "name": "29 november 19.05, Trafikolycka, Örkelljunga",
+    "summary": "Två lastbilar kolliderar på E4 i närheten av trafikplats Ljungaskog.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-19.05-trafikolycka-orkelljunga/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Örkelljunga",
+      "gps": "56.283635,13.278832"
+    }
+  },
+  {
+    "id": 472879,
+    "datetime": "2023-11-29 19:54:26 +01:00",
+    "name": "29 november 17.30, Stöld, Östersund",
+    "summary": "Norr, ung person stoppad efter misstänkt ringa stöld i butik/butiker",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-17.30-stold-ostersund/",
+    "type": "Stöld",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 472878,
+    "datetime": "2023-11-29 19:50:57 +01:00",
+    "name": "29 november 19.00, Trafikolycka, vilt, Jämtlands län",
+    "summary": "Jämtland, flera viltolyckor under eftermiddagen och kvällen",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-19.00-trafikolycka-vilt-jamtlands-lan/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 472873,
+    "datetime": "2023-11-29 18:42:13 +01:00",
+    "name": "29 november 18.10, Trafikolycka, Malung-Sälen",
+    "summary": "En trafikolycka har inträffat på Hemfjällsvägen i Lindvallen.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-18.10-trafikolycka-malung-salen/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malung-Sälen",
+      "gps": "60.900926,13.322618"
+    }
+  },
+  {
+    "id": 472877,
+    "datetime": "2023-11-29 19:30:05 +01:00",
+    "name": "29 november 18.44, Rattfylleri, Vansbro",
+    "summary": "Polispatrull har stoppat en misstänkt rattfull bilist.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-18.44-rattfylleri-vansbro/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Vansbro",
+      "gps": "60.509943,14.225342"
+    }
+  },
+  {
+    "id": 472874,
+    "datetime": "2023-11-29 19:09:32 +01:00",
+    "name": "29 november 19.08, Stöld/inbrott, Kristinehamn",
+    "summary": "En stöld genom inbrott har inträffat i Kristinehamn under eftermiddagen.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-19.08-stoldinbrott-kristinehamn/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Kristinehamn",
+      "gps": "59.310068,14.108919"
+    }
+  },
+  {
+    "id": 472869,
+    "datetime": "2023-11-29 17:53:48 +01:00",
+    "name": "29 november 17.51, Trafikolycka, Vimmerby",
+    "summary": "En singelolycka med en personbil inträffar på Snokebovägen.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-17.51-trafikolycka-vimmerby/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vimmerby",
+      "gps": "57.669034,15.858857"
+    }
+  },
+  {
+    "id": 472872,
+    "datetime": "2023-11-29 18:27:01 +01:00",
+    "name": "29 november 18.11, Räddningsinsats, Stockholm",
+    "summary": "Polisen har begärt att tågtrafiken mellan Spånga och Sundbyberg ska vara stoppad under det att bl a poliser be",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-18.11-raddningsinsats-stockholm/",
+    "type": "Räddningsinsats",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 472871,
+    "datetime": "2023-11-29 18:13:50 +01:00",
+    "name": "29 november 17.17, Stöld, Sundsvall",
+    "summary": "Stenstan, man stoppad efter misstänkt ringa stöld i butik",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-17.17-stold-sundsvall/",
+    "type": "Stöld",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 472870,
+    "datetime": "2023-11-29 18:05:51 +01:00",
+    "name": "29 november 16.41, Trafikolycka, Boden",
+    "summary": "Hedsvedjan, två bilister har kolliderat i en rondell",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-16.41-trafikolycka-boden/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Boden",
+      "gps": "65.825119,21.688703"
+    }
+  },
+  {
+    "id": 472865,
+    "datetime": "2023-11-29 17:12:44 +01:00",
+    "name": "29 november 17.01, Trafikolycka, Hagfors",
+    "summary": "En trafikolycka har inträffat på Lv 924 Skålviken.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-17.01-trafikolycka-hagfors/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Hagfors",
+      "gps": "60.03437,13.694508"
+    }
+  },
+  {
+    "id": 472868,
+    "datetime": "2023-11-29 17:29:42 +01:00",
+    "name": "29 november 14.37, Misshandel, Gävle",
+    "summary": "Försök till misshandel, Gävle.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-14.37-misshandel-gavle/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 472867,
+    "datetime": "2023-11-29 17:20:44 +01:00",
+    "name": "29 november 16.59, Misshandel, Sollentuna",
+    "summary": "Två familjemedlemmar uppges ha slagits i en lägenhet i Tureberg. Polis är strax på plats för att bedöma situat",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-16.59-misshandel-sollentuna/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Sollentuna",
+      "gps": "59.43911,17.94148"
+    }
+  },
+  {
+    "id": 472866,
+    "datetime": "2023-11-29 17:17:34 +01:00",
+    "name": "29 november 16.41, Trafikolycka, Kävlinge",
+    "summary": "En trafikolycka med fyra personbilar inträffar på länsväg 108.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-16.41-trafikolycka-kavlinge/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kävlinge",
+      "gps": "55.794,13.110429"
+    }
+  },
+  {
+    "id": 472864,
+    "datetime": "2023-11-29 16:51:45 +01:00",
+    "name": "29 november 14.46, Stöld, Härnösand",
+    "summary": "Bondsjöstaden, kvinna stoppad efter misstänkt ringa stöld i livsmedelsbutik",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-14.46-stold-harnosand/",
+    "type": "Stöld",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 472863,
+    "datetime": "2023-11-29 16:44:21 +01:00",
+    "name": "29 november 14.16, Trafikbrott, Vilhelmina",
+    "summary": "E45, bilist stoppad efter att inte ha stannat korrekt vid stopplikt",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-14.16-trafikbrott-vilhelmina/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Vilhelmina",
+      "gps": "64.624471,16.655497"
+    }
+  },
+  {
+    "id": 472861,
+    "datetime": "2023-11-29 16:40:22 +01:00",
+    "name": "29 november 13.44, Trafikkontroll, Lycksele",
+    "summary": "E12 Furuvik, resultat efter nykterhetskontroll",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-13.44-trafikkontroll-lycksele/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Lycksele",
+      "gps": "64.59581,18.676367"
+    }
+  },
+  {
+    "id": 472860,
+    "datetime": "2023-11-29 16:38:39 +01:00",
+    "name": "29 november 16.36, Trafikolycka, Motala",
+    "summary": "Trafikolycka i Motala",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-16.36-trafikolycka-motala/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Motala",
+      "gps": "58.538034,15.047094"
+    }
+  },
+  {
+    "id": 472838,
+    "datetime": "2023-11-29 13:16:35 +01:00",
+    "name": "29 november 12.30, Trafikbrott, Vilhelmina",
+    "summary": "Tätorten, polisen stoppar en A-traktor",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-12.30-trafikbrott-vilhelmina/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Vilhelmina",
+      "gps": "64.624471,16.655497"
+    }
+  },
+  {
+    "id": 472835,
+    "datetime": "2023-11-29 13:12:10 +01:00",
+    "name": "29 november 12.09, Trafikolycka, Umeå",
+    "summary": "Centrala stan, en traktor har kört på en person",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-12.09-trafikolycka-umea/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 472831,
+    "datetime": "2023-11-29 12:58:24 +01:00",
+    "name": "29 november 11.00, Arbetsplatsolycka, Borås",
+    "summary": "Arbetsplatsolycka",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-11.00-arbetsplatsolycka-boras/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 472826,
+    "datetime": "2023-11-29 12:47:18 +01:00",
+    "name": "29 november 11.11, Trafikkontroll, Härjedalen",
+    "summary": "Fjällnäs, polisen kontrollerar nykterhet i trafiken",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-11.11-trafikkontroll-harjedalen/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Härjedalen",
+      "gps": "62.369341,13.407971"
+    }
+  },
+  {
+    "id": 472824,
+    "datetime": "2023-11-29 12:41:43 +01:00",
+    "name": "29 november 12.36, Trafikolycka, Linköping",
+    "summary": "Olycka på E4 i höjd med Linghem.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-12.36-trafikolycka-linkoping/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Linköping",
+      "gps": "58.410807,15.621373"
+    }
+  },
+  {
+    "id": 472819,
+    "datetime": "2023-11-29 12:37:59 +01:00",
+    "name": "29 november 08.11, Rån, Västerås",
+    "summary": "Man hotad med kniv.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.11-ran-vasteras/",
+    "type": "Rån",
+    "location": {
+      "name": "Västerås",
+      "gps": "59.609901,16.544809"
+    }
+  },
+  {
+    "id": 472821,
+    "datetime": "2023-11-29 12:31:02 +01:00",
+    "name": "29 november 12.28, Trafikolycka, Sävsjö",
+    "summary": "lasbil som vält RV30, söder om Vrigstad.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-12.28-trafikolycka-savsjo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Sävsjö",
+      "gps": "57.398996,14.665814"
+    }
+  },
+  {
+    "id": 472760,
+    "datetime": "2023-11-29 7:35:58 +01:00",
+    "name": "29 november 07.07, Trafikolycka, Laxå",
+    "summary": "En olycka har inträffat på E20, i höjd med Stavåna",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.07-trafikolycka-laxa/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Laxå",
+      "gps": "58.98269,14.62289"
+    }
+  },
+  {
+    "id": 472820,
+    "datetime": "2023-11-29 11:41:51 +01:00",
+    "name": "29 november 08.07, Trafikolycka, vilt, Jämtlands län",
+    "summary": "Ett antal viltolyckor har rapporterats in till polisen under förmiddagen",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.07-trafikolycka-vilt-jamtlands-lan/",
+    "type": "Trafikolycka, vilt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 472818,
+    "datetime": "2023-11-29 11:31:50 +01:00",
+    "name": "29 november 06.37, Stöld/inbrott, Sundsvall",
+    "summary": "Stenstan, allmänheten uppmärksammar polisen på en skadad dörr till en restaurang",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.37-stoldinbrott-sundsvall/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 472817,
+    "datetime": "2023-11-29 11:27:20 +01:00",
+    "name": "29 november 06.58, Stöld/inbrott, Västerås",
+    "summary": "Inbrott i flera byggcontainrar.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.58-stoldinbrott-vasteras/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Västerås",
+      "gps": "59.609901,16.544809"
+    }
+  },
+  {
+    "id": 472815,
+    "datetime": "2023-11-29 11:16:14 +01:00",
+    "name": "29 november 11.14, Övrigt, Hallands län",
+    "summary": "Många trafikolyckor",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-11.14-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 472814,
+    "datetime": "2023-11-29 11:16:12 +01:00",
+    "name": "29 november 10.37, Trafikolycka, Gävle",
+    "summary": "Förare fick ordningsbot efter olycka.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-10.37-trafikolycka-gavle/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 472813,
+    "datetime": "2023-11-29 11:14:01 +01:00",
+    "name": "29 november 10.58, Övrigt, Västra Götalands län",
+    "summary": "Många trafikolyckor",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-10.58-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 472812,
+    "datetime": "2023-11-29 11:11:38 +01:00",
+    "name": "29 november 10.24, Trafikolycka, personskada, Gävle",
+    "summary": "Person påkörd av snöskottande hjullastare.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-10.24-trafikolycka-personskada-gavle/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Gävle",
+      "gps": "60.67488,17.141273"
+    }
+  },
+  {
+    "id": 472810,
+    "datetime": "2023-11-29 10:59:49 +01:00",
+    "name": "29 november 10.14, Trafikkontroll, Timrå",
+    "summary": "Tallnäsvägen, polisen kontrollerar trafiken",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-10.14-trafikkontroll-timra/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Timrå",
+      "gps": "62.485456,17.324865"
+    }
+  },
+  {
+    "id": 472792,
+    "datetime": "2023-11-29 9:42:54 +01:00",
+    "name": "29 november 08.40, Trafikolycka, Stenungsund",
+    "summary": "Lastbil och personbil i kollision",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.40-trafikolycka-stenungsund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Stenungsund",
+      "gps": "58.067839,11.829434"
+    }
+  },
+  {
+    "id": 472808,
+    "datetime": "2023-11-29 10:58:04 +01:00",
+    "name": "29 november 08.33, Trafikkontroll, Sundsvall",
+    "summary": "Matfors, polisen kontrollerar trafiken",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-082.33-trafikkontroll-sundsvall/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 472773,
+    "datetime": "2023-11-29 8:55:57 +01:00",
+    "name": "29 november 08.26, Trafikolycka, Karlstad",
+    "summary": "En olycka har inträffat på Färjestad",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.26-trafikolycka-karlstad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Karlstad",
+      "gps": "59.402181,13.511498"
+    }
+  },
+  {
+    "id": 472772,
+    "datetime": "2023-11-29 10:28:41 +01:00",
+    "name": "29 november 07.02, Kontroll person/fordon, Stockholm",
+    "summary": "Kontroll av personer på en förskolan i Hässelby Gård.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.02-kontroll-personfordon-stockholm/",
+    "type": "Kontroll person/fordon",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 472805,
+    "datetime": "2023-11-29 10:27:32 +01:00",
+    "name": "29 november 08.33, Trafikkontroll, Sundsvall",
+    "summary": "Matfors, polisen kontrollerar trafiken",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.33-trafikkontroll-sundsvall/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 472774,
+    "datetime": "2023-11-29 9:01:03 +01:00",
+    "name": "29 november 07.13, Trafikolycka, Östersund",
+    "summary": "E14, Trafikplats Odenskog - Trafikplats Torvalla, två lastbilar har kolliderat",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.13-trafikolycka-ostersund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 472801,
+    "datetime": "2023-11-29 10:00:56 +01:00",
+    "name": "29 november 08.23, Trafikolycka, Kramfors",
+    "summary": "Länsväg 332 Klockestrand, två personbilar har kolliderat",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.23-trafikolycka-kramfors/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kramfors",
+      "gps": "62.928433,17.786295"
+    }
+  },
+  {
+    "id": 472764,
+    "datetime": "2023-11-29 8:30:34 +01:00",
+    "name": "29 november 08.29, Trafikolycka, Västervik",
+    "summary": "E22, norr om Gunnebo",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.29-trafikolycka-vastervik/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Västervik",
+      "gps": "57.757716,16.636976"
+    }
+  },
+  {
+    "id": 472777,
+    "datetime": "2023-11-29 9:09:55 +01:00",
+    "name": "29 november 07.55, Motorfordon, stöld, Söderhamn",
+    "summary": "Man gripen efter att stulen bil anträffats.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.55-motorfordon-stold-soderhamn/",
+    "type": "Motorfordon, stöld",
+    "location": {
+      "name": "Söderhamn",
+      "gps": "61.305576,17.06281"
+    }
+  },
+  {
+    "id": 472770,
+    "datetime": "2023-11-29 8:44:05 +01:00",
+    "name": "29 november 06.09, Rattfylleri, Åre",
+    "summary": "Polisen stoppar en personbil",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.09-rattfylleri-are/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Åre",
+      "gps": "63.399043,13.081506"
+    }
+  },
+  {
+    "id": 472763,
+    "datetime": "2023-11-29 8:29:34 +01:00",
+    "name": "29 november 08.14, Trafikolycka, Olofström",
+    "summary": "Trafikolycka på Västra Storgatan.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.14-trafikolycka-olofstrom/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Olofström",
+      "gps": "56.277708,14.530938"
+    }
+  },
+  {
+    "id": 472734,
+    "datetime": "2023-11-29 8:00:55 +01:00",
+    "name": "29 november 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "En lugn natt utan större händelser eller ärenden värt att notera. En olycka med lastbil som påverkar trafiken ",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 472735,
+    "datetime": "2023-11-29 8:00:50 +01:00",
+    "name": "29 november 08.00, Sammanfattning natt, Södermanlands län",
+    "summary": "En lugn natt utan större händelser eller ärenden värt att notera.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.00-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 472733,
+    "datetime": "2023-11-29 8:00:45 +01:00",
+    "name": "29 november 08.00, Sammanfattning natt, Jönköpings län",
+    "summary": "En lugn natt utan större händelser.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-08.00-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 472762,
+    "datetime": "2023-11-29 7:55:05 +01:00",
+    "name": "29 november 06.50, Trafikolycka, personskada, Skinnskatteberg",
+    "summary": "Kollision mellan två personbilar på länsväg 233.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.50-trafikolycka-personskada-skinnskatteberg/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Skinnskatteberg",
+      "gps": "59.826056,15.691519"
+    }
+  },
+  {
+    "id": 472761,
+    "datetime": "2023-11-29 7:53:44 +01:00",
+    "name": "29 november 06.14, Brand, Huddinge",
+    "summary": "Villabrand i Glömsta.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.14-brand-huddinge/",
+    "type": "Brand",
+    "location": {
+      "name": "Huddinge",
+      "gps": "59.23633,17.982156"
+    }
+  },
+  {
+    "id": 472759,
+    "datetime": "2023-11-29 7:30:38 +01:00",
+    "name": "29 november 07.25, Sammanfattning natt, Värmlands län",
+    "summary": "Det har varit en lugn natt ur polisiär synvinkel",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.25-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 472757,
+    "datetime": "2023-11-29 7:25:22 +01:00",
+    "name": "29 november 07.24, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet 22:00-07:00",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.24-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 472756,
+    "datetime": "2023-11-29 7:24:35 +01:00",
+    "name": "29 november 07.23, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet 22:00-07:00",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.23-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 472755,
+    "datetime": "2023-11-29 7:23:02 +01:00",
+    "name": "29 november 07.22, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet 22:00-07:00",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.22-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 472754,
+    "datetime": "2023-11-29 7:22:18 +01:00",
+    "name": "29 november 07.21, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet 22:00-07:00",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.21-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 472753,
+    "datetime": "2023-11-29 7:21:59 +01:00",
+    "name": "29 november 07.21, Sammanfattning natt, Örebro län",
+    "summary": "Det har varit en lugn natt ur polisiär synvinkel",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.21-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 472752,
+    "datetime": "2023-11-29 7:21:20 +01:00",
+    "name": "29 november 07.20, Sammanfattning natt, Dalarnas län",
+    "summary": "Det har varit en lugn natt ur polisiär synvinkel",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.20-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 472751,
+    "datetime": "2023-11-29 7:17:50 +01:00",
+    "name": "29 november 07.03, Trafikolycka, Svedala",
+    "summary": "Singelolycka på E65 vid Skabersjö.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-07.03-trafikolycka-svedala/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Svedala",
+      "gps": "55.508908,13.23711"
+    }
+  },
+  {
+    "id": 472750,
+    "datetime": "2023-11-29 7:03:26 +01:00",
+    "name": "29 november 03.28, Brand, Perstorp",
+    "summary": "Brand i garage",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-03.28-brand-perstorp/",
+    "type": "Brand",
+    "location": {
+      "name": "Perstorp",
+      "gps": "56.137972,13.394986"
+    }
+  },
+  {
+    "id": 472749,
+    "datetime": "2023-11-29 6:58:51 +01:00",
+    "name": "29 november 06.48, Trafikolycka, Malmö",
+    "summary": "Trafikolycka på Inre Ringvägen vid trafikplats Hindby.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.48-trafikolycka-malmo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 472748,
+    "datetime": "2023-11-29 6:58:14 +01:00",
+    "name": "29 november 01.10, Stöld, Örkelljunga",
+    "summary": "Dieselstöld, flertalet lastbilar",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-01.10-stold-orkelljunga/",
+    "type": "Stöld",
+    "location": {
+      "name": "Örkelljunga",
+      "gps": "56.283635,13.278832"
+    }
+  },
+  {
+    "id": 472747,
+    "datetime": "2023-11-29 6:54:57 +01:00",
+    "name": "29 november 05.39, Trafikolycka, Landskrona",
+    "summary": "Singelolycka på E6 vid trafikplats 26, Härlöv.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-05.39-trafikolycka-landskrona/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Landskrona",
+      "gps": "55.870348,12.83008"
+    }
+  },
+  {
+    "id": 472746,
+    "datetime": "2023-11-29 6:48:32 +01:00",
+    "name": "29 november 01.48, Brand, Malmö",
+    "summary": "Brand i fordon på Thomsons väg.",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-01.48-brand-malmo/",
+    "type": "Brand",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 472745,
+    "datetime": "2023-11-29 6:31:21 +01:00",
+    "name": "29 november 06.19, Sammanfattning natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.19-sammanfattning-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 472744,
+    "datetime": "2023-11-29 6:17:55 +01:00",
+    "name": "29 november 06.07, Sammanfattning natt, Hallands län",
+    "summary": "Dagens presstalesperson är på plats",
+    "url": "/aktuellt/handelser/2023/november/29/29-november-06.07-sammanfattning-natt-hallands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  }
+]

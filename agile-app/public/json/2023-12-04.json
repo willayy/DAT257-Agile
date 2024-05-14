@@ -1,0 +1,722 @@
+[
+  {
+    "id": 473507,
+    "datetime": "2023-12-04 7:06:57 +01:00",
+    "name": "04 december 02.03, Brand, Mörbylånga",
+    "summary": "Brand i villa, Mörbylånga.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-02.03-brand-morbylanga/",
+    "type": "Brand",
+    "location": {
+      "name": "Mörbylånga",
+      "gps": "56.523757,16.386916"
+    }
+  },
+  {
+    "id": 473640,
+    "datetime": "2023-12-04 20:53:30 +01:00",
+    "name": "04 december 20.50, Bråk, Nässjö",
+    "summary": "En gripen i Nässjö efter tågresa.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-20.50-brak-nassjo/",
+    "type": "Bråk",
+    "location": {
+      "name": "Nässjö",
+      "gps": "57.653036,14.696725"
+    }
+  },
+  {
+    "id": 473657,
+    "datetime": "2023-12-05 7:34:02 +01:00",
+    "name": "04 december 22.04, Brand, Södertälje",
+    "summary": "Tre bilar skadas i en brand.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-22.04-brand-sodertalje/",
+    "type": "Brand",
+    "location": {
+      "name": "Södertälje",
+      "gps": "59.195363,17.625689"
+    }
+  },
+  {
+    "id": 473637,
+    "datetime": "2023-12-04 21:45:20 +01:00",
+    "name": "04 december 21.45, Övrigt, Hallands län",
+    "summary": "Hemsidan uppdateras inte mer idag. Samtal från media bevaras av vakthavande befäl i mån av tid.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-21.45-ovrigt-hallands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 473636,
+    "datetime": "2023-12-04 21:45:11 +01:00",
+    "name": "04 december 21.45, Övrigt, Västra Götalands län",
+    "summary": "Hemsidan uppdateras inte mer idag. Samtal från media bevaras av vakthavande befäl i mån av tid.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-21.45-ovrigt-vastra-gotalands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 473643,
+    "datetime": "2023-12-04 21:29:52 +01:00",
+    "name": "04 december 20.48, Trafikbrott, Vilhelmina",
+    "summary": "Trafikbrott i trakten av Laxbäcken.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-20.48-trafikbrott-vilhelmina/",
+    "type": "Trafikbrott",
+    "location": {
+      "name": "Vilhelmina",
+      "gps": "64.624471,16.655497"
+    }
+  },
+  {
+    "id": 473638,
+    "datetime": "2023-12-04 20:12:58 +01:00",
+    "name": "04 december 19.05, Trafikolycka, Kalix",
+    "summary": "Trafikolycka på E10 norr om Västannäs.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-19.05-trafikolycka-kalix/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kalix",
+      "gps": "65.855281,23.143965"
+    }
+  },
+  {
+    "id": 473634,
+    "datetime": "2023-12-04 19:37:20 +01:00",
+    "name": "04 december 19.30, Bedrägeri, Linköping",
+    "summary": "Larm om bedrägeri i Linköping.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-19.30-bedrageri-linkoping/",
+    "type": "Bedrägeri",
+    "location": {
+      "name": "Linköping",
+      "gps": "58.410807,15.621373"
+    }
+  },
+  {
+    "id": 473635,
+    "datetime": "2023-12-04 19:36:52 +01:00",
+    "name": "04 december 19.24, Brand, Växjö",
+    "summary": "Brand i byggnad, Tävelsås.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-19.24-brand-vaxjo/",
+    "type": "Brand",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 473573,
+    "datetime": "2023-12-04 14:07:12 +01:00",
+    "name": "04 december 12.52, Mord/dråp, försök, Stockholm",
+    "summary": "Man skjuten med flera skott i Hägerstensåsen.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.52-morddrap-forsok-stockholm/",
+    "type": "Mord/dråp, försök",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473629,
+    "datetime": "2023-12-04 17:45:00 +01:00",
+    "name": "04 december 17.29, Trafikolycka, Älvsbyn",
+    "summary": "Singelolycka öster om Älvsbyn.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-17.29-trafikolycka-alvsbyn/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Älvsbyn",
+      "gps": "65.677136,20.992866"
+    }
+  },
+  {
+    "id": 473633,
+    "datetime": "2023-12-04 18:43:17 +01:00",
+    "name": "04 december 16.19, Bedrägeri, Stockholm",
+    "summary": "Äldre kvinna i Hammarbyhamnen utsatt för bedrägeri.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.19-bedrageri-stockholm/",
+    "type": "Bedrägeri",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473632,
+    "datetime": "2023-12-04 18:24:06 +01:00",
+    "name": "04 december 16.47, Rån, Köping",
+    "summary": "Man grips för rån i motvärnsfallet.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.47-ran-koping/",
+    "type": "Rån",
+    "location": {
+      "name": "Köping",
+      "gps": "59.512096,15.99451"
+    }
+  },
+  {
+    "id": 473627,
+    "datetime": "2023-12-04 17:26:24 +01:00",
+    "name": "04 december 17.13, Trafikolycka, Halmstad",
+    "summary": "En minibuss och en personbil har kolliderat i Haverdal.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-17.13-trafikolycka-halmstad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Halmstad",
+      "gps": "56.674375,12.857789"
+    }
+  },
+  {
+    "id": 473631,
+    "datetime": "2023-12-04 17:59:18 +01:00",
+    "name": "04 december 17.09, Fylleri/LOB, Sundsvall",
+    "summary": "Sundsvall, person omhändertagen.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-17.09-fyllerilob-sundsvall/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 473619,
+    "datetime": "2023-12-04 16:30:02 +01:00",
+    "name": "04 december 16.06, Trafikolycka, Örnsköldsvik",
+    "summary": "Husum, trafikolycka på E4 vid Gideåbacka.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.06-trafikolycka-ornskoldsvik/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 473630,
+    "datetime": "2023-12-04 17:46:42 +01:00",
+    "name": "04 december 17.39, Brand, Helsingborg",
+    "summary": "Bilbrand på Dalhemsvägen.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-17.39-brand-helsingborg/",
+    "type": "Brand",
+    "location": {
+      "name": "Helsingborg",
+      "gps": "56.046467,12.694512"
+    }
+  },
+  {
+    "id": 473628,
+    "datetime": "2023-12-04 17:43:21 +01:00",
+    "name": "04 december 17.29, Trafikolycka, Karlshamn",
+    "summary": "Trafikolycka på E22 vid Åryd.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-17.29-trafikolycka-karlshamn/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Karlshamn",
+      "gps": "56.170303,14.863073"
+    }
+  },
+  {
+    "id": 473620,
+    "datetime": "2023-12-04 16:34:45 +01:00",
+    "name": "04 december 16.12, Trafikolycka, Vännäs",
+    "summary": "Trafikolycka på riksväg 92 i höjd med Högbäck.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.12-trafikolycka-vannas/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Vännäs",
+      "gps": "63.908007,19.752965"
+    }
+  },
+  {
+    "id": 473624,
+    "datetime": "2023-12-04 17:06:16 +01:00",
+    "name": "04 december 17.03, Trafikolycka, Norrköping",
+    "summary": "Flera inblandade i kollision på Söderleden.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-17.03-trafikolycka-norrkoping/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Norrköping",
+      "gps": "58.587745,16.192421"
+    }
+  },
+  {
+    "id": 473622,
+    "datetime": "2023-12-04 16:40:32 +01:00",
+    "name": "04 december 16.21, Trafikolycka, Sunne",
+    "summary": "Europaväg 45 söder om Sunne är helt blockerad i båda riktningarna efter en trafikolycka vid Västra Ämtervik.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.21-trafikolycka-sunne/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Sunne",
+      "gps": "59.836558,13.144046"
+    }
+  },
+  {
+    "id": 473621,
+    "datetime": "2023-12-04 16:38:42 +01:00",
+    "name": "04 december 16.26, Trafikolycka, Östersund",
+    "summary": "Östersund, trafikolycka i Odenskogs industriområde.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.26-trafikolycka-ostersund/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 473618,
+    "datetime": "2023-12-04 16:26:07 +01:00",
+    "name": "04 december 16.26, Rattfylleri, Strömsund",
+    "summary": "Strömsund, misstänkt rattfylleri.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-16.26-rattfylleri-stromsund/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Strömsund",
+      "gps": "63.853662,15.556869"
+    }
+  },
+  {
+    "id": 473617,
+    "datetime": "2023-12-04 15:50:24 +01:00",
+    "name": "04 december 15.24, Trafikolycka, Härnösand",
+    "summary": "Härnösand, trafikolycka i Framnäs.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-15.24-trafikolycka-harnosand/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Härnösand",
+      "gps": "62.63227,17.940871"
+    }
+  },
+  {
+    "id": 473569,
+    "datetime": "2023-12-04 13:48:33 +01:00",
+    "name": "04 december 12.58, Trafikolycka, Sundsvall",
+    "summary": "Larm om trafikolycka på E4 Nyråviken, Njurunda.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.58-trafikolycka-sundsvall/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Sundsvall",
+      "gps": "62.390811,17.306927"
+    }
+  },
+  {
+    "id": 473597,
+    "datetime": "2023-12-04 15:05:36 +01:00",
+    "name": "04 december 12.46, Misshandel, grov, Stockholm",
+    "summary": "Man misshandlad med tillhygge i Rinkeby.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.46-misshandel-grov-stockholm/",
+    "type": "Misshandel, grov",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473579,
+    "datetime": "2023-12-04 14:57:05 +01:00",
+    "name": "04 december 14.26, Övrigt, Luleå",
+    "summary": "Luleå, polis är klar med kontroll på Porsön.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-14.26-ovrigt-lulea/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 473574,
+    "datetime": "2023-12-04 14:44:50 +01:00",
+    "name": "04 december 14.10, Trafikolycka, Borlänge",
+    "summary": "En trafikolycka med flera fordon har inträffat på RV50 söder om Borlänge.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-14.10-trafikolycka-borlange/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Borlänge",
+      "gps": "60.484304,15.433969"
+    }
+  },
+  {
+    "id": 473568,
+    "datetime": "2023-12-04 13:45:00 +01:00",
+    "name": "04 december 10.20, Rattfylleri, Bräcke",
+    "summary": "Misstänkt rattfylleri i Bräcke.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-10.20-rattfylleri-bracke/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Bräcke",
+      "gps": "62.750741,15.422575"
+    }
+  },
+  {
+    "id": 473563,
+    "datetime": "2023-12-04 13:04:27 +01:00",
+    "name": "04 december 12.47, Trafikolycka, Mark",
+    "summary": "Larm om trafikolycka, RV41",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.47-trafikolycka-mark/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Mark",
+      "gps": "57.425318,12.569522"
+    }
+  },
+  {
+    "id": 473566,
+    "datetime": "2023-12-04 13:24:32 +01:00",
+    "name": "04 december 13.24, Försvunnen person, Västerbottens län",
+    "summary": "Skellefteå, ung man anmäld försvunnen.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-13.24-forsvunnen-person-vasterbottens-lan/",
+    "type": "Försvunnen person",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 473561,
+    "datetime": "2023-12-04 12:49:29 +01:00",
+    "name": "04 december 12.22, Trafikolycka, Skövde",
+    "summary": "Larm om trafikolycka RV26, Skövde",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.22-trafikolycka-skovde/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Skövde",
+      "gps": "58.390278,13.846121"
+    }
+  },
+  {
+    "id": 473556,
+    "datetime": "2023-12-04 12:32:29 +01:00",
+    "name": "04 december 12.12, Misshandel, Växjö",
+    "summary": "Person gripen för misshandel",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.12-misshandel-vaxjo/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 473555,
+    "datetime": "2023-12-04 12:24:22 +01:00",
+    "name": "04 december 07.35, Arbetsplatsolycka, Gällivare",
+    "summary": "Arbetsplatsolycka på gruvarbetsplats i Gällivare kommun.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.35-arbetsplatsolycka-gallivare/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Gällivare",
+      "gps": "67.1379,20.659362"
+    }
+  },
+  {
+    "id": 473554,
+    "datetime": "2023-12-04 12:21:15 +01:00",
+    "name": "04 december 12.21, Trafikkontroll, Västernorrlands län",
+    "summary": "Resultat av polisens arbete i trafiken.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-12.21-trafikkontroll-vasternorrlands-lan/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 473549,
+    "datetime": "2023-12-04 11:06:42 +01:00",
+    "name": "04 december 10.32, Trafikolycka, personskada, Umeå",
+    "summary": "Trafikolycka på Marieberg i Umeå.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-10.32-trafikolycka-personskada-umea/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Umeå",
+      "gps": "63.825847,20.263035"
+    }
+  },
+  {
+    "id": 473548,
+    "datetime": "2023-12-04 11:01:13 +01:00",
+    "name": "04 december 10.51, Vapenlagen, Borlänge",
+    "summary": "En man är misstänkt för brott i centrum",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-10.51-vapenlagen-borlange/",
+    "type": "Vapenlagen",
+    "location": {
+      "name": "Borlänge",
+      "gps": "60.484304,15.433969"
+    }
+  },
+  {
+    "id": 473547,
+    "datetime": "2023-12-04 10:33:54 +01:00",
+    "name": "04 december 08.31, Trafikolycka, Hylte",
+    "summary": "Singelolycka med en lastbil.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-08.31-trafikolycka-hylte/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Hylte",
+      "gps": "56.977313,13.338766"
+    }
+  },
+  {
+    "id": 473545,
+    "datetime": "2023-12-04 10:07:01 +01:00",
+    "name": "04 december 09.36, Stöld/inbrott, Örebro",
+    "summary": "Lägenhetsinbrott i området Brickebacken under natten till måndag.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-09.36-stoldinbrott-orebro/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 473542,
+    "datetime": "2023-12-04 9:58:47 +01:00",
+    "name": "04 december 09.39, Trafikolycka, singel, Örebro",
+    "summary": "En lastbil har körts i diket i rondellen vid Mariebergs travbana.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-09.39-trafikolycka-singel-orebro/",
+    "type": "Trafikolycka, singel",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 473530,
+    "datetime": "2023-12-04 8:54:37 +01:00",
+    "name": "04 december 01.14, Brand, Stockholm",
+    "summary": "Lägenhetsbrand på Norrtullsgatan.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-01.14-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473529,
+    "datetime": "2023-12-04 8:45:18 +01:00",
+    "name": "04 december 07.27, Rattfylleri, Kungsbacka",
+    "summary": "Man i 40-årsåldern misstännks för rattfylleri efter trafikolycka.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.27-rattfylleri-kungsbacka/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Kungsbacka",
+      "gps": "57.487492,12.076193"
+    }
+  },
+  {
+    "id": 473515,
+    "datetime": "2023-12-04 8:10:54 +01:00",
+    "name": "04 december 03.47, Stöld, Stockholm",
+    "summary": "Man grips efter stöld ur bil.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-03.47-stold-stockholm/",
+    "type": "Stöld",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473520,
+    "datetime": "2023-12-04 8:10:48 +01:00",
+    "name": "04 december 04.33, Våldtäkt, Stockholm",
+    "summary": "Våldtäkt på hotell.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-04.33-valdtakt-stockholm/",
+    "type": "Våldtäkt",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473521,
+    "datetime": "2023-12-04 8:10:44 +01:00",
+    "name": "04 december 06.17, Brand, Haninge",
+    "summary": "Brand på Ängsholmarna.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-06.17-brand-haninge/",
+    "type": "Brand",
+    "location": {
+      "name": "Haninge",
+      "gps": "59.17555,18.14137"
+    }
+  },
+  {
+    "id": 473523,
+    "datetime": "2023-12-04 8:10:40 +01:00",
+    "name": "04 december 06.26, Brand, Stockholm",
+    "summary": "Lägenhetsbrand i Akalla.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-06.26-brand-stockholm/",
+    "type": "Brand",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473525,
+    "datetime": "2023-12-04 8:10:36 +01:00",
+    "name": "04 december 07.13, Trafikolycka, Stockholm",
+    "summary": "Tvärbanan krockar med en sopbil.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.13-trafikolycka-stockholm/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 473513,
+    "datetime": "2023-12-04 8:01:39 +01:00",
+    "name": "04 december 08.00, Sammanfattning natt, Jönköpings län",
+    "summary": "En lugn natt för tjänstgörande patruller utan notiser värda att nämna.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-08.00-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 473514,
+    "datetime": "2023-12-04 8:01:28 +01:00",
+    "name": "04 december 08.00, Sammanfattning natt, Östergötlands län",
+    "summary": "En lugn natt för tjänstgörande personal. Ingen notis värd att nämna från natten.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-08.00-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 473516,
+    "datetime": "2023-12-04 8:01:17 +01:00",
+    "name": "04 december 08.00, Sammanfattning natt, Södermanlands län",
+    "summary": "En lugn natt för tjänstgörande personal. Ingen notis värd att nämna.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-08.00-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 473519,
+    "datetime": "2023-12-04 7:56:02 +01:00",
+    "name": "04 december 07.35, Trafikolycka, Munkedal",
+    "summary": "En trafikolycka med en buss inträffar på Stalevägen och polis skickas till platsen.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.35-trafikolycka-munkedal/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Munkedal",
+      "gps": "58.471505,11.680192"
+    }
+  },
+  {
+    "id": 473517,
+    "datetime": "2023-12-04 7:54:06 +01:00",
+    "name": "04 december 01.32, Rattfylleri, Leksand",
+    "summary": "Man i 25-årsåldern misstänkt för drograttfylleri.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-01.32-rattfylleri-leksand/",
+    "type": "Rattfylleri",
+    "location": {
+      "name": "Leksand",
+      "gps": "60.730308,14.999892"
+    }
+  },
+  {
+    "id": 473512,
+    "datetime": "2023-12-04 7:28:10 +01:00",
+    "name": "04 december 07.27, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Sammanfattning natt.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.27-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 473511,
+    "datetime": "2023-12-04 7:27:01 +01:00",
+    "name": "04 december 07.26, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Sammanfattnign natt.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.26-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 473510,
+    "datetime": "2023-12-04 7:24:25 +01:00",
+    "name": "04 december 07.24, Sammanfattning natt, Norrbottens län",
+    "summary": "Ett urval av nattens polisverksamhet i Norrbottens län.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.24-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 473509,
+    "datetime": "2023-12-04 7:13:00 +01:00",
+    "name": "04 december 07.12, Sammanfattning natt, Jämtlands län",
+    "summary": "Ett urval av nattens polisverksamhet i Jämtlands län.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-07.12-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 473508,
+    "datetime": "2023-12-04 7:09:05 +01:00",
+    "name": "04 december 06.45, Trafikolycka, Oskarshamn",
+    "summary": "Personbil i olycka, Döderhult.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-06.45-trafikolycka-oskarshamn/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Oskarshamn",
+      "gps": "57.265699,16.447398"
+    }
+  },
+  {
+    "id": 473506,
+    "datetime": "2023-12-04 6:59:13 +01:00",
+    "name": "04 december 06.59, Sammanfattning natt, Västernorrlands län",
+    "summary": "Ett urval av nattens polisverksamhet i Västernorrlands län.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-06.59-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 473505,
+    "datetime": "2023-12-04 6:58:48 +01:00",
+    "name": "04 december 03.50, Brand, Östra göinge",
+    "summary": "Brand i byggnad, Glimåkra.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-03.50-brand-ostra-goinge/",
+    "type": "Brand",
+    "location": {
+      "name": "Östra göinge",
+      "gps": "56.237877,14.216166"
+    }
+  },
+  {
+    "id": 473504,
+    "datetime": "2023-12-04 6:46:34 +01:00",
+    "name": "04 december 06.46, Sammanfattning natt, Västerbottens län",
+    "summary": "Ett urval av nattens polisverksamhet i Västerbottens län.",
+    "url": "/aktuellt/handelser/2023/december/4/04-december-06.46-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  }
+]
