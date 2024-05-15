@@ -56,9 +56,14 @@ export default function Map() {
                 locationAmountDict[event.location.name] = 1
             }
         }
+        
         return locationAmountDict;
+
     }
 
+    
+
+    
     /**
      * Determines the color style for rendering GeoJSON features based on the density of crime events.
      * 
@@ -67,26 +72,32 @@ export default function Map() {
      */
 
     function getColor(density : number) {
-        return (density > 6 ? '#b30000' :
-            density > 5 ? '#e34a33' :
-                density > 4 ? '#fc8d59' :
-                    density > 3 ? '#fdbb84' :
-                        density > 2 ? '#fdd49e' :
-                            density > 1 ? '#fef0d9' :
+        let maxCrimeValue = Math.max(...Object.values(getEventsOnType(selectedOptionCrime)));
+        let maxCrimeSixth = maxCrimeValue / 6
+        return (density > maxCrimeValue ? '#b30000' :
+            density > maxCrimeSixth*5 ? '#e34a33' :
+                density > maxCrimeSixth*4 ? '#fc8d59' :
+                    density > maxCrimeSixth*3 ? '#fdbb84' :
+                        density > maxCrimeSixth*2 ? '#fdd49e' :
+                            density > maxCrimeSixth ? '#fef0d9' :
                                 '#FFFFFF')
     }
     
-
-    const legendItems = [
-        { color: '#b30000', label: '> 6 händelser' },
-        { color: '#e34a33', label: '6 händelser' },
-        { color: '#fc8d59', label: '5 händelser' },
-        { color: '#fdbb84', label: '4 händelser' },
-        { color: '#fdd49e', label: '3 händelser' },
-        { color: '#fef0d9', label: '2 händelser' },
-        { color: '#FFFFFF', label: '1 händelser' },
-      ];
-
+    function getLegendItems() {
+        let maxCrimeValue = Math.max(...Object.values(getEventsOnType(selectedOptionCrime)));
+        let maxCrimeSixth = maxCrimeValue / 6
+     
+        const legendItems = [
+            { color: '#b30000', label: `${maxCrimeValue} händelser` },
+            { color: '#e34a33', label: ' händelser' },
+            { color: '#fc8d59', label: '5 händelser' },
+            { color: '#fdbb84', label: '4 händelser' },
+            { color: '#fdd49e', label: '3 händelser' },
+            { color: '#fef0d9', label: '2 händelser' },
+            { color: '#FFFFFF', label: '1 händelser' },
+        ];
+        return legendItems;
+    }
       /**
      * Styling function for GeoJSON features based on crime data and selected location type.
      * 
@@ -207,7 +218,7 @@ export default function Map() {
                     />
                 )}
                 <div className={styles.legends}>
-                    <MapLegend legendItems={legendItems} />
+                    <MapLegend legendItems={getLegendItems()} />
                 </div>
             </MapContainer>
             <div className={styles.parentSearchWrapper}>
