@@ -6,7 +6,7 @@ import { getCrimeData } from '@/scripts/dataFetching';
 import {CrimeData} from "@/scripts/dataFetching";
 
 
-//7define the array of crimes
+//define the array of crimes
 type Crimes = CrimeData[];
 
 interface LineGraphProps {
@@ -75,7 +75,7 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
     };
     
 
-    // Get all months and ensure they have a value even if no occurrences exist
+    // Get all months and ensure they have a value even if no occurrences exist also sorts the list so its ready for the graph
     const allMonths = new Set(Object.keys(groupedData));
     const labels =  Array.from(allMonths).sort((a, b) => {
         const [aMonth, aYear] = a.split(' ');
