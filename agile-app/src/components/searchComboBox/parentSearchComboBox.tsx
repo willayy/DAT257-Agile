@@ -36,7 +36,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         handleSelectLoc("")
     };
 
-    /** list containing all the crime types that can be filtered on. Get the array from dataFetching.ts */
+    /** Effect hook which gets the list of unique crime types of type string[] and sets the state variable to this value*/
     useEffect(() => {
         const fetchCrimeTypes = async () => {
             getUniqueCrimeTypes().then((result) => {
@@ -373,6 +373,8 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                     />
                 </div>
                 <div className={styles.innerContainer} >
+                    {/*Displays the search combo box once the crime options have been successfully fetched.*/}
+                    {/*Otherwise displays a loading message to the user*/}
                     {optionsCrime.length != 0
                     ? (
                             <SearchComboBox

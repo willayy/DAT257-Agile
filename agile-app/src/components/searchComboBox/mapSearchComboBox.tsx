@@ -3,7 +3,6 @@ import { getUniqueCrimeTypes } from '@/scripts/dataFetching'
 import React, {useEffect, useState} from 'react'
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
-import { get } from 'http'
 
 /**
  * The data passed to the component must follow the interface ParentSearchComboBoxProps found below
@@ -50,7 +49,7 @@ const MapParentSearchComboBox: React.FC<MapParentSearchComboBoxProps> = ({ setSe
     };
 
 
-    /** list containing all the types of crimes that can be filtered on*/
+    /** Effect hook which gets the list of unique crime types of type string[] and sets the state variable to this value*/
     useEffect(() => {
         const fetchCrimeTypes = async () => {
             getUniqueCrimeTypes().then((result) => {
@@ -73,6 +72,8 @@ const MapParentSearchComboBox: React.FC<MapParentSearchComboBoxProps> = ({ setSe
                     <SearchComboBox title="Filtrera på kommun eller län: " options={optionsLoc} onSelect={handleSelectLoc} selectedOption={selectedOptionLoc} />
                 </div>
                 <div className={styles.innerContainer} >
+                    {/*Displays the search combo box once the crime options have been successfully fetched.*/}
+                    {/*Otherwise displays a loading message to the user*/}
                     {optionsCrime.length != 0
                         ? (
                             <SearchComboBox

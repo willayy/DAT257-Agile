@@ -32,7 +32,9 @@ export async function getCrimeData(): Promise<CrimeData[]>{
 
 let crimeTypes: string[] = [];
 
-/** Function that populates crimeOptions array */
+/** Function that populates crimeOptions array if the array is empty. Otherwise, does nothing.
+ * This is workaround since the population of the list is almost always slower than rendering the
+ * component that uses it. Therefore, once populated it simply ends.*/
 const populateCrimeOptions = async () => {
     if (crimeTypes.length == 0) {
         // Array of strings for the crimeOptions
@@ -48,7 +50,8 @@ const populateCrimeOptions = async () => {
     }
 };
 
-/** Function that returns the crimeOptions after it's populated
+/** Function that returns the crimeTypes after it's populated
+ * If crimeTypes is already populated the "await" is instantly skipped and the variable returned.
  * @returns crimeTypes - Array of crime types */
 export const getUniqueCrimeTypes = async () => {
     await populateCrimeOptions();
