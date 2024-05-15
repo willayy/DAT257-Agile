@@ -12,6 +12,7 @@ import { GeoJSON as LeafletGeoJSON } from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
 import regionData from "../../../public/geojson/geoJsonRegion.json";
 import municipalityData from "../../../public/geojson/geoJsonMunicipality.json";
+import { get } from "http";
 
 interface CustomFeatureProperties {
     "kom_namn": string,
@@ -26,6 +27,20 @@ interface NumberDictionary {
 
 type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
+
+const defaultLegendItems = [
+    { color: '#b30000', label: '> 6 händelser' },
+    { color: '#e34a33', label: '6 händelser'},
+    { color: '#fc8d59', label: '5 händelser' },
+    { color: '#fdbb84', label: '4 händelser' },
+    { color: '#fdd49e', label: '3 händelser' },
+    { color: '#fef0d9', label: '2 händelser' },
+    { color: '#FFFFFF', label: '1 händelser' },
+];
+
+
+
+var maxCrimeValue = 10;
 
 export default function Map() {
   /**
@@ -56,7 +71,7 @@ export default function Map() {
                 locationAmountDict[event.location.name] = 1
             }
         }
-        
+        maxCrimeValue = Math.max(...Object.values(locationAmountDict));
         return locationAmountDict;
 
     }
@@ -71,10 +86,14 @@ export default function Map() {
      * @returns The color code for rendering the feature.
      */
 
+    // function setMaxCrimeValue() {
+    //     maxCrimeValue = Math.max(...Object.values(getEventsOnType(selectedOptionCrime)));
+      
+    // }
+
     function getColor(density : number) {
-        let maxCrimeValue = Math.max(...Object.values(getEventsOnType(selectedOptionCrime)));
-        let maxCrimeSixth = maxCrimeValue / 6
-        return (density > maxCrimeValue ? '#b30000' :
+        let maxCrimeSixth = maxCrimeValue/6;
+        return (density > maxCrimeValue-1 ? '#b30000' :
             density > maxCrimeSixth*5 ? '#e34a33' :
                 density > maxCrimeSixth*4 ? '#fc8d59' :
                     density > maxCrimeSixth*3 ? '#fdbb84' :
@@ -84,19 +103,17 @@ export default function Map() {
     }
     
     function getLegendItems() {
-        let maxCrimeValue = Math.max(...Object.values(getEventsOnType(selectedOptionCrime)));
-        let maxCrimeSixth = maxCrimeValue / 6
-     
-        const legendItems = [
-            { color: '#b30000', label: `${maxCrimeValue} händelser` },
-            { color: '#e34a33', label: `${maxCrimeSixth *5} händelser`},
-            { color: '#fc8d59', label: `${maxCrimeSixth*4} händelser` },
-            { color: '#fdbb84', label: `${maxCrimeSixth*3} händelser` },
-            { color: '#fdd49e', label: `${maxCrimeSixth*2} händelser` },
-            { color: '#fef0d9', label: `${maxCrimeSixth} händelser` },
-            { color: '#FFFFFF', label: ` <${maxCrimeSixth} händelser` },
+        let maxCrimeSixth = maxCrimeValue/6;
+        
+        return [
+            { color: '#b30000', label:`${maxCrimeValue} händelser` },
+            { color: '#e34a33', label: `> ${round((maxCrimeSixth*5), 0)} händelser`},
+            { color: '#fc8d59', label: `> ${round((maxCrimeSixth*4), 0)} händelser` },
+            { color: '#fdbb84', label: `> ${round((maxCrimeSixth*3), 0)} händelser` },
+            { color: '#fdd49e', label: `> ${round((maxCrimeSixth*2), 0)} händelser` },
+            { color: '#fef0d9', label: `> ${round((maxCrimeSixth*1), 0)} händelser` },
+            { color: '#FFFFFF', label: `< ${round((maxCrimeSixth*1), 0)} händelser` },
         ];
-        return legendItems;
 
     }
 
@@ -182,7 +199,6 @@ export default function Map() {
         const setEventsOnType = async () => {
             setLocationAmountDict(await getEventsOnType(selectedOptionCrime))
         }
-        getLegendItems()
         setEventsOnType()
     }, [selectedOptionCrime])
 
@@ -191,6 +207,7 @@ export default function Map() {
      */
     useEffect(() => {
         const layer = geoJsonLayerRef.current
+        
         if (layer && mapTiles != null) {
             layer.clearLayers().addData(mapTiles);
             layer.setStyle((feature) => style(feature))
@@ -235,4 +252,8 @@ export default function Map() {
             </div>
         </div>
     );
+}
+
+function round(num: number, fractionDigits: number): number {
+    return Number(num.toFixed(fractionDigits));
 }
