@@ -46,7 +46,7 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
         console.log(monthYear)
 
         const year = date.getFullYear().toString()
-        const monthYearKey = `${monthYear} ${year}`;
+        const monthYearKey = `${monthYear}`;
 
         if (!groupedData[monthYearKey]) {
             groupedData[monthYearKey] = 0;
@@ -98,9 +98,9 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
                 label: selectedOptionCrime,
                 data: labels.map(month => groupedData[month] || 0), // Ensure all months have a value
                 borderColor: 'blue',
-                borderWidth: 1,
+                borderWidth: 1.5,
                 tension: 0.1,
-                fill: false
+                fill: true
             }
         ]
     };
