@@ -65,6 +65,9 @@ export default function Map() {
     const geoJsonLayerRef = useRef<LeafletGeoJSON | null>(null);
     const L = require("leaflet");
     const markerIcon = L.icon({
+        iconSize: [20,37],
+        iconAnchor: [15,30],
+        shadowSize: [36,36],
         iconRetinaUrl: "/marker-icon-2x.png",
         iconUrl: "/marker-icon.png",
         shadowUrl:"/marker-shadow.png"})
