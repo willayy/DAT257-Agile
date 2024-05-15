@@ -5,7 +5,7 @@ const AboutPage = () => {
     return (
         <div className={styles.aboutPage}>
             <div className={styles.projectSection}>
-                <h2>Vår Vision</h2>
+                <h2 data-testid='AboutPageHeader'>Vår Vision</h2>
                 <p>
                 Vårt verktyg för brottsvisualisering är ett försök att revolutionera sättet som data om brott analyseras och hanteras i Sverige.
                 <br /> 
@@ -16,7 +16,7 @@ const AboutPage = () => {
             </div>
             <div className={styles.unGoalsSection}>
             <h2>Vår koppling till FN:s utvecklingsmål</h2>
-                <p>
+                <p data-testid='FnTextP'>
                 Vårt projekt stämmer överens med FN:s hållbara utvecklingsmål 16: Fred, rättvisa och starka institutioner. <br />
                 Vi kartlägger och visar alla former av brott rapporterade av den svenska polisen för att minska våld och dödsfall<br />
                  och för att skapa en känsla av trygghet på gatorna. Genom att göra brottsdata mer tillgänglig för allmänheten<br />
@@ -29,7 +29,7 @@ const AboutPage = () => {
             <div>
                 <h2 className={styles.developersTitle}>Utvecklare</h2>
             </div>
-            <div className={styles.peopleSection}>
+            <div className={styles.peopleSection} data-testid='DeveloperDiv'>
                 
                 <div className={styles.person}>
                     <h3>Jonatan Markusson</h3>

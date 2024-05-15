@@ -2,9 +2,9 @@
 
 import {useEffect, useRef, useState} from "react";
 import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
-import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
+import {GeoJSON, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
+import {Feature, GeoJsonObject, Geometry} from "geojson";
 import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";

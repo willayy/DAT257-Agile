@@ -12,7 +12,7 @@ const config: Config = {
   testEnvironment: 'jsdom',
   globals: {
     fetch: global.fetch,
-  }
+  },
   // Add more setup options before each test is run
   // setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 }
