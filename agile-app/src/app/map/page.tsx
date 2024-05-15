@@ -89,15 +89,18 @@ export default function Map() {
      
         const legendItems = [
             { color: '#b30000', label: `${maxCrimeValue} händelser` },
-            { color: '#e34a33', label: ' händelser' },
-            { color: '#fc8d59', label: '5 händelser' },
-            { color: '#fdbb84', label: '4 händelser' },
-            { color: '#fdd49e', label: '3 händelser' },
-            { color: '#fef0d9', label: '2 händelser' },
-            { color: '#FFFFFF', label: '1 händelser' },
+            { color: '#e34a33', label: `${maxCrimeSixth *5} händelser`},
+            { color: '#fc8d59', label: `${maxCrimeSixth*4} händelser` },
+            { color: '#fdbb84', label: `${maxCrimeSixth*3} händelser` },
+            { color: '#fdd49e', label: `${maxCrimeSixth*2} händelser` },
+            { color: '#fef0d9', label: `${maxCrimeSixth} händelser` },
+            { color: '#FFFFFF', label: ` <${maxCrimeSixth} händelser` },
         ];
         return legendItems;
+
     }
+
+    
       /**
      * Styling function for GeoJSON features based on crime data and selected location type.
      * 
@@ -179,6 +182,7 @@ export default function Map() {
         const setEventsOnType = async () => {
             setLocationAmountDict(await getEventsOnType(selectedOptionCrime))
         }
+        getLegendItems()
         setEventsOnType()
     }, [selectedOptionCrime])
 
