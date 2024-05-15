@@ -354,7 +354,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
     ];
 
     return (
-        <div className={styles.outerContainer}>
+        <div className={styles.outerContainer} data-testid='ParentSearchComboBox'>
             <div className={styles.container}>
                 <div className={styles.innerContainer}>
                     <SearchComboBox

@@ -23,7 +23,7 @@ type DatePickerBoxProps = {
 const DatePickerBox = (props: DatePickerBoxProps) => {
 
     return (
-        <div className={styles.dateBoxDiv}>
+        <div className={styles.dateBoxDiv} data-testid = 'DatePickerBox'>
             <DatePicker setDate={props.setStartDate} max={props.max} min={props.min} title={"Filtrera datum fr.o.m"} defaultDate={props.defaultStartDate} />
             <DatePicker setDate={props.setEndDate} max={props.max} min={props.min} title={"t.o.m"} defaultDate={props.defaultEndDate} />
         </div>

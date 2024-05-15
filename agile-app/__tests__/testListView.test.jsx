@@ -3,17 +3,17 @@ import { render, screen } from '@testing-library/react'
 import ListView from '../src/components/listView/listView.tsx'
 
 describe('Page', () => {
-  it('renders a heading', () => {
-    const { container } = render(<ListView />)
+  it('renders the listView of the webapp', () => {
+    render(<ListView />)
  
-    const text = screen.getByText('Sök Händelser')
-    const ulElement = container.querySelector('ul');
-    const ulContent = ulElement.childElementCount;
-    console.log(ulContent)
-  
+    const header = screen.getByTestId('ListViewHeader')
+    const datePickerBoxComponent = screen.getByTestId('DatePickerBox')
+    const parentSearchComboBoxComponent = screen.getByTestId('ParentSearchComboBox')
+    const crimeEventList = screen.getByTestId('CrimeEventList')
  
-    expect(text).toBeInTheDocument()
-    expect(ulElement).toBeInTheDocument()
-    expect(ulContent.length).toBeGreaterThan(0);
+    expect(header).toBeInTheDocument()
+    expect(datePickerBoxComponent).toBeInTheDocument()
+    expect(parentSearchComboBoxComponent).toBeInTheDocument()
+    expect(crimeEventList).toBeInTheDocument()
   })
 })

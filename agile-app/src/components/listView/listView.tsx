@@ -61,7 +61,7 @@ export default function ListView() {
     return (
         <div className = {styles.eventList}>
 
-            <p className ={styles.eventListHeader}>
+            <p className ={styles.eventListHeader} data-testid='ListViewHeader'>
                 Sök Händelser
             </p>
             <ParentSearchComboBox 
@@ -78,7 +78,7 @@ export default function ListView() {
                 defaultEndDate={selectedEndDate} 
                 setEndDate={setSelectedEndDate}
             />
-            <ul> {/** Maps the crimedata and makes each item into an event card */}
+            <ul data-testid='CrimeEventList'> {/** Maps the crimedata and makes each item into an event card */}
                 {crimeData.map((crimeData: CrimeData) =>(<EventCard data={crimeData}/>))}
             </ul>
         </div>
