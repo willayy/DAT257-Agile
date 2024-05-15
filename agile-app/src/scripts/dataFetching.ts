@@ -1,4 +1,6 @@
 // Interface for storing the data fetched from the API
+import {all} from "deepmerge";
+
 export interface CrimeData {
     id: number;
     datetime: string;
@@ -28,26 +30,30 @@ export async function getCrimeData(): Promise<CrimeData[]>{
     return fetchedCrimeData;
 }
 
-// Array of strings for the crimeOptions
 let crimeTypes: string[] = [];
 
-/** Function that populates crimeOptions array */
+/** Function that populates crimeOptions array if the array is empty. Otherwise, does nothing.
+ * This is workaround since the population of the list is almost always slower than rendering the
+ * component that uses it. Therefore, once populated it simply ends.*/
 const populateCrimeOptions = async () => {
-    const allCrimes: CrimeData[] = await getCrimeData();
-    const uniqueCrimeTypes = new Set<string>(); /** Using a set to avoid duplicates */
+    if (crimeTypes.length == 0) {
+        // Array of strings for the crimeOptions
+        const allCrimes: CrimeData[] = await getCrimeData();
+        const uniqueCrimeTypes = new Set<string>(); /** Using a set to avoid duplicates */
 
-    allCrimes.forEach(crime => {
-        uniqueCrimeTypes.add(crime.type);
-    });
+        allCrimes.forEach(crime => {
+            uniqueCrimeTypes.add(crime.type);
+        });
 
-    crimeTypes = Array.from(uniqueCrimeTypes).sort();
-    crimeTypes.unshift(""); /** Adds an empty string as the first element */
+        crimeTypes = Array.from(uniqueCrimeTypes).sort();
+        crimeTypes.unshift(""); /** Adds an empty string as the first element */
+    }
 };
 
-populateCrimeOptions();
-
-/** Function that returns the crimeOptions after it's populated
+/** Function that returns the crimeTypes after it's populated
+ * If crimeTypes is already populated the "await" is instantly skipped and the variable returned.
  * @returns crimeTypes - Array of crime types */
-export const getUniqueCrimeTypes = () => {
-    return crimeTypes;
+export const getUniqueCrimeTypes = async () => {
+    await populateCrimeOptions();
+    return crimeTypes
 };
