@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
 import styles from './page.module.css';
+import "@/app/globals.css";
 import LineGraph from "@/components/lineGraph/lineGraph";
 
 const Visualization = () => {
@@ -23,7 +24,7 @@ const Visualization = () => {
                 selectedOptionCrime={selectedOptionCrime}
             />
             <div>
-            <button className={styles.generateButton} onClick={handleClick}>Generera graf</button>
+            <button className={styles.generateStatsButton} onClick={handleClick}>Generera graf</button>
             </div>
 
             {showGraph && <LineGraph selectedOptionCrime={selectedOptionCrime} selectedOptionLoc={selectedOptionLoc}/>}

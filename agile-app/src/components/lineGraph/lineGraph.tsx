@@ -3,33 +3,31 @@
 import { useEffect, useRef, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { getCrimeData } from '@/scripts/dataFetching';
+import {CrimeData} from "@/scripts/dataFetching";
 
-interface GraphData {
-    id: number;
-    datetime: string;
-    name: string;
-    summary: string;
-    url: string;
-    type: string;
-    location: {
-        name: string;
-        gps: string;
-    }
-}
 
-type Crimes = GraphData[];
+//7define the array of crimes
+type Crimes = CrimeData[];
 
 interface LineGraphProps {
     selectedOptionCrime: string;
     selectedOptionLoc: string;
 }
 
+//Create linegraph component
 const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOptionLoc }) => {
     const chartRef = useRef<HTMLCanvasElement>(null);
     const [crimeData, setCrimeData] = useState<Crimes>([]);
     const [chartInstance, setChartInstance] = useState<Chart<"line"> | null>(null);
 
-
+    /**
+     * This function sorts the data based on crime type and crime location
+     * It converts the month and year into datetime and sorts it based on year and month
+     * Converts the sorted crimes into chart format and updates the chart instance
+     * If there is no data an empty graph will be shown.
+     * If no choices are made the graph will show all crimes for each month
+     * @param data The list of crimes
+     */
     const processData = (data: Crimes) => {
     // Filter the data to include only the selected crime
     const filteredCrimeData = data.filter(crime => {
@@ -39,23 +37,28 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
         );
     });
 
-    // Group the filtered data by time (e.g., month) and count the occurrences of the selected crime type
-    const groupedData: { [month: string]: number } = {};
+    // Group the filtered data by time (e.g., month and year) and count the occurrences of the selected crime type
+    //makes sure 2 months in different years does not get clumped together
+    const groupedData: { [monthYear: string]: number } = {};
     filteredCrimeData.forEach(crime => {
         const date = new Date(crime.datetime);
         const monthYear = date.toLocaleString('sv', { month: 'numeric' , year: 'numeric'});
         console.log(monthYear)
 
-        if (!groupedData[monthYear]) {
-            groupedData[monthYear] = 0;
+        const year = date.getFullYear().toString()
+        const monthYearKey = `${monthYear} ${year}`;
+
+        if (!groupedData[monthYearKey]) {
+            groupedData[monthYearKey] = 0;
         }
 
         // Only increment the count if the crime type matches the selected option
         if (!selectedOptionCrime || crime.type === selectedOptionCrime) {
-            groupedData[monthYear]++;
+            groupedData[monthYearKey]++;
         }
     });
 
+    //mapping months to a number to sort them
     const monthsMap: { [month: string]: number } = {
         January: 1,
         February: 2,
@@ -79,8 +82,8 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
         const [bMonth, bYear] = b.split(' ');
 
         // Compare years first
-        if (parseInt(aYear) !== parseInt(bYear)) {
-            return parseInt(aYear) - parseInt(bYear);
+        if (parseInt(bYear) !== parseInt(aYear)) {
+            return parseInt(bYear) - parseInt(aYear);
         }
 
         // If years are the same, then compare months
@@ -103,6 +106,7 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
     };
         console.log('ChartData:', chartData);
 
+        //checks if an instance of graph exists and destroys it so it can be refreshed
         if (chartRef.current) {
             const ctx = chartRef.current.getContext('2d');
             if (ctx) {
@@ -127,6 +131,7 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
         }
     };
 
+    //Get the crime data when componenet is created
     useEffect(() => {
         const fetchData = async () => {
             const fetchedCrimeData: Crimes = await getCrimeData();
@@ -135,15 +140,17 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
         fetchData();
     }, []);
 
+    //Reprocess the data when crime type or location is changed
     useEffect(() => {
         if (crimeData.length > 0) {
             processData(crimeData);
         }
     }, [crimeData, selectedOptionCrime, selectedOptionLoc]);
 
+    //returns a div with a canvas inside containing the graph
     return (
         <div>
-            <canvas id="myChart" ref={chartRef} width="400" height="400"></canvas>
+            <canvas id="myChart" ref={chartRef} width="600" height="600"></canvas>
         </div>
     
     );

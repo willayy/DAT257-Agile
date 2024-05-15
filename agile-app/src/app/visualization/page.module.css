@@ -7,7 +7,7 @@
     background-color: #f0f0f0;
 }
 
-.page button {
+.button {
     width: 100%;
     border: none;
     background-color: #ccc;
@@ -15,15 +15,15 @@
     margin: 5px 2px 5px 2px;
 }
 
-.page button:hover {
+.button:hover {
     background-color: #ddd;;
 }
 
-.page button:active {
+.button:active {
     transform: scale(0.70);
 }
 
-.page generateButton{
+.generateStatsButton {
     display: inline-block;
     padding: 0.6em 1.7em;
     border: 0.1em solid black;
@@ -38,7 +38,7 @@
     transition: all 0.2s;
 }
 
-.page generateButton:hover{
+.generateStatsButton:hover{
     color: white;
-    background-color: gray;
+    background-color: grey;
 }
