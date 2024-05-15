@@ -29675,7 +29675,7 @@
             },
             "properties": {
                 "lan_code": "01",
-                "kom_namn": "Upplands Väsby",
+                "kom_namn": "Upplands väsby",
                 "id": "0114",
                 "geo_point_2d": [
                     59.5213244858,
@@ -51052,7 +51052,7 @@
             },
             "properties": {
                 "lan_code": "12",
-                "kom_namn": "Östra Göinge",
+                "kom_namn": "Östra göinge",
                 "id": "1256",
                 "geo_point_2d": [
                     56.2653495923,
@@ -53198,7 +53198,7 @@
             },
             "properties": {
                 "lan_code": "01",
-                "kom_namn": "Upplands-Bro",
+                "kom_namn": "Upplands-bro",
                 "id": "0139",
                 "geo_point_2d": [
                     59.52625601,
@@ -57428,7 +57428,7 @@
             },
             "properties": {
                 "lan_code": "14",
-                "kom_namn": "Lilla Edet",
+                "kom_namn": "Lilla edet",
                 "id": "1462",
                 "geo_point_2d": [
                     58.1330339165,
