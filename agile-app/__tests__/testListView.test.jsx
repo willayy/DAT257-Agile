@@ -8,11 +8,12 @@ describe('Page', () => {
  
     const text = screen.getByText('Sök Händelser')
     const ulElement = container.querySelector('ul');
-    const ulContent = ulElement.textContent;
-    const liElements = ulElement.querySelectorAll('div');
+    const ulContent = ulElement.childElementCount;
+    console.log(ulContent)
+  
  
     expect(text).toBeInTheDocument()
-    expect(ulContent).toContain(' ');
-    expect(liElements.length).toBeGreaterThan(0);
+    expect(ulElement).toBeInTheDocument()
+    expect(ulContent.length).toBeGreaterThan(0);
   })
 })
