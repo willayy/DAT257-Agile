@@ -1,7 +1,6 @@
 "use client"
 
 import {useEffect, useRef, useState} from "react";
-import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
 import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
@@ -11,6 +10,8 @@ import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
 import { GeoJSON as LeafletGeoJSON } from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
+import regionData from "../../../public/geojson/geoJsonRegion.json";
+import municipalityData from "../../../public/geojson/geoJsonMunicipality.json";
 
 interface CustomFeatureProperties {
     "kom_namn": string,
@@ -149,11 +150,11 @@ export default function Map() {
         console.log("Started effect")
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
-                setMapTiles(await fetchMunicipalityData())
+                setMapTiles(municipalityData as GeoJsonObject)
             } else if (selectedOptionLoc == "Län") {
-                setMapTiles(await  fetchRegionData())
+                setMapTiles(regionData as GeoJsonObject)
             } else {
-                setMapTiles(await fetchMunicipalityData())
+                setMapTiles(municipalityData as GeoJsonObject)
             }
         }
         setTiles()
