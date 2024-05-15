@@ -32,7 +32,9 @@ export default function EventCard(Props: Props) {
                         <p>GPS position: {Props.data.location.gps}</p>
                         <p>Id: {Props.data.id}</p>
                         <div className={styles.showMoreContainer}>
-                            <a href={Props.data.url}>Visa händelse på Polisens hemsida</a>
+                            <a href={`https://polisen.se${Props.data.url}`} target="_blank" rel="noopener noreferrer">
+                                Visa händelse på Polisens hemsida
+                            </a>
                             <button className={styles.showMoreButton} onClick={() => setShowMore(!showMore)}>
                                 {showMore ? "Visa mindre" : "Visa mer"}
                             </button>
