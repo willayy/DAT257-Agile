@@ -3,6 +3,7 @@
 import SearchComboBox from './searchComboBox'
 import styles from './searchComboBox.module.css'
 import {getUniqueCrimeTypes} from "@/scripts/dataFetching";
+import React, {useEffect, useState} from "react";
 
 /**
  * The data passed to the component must follow the interface ParentSearchComboBoxProps found below
@@ -20,6 +21,7 @@ interface ParentSearchComboBoxProps {
  * @returns {JSX} A React component representing the ParentSearchComboBox.
  */
 const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelectedOptionCrime, setSelectedOptionLoc , selectedOptionCrime, selectedOptionLoc}) => {
+    const [optionsCrime, setOptionsCrime] = useState<string[]>([]);
 
     const handleSelectCrime = (selectedOption: string) => {
         setSelectedOptionCrime(selectedOption);
@@ -34,9 +36,15 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         handleSelectLoc("")
     };
 
-    /** list containing all the crime types that can be filtered on. Get the array from dataFetching.ts */
-    const optionsCrime = getUniqueCrimeTypes()
-
+    /** Effect hook which gets the list of unique crime types of type string[] and sets the state variable to this value*/
+    useEffect(() => {
+        const fetchCrimeTypes = async () => {
+            getUniqueCrimeTypes().then((result) => {
+                setOptionsCrime(result)
+            })
+        }
+        fetchCrimeTypes()
+    })
 
     /** list containing all the locations that can be filtered on*/
     const optionsLoc = [
@@ -364,13 +372,24 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
                         selectedOption={selectedOptionLoc}
                     />
                 </div>
-                <div className={styles.innerContainer} > 
-                    <SearchComboBox
-                        title="Filtrera på brottstyp: "
-                        options={optionsCrime}
-                        onSelect={handleSelectCrime}
-                        selectedOption={selectedOptionCrime}
-                    />
+                <div className={styles.innerContainer} >
+                    {/*Displays the search combo box once the crime options have been successfully fetched.*/}
+                    {/*Otherwise displays a loading message to the user*/}
+                    {optionsCrime.length != 0
+                    ? (
+                            <SearchComboBox
+                                title="Filtrera på brottstyp: "
+                                options={optionsCrime}
+                                onSelect={handleSelectCrime}
+                                selectedOption={selectedOptionCrime}
+                            />
+                        )
+                    : (
+                            <div className={styles.comboContainer}>
+                                <label>{"Filtrera på brottstyp: "}</label>
+                                <label>Laddar in tillgängliga brottstyper</label>
+                            </div>
+                        )}
                 </div>
                 <button className={styles.button} onClick={resetChoices}>Återställ val</button>
             </div>

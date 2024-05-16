@@ -1,29 +1,47 @@
 "use client"
 
-import {useEffect, useRef, useState} from "react";
+import {ReactElement, useEffect, useRef, useState} from "react";
 import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
-import {GeoJSON, MapContainer, TileLayer} from 'react-leaflet'
+import {GeoJSON, MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import {Feature, GeoJsonObject, Geometry} from "geojson";
+import {centroid} from "turf"
+import {
+    Feature,
+    FeatureCollection,
+    GeoJsonObject,
+    Geometry,
+    Point,
+    Position
+} from "geojson";
 import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
+import {GeoJSON as LeafletGeoJSON, LatLngExpression} from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
-import { GeoJSON as LeafletGeoJSON } from "leaflet";
 
 interface CustomFeatureProperties {
     "kom_namn": string,
     "color": number,
     "l_id": number,
-    "name": string
+    "name": string,
+    "geo_point_2d": LatLngExpression
 }
 
 interface NumberDictionary {
     [key: string]: number;
 }
 
-type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
+interface CustomFeatureInterface extends Feature<Geometry, CustomFeatureProperties> {
+    "geometry" : {
+        "type": "Polygon",
+        "coordinates": Position[][]
+    }
+    "properties": CustomFeatureProperties
+}
+
+type CustomFeature = CustomFeatureInterface | undefined
+type LayerFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
 
 export default function Map() {
@@ -39,10 +57,20 @@ export default function Map() {
  * 
    */
     const [mapTiles, setMapTiles] = useState<GeoJsonObject | null>(null);
+    const [mapMarkers, setMapMarkers] = useState<ReactElement[]>();
+    const [showMarkers, setShowMarkers] = useState<boolean>(true);
     const [selectedOptionCrime, setSelectedOptionCrime] = useState<string>('');
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Kommun');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
     const geoJsonLayerRef = useRef<LeafletGeoJSON | null>(null);
+    const L = require("leaflet");
+    const markerIcon = L.icon({
+        iconSize: [20,37],
+        iconAnchor: [15,30],
+        shadowSize: [36,36],
+        iconRetinaUrl: "/marker-icon-2x.png",
+        iconUrl: "/marker-icon.png",
+        shadowUrl:"/marker-shadow.png"})
 
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
@@ -66,24 +94,28 @@ export default function Map() {
      */
 
     function getColor(density : number) {
-        return (density > 6 ? '#b30000' :
-            density > 5 ? '#e34a33' :
-                density > 4 ? '#fc8d59' :
-                    density > 3 ? '#fdbb84' :
-                        density > 2 ? '#fdd49e' :
-                            density > 1 ? '#fef0d9' :
-                                '#FFFFFF')
+        return (
+            density > 8 ? '#7f0000' :
+            density > 7 ? '#b30000' :
+            density > 6 ? '#d7301f' :
+            density > 5 ? '#ef6548' :
+            density > 4 ? '#fc8d59' :
+            density > 3 ? '#fdbb84' :
+            density > 2 ? '#fdd49e' :
+            density > 1 ? '#fee8c8' :
+            '#fff7ec')
     }
-    
 
     const legendItems = [
-        { color: '#b30000', label: '> 6 händelser' },
-        { color: '#e34a33', label: '6 händelser' },
+        { color: '#7f0000', label: '> 8 händelser' },
+        { color: '#b30000', label: '8 händelser' },
+        { color: '#d7301f', label: '7 händelser' },
+        { color: '#ef6548', label: '6 händelser' },
         { color: '#fc8d59', label: '5 händelser' },
         { color: '#fdbb84', label: '4 händelser' },
         { color: '#fdd49e', label: '3 händelser' },
-        { color: '#fef0d9', label: '2 händelser' },
-        { color: '#FFFFFF', label: '1 händelser' },
+        { color: '#fee8c8', label: '2 händelser' },
+        { color: '#fff7ec', label: '1 händelser' },
       ];
 
       /**
@@ -93,7 +125,7 @@ export default function Map() {
      * @returns The style object for rendering the feature.
      */
 
-    function style(feature: CustomFeature) {
+    function style(feature: LayerFeature) {
         if (feature == null || locationAmountDict == null) {
             return {
                 fillColor: '#33CEFF',
@@ -146,7 +178,6 @@ export default function Map() {
      */
 
     useEffect(() => {
-        console.log("Started effect")
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
                 setMapTiles(await fetchMunicipalityData())
@@ -181,6 +212,50 @@ export default function Map() {
         }
     }, [mapTiles]);
 
+    /**
+     * Effect hook to update the markers placed on highlighted parts of the map.
+     * Activates when the map tiles data changes or as a cascading reaction to updating the selected crime.
+     */
+    useEffect(() => {
+        // Variable declarations are mostly to convert from one data type to another for access to properties
+        const markers : ReactElement[] = []
+        if (mapTiles?.type == "FeatureCollection") {
+            const featureCollection : FeatureCollection = mapTiles as FeatureCollection;
+            // Iterates over each tile on the map
+            featureCollection.features.forEach((feature : Feature) => {
+                const typedFeature = feature as CustomFeature;
+                if (typedFeature && locationAmountDict) {
+                    // Calculate center of tile from polygon as latitude and longitude
+                    const markerPositionFeature : Feature<Point> = centroid(feature)
+                    const markerPosition = new L.latLng(markerPositionFeature.geometry.coordinates[1], markerPositionFeature.geometry.coordinates[0])
+                    // Difference in external JSON document structure requires if else for region or municipality
+                    if (selectedOptionLoc == "Kommun" && Object.keys(locationAmountDict).includes(typedFeature.properties.kom_namn)) {
+                        markers.push(
+                            <Marker position={markerPosition} icon={markerIcon} key={typedFeature.properties.kom_namn}>
+                                <Popup>
+                                    Plats: {typedFeature.properties.kom_namn} <br />
+                                    Antal Brott: {locationAmountDict[typedFeature.properties.kom_namn]} <br />
+                                    Latitud: {markerPosition.lat} <br />
+                                    Longitud: {markerPosition.lng}
+                                </Popup>
+                            </Marker>)
+                    } else if (Object.keys(locationAmountDict).includes(typedFeature.properties.name)) {
+                        markers.push(
+                            <Marker position={markerPosition} icon={markerIcon} key={typedFeature.properties.name}>
+                                <Popup>
+                                    Plats: {typedFeature.properties.name} <br />
+                                    Antal Brott: {locationAmountDict[typedFeature.properties.name]} <br />
+                                    Latitud: {markerPosition.lat} <br />
+                                    Longitud: {markerPosition.lng}
+                                </Popup>
+                            </Marker>)
+                    }
+                }
+            })
+        }
+        setMapMarkers(markers)
+    }, [locationAmountDict, mapTiles])
+
     return (
         // TSX and rendering details...
         <div className={styles.mapWrapper}>
@@ -205,6 +280,10 @@ export default function Map() {
                         style={(feature) => style(feature)}
                     />
                 )}
+                {(mapMarkers && showMarkers) && (
+                    mapMarkers.map((marker : ReactElement) => (marker))
+                )}
+
                 <div className={styles.legends}>
                     <MapLegend legendItems={legendItems} />
                 </div>
@@ -213,9 +292,10 @@ export default function Map() {
                 <MapSearchComboBox
                     setSelectedOptionCrime={setSelectedOptionCrime}
                     setSelectedOptionLoc={setSelectedOptionLoc}
+                    setShowMarkers={setShowMarkers}
                     selectedOptionCrime={selectedOptionCrime}
                     selectedOptionLoc={selectedOptionLoc}
-                />
+                    showMarkers={showMarkers}/>
             </div>
         </div>
     );
