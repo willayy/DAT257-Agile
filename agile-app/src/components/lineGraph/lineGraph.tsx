@@ -16,7 +16,7 @@ interface LineGraphProps {
 
 //Create linegraph component
 const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOptionLoc }) => {
-    const chartRef = useRef<HTMLCanvasElement>(null);
+    const chartRef = useRef<HTMLCanvasElement | null>(null);
     const [crimeData, setCrimeData] = useState<Crimes>([]);
     const [chartInstance, setChartInstance] = useState<Chart<"line"> | null>(null);
 
@@ -30,65 +30,43 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
      */
     const processData = (data: Crimes) => {
     // Filter the data to include only the selected crime
-    const filteredCrimeData = data.filter(crime => {
-        return (
-            (!selectedOptionCrime || crime.type === selectedOptionCrime) &&
-            (!selectedOptionLoc || crime.location.name === selectedOptionLoc)
-        );
-    });
+        const filteredCrimeData = data.filter(crime => {
+            return (
+                (!selectedOptionCrime || crime.type === selectedOptionCrime) &&
+                (!selectedOptionLoc || crime.location.name === selectedOptionLoc)
+            );
+        });
 
     // Group the filtered data by time (e.g., month and year) and count the occurrences of the selected crime type
     //makes sure 2 months in different years does not get clumped together
-    const groupedData: { [monthYear: string]: number } = {};
-    filteredCrimeData.forEach(crime => {
-        const date = new Date(crime.datetime);
-        const monthYear = date.toLocaleString('sv', { month: 'numeric' , year: 'numeric'});
-        console.log(monthYear)
+        const groupedData: { [monthYear: string]: number } = {};
+        filteredCrimeData.forEach(crime => {
+            const date = new Date(crime.datetime);
+            const monthYear = date.toLocaleString('sv', { month: 'numeric' , year: 'numeric'});
+            console.log(monthYear)
 
-        const year = date.getFullYear().toString()
-        const monthYearKey = `${monthYear}`;
+            if (!groupedData[monthYear]) {
+                groupedData[monthYear] = 0;
+            }
 
-        if (!groupedData[monthYearKey]) {
-            groupedData[monthYearKey] = 0;
-        }
-
-        // Only increment the count if the crime type matches the selected option
-        if (!selectedOptionCrime || crime.type === selectedOptionCrime) {
-            groupedData[monthYearKey]++;
-        }
+            // Only increment the count if the crime type matches the selected option
+            if (!selectedOptionCrime || crime.type === selectedOptionCrime) {
+                groupedData[monthYear]++;
+            }
     });
 
-    //mapping months to a number to sort them
-    const monthsMap: { [month: string]: number } = {
-        January: 1,
-        February: 2,
-        March: 3,
-        April: 4,
-        May: 5,
-        June: 6,
-        July: 7,
-        August: 8,
-        September: 9,
-        October: 10,
-        November: 11,
-        December: 12,
-    };
-    
+    //Saves earliest and latest date so all months can be on the graph
+    const earliestDate = new Date(Math.min(...data.map(crime => new Date(crime.datetime).getTime())));
+    const latestDate = new Date(Math.max(...data.map(crime => new Date(crime.datetime).getTime())));
+    const labels: string[] = [];
+    const currentDate = new Date(earliestDate);
 
-    // Get all months and ensure they have a value even if no occurrences exist also sorts the list so its ready for the graph
-    const allMonths = new Set(Object.keys(groupedData));
-    const labels =  Array.from(allMonths).sort((a, b) => {
-        const [aMonth, aYear] = a.split(' ');
-        const [bMonth, bYear] = b.split(' ');
-
-        // Compare years first
-        if (parseInt(bYear) !== parseInt(aYear)) {
-            return parseInt(bYear) - parseInt(aYear);
-        }
-
-        // If years are the same, then compare months
-        return monthsMap[aMonth] - monthsMap[bMonth];
-    }).reverse();
+    //Add all the months even the empty
+    while (currentDate < latestDate || currentDate.getMonth() === latestDate.getMonth()) {
+        const monthYear = currentDate.toLocaleString('sv', { month: 'numeric', year: 'numeric' });
+        labels.push(monthYear);
+        currentDate.setMonth(currentDate.getMonth() + 1);
+    }
 
     // Convert the grouped data into chart format
     const chartData = {

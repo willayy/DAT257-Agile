@@ -1,7 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 import ParentSearchComboBox from "@/components/searchComboBox/parentSearchComboBox";
-import styles from './page.module.css';
+import styles from '@/app/statistics/page.module.css';
+import styles2 from "./page.module.css";
 import "@/app/globals.css";
 import LineGraph from "@/components/lineGraph/lineGraph";
 
@@ -15,7 +16,7 @@ const Visualization = () => {
     };
 
     return (
-        <div className={styles.page}>
+        <div className={styles2.page}>
             <h1>Visualisering</h1>
             <ParentSearchComboBox
                 setSelectedOptionCrime={setSelectedOptionCrime}
@@ -23,11 +24,11 @@ const Visualization = () => {
                 selectedOptionLoc={selectedOptionLoc}
                 selectedOptionCrime={selectedOptionCrime}
             />
-            <div>
+            
             <button className={styles.generateStatsButton} onClick={handleClick}>Generera graf</button>
-            </div>
+            
 
-            {showGraph && <LineGraph selectedOptionCrime={selectedOptionCrime} selectedOptionLoc={selectedOptionLoc}/>}
+            {showGraph ? <LineGraph selectedOptionCrime={selectedOptionCrime} selectedOptionLoc={selectedOptionLoc}/> : null}
         </div> 
     );
 };
