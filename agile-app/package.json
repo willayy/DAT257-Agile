@@ -23,7 +23,8 @@
     "react-dom": "^18",
     "react-leaflet": "^4.2.1",
     "remix": "^2.8.1",
-    "turf": "^3.0.14"
+    "turf": "^3.0.14",
+    "union-find": "^1.0.2"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.24.1",
