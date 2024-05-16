@@ -56,10 +56,11 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
     });
 
     //Saves earliest and latest date so all months can be on the graph
-    const earliestDate = new Date(Math.min(...data.map(crime => new Date(crime.datetime).getTime())));
-    const latestDate = new Date(Math.max(...data.map(crime => new Date(crime.datetime).getTime())));
+    const dates = data.map(crime => new Date(crime.datetime).getTime());
+    const earliestDate = new Date(Math.min(...dates));
+    const latestDate = new Date(Math.max(...dates));
     const labels: string[] = [];
-    const currentDate = new Date(earliestDate);
+    let currentDate = new Date(earliestDate);
 
     //Add all the months even the empty
     while (currentDate < latestDate || currentDate.getMonth() === latestDate.getMonth()) {
