@@ -1,6 +1,6 @@
+import AboutPage from '@/app/about/page'
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
-import AboutPage from 'agile-app/src/app/about/page.tsx'
 
 describe('Page', () => {
   it('renders the aboutPage of the webapp', () => {
@@ -17,6 +17,6 @@ describe('Page', () => {
     expect(developerDiv).toBeInTheDocument()
 
     // checks if the elements have the expected content, just some text bigger than 50 characters.
-    expect(fnTextP.textContent.length).toBeGreaterThan(50)
+    expect(fnTextP.textContent!.length).toBeGreaterThan(50)
   })
 })

@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react';
-import LineGraph from '../src/components/lineGraph/lineGraph.tsx';
+import LineGraph from '../src/components/lineGraph/lineGraph';
 
 describe('LineGraph', () => {
     it('renders without crashing', () => {

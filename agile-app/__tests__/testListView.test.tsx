@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
-import ListView from '../src/components/listView/listView.tsx'
+import ListView from '../src/components/listView/listView'
 
 describe('Page', () => {
   it('renders the listView of the webapp', () => {
