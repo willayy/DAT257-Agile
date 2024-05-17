@@ -1,7 +1,6 @@
 "use client"
 import {useState} from "react";
 import styles from './eventCard.module.css'
-import { urlToHttpOptions } from "url";
 import {CrimeData} from "@/scripts/dataFetching";
 
 /**
@@ -19,8 +18,6 @@ interface Props {
 export default function EventCard(Props: Props) {
     const [showMore, setShowMore] = useState<boolean>(false)
 
-    Props.data.url = Props.data.url.replace("http://localhost:3000/", "https://polisen.se/");
-
     return (
         <div className={styles.eventCard}>
             <h3 className={styles.eventTitle}>{Props.data.name}</h3>
@@ -32,7 +29,9 @@ export default function EventCard(Props: Props) {
                         <p>GPS position: {Props.data.location.gps}</p>
                         <p>Id: {Props.data.id}</p>
                         <div className={styles.showMoreContainer}>
-                            <a href={Props.data.url}>Visa händelse på Polisens hemsida</a>
+                            <a href={`https://polisen.se${Props.data.url}`} target="_blank" rel="noopener noreferrer">
+                                Visa händelse på Polisens hemsida
+                            </a>
                             <button className={styles.showMoreButton} onClick={() => setShowMore(!showMore)}>
                                 {showMore ? "Visa mindre" : "Visa mer"}
                             </button>

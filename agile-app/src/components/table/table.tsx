@@ -18,7 +18,7 @@ export default function Table(Props : Props) {
             setError(false)
             setErrorMessage('')
             setEventRows(Props.data.map((rowData: (string | number)[], index: number) => (
-                <tr>
+                <tr key={index}>
                     <td className = {styles.td} scope="row">{rowData[0]}</td>
                     <td className = {styles.td} >{rowData[1]}</td>
                     <td className = {styles.td} >{rowData[2]}</td>
@@ -38,14 +38,14 @@ export default function Table(Props : Props) {
                 )
                 : (
                     <table className= {styles.table}>
-                        <thead className = {styles.thead}>
+                        <thead className = {styles.thead} data-testid="TableHeader">
                         <tr>
                             <th className = {styles.th} scope="col">Kommun/län</th>
                             <th className = {styles.th} scope="col">Brottstyp</th>
                             <th className = {styles.th} scope="col">Antal inrapporteringar</th>
                         </tr>
                         </thead>
-                        <tbody className = {styles.tbody}>
+                        <tbody className = {styles.tbody} data-testid="TableBody">
                         {eventRows}
                         </tbody>
                     </table>

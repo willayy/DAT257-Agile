@@ -129,7 +129,7 @@ const LineGraph: React.FC<LineGraphProps> = ({ selectedOptionCrime, selectedOpti
     //returns a div with a canvas inside containing the graph
     return (
         <div>
-            <canvas id="myChart" ref={chartRef} width="600" height="600"></canvas>
+            <canvas data-testid="myChart" id="myChart" ref={chartRef} width="600" height="600"></canvas>
         </div>
     
     );
