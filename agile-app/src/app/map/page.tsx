@@ -1,9 +1,9 @@
 "use client"
 
 import {useEffect, useRef, useState} from "react";
-import {GeoJSON, GeoJSONProps, MapContainer, TileLayer} from 'react-leaflet'
+import {GeoJSON, MapContainer, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import {Feature, GeoJsonObject, GeoJsonProperties, Geometry} from "geojson";
+import {Feature, GeoJsonObject, Geometry} from "geojson";
 import MapSearchComboBox from "@/components/searchComboBox/mapSearchComboBox";
 import styles from "./page.module.css"
 import {getCrimeData} from "@/scripts/dataFetching";
@@ -12,7 +12,7 @@ import { GeoJSON as LeafletGeoJSON } from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
 import regionData from "../../../public/geojson/geoJsonRegion.json";
 import municipalityData from "../../../public/geojson/geoJsonMunicipality.json";
-import { get } from "http";
+
 
 interface CustomFeatureProperties {
     "kom_namn": string,
@@ -28,15 +28,6 @@ interface NumberDictionary {
 type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
 
-const defaultLegendItems = [
-    { color: '#b30000', label: '> 6 händelser' },
-    { color: '#e34a33', label: '6 händelser'},
-    { color: '#fc8d59', label: '5 händelser' },
-    { color: '#fdbb84', label: '4 händelser' },
-    { color: '#fdd49e', label: '3 händelser' },
-    { color: '#fef0d9', label: '2 händelser' },
-    { color: '#FFFFFF', label: '1 händelser' },
-];
 
 
 
@@ -86,10 +77,7 @@ export default function Map() {
      * @returns The color code for rendering the feature.
      */
 
-    // function setMaxCrimeValue() {
-    //     maxCrimeValue = Math.max(...Object.values(getEventsOnType(selectedOptionCrime)));
-      
-    // }
+ 
 
     function getColor(density : number) {
         let maxCrimeSixth = maxCrimeValue/6;
@@ -102,6 +90,12 @@ export default function Map() {
                                 '#FFFFFF')
     }
     
+    /**
+     * 
+     * @returns An array of legend items for rendering the map legend.
+     * @param maxCrimeSixth - The maximum crime value divided by six.
+     * @param maxCrimeValue - The maximum crime value for selected crime.
+     */
     function getLegendItems() {
         let maxCrimeSixth = maxCrimeValue/6;
         
