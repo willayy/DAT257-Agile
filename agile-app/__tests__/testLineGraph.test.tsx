@@ -11,7 +11,7 @@ describe('LineGraph', () => {
         const { getByTestId } = render(<LineGraph selectedOptionCrime="" selectedOptionLoc="" />);
         const chart = screen.getByTestId('myChart');
         expect(chart).toBeInTheDocument();
-        expect(chart).toHaveAttribute('width', '400');
-        expect(chart).toHaveAttribute('height', '400');
+        expect(chart).toHaveAttribute('width', '600');
+        expect(chart).toHaveAttribute('height', '600');
     });
 });
