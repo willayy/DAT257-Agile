@@ -29,9 +29,9 @@ type CustomFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
 
 
+let maxCrimeValue = 0;
 
 
-var maxCrimeValue = 10;
 
 export default function Map() {
   /**
@@ -50,7 +50,7 @@ export default function Map() {
     const [selectedOptionLoc, setSelectedOptionLoc] = useState<string>('Kommun');
     const [locationAmountDict, setLocationAmountDict] = useState<NumberDictionary | null>(null)
     const geoJsonLayerRef = useRef<LeafletGeoJSON | null>(null);
-
+    
     async function getEventsOnType(type: string) {
         const fetchedCrimeData: Crimes = await getCrimeData();
         let locationAmountDict: NumberDictionary = {}
@@ -80,14 +80,21 @@ export default function Map() {
  
 
     function getColor(density : number) {
-        let maxCrimeSixth = maxCrimeValue/6;
-        return (density > maxCrimeValue-1 ? '#b30000' :
-            density > maxCrimeSixth*5 ? '#e34a33' :
-                density > maxCrimeSixth*4 ? '#fc8d59' :
-                    density > maxCrimeSixth*3 ? '#fdbb84' :
-                        density > maxCrimeSixth*2 ? '#fdd49e' :
-                            density > maxCrimeSixth ? '#fef0d9' :
-                                '#FFFFFF')
+        const maxCrimeSixth = maxCrimeValue / 6;
+        const colorMap: [number, string][] = [
+            [6, '#b30000'],
+            [5, '#e34a33'],
+            [4, '#fc8d59'],
+            [3, '#fdbb84'],
+            [2, '#fdd49e'],
+            [1, '#fef0d9'],
+            [0, '#FFFFFF']
+        ];
+        for (const [threshold, color] of colorMap) {
+            if (density >= maxCrimeSixth * threshold) {
+                return color;
+            }
+        }
     }
     
     /**
@@ -97,8 +104,8 @@ export default function Map() {
      * @param maxCrimeValue - The maximum crime value for selected crime.
      */
     function getLegendItems() {
-        let maxCrimeSixth = maxCrimeValue/6;
         
+        const maxCrimeSixth = maxCrimeValue / 6;
         return [
             { color: '#b30000', label:`${maxCrimeValue} händelser` },
             { color: '#e34a33', label: `> ${round((maxCrimeSixth*5), 0)} händelser`},
