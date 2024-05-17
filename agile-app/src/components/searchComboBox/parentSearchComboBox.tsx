@@ -69,6 +69,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         "Bollnäs",
         "Borgholm",
         "Borlänge",
+        "Borås",
         "Botkyrka",
         "Boxholm",
         "Bromölla",
@@ -179,7 +180,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         "Lessebo",
         "Lidingö",
         "Lidköping",
-        "Lilla Edet",
+        "Lilla edet",
         "Lindesberg",
         "Linköping",
         "Ljungby",
@@ -300,8 +301,8 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
         "Uddevalla",
         "Ulricehamn",
         "Umeå",
-        "Upplands Väsby",
-        "Upplands-Bro",
+        "Upplands väsby",
+        "Upplands-bro",
         "Uppsala",
         "Uppsala län",
         "Uppvidinge",
@@ -362,7 +363,7 @@ const ParentSearchComboBox: React.FC<ParentSearchComboBoxProps> = ({ setSelected
     ];
 
     return (
-        <div className={styles.outerContainer}>
+        <div className={styles.outerContainer} data-testid='ParentSearchComboBox'>
             <div className={styles.container}>
                 <div className={styles.innerContainer}>
                     <SearchComboBox

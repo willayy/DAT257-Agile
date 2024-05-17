@@ -1,7 +1,6 @@
 "use client"
 
 import {ReactElement, useEffect, useRef, useState} from "react";
-import {fetchMunicipalityData, fetchRegionData} from "@/scripts/geoFetching";
 import {GeoJSON, MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {centroid} from "turf"
@@ -19,6 +18,9 @@ import {getCrimeData} from "@/scripts/dataFetching";
 import {CrimeData} from "@/scripts/dataFetching";
 import {GeoJSON as LeafletGeoJSON, LatLngExpression} from "leaflet";
 import MapLegend from "@/components/mapLegend/mapLegend";
+import regionData from "../../../public/geojson/geoJsonRegion.json";
+import municipalityData from "../../../public/geojson/geoJsonMunicipality.json";
+
 
 interface CustomFeatureProperties {
     "kom_namn": string,
@@ -43,6 +45,11 @@ interface CustomFeatureInterface extends Feature<Geometry, CustomFeatureProperti
 type CustomFeature = CustomFeatureInterface | undefined
 type LayerFeature = Feature<Geometry, CustomFeatureProperties> | undefined
 type Crimes = CrimeData[]
+
+
+let maxCrimeValue = 0;
+
+
 
 export default function Map() {
   /**
@@ -83,8 +90,13 @@ export default function Map() {
                 locationAmountDict[event.location.name] = 1
             }
         }
+        maxCrimeValue = Math.max(...Object.values(locationAmountDict));
         return locationAmountDict;
+
     }
+
+
+
 
     /**
      * Determines the color style for rendering GeoJSON features based on the density of crime events.
@@ -93,30 +105,47 @@ export default function Map() {
      * @returns The color code for rendering the feature.
      */
 
+
+
     function getColor(density : number) {
-        return (
-            density > 8 ? '#7f0000' :
-            density > 7 ? '#b30000' :
-            density > 6 ? '#d7301f' :
-            density > 5 ? '#ef6548' :
-            density > 4 ? '#fc8d59' :
-            density > 3 ? '#fdbb84' :
-            density > 2 ? '#fdd49e' :
-            density > 1 ? '#fee8c8' :
-            '#fff7ec')
+        const maxCrimeSixth = maxCrimeValue / 6;
+        const colorMap: [number, string][] = [
+            [6, '#b30000'],
+            [5, '#e34a33'],
+            [4, '#fc8d59'],
+            [3, '#fdbb84'],
+            [2, '#fdd49e'],
+            [1, '#fef0d9'],
+            [0, '#FFFFFF']
+        ];
+        for (const [threshold, color] of colorMap) {
+            if (density >= maxCrimeSixth * threshold) {
+                return color;
+            }
+        }
+    }
+    
+    /**
+     *
+     * @returns An array of legend items for rendering the map legend.
+     * @param maxCrimeSixth - The maximum crime value divided by six.
+     * @param maxCrimeValue - The maximum crime value for selected crime.
+     */
+    function getLegendItems() {
+
+        const maxCrimeSixth = maxCrimeValue / 6;
+        return [
+            { color: '#b30000', label:`${maxCrimeValue} händelser` },
+            { color: '#e34a33', label: `> ${round((maxCrimeSixth*5), 0)} händelser`},
+            { color: '#fc8d59', label: `> ${round((maxCrimeSixth*4), 0)} händelser` },
+            { color: '#fdbb84', label: `> ${round((maxCrimeSixth*3), 0)} händelser` },
+            { color: '#fdd49e', label: `> ${round((maxCrimeSixth*2), 0)} händelser` },
+            { color: '#fef0d9', label: `> ${round((maxCrimeSixth*1), 0)} händelser` },
+            { color: '#FFFFFF', label: `< ${round((maxCrimeSixth*1), 0)} händelser` },
+        ];
+
     }
 
-    const legendItems = [
-        { color: '#7f0000', label: '> 8 händelser' },
-        { color: '#b30000', label: '8 händelser' },
-        { color: '#d7301f', label: '7 händelser' },
-        { color: '#ef6548', label: '6 händelser' },
-        { color: '#fc8d59', label: '5 händelser' },
-        { color: '#fdbb84', label: '4 händelser' },
-        { color: '#fdd49e', label: '3 händelser' },
-        { color: '#fee8c8', label: '2 händelser' },
-        { color: '#fff7ec', label: '1 händelser' },
-      ];
 
       /**
      * Styling function for GeoJSON features based on crime data and selected location type.
@@ -180,11 +209,11 @@ export default function Map() {
     useEffect(() => {
         const setTiles = async () => {
             if (selectedOptionLoc == "Kommun") {
-                setMapTiles(await fetchMunicipalityData())
+                setMapTiles(municipalityData as GeoJsonObject)
             } else if (selectedOptionLoc == "Län") {
-                setMapTiles(await  fetchRegionData())
+                setMapTiles(regionData as GeoJsonObject)
             } else {
-                setMapTiles(await fetchMunicipalityData())
+                setMapTiles(municipalityData as GeoJsonObject)
             }
         }
         setTiles()
@@ -206,6 +235,7 @@ export default function Map() {
      */
     useEffect(() => {
         const layer = geoJsonLayerRef.current
+
         if (layer && mapTiles != null) {
             layer.clearLayers().addData(mapTiles);
             layer.setStyle((feature) => style(feature))
@@ -285,7 +315,7 @@ export default function Map() {
                 )}
 
                 <div className={styles.legends}>
-                    <MapLegend legendItems={legendItems} />
+                    <MapLegend legendItems={getLegendItems()} />
                 </div>
             </MapContainer>
             <div className={styles.parentSearchWrapper}>
@@ -299,4 +329,8 @@ export default function Map() {
             </div>
         </div>
     );
+}
+
+function round(num: number, fractionDigits: number): number {
+    return Number(num.toFixed(fractionDigits));
 }

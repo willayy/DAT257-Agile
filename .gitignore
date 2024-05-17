@@ -96,3 +96,6 @@ Thumbs.db
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Mac stuff
+.swc
