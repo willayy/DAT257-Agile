@@ -1,0 +1,506 @@
+[
+  {
+    "id": 524122,
+    "datetime": "2024-05-17 14:34:05 +02:00",
+    "name": "17 maj 14.30, Trafikolycka, Gislaved",
+    "summary": "Två personbilar, varan en med husvagn, i trafikolycka.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-14.30-trafikolycka-gislaved/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Gislaved",
+      "gps": "57.2985,13.54326"
+    }
+  },
+  {
+    "id": 524121,
+    "datetime": "2024-05-17 14:30:01 +02:00",
+    "name": "17 maj 14.22, Trafikolycka, Växjö",
+    "summary": "Singelolycka på Rv25 vid Furuby.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-14.22-trafikolycka-vaxjo/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Växjö",
+      "gps": "56.879004,14.805852"
+    }
+  },
+  {
+    "id": 524117,
+    "datetime": "2024-05-17 14:12:44 +02:00",
+    "name": "17 maj 11.23, Trafikolycka, personskada, Kumla",
+    "summary": "En person i trettioårsåldern misstänks för trafikbrott efter en trafikolycka på riksväg 50 vid Byrstatorp.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-11.23-trafikolycka-personskada-kumla/",
+    "type": "Trafikolycka, personskada",
+    "location": {
+      "name": "Kumla",
+      "gps": "59.126536,15.140105"
+    }
+  },
+  {
+    "id": 524116,
+    "datetime": "2024-05-17 13:58:09 +02:00",
+    "name": "17 maj 12.47, Misshandel, Örebro",
+    "summary": "En kvinna i trettiofemårsåldern misstänks för misshandel.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.47-misshandel-orebro/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Örebro",
+      "gps": "59.275263,15.213411"
+    }
+  },
+  {
+    "id": 524084,
+    "datetime": "2024-05-17 11:19:53 +02:00",
+    "name": "17 maj 09.55, Brand, Kungsbacka",
+    "summary": "Räddningstjänst och polis larmas till en fastighet med anledning av brand i byggnad.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-09.55-brand-kungsbacka/",
+    "type": "Brand",
+    "location": {
+      "name": "Kungsbacka",
+      "gps": "57.487492,12.076193"
+    }
+  },
+  {
+    "id": 524089,
+    "datetime": "2024-05-17 10:47:08 +02:00",
+    "name": "17 maj 09.57, Misshandel, Örnsköldsvik",
+    "summary": "Örnsköldsvik, kvinna uppges stå med ett tillhygge på Stora Torget",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-09.57-misshandel-ornskoldsvik/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Örnsköldsvik",
+      "gps": "63.290047,18.716617"
+    }
+  },
+  {
+    "id": 524110,
+    "datetime": "2024-05-17 13:18:54 +02:00",
+    "name": "17 maj 12.17, Trafikolycka, Borås",
+    "summary": "En personbil och en lastbil har kolliderat vid Nordskogsleden i Borås.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.17-trafikolycka-boras/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Borås",
+      "gps": "57.721035,12.939819"
+    }
+  },
+  {
+    "id": 524083,
+    "datetime": "2024-05-17 10:35:13 +02:00",
+    "name": "17 maj 09.23, Räddningsinsats, Göteborg",
+    "summary": "SOS ringer in till polisen om att en person har sett en kropp i vattnet vid Hinsholmen.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-09.23-raddningsinsats-goteborg/",
+    "type": "Räddningsinsats",
+    "location": {
+      "name": "Göteborg",
+      "gps": "57.70887,11.97456"
+    }
+  },
+  {
+    "id": 524109,
+    "datetime": "2024-05-17 12:51:06 +02:00",
+    "name": "17 maj 12.44, Trafikolycka, Kävlinge",
+    "summary": "Larm om trafikolycka",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.44-trafikolycka-kavlinge/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Kävlinge",
+      "gps": "55.794,13.110429"
+    }
+  },
+  {
+    "id": 524106,
+    "datetime": "2024-05-17 12:40:41 +02:00",
+    "name": "17 maj 12.37, Stöld, Berg",
+    "summary": "Nära E45, grov stöld upptäckt under morgonen",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.37-stold-berg/",
+    "type": "Stöld",
+    "location": {
+      "name": "Berg",
+      "gps": "62.772481,14.169867"
+    }
+  },
+  {
+    "id": 524104,
+    "datetime": "2024-05-17 12:27:18 +02:00",
+    "name": "17 maj 12.23, Trafikolycka, Ystad",
+    "summary": "Larm om trafikolycka",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.23-trafikolycka-ystad/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Ystad",
+      "gps": "55.429505,13.820031"
+    }
+  },
+  {
+    "id": 524103,
+    "datetime": "2024-05-17 12:26:06 +02:00",
+    "name": "17 maj 09.39, Misshandel, Vellinge",
+    "summary": "Tre män grips misstänkta för flera brott.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-09.39-misshandel-vellinge/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Vellinge",
+      "gps": "55.470893,13.01999"
+    }
+  },
+  {
+    "id": 524102,
+    "datetime": "2024-05-17 12:22:52 +02:00",
+    "name": "17 maj 11.49, Arbetsplatsolycka, Karlshamn",
+    "summary": "Larm om misstänkt arbetsplatsolycka",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-11.49-arbetsplatsolycka-karlshamn/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Karlshamn",
+      "gps": "56.170303,14.863073"
+    }
+  },
+  {
+    "id": 524100,
+    "datetime": "2024-05-17 12:18:48 +02:00",
+    "name": "17 maj 08.35, Stöld/inbrott, Enköping",
+    "summary": "Stulna värmepumpar från förskola.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-08.35-stoldinbrott-enkoping/",
+    "type": "Stöld/inbrott",
+    "location": {
+      "name": "Enköping",
+      "gps": "59.635691,17.077823"
+    }
+  },
+  {
+    "id": 524099,
+    "datetime": "2024-05-17 12:15:52 +02:00",
+    "name": "17 maj 12.12, Övrigt, Värmlands län",
+    "summary": "Polisens regionala mediecenter stänger vid 14.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.12-ovrigt-varmlands-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 524098,
+    "datetime": "2024-05-17 12:15:42 +02:00",
+    "name": "17 maj 12.12, Övrigt, Dalarnas län",
+    "summary": "Polisens regionala mediecenter stänger vid 14.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.12-ovrigt-dalarnas-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 524097,
+    "datetime": "2024-05-17 12:15:22 +02:00",
+    "name": "17 maj 12.12, Övrigt, Örebro län",
+    "summary": "Polisens regionala mediecenter stänger vid 14.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-12.12-ovrigt-orebro-lan/",
+    "type": "Övrigt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 524070,
+    "datetime": "2024-05-17 8:51:26 +02:00",
+    "name": "17 maj 08.38, Arbetsplatsolycka, Sölvesborg",
+    "summary": "Larm om misstänkt arbetsplatsolycka",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-08.38-arbetsplatsolycka-solvesborg/",
+    "type": "Arbetsplatsolycka",
+    "location": {
+      "name": "Sölvesborg",
+      "gps": "56.053743,14.579688"
+    }
+  },
+  {
+    "id": 524095,
+    "datetime": "2024-05-17 12:03:21 +02:00",
+    "name": "17 maj 10.17, Fylleri/LOB, Luleå",
+    "summary": "Innerstaden, polis beordras till Innerstaden med anledning av påverkad, högljudd man",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-10.17-fyllerilob-lulea/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Luleå",
+      "gps": "65.584819,22.156703"
+    }
+  },
+  {
+    "id": 524094,
+    "datetime": "2024-05-17 11:56:31 +02:00",
+    "name": "17 maj 07.52, Trafikkontroll, Östersund",
+    "summary": "Torvalla, resultat efter nykterhetskontroll vid Fäboleden/Storfjällvägen",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.52-trafikkontroll-ostersund/",
+    "type": "Trafikkontroll",
+    "location": {
+      "name": "Östersund",
+      "gps": "63.176683,14.636068"
+    }
+  },
+  {
+    "id": 524086,
+    "datetime": "2024-05-17 10:16:30 +02:00",
+    "name": "17 maj 08.42, Fylleri/LOB, Skellefteå",
+    "summary": "Sörböle, polis kontaktas gällande berusad man som ramlat med sparkcykel",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-08.42-fyllerilob-skelleftea/",
+    "type": "Fylleri/LOB",
+    "location": {
+      "name": "Skellefteå",
+      "gps": "64.750244,20.950917"
+    }
+  },
+  {
+    "id": 524069,
+    "datetime": "2024-05-17 8:43:38 +02:00",
+    "name": "17 maj 07.15, Räddningsinsats, Nacka",
+    "summary": "Två kroppar har anträffats i vattnet vid Fisksätra i Nacka kommun.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.15-raddningsinsats-nacka/",
+    "type": "Räddningsinsats",
+    "location": {
+      "name": "Nacka",
+      "gps": "59.307903,18.156042"
+    }
+  },
+  {
+    "id": 524064,
+    "datetime": "2024-05-17 8:17:44 +02:00",
+    "name": "17 maj 01.50, Skadegörelse, Strömstad",
+    "summary": "En hotellgäst på ett hotell i Strömstad har blivit aggressiv och börjat förstöra saker.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-01.50-skadegorelse-stromstad/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Strömstad",
+      "gps": "58.938346,11.179187"
+    }
+  },
+  {
+    "id": 524063,
+    "datetime": "2024-05-17 8:04:52 +02:00",
+    "name": "17 maj 08.03, Trafikolycka, Lekeberg",
+    "summary": "En personbil har gått i mitträcket på E18 vid Lekhyttan.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-08.03-trafikolycka-lekeberg/",
+    "type": "Trafikolycka",
+    "location": {
+      "name": "Lekeberg",
+      "gps": "59.16539,14.743407"
+    }
+  },
+  {
+    "id": 524062,
+    "datetime": "2024-05-17 7:45:16 +02:00",
+    "name": "17 maj 07.44, Sammanfattning natt, Östergötlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.44-sammanfattning-natt-ostergotlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Östergötlands län",
+      "gps": "58.345364,15.519784"
+    }
+  },
+  {
+    "id": 524061,
+    "datetime": "2024-05-17 7:44:37 +02:00",
+    "name": "17 maj 07.43, Sammanfattning natt, Södermanlands län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.43-sammanfattning-natt-sodermanlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Södermanlands län",
+      "gps": "59.033635,16.75189"
+    }
+  },
+  {
+    "id": 524060,
+    "datetime": "2024-05-17 7:43:47 +02:00",
+    "name": "17 maj 07.42, Sammanfattning natt, Jönköpings län",
+    "summary": "Nattsammanfattning",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.42-sammanfattning-natt-jonkopings-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jönköpings län",
+      "gps": "57.370843,14.343917"
+    }
+  },
+  {
+    "id": 524059,
+    "datetime": "2024-05-17 7:36:58 +02:00",
+    "name": "17 maj 07.34, Sammanfattning natt, Jämtlands län",
+    "summary": "Jämtland, inga händelser att rapportera om under natten",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.34-sammanfattning-natt-jamtlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Jämtlands län",
+      "gps": "63.171192,14.95918"
+    }
+  },
+  {
+    "id": 524055,
+    "datetime": "2024-05-17 7:36:06 +02:00",
+    "name": "17 maj 07.35, Sammanfattning natt, Örebro län",
+    "summary": "Natt till fredag polisområde Örebro",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.35-sammanfattning-natt-orebro-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Örebro län",
+      "gps": "59.535036,15.006573"
+    }
+  },
+  {
+    "id": 524050,
+    "datetime": "2024-05-17 7:35:54 +02:00",
+    "name": "17 maj 07.35, Sammanfattning natt, Dalarnas län",
+    "summary": "Natt till fredag polisområde Dalarna.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.35-sammanfattning-natt-dalarnas-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Dalarnas län",
+      "gps": "61.091701,14.666365"
+    }
+  },
+  {
+    "id": 524057,
+    "datetime": "2024-05-17 7:35:32 +02:00",
+    "name": "17 maj 07.34, Sammanfattning natt, Värmlands län",
+    "summary": "Natt till fredag polisområde Värmland.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.34-sammanfattning-natt-varmlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Värmlands län",
+      "gps": "59.729407,13.235402"
+    }
+  },
+  {
+    "id": 524058,
+    "datetime": "2024-05-17 7:34:03 +02:00",
+    "name": "17 maj 07.20, Sammanfattning natt, Västernorrlands län",
+    "summary": "Västernorrland, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.20-sammanfattning-natt-vasternorrlands-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västernorrlands län",
+      "gps": "63.427647,17.729244"
+    }
+  },
+  {
+    "id": 524056,
+    "datetime": "2024-05-17 7:20:25 +02:00",
+    "name": "17 maj 07.10, Sammanfattning natt, Västerbottens län",
+    "summary": "Västerbotten, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.10-sammanfattning-natt-vasterbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Västerbottens län",
+      "gps": "65.333731,16.516169"
+    }
+  },
+  {
+    "id": 524051,
+    "datetime": "2024-05-17 7:07:52 +02:00",
+    "name": "17 maj 07.00, Sammanfattning kväll och natt, Hallands län",
+    "summary": "Dagens presstalesperson",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.00-sammanfattning-kvall-och-natt-hallands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Hallands län",
+      "gps": "56.896681,12.803399"
+    }
+  },
+  {
+    "id": 524054,
+    "datetime": "2024-05-17 7:07:28 +02:00",
+    "name": "17 maj 07.00, Sammanfattning kväll och natt, Västra Götalands län",
+    "summary": "Dagens presstalesperson är på plats",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-07.00-sammanfattning-kvall-och-natt-vastra-gotalands-lan/",
+    "type": "Sammanfattning kväll och natt",
+    "location": {
+      "name": "Västra Götalands län",
+      "gps": "58.252793,13.059643"
+    }
+  },
+  {
+    "id": 524053,
+    "datetime": "2024-05-17 6:57:17 +02:00",
+    "name": "17 maj 02.08, Häleri, Landskrona",
+    "summary": "Man gripen för häleri",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-02.08-haleri-landskrona/",
+    "type": "Häleri",
+    "location": {
+      "name": "Landskrona",
+      "gps": "55.870348,12.83008"
+    }
+  },
+  {
+    "id": 524052,
+    "datetime": "2024-05-17 6:53:49 +02:00",
+    "name": "17 maj 06.45, Sammanfattning natt, Norrbottens län",
+    "summary": "Norrbotten, ett urval av nattens polisverksamhet",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-06.45-sammanfattning-natt-norrbottens-lan/",
+    "type": "Sammanfattning natt",
+    "location": {
+      "name": "Norrbottens län",
+      "gps": "66.830922,20.399197"
+    }
+  },
+  {
+    "id": 524042,
+    "datetime": "2024-05-17 4:19:49 +02:00",
+    "name": "17 maj 02.01, Skottlossning, misstänkt, Stockholm",
+    "summary": "En polispatrull som befinner sig vid Strandvägen i Stockholm hör smällar och misstänker att det skett en skott",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-02.01-skottlossning-misstankt-stockholm/",
+    "type": "Skottlossning, misstänkt",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  },
+  {
+    "id": 524049,
+    "datetime": "2024-05-17 6:37:13 +02:00",
+    "name": "17 maj 03.58, Skadegörelse, Malmö",
+    "summary": "En bilbrand startar på Vitemöllegatan.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-03.58-skadegorelse-malmo/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 524048,
+    "datetime": "2024-05-17 6:33:23 +02:00",
+    "name": "17 maj 02.57, Skadegörelse, Osby",
+    "summary": "En bil brinner på Skolgatan.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-02.57-skadegorelse-osby/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Osby",
+      "gps": "56.381536,13.992941"
+    }
+  },
+  {
+    "id": 524047,
+    "datetime": "2024-05-17 6:31:13 +02:00",
+    "name": "17 maj 02.51, Skadegörelse, Malmö",
+    "summary": "Flera bilar brinner på Hyllievångsvägen och polis skickas till platsen.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-02.51-skadegorelse-malmo/",
+    "type": "Skadegörelse",
+    "location": {
+      "name": "Malmö",
+      "gps": "55.604981,13.003822"
+    }
+  },
+  {
+    "id": 524043,
+    "datetime": "2024-05-17 4:27:30 +02:00",
+    "name": "17 maj 01.24, Misshandel, Stockholm",
+    "summary": "Polis kallas till en Kungsträdgården i Stockholm med anledning av att en person blivit misshandlad.",
+    "url": "/aktuellt/handelser/2024/maj/17/17-maj-01.24-misshandel-stockholm/",
+    "type": "Misshandel",
+    "location": {
+      "name": "Stockholm",
+      "gps": "59.329324,18.068581"
+    }
+  }
+]
